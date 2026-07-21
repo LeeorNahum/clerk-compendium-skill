@@ -1,0 +1,124 @@
+{
+  "skill_name": "clerk-compendium",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Add Clerk to this current Next.js App Router repository. Keep the marketing home page public, require sign-in for /app, and protect the server data call too.",
+      "expected_output": "A framework-native Clerk integration based on the installed @clerk/nextjs version, with public and protected routing plus server-side authorization and runtime verification.",
+      "files": [
+        "evals/files/nextjs-app-router/package.json",
+        "evals/files/nextjs-app-router/middleware.ts"
+      ],
+      "assertions": [
+        "The agent inspects the framework, router mode, package manager, and installed Clerk version before selecting imports or middleware",
+        "The public page remains public while /app is protected",
+        "The protected data operation derives verified server-side Clerk state rather than trusting client identity",
+        "Secret credentials remain in server-only environment storage",
+        "Verification covers signed-out and signed-in server requests"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Our React Router SSR app has ClerkProvider in the browser, but loaders still return private data to signed-out requests. Repair the integration.",
+      "expected_output": "A React Router-specific server integration that preserves client rendering while enforcing identity and authorization in loaders.",
+      "files": [
+        "evals/files/react-router-ssr/package.json",
+        "evals/files/react-router-ssr/private-loader.ts"
+      ],
+      "assertions": [
+        "The solution uses current first-party React Router Clerk guidance rather than generic React-only guidance",
+        "The agent checks the installed package version before choosing helpers",
+        "The loader or server boundary verifies Clerk state before reading private data",
+        "Client component visibility is not presented as authorization",
+        "The verification plan exercises a signed-out request directly against the loader"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Implement an API endpoint that only organization members with the records:manage permission can call. The request body includes orgId today.",
+      "expected_output": "A server-side organization authorization flow that derives trusted membership and permission state from Clerk and treats the submitted organization identifier only as a resource selector.",
+      "files": [
+        "evals/files/organization-api/package.json",
+        "evals/files/organization-api/route.ts"
+      ],
+      "assertions": [
+        "The client-provided orgId is not treated as proof of membership",
+        "The endpoint derives verified user and organization context at the server boundary",
+        "The required permission is enforced where the operation executes",
+        "Unauthenticated and forbidden states are distinct",
+        "The agent checks current Clerk organization authorization APIs against the installed SDK"
+      ]
+    },
+    {
+      "id": 4,
+      "prompt": "Create a Clerk webhook endpoint that mirrors user and organization changes into our database. Deliveries can be duplicated, delayed, or arrive out of order.",
+      "expected_output": "A verified raw-body webhook handler with explicit data ownership, idempotency, ordering protection, transactional updates, and recovery behavior.",
+      "files": ["evals/files/webhook-sync/handler.ts"],
+      "assertions": [
+        "The webhook signature is verified against the raw request body before trusting payload fields",
+        "The webhook secret stays server-side",
+        "Duplicate event delivery is idempotent",
+        "Older events cannot overwrite newer synchronized state",
+        "The design states which Clerk facts are mirrored and how missed events are recovered"
+      ]
+    },
+    {
+      "id": 5,
+      "prompt": "Gate an organization-owned export feature with Clerk Billing. Users should see the right UI, but direct API calls must also be blocked after cancellation or trial expiry.",
+      "expected_output": "An organization subscription and entitlement design with a server-owned gate, truthful UI projection, lifecycle handling, and provider-failure behavior.",
+      "files": [
+        "evals/files/billing-gate/package.json",
+        "evals/files/billing-gate/export-button.tsx"
+      ],
+      "assertions": [
+        "The agent determines that the subscription owner is the organization",
+        "The API enforces the entitlement independently of UI visibility",
+        "Cancellation and trial expiry are covered",
+        "Webhook delay or temporary Clerk failure has an explicit behavior",
+        "Current Billing APIs are verified against canonical documentation and the installed package"
+      ]
+    },
+    {
+      "id": 6,
+      "prompt": "Set up Clerk end-to-end tests in CI for sign-up, sign-in, and one protected request. CI must not use production credentials or disable bot protection globally.",
+      "expected_output": "A provider-supported Clerk testing setup using isolated development credentials and testing facilities, with browser and server assertions.",
+      "files": ["evals/files/testing-ci/playwright.config.ts"],
+      "assertions": [
+        "Development or test Clerk credentials are separated from production",
+        "The solution uses Clerk-supported testing tokens or helpers where appropriate",
+        "Bot protection is not weakened globally for production",
+        "The tests cover sign-up or sign-in plus a protected server request",
+        "Provider dashboard configuration needed by CI is included in completion checks"
+      ]
+    },
+    {
+      "id": 7,
+      "prompt": "Upgrade this older Clerk integration. Do not assume the latest docs match our package. Replace deprecated middleware and imports safely.",
+      "expected_output": "A version-aware migration that inventories current packages and integration files, consults matching migration guidance, changes only supported symbols, and validates runtime behavior.",
+      "files": [
+        "evals/files/legacy-nextjs/package.json",
+        "evals/files/legacy-nextjs/middleware.ts"
+      ],
+      "assertions": [
+        "The agent records exact installed Clerk versions before editing",
+        "The agent checks matching released source or migration guidance for replacement symbols",
+        "Moving default-branch code is not treated as proof of released behavior",
+        "The existing integration is preserved except where migration requires change",
+        "Validation covers both browser flow and protected server behavior"
+      ]
+    },
+    {
+      "id": 8,
+      "prompt": "Use Clerk in a Go HTTP API. Verify the caller's session and ensure they belong to the organization that owns the requested record.",
+      "expected_output": "A version-aware official Go SDK integration with session verification, organization and resource authorization, secret handling, and direct handler tests.",
+      "files": ["evals/files/go-api/go.mod", "evals/files/go-api/handler.go"],
+      "assertions": [
+        "The solution selects the official Clerk Go SDK and checks its installed major version",
+        "The session is verified server-side",
+        "Organization membership and resource ownership are both enforced",
+        "The request's organization identifier is not sufficient authorization",
+        "Tests cover unauthenticated, forbidden, and authorized requests"
+      ]
+    }
+  ]
+}

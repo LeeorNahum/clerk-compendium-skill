@@ -1,0 +1,64 @@
+name: Sync Clerk sources
+
+on:
+  schedule:
+    - cron: "17 4 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Refresh generated references
+        id: sync
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node scripts/sync.mjs
+
+      - name: Verify deterministic output
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node scripts/sync.mjs --check
+
+      - name: Commit generated changes
+        env:
+          ANDROID_SHA: ${{ steps.sync.outputs.clerk_clerk_android_sha }}
+          DOCS_SHA: ${{ steps.sync.outputs.clerk_clerk_docs_sha }}
+          IOS_SHA: ${{ steps.sync.outputs.clerk_clerk_ios_sha }}
+          CSHARP_SHA: ${{ steps.sync.outputs.clerk_clerk_sdk_csharp_sha }}
+          GO_SHA: ${{ steps.sync.outputs.clerk_clerk_sdk_go_sha }}
+          JAVA_SHA: ${{ steps.sync.outputs.clerk_clerk_sdk_java_sha }}
+          PHP_SHA: ${{ steps.sync.outputs.clerk_clerk_sdk_php_sha }}
+          PYTHON_SHA: ${{ steps.sync.outputs.clerk_clerk_sdk_python_sha }}
+          RUBY_SHA: ${{ steps.sync.outputs.clerk_clerk_sdk_ruby_sha }}
+          JAVASCRIPT_SHA: ${{ steps.sync.outputs.clerk_javascript_sha }}
+          LLMS_SHA: ${{ steps.sync.outputs.llms_sha256 }}
+        run: |
+          git add references/
+          if git diff --cached --quiet; then
+            echo "Clerk references are current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Sync Clerk sources" -m "clerk/clerk-android: ${ANDROID_SHA}
+          clerk/clerk-docs: ${DOCS_SHA}
+          clerk/clerk-ios: ${IOS_SHA}
+          clerk/clerk-sdk-csharp: ${CSHARP_SHA}
+          clerk/clerk-sdk-go: ${GO_SHA}
+          clerk/clerk-sdk-java: ${JAVA_SHA}
+          clerk/clerk-sdk-php: ${PHP_SHA}
+          clerk/clerk-sdk-python: ${PYTHON_SHA}
+          clerk/clerk-sdk-ruby: ${RUBY_SHA}
+          clerk/javascript: ${JAVASCRIPT_SHA}
+          llms.txt sha256: ${LLMS_SHA}"
+          git push

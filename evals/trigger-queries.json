@@ -1,0 +1,151 @@
+{
+  "skill_name": "clerk-compendium",
+  "runs_per_query": 3,
+  "trigger_evidence": "The agent reads .agents/skills/clerk-compendium/SKILL.md through the repository skill index.",
+  "queries": [
+    {
+      "id": "train-positive-nextjs",
+      "split": "train",
+      "query": "Add Clerk to our Next.js App Router app and protect /dashboard without blocking the landing page.",
+      "should_trigger": true
+    },
+    {
+      "id": "train-positive-existing-package",
+      "split": "train",
+      "query": "This repo has @clerk/nextjs and clerkMiddleware(), but server actions accept any orgId from the client. Fix the tenant access checks.",
+      "should_trigger": true
+    },
+    {
+      "id": "train-positive-react-router",
+      "split": "train",
+      "query": "Wire authentication into our React Router SSR app and make the loader reject signed-out requests.",
+      "should_trigger": true
+    },
+    {
+      "id": "train-positive-webhooks",
+      "split": "train",
+      "query": "Our Clerk user.updated webhook sometimes runs twice and overwrites newer profile data. Make the sync safe.",
+      "should_trigger": true
+    },
+    {
+      "id": "train-positive-billing",
+      "split": "train",
+      "query": "Use Clerk Billing organization subscriptions to gate an API feature, not just the button.",
+      "should_trigger": true
+    },
+    {
+      "id": "train-positive-testing",
+      "split": "train",
+      "query": "Set up Playwright auth for the app that uses ClerkProvider and keep prod credentials out of CI.",
+      "should_trigger": true
+    },
+    {
+      "id": "train-positive-mobile",
+      "split": "train",
+      "query": "Add Clerk passkey sign-in to our Expo app and verify the backend accepts the resulting session.",
+      "should_trigger": true
+    },
+    {
+      "id": "train-negative-auth0",
+      "split": "train",
+      "query": "Migrate our Auth0 tenant to rotating refresh tokens and update the callback handler.",
+      "should_trigger": false
+    },
+    {
+      "id": "train-negative-generic-auth",
+      "split": "train",
+      "query": "Design email and password authentication for a new Go API. We have not picked an identity provider.",
+      "should_trigger": false
+    },
+    {
+      "id": "train-negative-stripe",
+      "split": "train",
+      "query": "Add Stripe subscription tiers and enforce them in our API.",
+      "should_trigger": false
+    },
+    {
+      "id": "train-negative-rbac",
+      "split": "train",
+      "query": "Model role-based access control for our internal PostgreSQL users table.",
+      "should_trigger": false
+    },
+    {
+      "id": "train-negative-webhook",
+      "split": "train",
+      "query": "Verify GitHub webhook signatures and deduplicate push events.",
+      "should_trigger": false
+    },
+    {
+      "id": "train-negative-convex-auth",
+      "split": "train",
+      "query": "Set up Convex Auth with password reset and protected queries. Do not use an external auth provider.",
+      "should_trigger": false
+    },
+    {
+      "id": "train-negative-occupation",
+      "split": "train",
+      "query": "Write a job description for a part-time records clerk at a medical office.",
+      "should_trigger": false
+    },
+    {
+      "id": "validation-positive-fastify",
+      "split": "validation",
+      "query": "Protect a Fastify endpoint with the official Clerk SDK and return a real forbidden response when the member lacks permission.",
+      "should_trigger": true
+    },
+    {
+      "id": "validation-positive-organizations",
+      "split": "validation",
+      "query": "The organization switcher changes the active organization, but users can still fetch another tenant's records by editing the URL. Review our Clerk authorization boundary.",
+      "should_trigger": true
+    },
+    {
+      "id": "validation-positive-environments",
+      "split": "validation",
+      "query": "Our Vercel preview accidentally uses the production CLERK_SECRET_KEY and redirects to the wrong domain. Repair the environment contract.",
+      "should_trigger": true
+    },
+    {
+      "id": "validation-positive-upgrade",
+      "split": "validation",
+      "query": "Upgrade an old @clerk/nextjs integration that still uses deprecated middleware, but check the installed version before changing imports.",
+      "should_trigger": true
+    },
+    {
+      "id": "validation-positive-go",
+      "split": "validation",
+      "query": "Use the official Clerk Go SDK to verify sessions and authorize organization membership in an HTTP handler.",
+      "should_trigger": true
+    },
+    {
+      "id": "validation-negative-workos",
+      "split": "validation",
+      "query": "Implement WorkOS organizations, invitations, and SSO in our SaaS.",
+      "should_trigger": false
+    },
+    {
+      "id": "validation-negative-oidc",
+      "split": "validation",
+      "query": "Build a custom OpenID Connect provider for our appliance fleet.",
+      "should_trigger": false
+    },
+    {
+      "id": "validation-negative-cookie",
+      "split": "validation",
+      "query": "Our hand-written session cookie is missing SameSite and expires too early. Fix it.",
+      "should_trigger": false
+    },
+    {
+      "id": "validation-negative-mobile",
+      "split": "validation",
+      "query": "Implement biometric unlock for locally encrypted data in an Android app. There is no remote identity provider.",
+      "should_trigger": false
+    },
+    {
+      "id": "validation-negative-api-keys",
+      "split": "validation",
+      "query": "Rotate API keys for our internal metrics collector and update Kubernetes secrets.",
+      "should_trigger": false
+    }
+  ]
+}
