@@ -1,7 +1,7 @@
 {
   "generated": true,
   "discoverySource": "https://clerk.com/docs/llms.txt",
-  "discoverySha256": "a7fc2c17368bd60602ae4ec83c944c16ea3311c4010a53ecda75007390289901",
+  "discoverySha256": "5b4f0822816ce42db28ad278c312bb0a633b70cf8d88fd3ba1cf931ca076f931",
   "counts": {
     "documents": 2336,
     "categories": {
@@ -33,7 +33,7 @@
       "TanStack React Start": 177,
       "Vue": 156
     },
-    "packages": 23,
+    "packages": 24,
     "repositories": 10
   },
   "repositories": [
@@ -137,6 +137,11 @@
     {
       "name": "@clerk/expo",
       "directory": "packages/expo",
+      "repository": "clerk/javascript"
+    },
+    {
+      "name": "@clerk/expo-google-signin",
+      "directory": "packages/expo-google-signin",
       "repository": "clerk/javascript"
     },
     {
@@ -250,7 +255,7 @@
       "key": "sessions",
       "title": "Session tokens",
       "url": "https://clerk.com/docs/guides/sessions/session-tokens.md",
-      "sha256": "d5821a25e376c97974283969240a9af6335c5616527f7ceba690a67761361df0"
+      "sha256": "4382b1639bd86c3ed5f0688376f0e541ab4f27e86f5c662bbab39b79bdc37792"
     },
     {
       "key": "testing",
