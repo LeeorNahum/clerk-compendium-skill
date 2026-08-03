@@ -15,7 +15,7 @@ Use this reference for environment variables, instances, domains, redirects, dep
 
 ## Selected Official Sources
 
-This focused list selects 60 of 179 current documents in this category. Search [source-index.json](source-index.json) when the exact method, object, framework page, or resource is not listed.
+This focused list selects 60 of 180 current documents in this category. Search [source-index.json](source-index.json) when the exact method, object, framework page, or resource is not listed.
 
 ### Cross-framework
 

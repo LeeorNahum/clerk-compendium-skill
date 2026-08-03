@@ -59,7 +59,7 @@ Use this reference for exact packages, imports, helpers, methods, types, Backend
 
 ## Selected Official Sources
 
-This focused list selects 60 of 367 current documents in this category. Search [source-index.json](source-index.json) when the exact method, object, framework page, or resource is not listed.
+This focused list selects 60 of 368 current documents in this category. Search [source-index.json](source-index.json) when the exact method, object, framework page, or resource is not listed.
 
 ### Cross-framework
 

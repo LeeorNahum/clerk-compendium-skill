@@ -15,7 +15,7 @@ Use this reference for sign-in, sign-up, sessions, tokens, claims, MFA, passkeys
 
 ## Selected Official Sources
 
-This focused list selects 60 of 633 current documents in this category. Search [source-index.json](source-index.json) when the exact method, object, framework page, or resource is not listed.
+This focused list selects 60 of 638 current documents in this category. Search [source-index.json](source-index.json) when the exact method, object, framework page, or resource is not listed.
 
 ### Cross-framework
 
@@ -39,8 +39,8 @@ This focused list selects 60 of 633 current documents in this category. Search [
 
 ### Android
 
-- [Sign in with Google](https://clerk.com/docs/android/guides/configure/auth-strategies/sign-in-with-google.md) (guide, authentication)
 - [Social connections (OAuth)](https://clerk.com/docs/android/guides/configure/auth-strategies/social-connections/overview.md) (concept, authentication)
+- [Use hosted authentication in native apps](https://clerk.com/docs/android/guides/account-portal/hosted-auth.md) (guide, authentication)
 
 ### Astro
 
@@ -52,8 +52,8 @@ This focused list selects 60 of 633 current documents in this category. Search [
 
 ### Expo
 
-- [Sign in with Apple](https://clerk.com/docs/expo/guides/configure/auth-strategies/sign-in-with-apple.md) (guide, authentication)
 - [Social connections (OAuth)](https://clerk.com/docs/expo/guides/configure/auth-strategies/social-connections/overview.md) (concept, authentication)
+- [Use hosted authentication in native apps](https://clerk.com/docs/expo/guides/account-portal/hosted-auth.md) (guide, authentication)
 
 ### Express
 
@@ -71,8 +71,8 @@ This focused list selects 60 of 633 current documents in this category. Search [
 
 ### iOS
 
-- [Sign in with Apple](https://clerk.com/docs/ios/guides/configure/auth-strategies/sign-in-with-apple.md) (guide, authentication)
 - [Social connections (OAuth)](https://clerk.com/docs/ios/guides/configure/auth-strategies/social-connections/overview.md) (concept, authentication)
+- [Use hosted authentication in native apps](https://clerk.com/docs/ios/guides/account-portal/hosted-auth.md) (guide, authentication)
 
 ### JavaScript
 

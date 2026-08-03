@@ -1,29 +1,29 @@
 {
   "generated": true,
   "discoverySource": "https://clerk.com/docs/llms.txt",
-  "discoverySha256": "5b4f0822816ce42db28ad278c312bb0a633b70cf8d88fd3ba1cf931ca076f931",
+  "discoverySha256": "8cfca60c97bee0c2ad85cc3c54cce588bd017fb10f455dccebedf92ce7fbdeba",
   "counts": {
-    "documents": 2336,
+    "documents": 2343,
     "categories": {
-      "auth-sessions": 633,
+      "auth-sessions": 638,
       "billing": 298,
       "concepts-components": 423,
       "integrations-databases": 45,
-      "operations": 179,
+      "operations": 180,
       "quickstarts": 21,
-      "sdk-api": 367,
+      "sdk-api": 368,
       "security": 47,
       "users-organizations": 323
     },
     "frameworks": {
-      "Android": 21,
+      "Android": 23,
       "Astro": 143,
       "Chrome Extension": 154,
-      "Expo": 151,
+      "Expo": 153,
       "Express": 23,
       "Fastify": 22,
       "Go": 18,
-      "iOS": 20,
+      "iOS": 22,
       "JavaScript": 137,
       "Next.js": 194,
       "Nuxt": 160,
@@ -290,6 +290,17 @@
       "deprecated": false
     },
     {
+      "title": "Use hosted authentication in native apps",
+      "url": "https://clerk.com/docs/android/guides/account-portal/hosted-auth.md",
+      "primaryCategory": "auth-sessions",
+      "tags": [
+        "authentication"
+      ],
+      "framework": "Android",
+      "kind": "guide",
+      "deprecated": false
+    },
+    {
       "title": "Sign in with Google",
       "url": "https://clerk.com/docs/android/guides/configure/auth-strategies/sign-in-with-google.md",
       "primaryCategory": "auth-sessions",
@@ -413,6 +424,18 @@
       "url": "https://clerk.com/docs/android/reference/native-mobile/overview.md",
       "primaryCategory": "concepts-components",
       "tags": [
+        "api"
+      ],
+      "framework": "Android",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "Share sessions across apps",
+      "url": "https://clerk.com/docs/android/reference/native-mobile/shared-session-sync.md",
+      "primaryCategory": "auth-sessions",
+      "tags": [
+        "sessions",
         "api"
       ],
       "framework": "Android",
@@ -4019,6 +4042,17 @@
       "deprecated": false
     },
     {
+      "title": "Use hosted authentication in native apps",
+      "url": "https://clerk.com/docs/expo/guides/account-portal/hosted-auth.md",
+      "primaryCategory": "auth-sessions",
+      "tags": [
+        "authentication"
+      ],
+      "framework": "Expo",
+      "kind": "guide",
+      "deprecated": false
+    },
+    {
       "title": "Clerk Billing for B2B SaaS",
       "url": "https://clerk.com/docs/expo/guides/billing/for-b2b.md",
       "primaryCategory": "billing",
@@ -4342,6 +4376,19 @@
       "url": "https://clerk.com/docs/expo/reference/components/control/clerk-loading.md",
       "primaryCategory": "concepts-components",
       "tags": [
+        "components",
+        "api"
+      ],
+      "framework": "Expo",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`<RedirectToTasks />`",
+      "url": "https://clerk.com/docs/expo/reference/components/control/redirect-to-tasks.md",
+      "primaryCategory": "operations",
+      "tags": [
+        "deployment",
         "components",
         "api"
       ],
@@ -9704,6 +9751,17 @@
       "deprecated": false
     },
     {
+      "title": "Use hosted authentication in native apps",
+      "url": "https://clerk.com/docs/ios/guides/account-portal/hosted-auth.md",
+      "primaryCategory": "auth-sessions",
+      "tags": [
+        "authentication"
+      ],
+      "framework": "iOS",
+      "kind": "guide",
+      "deprecated": false
+    },
+    {
       "title": "Sign in with Apple",
       "url": "https://clerk.com/docs/ios/guides/configure/auth-strategies/sign-in-with-apple.md",
       "primaryCategory": "auth-sessions",
@@ -9816,6 +9874,18 @@
       "url": "https://clerk.com/docs/ios/reference/native-mobile/overview.md",
       "primaryCategory": "concepts-components",
       "tags": [
+        "api"
+      ],
+      "framework": "iOS",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "Share sessions across apps",
+      "url": "https://clerk.com/docs/ios/reference/native-mobile/shared-session-sync.md",
+      "primaryCategory": "auth-sessions",
+      "tags": [
+        "sessions",
         "api"
       ],
       "framework": "iOS",
@@ -22559,6 +22629,18 @@
       "primaryCategory": "sdk-api",
       "tags": [
         "components",
+        "api"
+      ],
+      "framework": null,
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "useHostedAuth()",
+      "url": "https://clerk.com/docs/reference/expo/native-hooks/use-hosted-auth.md",
+      "primaryCategory": "sdk-api",
+      "tags": [
+        "authentication",
         "api"
       ],
       "framework": null,
