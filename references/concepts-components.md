@@ -15,18 +15,18 @@ Use this reference when choosing Clerk architecture, prebuilt components, custom
 
 ## Selected Official Sources
 
-This focused list selects 60 of 423 current documents in this category. Search [source-index.json](source-index.json) when the exact method, object, framework page, or resource is not listed.
+This focused list selects 60 of 424 current documents in this category. Search [source-index.json](source-index.json) when the exact method, object, framework page, or resource is not listed.
 
 ### Cross-framework
 
 - [Account Portal overview](https://clerk.com/docs/guides/account-portal/overview.md) (concept, components)
 - [Build your own UI (custom flows)](https://clerk.com/docs/guides/development/custom-flows/overview.md) (concept, components)
-- [Clerk Elements (beta)](https://clerk.com/docs/guides/customizing-clerk/elements/overview.md) (concept)
+- [Clerk Elements](https://clerk.com/docs/guides/customizing-clerk/elements/overview.md) (concept)
 - [Configure a consistent CRX ID for your Chrome Extension](https://clerk.com/docs/guides/development/configure-consistent-crx-id.md) (guide)
 - [Customizing Clerk](https://clerk.com/docs/guides/customizing-clerk/overview.md) (concept)
 - [Email and SMS templates](https://clerk.com/docs/guides/customizing-clerk/email-sms-templates.md) (guide)
 - [How Clerk works](https://clerk.com/docs/guides/how-clerk-works/overview.md) (concept)
-- [Localization prop (experimental)](https://clerk.com/docs/guides/customizing-clerk/localization.md) (guide, components)
+- [Localization prop](https://clerk.com/docs/guides/customizing-clerk/localization.md) (guide, components)
 - [Multi-tenant architecture](https://clerk.com/docs/guides/how-clerk-works/multi-tenant-architecture.md) (concept)
 - [OAuth and OIDC overview](https://clerk.com/docs/guides/configure/auth-strategies/oauth/overview.md) (concept, authentication)
 - [Override Clerk interfaces with custom types](https://clerk.com/docs/guides/development/override-clerk-types-interfaces.md) (guide)

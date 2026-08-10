@@ -15,7 +15,7 @@ Use this reference for users, metadata, organizations, memberships, invitations,
 
 ## Selected Official Sources
 
-This focused list selects 60 of 323 current documents in this category. Search [source-index.json](source-index.json) when the exact method, object, framework page, or resource is not listed.
+This focused list selects 60 of 325 current documents in this category. Search [source-index.json](source-index.json) when the exact method, object, framework page, or resource is not listed.
 
 ### Cross-framework
 
@@ -38,8 +38,7 @@ This focused list selects 60 of 323 current documents in this category. Search [
 - [Configure Organizations](https://clerk.com/docs/guides/organizations/configure.md) (guide, organizations)
 - [Create and manage Organizations](https://clerk.com/docs/guides/organizations/create-and-manage.md) (guide, organizations)
 - [Custom Attribute Mapping](https://clerk.com/docs/guides/configure/auth-strategies/enterprise-connections/custom-attribute-mapping.md) (guide, authentication)
-- [Directory Sync (SCIM)](https://clerk.com/docs/guides/configure/auth-strategies/enterprise-connections/directory-sync.md) (guide, authentication)
-- [Domain verification](https://clerk.com/docs/guides/organizations/domain-verification.md) (guide, organizations, deployment)
+- [Directory Sync](https://clerk.com/docs/guides/configure/auth-strategies/enterprise-connections/directory-sync.md) (guide, authentication)
 - [Enterprise Single Sign-On (SSO)](https://clerk.com/docs/guides/configure/auth-strategies/enterprise-connections/overview.md) (concept, authentication)
 - [Enterprise SSO authentication flows](https://clerk.com/docs/guides/configure/auth-strategies/enterprise-connections/authentication-flows.md) (guide, authentication)
 - [Handle accepting Organization invitation links](https://clerk.com/docs/guides/development/custom-flows/organizations/accept-organization-invitations.md) (guide, organizations)
@@ -47,6 +46,7 @@ This focused list selects 60 of 323 current documents in this category. Search [
 - [Organizations](https://clerk.com/docs/guides/organizations/overview.md) (concept, organizations)
 - [Self-serve SSO](https://clerk.com/docs/guides/configure/auth-strategies/enterprise-connections/self-serve-sso.md) (guide, authentication)
 - [Sign-up with application invitations](https://clerk.com/docs/guides/development/custom-flows/authentication/application-invitations.md) (guide, authentication, organizations)
+- [The Backend `EnterpriseConnectionCustomAttribute` object](https://clerk.com/docs/reference/backend/types/backend-enterprise-connection-custom-attribute.md) (reference, api)
 
 ### Android
 

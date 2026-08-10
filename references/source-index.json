@@ -1,37 +1,37 @@
 {
   "generated": true,
   "discoverySource": "https://clerk.com/docs/llms.txt",
-  "discoverySha256": "8cfca60c97bee0c2ad85cc3c54cce588bd017fb10f455dccebedf92ce7fbdeba",
+  "discoverySha256": "4eaf48ce34d604b79e61ec069649523c2d9501341cb353a9cb27ff3ddc1b3be6",
   "counts": {
-    "documents": 2343,
+    "documents": 2357,
     "categories": {
       "auth-sessions": 638,
-      "billing": 298,
-      "concepts-components": 423,
+      "billing": 309,
+      "concepts-components": 424,
       "integrations-databases": 45,
       "operations": 180,
       "quickstarts": 21,
       "sdk-api": 368,
       "security": 47,
-      "users-organizations": 323
+      "users-organizations": 325
     },
     "frameworks": {
       "Android": 23,
-      "Astro": 143,
-      "Chrome Extension": 154,
-      "Expo": 153,
+      "Astro": 144,
+      "Chrome Extension": 155,
+      "Expo": 154,
       "Express": 23,
       "Fastify": 22,
       "Go": 18,
       "iOS": 22,
-      "JavaScript": 137,
-      "Next.js": 194,
-      "Nuxt": 160,
-      "React": 191,
-      "React Router": 178,
+      "JavaScript": 138,
+      "Next.js": 195,
+      "Nuxt": 161,
+      "React": 192,
+      "React Router": 179,
       "Ruby": 18,
-      "TanStack React Start": 177,
-      "Vue": 156
+      "TanStack React Start": 178,
+      "Vue": 157
     },
     "packages": 24,
     "repositories": 10
@@ -237,13 +237,13 @@
       "key": "nextjs-quickstart",
       "title": "Next.js Quickstart (App Router)",
       "url": "https://clerk.com/docs/nextjs/getting-started/quickstart.md",
-      "sha256": "975377f531713570a0dc0e4be0446f4acdc222b33b53e1dc1589cefc1f942185"
+      "sha256": "82314af474216ddc280f5a83ed16bb1972ce50a08536634d74390e254c6cb1df"
     },
     {
       "key": "organizations",
       "title": "Organizations",
       "url": "https://clerk.com/docs/guides/organizations/overview.md",
-      "sha256": "1f3bd74596f81003518a5bb0f8d56e994fe5ed60bf3b043715f4d098c2e06f27"
+      "sha256": "72d5c4c1de6614031ccbdf3fd8b48e1d0af0f02fb0d86959c1c633b40d2f0e76"
     },
     {
       "key": "react-quickstart",
@@ -255,13 +255,13 @@
       "key": "sessions",
       "title": "Session tokens",
       "url": "https://clerk.com/docs/guides/sessions/session-tokens.md",
-      "sha256": "4382b1639bd86c3ed5f0688376f0e541ab4f27e86f5c662bbab39b79bdc37792"
+      "sha256": "a39d46a1483bd94c97ab251085c96ac8e18bea449acb76640d4e9e7e55442f1e"
     },
     {
       "key": "testing",
       "title": "Testing",
       "url": "https://clerk.com/docs/guides/development/testing/overview.md",
-      "sha256": "4ed35db56bfdfe26b074e82a1232329cb2487931a69e7688a90cf48cd5af931d"
+      "sha256": "d260d4c21dd0822795240745a18ee5b436b53571370e2acabf66cea292d63e79"
     },
     {
       "key": "webhooks",
@@ -755,7 +755,7 @@
       "deprecated": false
     },
     {
-      "title": "Build a custom flow for handling email links (Legacy)",
+      "title": "Build a custom flow for handling email links",
       "url": "https://clerk.com/docs/astro/guides/development/custom-flows/authentication/legacy/email-links.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -767,7 +767,7 @@
       "deprecated": true
     },
     {
-      "title": "Embeddable email links with sign-in tokens (Legacy)",
+      "title": "Embeddable email links with sign-in tokens",
       "url": "https://clerk.com/docs/astro/guides/development/custom-flows/authentication/legacy/embedded-email-links.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -1524,6 +1524,18 @@
     {
       "title": "`BillingSubscriptionResource`",
       "url": "https://clerk.com/docs/astro/reference/types/billing-subscription-resource.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "Astro",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingTotals`",
+      "url": "https://clerk.com/docs/astro/reference/types/billing-totals.md",
       "primaryCategory": "billing",
       "tags": [
         "billing",
@@ -2387,7 +2399,7 @@
       "deprecated": false
     },
     {
-      "title": "Build a custom flow for handling email links (Legacy)",
+      "title": "Build a custom flow for handling email links",
       "url": "https://clerk.com/docs/chrome-extension/guides/development/custom-flows/authentication/legacy/email-links.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -2399,7 +2411,7 @@
       "deprecated": true
     },
     {
-      "title": "Embeddable email links with sign-in tokens (Legacy)",
+      "title": "Embeddable email links with sign-in tokens",
       "url": "https://clerk.com/docs/chrome-extension/guides/development/custom-flows/authentication/legacy/embedded-email-links.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -3028,7 +3040,7 @@
       "deprecated": false
     },
     {
-      "title": "`SignIn` object (Legacy)",
+      "title": "`SignIn` object",
       "url": "https://clerk.com/docs/chrome-extension/reference/objects/sign-in.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -3037,7 +3049,7 @@
       ],
       "framework": "Chrome Extension",
       "kind": "reference",
-      "deprecated": true
+      "deprecated": false
     },
     {
       "title": "`SignUpFuture` object",
@@ -3052,7 +3064,7 @@
       "deprecated": false
     },
     {
-      "title": "`SignUp` object (Legacy)",
+      "title": "`SignUp` object",
       "url": "https://clerk.com/docs/chrome-extension/reference/objects/sign-up.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -3061,7 +3073,7 @@
       ],
       "framework": "Chrome Extension",
       "kind": "reference",
-      "deprecated": true
+      "deprecated": false
     },
     {
       "title": "`User` object",
@@ -3339,6 +3351,18 @@
     {
       "title": "`BillingSubscriptionResource`",
       "url": "https://clerk.com/docs/chrome-extension/reference/types/billing-subscription-resource.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "Chrome Extension",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingTotals`",
+      "url": "https://clerk.com/docs/chrome-extension/reference/types/billing-totals.md",
       "primaryCategory": "billing",
       "tags": [
         "billing",
@@ -4828,7 +4852,7 @@
       "deprecated": false
     },
     {
-      "title": "`SignIn` object (Legacy)",
+      "title": "`SignIn` object",
       "url": "https://clerk.com/docs/expo/reference/objects/sign-in.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -4837,7 +4861,7 @@
       ],
       "framework": "Expo",
       "kind": "reference",
-      "deprecated": true
+      "deprecated": false
     },
     {
       "title": "`SignUpFuture` object",
@@ -4852,7 +4876,7 @@
       "deprecated": false
     },
     {
-      "title": "`SignUp` object (Legacy)",
+      "title": "`SignUp` object",
       "url": "https://clerk.com/docs/expo/reference/objects/sign-up.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -4861,7 +4885,7 @@
       ],
       "framework": "Expo",
       "kind": "reference",
-      "deprecated": true
+      "deprecated": false
     },
     {
       "title": "`User` object",
@@ -5139,6 +5163,18 @@
     {
       "title": "`BillingSubscriptionResource`",
       "url": "https://clerk.com/docs/expo/reference/types/billing-subscription-resource.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "Expo",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingTotals`",
+      "url": "https://clerk.com/docs/expo/reference/types/billing-totals.md",
       "primaryCategory": "billing",
       "tags": [
         "billing",
@@ -5999,7 +6035,7 @@
       "deprecated": false
     },
     {
-      "title": "Build a custom flow for handling email links (Legacy)",
+      "title": "Build a custom flow for handling email links",
       "url": "https://clerk.com/docs/expressjs/guides/development/custom-flows/authentication/legacy/email-links.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -6011,7 +6047,7 @@
       "deprecated": true
     },
     {
-      "title": "Embeddable email links with sign-in tokens (Legacy)",
+      "title": "Embeddable email links with sign-in tokens",
       "url": "https://clerk.com/docs/expressjs/guides/development/custom-flows/authentication/legacy/embedded-email-links.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -6244,7 +6280,7 @@
       "deprecated": false
     },
     {
-      "title": "Build a custom flow for handling email links (Legacy)",
+      "title": "Build a custom flow for handling email links",
       "url": "https://clerk.com/docs/fastify/guides/development/custom-flows/authentication/legacy/email-links.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -6256,7 +6292,7 @@
       "deprecated": true
     },
     {
-      "title": "Embeddable email links with sign-in tokens (Legacy)",
+      "title": "Embeddable email links with sign-in tokens",
       "url": "https://clerk.com/docs/fastify/guides/development/custom-flows/authentication/legacy/embedded-email-links.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -6514,7 +6550,7 @@
       "deprecated": false
     },
     {
-      "title": "Build a custom flow for handling email links (Legacy)",
+      "title": "Build a custom flow for handling email links",
       "url": "https://clerk.com/docs/go/guides/development/custom-flows/authentication/legacy/email-links.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -6526,7 +6562,7 @@
       "deprecated": true
     },
     {
-      "title": "Embeddable email links with sign-in tokens (Legacy)",
+      "title": "Embeddable email links with sign-in tokens",
       "url": "https://clerk.com/docs/go/guides/development/custom-flows/authentication/legacy/embedded-email-links.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -6800,7 +6836,7 @@
       "deprecated": false
     },
     {
-      "title": "Directory Sync (SCIM)",
+      "title": "Directory Sync",
       "url": "https://clerk.com/docs/guides/configure/auth-strategies/enterprise-connections/directory-sync.md",
       "primaryCategory": "users-organizations",
       "tags": [
@@ -6913,6 +6949,17 @@
       "title": "Self-serve SSO",
       "url": "https://clerk.com/docs/guides/configure/auth-strategies/enterprise-connections/self-serve-sso.md",
       "primaryCategory": "users-organizations",
+      "tags": [
+        "authentication"
+      ],
+      "framework": null,
+      "kind": "guide",
+      "deprecated": false
+    },
+    {
+      "title": "Manage OAuth clients with Client ID Metadata Documents",
+      "url": "https://clerk.com/docs/guides/configure/auth-strategies/oauth/client-id-metadata-documents.md",
+      "primaryCategory": "concepts-components",
       "tags": [
         "authentication"
       ],
@@ -7252,7 +7299,7 @@
       "deprecated": false
     },
     {
-      "title": "Twitter v1 (deprecated)",
+      "title": "Twitter v1",
       "url": "https://clerk.com/docs/guides/configure/auth-strategies/social-connections/twitter.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -7260,7 +7307,7 @@
       ],
       "framework": null,
       "kind": "guide",
-      "deprecated": true
+      "deprecated": false
     },
     {
       "title": "Add Vercel as a social connection",
@@ -7434,7 +7481,7 @@
       "deprecated": false
     },
     {
-      "title": "Clerk Elements (beta)",
+      "title": "Clerk Elements",
       "url": "https://clerk.com/docs/guides/customizing-clerk/elements/overview.md",
       "primaryCategory": "concepts-components",
       "tags": [],
@@ -7490,7 +7537,7 @@
       "deprecated": false
     },
     {
-      "title": "Localization prop (experimental)",
+      "title": "Localization prop",
       "url": "https://clerk.com/docs/guides/customizing-clerk/localization.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -7737,8 +7784,8 @@
       "deprecated": false
     },
     {
-      "title": "Build a custom sign-in flow with client trust",
-      "url": "https://clerk.com/docs/guides/development/custom-flows/authentication/client-trust.md",
+      "title": "Build a custom sign-in flow with Device Trust",
+      "url": "https://clerk.com/docs/guides/development/custom-flows/authentication/device-trust.md",
       "primaryCategory": "auth-sessions",
       "tags": [
         "authentication"
@@ -7806,7 +7853,7 @@
       "deprecated": false
     },
     {
-      "title": "Sign-up with application invitations (Legacy)",
+      "title": "Sign-up with application invitations",
       "url": "https://clerk.com/docs/guides/development/custom-flows/authentication/legacy/application-invitations.md",
       "primaryCategory": "users-organizations",
       "tags": [
@@ -7818,7 +7865,7 @@
       "deprecated": true
     },
     {
-      "title": "Build a custom sign-in flow with multi-factor authentication (Legacy)",
+      "title": "Build a custom sign-in flow with multi-factor authentication",
       "url": "https://clerk.com/docs/guides/development/custom-flows/authentication/legacy/email-password-mfa.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -7829,7 +7876,7 @@
       "deprecated": true
     },
     {
-      "title": "Build a custom email/password authentication flow (Legacy)",
+      "title": "Build a custom email/password authentication flow",
       "url": "https://clerk.com/docs/guides/development/custom-flows/authentication/legacy/email-password.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -7840,7 +7887,7 @@
       "deprecated": true
     },
     {
-      "title": "Build a custom email or phone OTP authentication flow (Legacy)",
+      "title": "Build a custom email or phone OTP authentication flow",
       "url": "https://clerk.com/docs/guides/development/custom-flows/authentication/legacy/email-sms-otp.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -7851,7 +7898,7 @@
       "deprecated": true
     },
     {
-      "title": "Build a custom flow for authenticating with enterprise connections (Legacy)",
+      "title": "Build a custom flow for authenticating with enterprise connections",
       "url": "https://clerk.com/docs/guides/development/custom-flows/authentication/legacy/enterprise-connections.md",
       "primaryCategory": "users-organizations",
       "tags": [
@@ -7863,7 +7910,7 @@
       "deprecated": true
     },
     {
-      "title": "Build a custom forgot password flow (Legacy)",
+      "title": "Build a custom forgot password flow",
       "url": "https://clerk.com/docs/guides/development/custom-flows/authentication/legacy/forgot-password.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -7874,7 +7921,7 @@
       "deprecated": true
     },
     {
-      "title": "Build a custom flow for displaying the last authentication method (Legacy)",
+      "title": "Build a custom flow for displaying the last authentication method",
       "url": "https://clerk.com/docs/guides/development/custom-flows/authentication/legacy/last-authentication-strategy.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -7887,7 +7934,7 @@
       "deprecated": true
     },
     {
-      "title": "Build a custom flow for handling legal acceptance (Legacy)",
+      "title": "Build a custom flow for handling legal acceptance",
       "url": "https://clerk.com/docs/guides/development/custom-flows/authentication/legacy/legal-acceptance.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -7899,7 +7946,7 @@
       "deprecated": true
     },
     {
-      "title": "Build a custom flow for authenticating with OAuth connections (Legacy)",
+      "title": "Build a custom flow for authenticating with OAuth connections",
       "url": "https://clerk.com/docs/guides/development/custom-flows/authentication/legacy/oauth-connections.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -7911,7 +7958,7 @@
       "deprecated": true
     },
     {
-      "title": "Build a custom authentication flow using passkeys (Legacy)",
+      "title": "Build a custom authentication flow using passkeys",
       "url": "https://clerk.com/docs/guides/development/custom-flows/authentication/legacy/passkeys.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -7922,7 +7969,7 @@
       "deprecated": true
     },
     {
-      "title": "Sign-in-or-up custom flow (Legacy)",
+      "title": "Sign-in-or-up custom flow",
       "url": "https://clerk.com/docs/guides/development/custom-flows/authentication/legacy/sign-in-or-up.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -9514,8 +9561,8 @@
       "deprecated": false
     },
     {
-      "title": "Client Trust",
-      "url": "https://clerk.com/docs/guides/secure/client-trust.md",
+      "title": "Device Trust",
+      "url": "https://clerk.com/docs/guides/secure/device-trust.md",
       "primaryCategory": "concepts-components",
       "tags": [],
       "framework": null,
@@ -10196,7 +10243,7 @@
       "deprecated": false
     },
     {
-      "title": "Build a custom flow for handling email links (Legacy)",
+      "title": "Build a custom flow for handling email links",
       "url": "https://clerk.com/docs/js-frontend/guides/development/custom-flows/authentication/legacy/email-links.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -10208,7 +10255,7 @@
       "deprecated": true
     },
     {
-      "title": "Embeddable email links with sign-in tokens (Legacy)",
+      "title": "Embeddable email links with sign-in tokens",
       "url": "https://clerk.com/docs/js-frontend/guides/development/custom-flows/authentication/legacy/embedded-email-links.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -10600,7 +10647,7 @@
       "deprecated": false
     },
     {
-      "title": "`SignIn` object (Legacy)",
+      "title": "`SignIn` object",
       "url": "https://clerk.com/docs/js-frontend/reference/objects/sign-in.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -10609,7 +10656,7 @@
       ],
       "framework": "JavaScript",
       "kind": "reference",
-      "deprecated": true
+      "deprecated": false
     },
     {
       "title": "`SignUpFuture` object",
@@ -10624,7 +10671,7 @@
       "deprecated": false
     },
     {
-      "title": "`SignUp` object (Legacy)",
+      "title": "`SignUp` object",
       "url": "https://clerk.com/docs/js-frontend/reference/objects/sign-up.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -10633,7 +10680,7 @@
       ],
       "framework": "JavaScript",
       "kind": "reference",
-      "deprecated": true
+      "deprecated": false
     },
     {
       "title": "`User` object",
@@ -10911,6 +10958,18 @@
     {
       "title": "`BillingSubscriptionResource`",
       "url": "https://clerk.com/docs/js-frontend/reference/types/billing-subscription-resource.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "JavaScript",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingTotals`",
+      "url": "https://clerk.com/docs/js-frontend/reference/types/billing-totals.md",
       "primaryCategory": "billing",
       "tags": [
         "billing",
@@ -11834,7 +11893,7 @@
       "deprecated": false
     },
     {
-      "title": "Build a custom flow for handling email links (Legacy)",
+      "title": "Build a custom flow for handling email links",
       "url": "https://clerk.com/docs/nextjs/guides/development/custom-flows/authentication/legacy/email-links.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -11846,7 +11905,7 @@
       "deprecated": true
     },
     {
-      "title": "Embeddable email links with sign-in tokens (Legacy)",
+      "title": "Embeddable email links with sign-in tokens",
       "url": "https://clerk.com/docs/nextjs/guides/development/custom-flows/authentication/legacy/embedded-email-links.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -12269,7 +12328,7 @@
       "deprecated": false
     },
     {
-      "title": "`<RedirectToCreateOrganization />` (deprecated)",
+      "title": "`<RedirectToCreateOrganization />`",
       "url": "https://clerk.com/docs/nextjs/reference/components/control/redirect-to-create-organization.md",
       "primaryCategory": "users-organizations",
       "tags": [
@@ -12280,10 +12339,10 @@
       ],
       "framework": "Next.js",
       "kind": "reference",
-      "deprecated": true
+      "deprecated": false
     },
     {
-      "title": "`<RedirectToOrganizationProfile />` (deprecated)",
+      "title": "`<RedirectToOrganizationProfile />`",
       "url": "https://clerk.com/docs/nextjs/reference/components/control/redirect-to-organization-profile.md",
       "primaryCategory": "users-organizations",
       "tags": [
@@ -12294,7 +12353,7 @@
       ],
       "framework": "Next.js",
       "kind": "reference",
-      "deprecated": true
+      "deprecated": false
     },
     {
       "title": "`<RedirectToSignIn />`",
@@ -12338,7 +12397,7 @@
       "deprecated": false
     },
     {
-      "title": "`<RedirectToUserProfile />` (deprecated)",
+      "title": "`<RedirectToUserProfile />`",
       "url": "https://clerk.com/docs/nextjs/reference/components/control/redirect-to-user-profile.md",
       "primaryCategory": "operations",
       "tags": [
@@ -12348,7 +12407,7 @@
       ],
       "framework": "Next.js",
       "kind": "reference",
-      "deprecated": true
+      "deprecated": false
     },
     {
       "title": "`<Show>`",
@@ -12896,7 +12955,7 @@
       "deprecated": false
     },
     {
-      "title": "`SignIn` object (Legacy)",
+      "title": "`SignIn` object",
       "url": "https://clerk.com/docs/nextjs/reference/objects/sign-in.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -12905,7 +12964,7 @@
       ],
       "framework": "Next.js",
       "kind": "reference",
-      "deprecated": true
+      "deprecated": false
     },
     {
       "title": "`SignUpFuture` object",
@@ -12920,7 +12979,7 @@
       "deprecated": false
     },
     {
-      "title": "`SignUp` object (Legacy)",
+      "title": "`SignUp` object",
       "url": "https://clerk.com/docs/nextjs/reference/objects/sign-up.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -12929,7 +12988,7 @@
       ],
       "framework": "Next.js",
       "kind": "reference",
-      "deprecated": true
+      "deprecated": false
     },
     {
       "title": "`User` object",
@@ -13207,6 +13266,18 @@
     {
       "title": "`BillingSubscriptionResource`",
       "url": "https://clerk.com/docs/nextjs/reference/types/billing-subscription-resource.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "Next.js",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingTotals`",
+      "url": "https://clerk.com/docs/nextjs/reference/types/billing-totals.md",
       "primaryCategory": "billing",
       "tags": [
         "billing",
@@ -14103,7 +14174,7 @@
       "deprecated": false
     },
     {
-      "title": "Build a custom flow for handling email links (Legacy)",
+      "title": "Build a custom flow for handling email links",
       "url": "https://clerk.com/docs/nuxt/guides/development/custom-flows/authentication/legacy/email-links.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -14115,7 +14186,7 @@
       "deprecated": true
     },
     {
-      "title": "Embeddable email links with sign-in tokens (Legacy)",
+      "title": "Embeddable email links with sign-in tokens",
       "url": "https://clerk.com/docs/nuxt/guides/development/custom-flows/authentication/legacy/embedded-email-links.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -14374,7 +14445,7 @@
       "deprecated": false
     },
     {
-      "title": "`<RedirectToCreateOrganization />` (deprecated)",
+      "title": "`<RedirectToCreateOrganization />`",
       "url": "https://clerk.com/docs/nuxt/reference/components/control/redirect-to-create-organization.md",
       "primaryCategory": "users-organizations",
       "tags": [
@@ -14385,10 +14456,10 @@
       ],
       "framework": "Nuxt",
       "kind": "reference",
-      "deprecated": true
+      "deprecated": false
     },
     {
-      "title": "`<RedirectToOrganizationProfile />` (deprecated)",
+      "title": "`<RedirectToOrganizationProfile />`",
       "url": "https://clerk.com/docs/nuxt/reference/components/control/redirect-to-organization-profile.md",
       "primaryCategory": "users-organizations",
       "tags": [
@@ -14399,7 +14470,7 @@
       ],
       "framework": "Nuxt",
       "kind": "reference",
-      "deprecated": true
+      "deprecated": false
     },
     {
       "title": "`<RedirectToSignIn />`",
@@ -14443,7 +14514,7 @@
       "deprecated": false
     },
     {
-      "title": "`<RedirectToUserProfile />` (deprecated)",
+      "title": "`<RedirectToUserProfile />`",
       "url": "https://clerk.com/docs/nuxt/reference/components/control/redirect-to-user-profile.md",
       "primaryCategory": "operations",
       "tags": [
@@ -14453,7 +14524,7 @@
       ],
       "framework": "Nuxt",
       "kind": "reference",
-      "deprecated": true
+      "deprecated": false
     },
     {
       "title": "`<Show>`",
@@ -15092,6 +15163,18 @@
     {
       "title": "`BillingSubscriptionResource`",
       "url": "https://clerk.com/docs/nuxt/reference/types/billing-subscription-resource.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "Nuxt",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingTotals`",
+      "url": "https://clerk.com/docs/nuxt/reference/types/billing-totals.md",
       "primaryCategory": "billing",
       "tags": [
         "billing",
@@ -15999,7 +16082,7 @@
       "deprecated": false
     },
     {
-      "title": "Build a custom flow for handling email links (Legacy)",
+      "title": "Build a custom flow for handling email links",
       "url": "https://clerk.com/docs/react-router/guides/development/custom-flows/authentication/legacy/email-links.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -16011,7 +16094,7 @@
       "deprecated": true
     },
     {
-      "title": "Embeddable email links with sign-in tokens (Legacy)",
+      "title": "Embeddable email links with sign-in tokens",
       "url": "https://clerk.com/docs/react-router/guides/development/custom-flows/authentication/legacy/embedded-email-links.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -16355,7 +16438,7 @@
       "deprecated": false
     },
     {
-      "title": "`<RedirectToCreateOrganization />` (deprecated)",
+      "title": "`<RedirectToCreateOrganization />`",
       "url": "https://clerk.com/docs/react-router/reference/components/control/redirect-to-create-organization.md",
       "primaryCategory": "users-organizations",
       "tags": [
@@ -16366,10 +16449,10 @@
       ],
       "framework": "React Router",
       "kind": "reference",
-      "deprecated": true
+      "deprecated": false
     },
     {
-      "title": "`<RedirectToOrganizationProfile />` (deprecated)",
+      "title": "`<RedirectToOrganizationProfile />`",
       "url": "https://clerk.com/docs/react-router/reference/components/control/redirect-to-organization-profile.md",
       "primaryCategory": "users-organizations",
       "tags": [
@@ -16380,7 +16463,7 @@
       ],
       "framework": "React Router",
       "kind": "reference",
-      "deprecated": true
+      "deprecated": false
     },
     {
       "title": "`<RedirectToSignIn />`",
@@ -16424,7 +16507,7 @@
       "deprecated": false
     },
     {
-      "title": "`<RedirectToUserProfile />` (deprecated)",
+      "title": "`<RedirectToUserProfile />`",
       "url": "https://clerk.com/docs/react-router/reference/components/control/redirect-to-user-profile.md",
       "primaryCategory": "operations",
       "tags": [
@@ -16434,7 +16517,7 @@
       ],
       "framework": "React Router",
       "kind": "reference",
-      "deprecated": true
+      "deprecated": false
     },
     {
       "title": "`<Show>`",
@@ -16892,7 +16975,7 @@
       "deprecated": false
     },
     {
-      "title": "`SignIn` object (Legacy)",
+      "title": "`SignIn` object",
       "url": "https://clerk.com/docs/react-router/reference/objects/sign-in.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -16901,7 +16984,7 @@
       ],
       "framework": "React Router",
       "kind": "reference",
-      "deprecated": true
+      "deprecated": false
     },
     {
       "title": "`SignUpFuture` object",
@@ -16916,7 +16999,7 @@
       "deprecated": false
     },
     {
-      "title": "`SignUp` object (Legacy)",
+      "title": "`SignUp` object",
       "url": "https://clerk.com/docs/react-router/reference/objects/sign-up.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -16925,7 +17008,7 @@
       ],
       "framework": "React Router",
       "kind": "reference",
-      "deprecated": true
+      "deprecated": false
     },
     {
       "title": "`User` object",
@@ -17203,6 +17286,18 @@
     {
       "title": "`BillingSubscriptionResource`",
       "url": "https://clerk.com/docs/react-router/reference/types/billing-subscription-resource.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "React Router",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingTotals`",
+      "url": "https://clerk.com/docs/react-router/reference/types/billing-totals.md",
       "primaryCategory": "billing",
       "tags": [
         "billing",
@@ -18108,7 +18203,7 @@
       "deprecated": false
     },
     {
-      "title": "Build a custom flow for handling email links (Legacy)",
+      "title": "Build a custom flow for handling email links",
       "url": "https://clerk.com/docs/react/guides/development/custom-flows/authentication/legacy/email-links.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -18120,7 +18215,7 @@
       "deprecated": true
     },
     {
-      "title": "Embeddable email links with sign-in tokens (Legacy)",
+      "title": "Embeddable email links with sign-in tokens",
       "url": "https://clerk.com/docs/react/guides/development/custom-flows/authentication/legacy/embedded-email-links.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -18517,7 +18612,7 @@
       "deprecated": false
     },
     {
-      "title": "`<RedirectToCreateOrganization />` (deprecated)",
+      "title": "`<RedirectToCreateOrganization />`",
       "url": "https://clerk.com/docs/react/reference/components/control/redirect-to-create-organization.md",
       "primaryCategory": "users-organizations",
       "tags": [
@@ -18528,10 +18623,10 @@
       ],
       "framework": "React",
       "kind": "reference",
-      "deprecated": true
+      "deprecated": false
     },
     {
-      "title": "`<RedirectToOrganizationProfile />` (deprecated)",
+      "title": "`<RedirectToOrganizationProfile />`",
       "url": "https://clerk.com/docs/react/reference/components/control/redirect-to-organization-profile.md",
       "primaryCategory": "users-organizations",
       "tags": [
@@ -18542,7 +18637,7 @@
       ],
       "framework": "React",
       "kind": "reference",
-      "deprecated": true
+      "deprecated": false
     },
     {
       "title": "`<RedirectToSignIn />`",
@@ -18586,7 +18681,7 @@
       "deprecated": false
     },
     {
-      "title": "`<RedirectToUserProfile />` (deprecated)",
+      "title": "`<RedirectToUserProfile />`",
       "url": "https://clerk.com/docs/react/reference/components/control/redirect-to-user-profile.md",
       "primaryCategory": "operations",
       "tags": [
@@ -18596,7 +18691,7 @@
       ],
       "framework": "React",
       "kind": "reference",
-      "deprecated": true
+      "deprecated": false
     },
     {
       "title": "`<Show>`",
@@ -19144,7 +19239,7 @@
       "deprecated": false
     },
     {
-      "title": "`SignIn` object (Legacy)",
+      "title": "`SignIn` object",
       "url": "https://clerk.com/docs/react/reference/objects/sign-in.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -19153,7 +19248,7 @@
       ],
       "framework": "React",
       "kind": "reference",
-      "deprecated": true
+      "deprecated": false
     },
     {
       "title": "`SignUpFuture` object",
@@ -19168,7 +19263,7 @@
       "deprecated": false
     },
     {
-      "title": "`SignUp` object (Legacy)",
+      "title": "`SignUp` object",
       "url": "https://clerk.com/docs/react/reference/objects/sign-up.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -19177,7 +19272,7 @@
       ],
       "framework": "React",
       "kind": "reference",
-      "deprecated": true
+      "deprecated": false
     },
     {
       "title": "`User` object",
@@ -19455,6 +19550,18 @@
     {
       "title": "`BillingSubscriptionResource`",
       "url": "https://clerk.com/docs/react/reference/types/billing-subscription-resource.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "React",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingTotals`",
+      "url": "https://clerk.com/docs/react/reference/types/billing-totals.md",
       "primaryCategory": "billing",
       "tags": [
         "billing",
@@ -20539,7 +20646,7 @@
       "deprecated": false
     },
     {
-      "title": "`getClientList()` (deprecated)",
+      "title": "`getClientList()`",
       "url": "https://clerk.com/docs/reference/backend/client/get-client-list.md",
       "primaryCategory": "sdk-api",
       "tags": [
@@ -20547,7 +20654,7 @@
       ],
       "framework": null,
       "kind": "reference",
-      "deprecated": true
+      "deprecated": false
     },
     {
       "title": "`getClient()`",
@@ -20585,7 +20692,7 @@
       "deprecated": false
     },
     {
-      "title": "`deleteDomain()` (deprecated)",
+      "title": "`deleteDomain()`",
       "url": "https://clerk.com/docs/reference/backend/domains/delete-domain.md",
       "primaryCategory": "operations",
       "tags": [
@@ -20595,7 +20702,7 @@
       ],
       "framework": null,
       "kind": "reference",
-      "deprecated": true
+      "deprecated": false
     },
     {
       "title": "`delete()`",
@@ -21469,7 +21576,7 @@
       "deprecated": false
     },
     {
-      "title": "`createSamlConnection()` (deprecated)",
+      "title": "`createSamlConnection()`",
       "url": "https://clerk.com/docs/reference/backend/saml-connections/create-saml-connection.md",
       "primaryCategory": "sdk-api",
       "tags": [
@@ -21477,10 +21584,10 @@
       ],
       "framework": null,
       "kind": "reference",
-      "deprecated": true
+      "deprecated": false
     },
     {
-      "title": "`deleteSamlConnection()` (deprecated)",
+      "title": "`deleteSamlConnection()`",
       "url": "https://clerk.com/docs/reference/backend/saml-connections/delete-saml-connection.md",
       "primaryCategory": "sdk-api",
       "tags": [
@@ -21488,10 +21595,10 @@
       ],
       "framework": null,
       "kind": "reference",
-      "deprecated": true
+      "deprecated": false
     },
     {
-      "title": "`getSamlConnectionList()` (deprecated)",
+      "title": "`getSamlConnectionList()`",
       "url": "https://clerk.com/docs/reference/backend/saml-connections/get-saml-connection-list.md",
       "primaryCategory": "sdk-api",
       "tags": [
@@ -21499,10 +21606,10 @@
       ],
       "framework": null,
       "kind": "reference",
-      "deprecated": true
+      "deprecated": false
     },
     {
-      "title": "`getSamlConnection()` (deprecated)",
+      "title": "`getSamlConnection()`",
       "url": "https://clerk.com/docs/reference/backend/saml-connections/get-saml-connection.md",
       "primaryCategory": "sdk-api",
       "tags": [
@@ -21510,10 +21617,10 @@
       ],
       "framework": null,
       "kind": "reference",
-      "deprecated": true
+      "deprecated": false
     },
     {
-      "title": "`updateSamlConnection()` (deprecated)",
+      "title": "`updateSamlConnection()`",
       "url": "https://clerk.com/docs/reference/backend/saml-connections/update-saml-connection.md",
       "primaryCategory": "sdk-api",
       "tags": [
@@ -21521,7 +21628,7 @@
       ],
       "framework": null,
       "kind": "reference",
-      "deprecated": true
+      "deprecated": false
     },
     {
       "title": "`getSessionList()`",
@@ -21572,7 +21679,7 @@
       "deprecated": false
     },
     {
-      "title": "`verifySession()` (deprecated)",
+      "title": "`verifySession()`",
       "url": "https://clerk.com/docs/reference/backend/sessions/verify-session.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -21581,7 +21688,7 @@
       ],
       "framework": null,
       "kind": "reference",
-      "deprecated": true
+      "deprecated": false
     },
     {
       "title": "`createSignInToken()`",
@@ -21712,8 +21819,31 @@
       "deprecated": false
     },
     {
+      "title": "The Backend `EnterpriseConnectionCustomAttribute` object",
+      "url": "https://clerk.com/docs/reference/backend/types/backend-enterprise-connection-custom-attribute.md",
+      "primaryCategory": "users-organizations",
+      "tags": [
+        "api"
+      ],
+      "framework": null,
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "The Backend `EnterpriseConnectionOauthConfig` object",
       "url": "https://clerk.com/docs/reference/backend/types/backend-enterprise-connection-oauth-config.md",
+      "primaryCategory": "users-organizations",
+      "tags": [
+        "authentication",
+        "api"
+      ],
+      "framework": null,
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "The Backend `EnterpriseConnectionSamlConnectionLoginHint` object",
+      "url": "https://clerk.com/docs/reference/backend/types/backend-enterprise-connection-saml-connection-login-hint.md",
       "primaryCategory": "users-organizations",
       "tags": [
         "authentication",
@@ -22053,6 +22183,18 @@
     {
       "title": "Backend `BillingPlan` object",
       "url": "https://clerk.com/docs/reference/backend/types/billing-plan.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": null,
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "The Backend `BillingSubscriptionItemStatus` object",
+      "url": "https://clerk.com/docs/reference/backend/types/billing-subscription-item-status.md",
       "primaryCategory": "billing",
       "tags": [
         "billing",
@@ -22588,7 +22730,7 @@
       "deprecated": false
     },
     {
-      "title": "Expo Native Components (beta)",
+      "title": "Expo Native Components",
       "url": "https://clerk.com/docs/reference/expo/native-components/overview.md",
       "primaryCategory": "sdk-api",
       "tags": [
@@ -22659,7 +22801,7 @@
       "deprecated": false
     },
     {
-      "title": "useOAuth() (deprecated)",
+      "title": "useOAuth()",
       "url": "https://clerk.com/docs/reference/expo/native-hooks/use-oauth.md",
       "primaryCategory": "sdk-api",
       "tags": [
@@ -22668,7 +22810,7 @@
       ],
       "framework": null,
       "kind": "reference",
-      "deprecated": true
+      "deprecated": false
     },
     {
       "title": "`useSignInWithApple()`",
@@ -22763,7 +22905,7 @@
       "deprecated": false
     },
     {
-      "title": "`requireAuth()` (deprecated)",
+      "title": "`requireAuth()`",
       "url": "https://clerk.com/docs/reference/express/require-auth.md",
       "primaryCategory": "sdk-api",
       "tags": [
@@ -22772,7 +22914,7 @@
       ],
       "framework": null,
       "kind": "reference",
-      "deprecated": true
+      "deprecated": false
     },
     {
       "title": "`clerkPlugin()`",
@@ -23366,7 +23508,7 @@
       "deprecated": false
     },
     {
-      "title": "Build a custom flow for handling email links (Legacy)",
+      "title": "Build a custom flow for handling email links",
       "url": "https://clerk.com/docs/ruby/guides/development/custom-flows/authentication/legacy/email-links.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -23378,7 +23520,7 @@
       "deprecated": true
     },
     {
-      "title": "Embeddable email links with sign-in tokens (Legacy)",
+      "title": "Embeddable email links with sign-in tokens",
       "url": "https://clerk.com/docs/ruby/guides/development/custom-flows/authentication/legacy/embedded-email-links.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -23633,7 +23775,7 @@
       "deprecated": false
     },
     {
-      "title": "Build a custom flow for handling email links (Legacy)",
+      "title": "Build a custom flow for handling email links",
       "url": "https://clerk.com/docs/tanstack-react-start/guides/development/custom-flows/authentication/legacy/email-links.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -23645,7 +23787,7 @@
       "deprecated": true
     },
     {
-      "title": "Embeddable email links with sign-in tokens (Legacy)",
+      "title": "Embeddable email links with sign-in tokens",
       "url": "https://clerk.com/docs/tanstack-react-start/guides/development/custom-flows/authentication/legacy/embedded-email-links.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -23980,7 +24122,7 @@
       "deprecated": false
     },
     {
-      "title": "`<RedirectToCreateOrganization />` (deprecated)",
+      "title": "`<RedirectToCreateOrganization />`",
       "url": "https://clerk.com/docs/tanstack-react-start/reference/components/control/redirect-to-create-organization.md",
       "primaryCategory": "users-organizations",
       "tags": [
@@ -23991,10 +24133,10 @@
       ],
       "framework": "TanStack React Start",
       "kind": "reference",
-      "deprecated": true
+      "deprecated": false
     },
     {
-      "title": "`<RedirectToOrganizationProfile />` (deprecated)",
+      "title": "`<RedirectToOrganizationProfile />`",
       "url": "https://clerk.com/docs/tanstack-react-start/reference/components/control/redirect-to-organization-profile.md",
       "primaryCategory": "users-organizations",
       "tags": [
@@ -24005,7 +24147,7 @@
       ],
       "framework": "TanStack React Start",
       "kind": "reference",
-      "deprecated": true
+      "deprecated": false
     },
     {
       "title": "`<RedirectToSignIn />`",
@@ -24049,7 +24191,7 @@
       "deprecated": false
     },
     {
-      "title": "`<RedirectToUserProfile />` (deprecated)",
+      "title": "`<RedirectToUserProfile />`",
       "url": "https://clerk.com/docs/tanstack-react-start/reference/components/control/redirect-to-user-profile.md",
       "primaryCategory": "operations",
       "tags": [
@@ -24059,7 +24201,7 @@
       ],
       "framework": "TanStack React Start",
       "kind": "reference",
-      "deprecated": true
+      "deprecated": false
     },
     {
       "title": "`<Show>`",
@@ -24517,7 +24659,7 @@
       "deprecated": false
     },
     {
-      "title": "`SignIn` object (Legacy)",
+      "title": "`SignIn` object",
       "url": "https://clerk.com/docs/tanstack-react-start/reference/objects/sign-in.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -24526,7 +24668,7 @@
       ],
       "framework": "TanStack React Start",
       "kind": "reference",
-      "deprecated": true
+      "deprecated": false
     },
     {
       "title": "`SignUpFuture` object",
@@ -24541,7 +24683,7 @@
       "deprecated": false
     },
     {
-      "title": "`SignUp` object (Legacy)",
+      "title": "`SignUp` object",
       "url": "https://clerk.com/docs/tanstack-react-start/reference/objects/sign-up.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -24550,7 +24692,7 @@
       ],
       "framework": "TanStack React Start",
       "kind": "reference",
-      "deprecated": true
+      "deprecated": false
     },
     {
       "title": "`User` object",
@@ -24828,6 +24970,18 @@
     {
       "title": "`BillingSubscriptionResource`",
       "url": "https://clerk.com/docs/tanstack-react-start/reference/types/billing-subscription-resource.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "TanStack React Start",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingTotals`",
+      "url": "https://clerk.com/docs/tanstack-react-start/reference/types/billing-totals.md",
       "primaryCategory": "billing",
       "tags": [
         "billing",
@@ -25724,7 +25878,7 @@
       "deprecated": false
     },
     {
-      "title": "Build a custom flow for handling email links (Legacy)",
+      "title": "Build a custom flow for handling email links",
       "url": "https://clerk.com/docs/vue/guides/development/custom-flows/authentication/legacy/email-links.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -25736,7 +25890,7 @@
       "deprecated": true
     },
     {
-      "title": "Embeddable email links with sign-in tokens (Legacy)",
+      "title": "Embeddable email links with sign-in tokens",
       "url": "https://clerk.com/docs/vue/guides/development/custom-flows/authentication/legacy/embedded-email-links.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -25947,7 +26101,7 @@
       "deprecated": false
     },
     {
-      "title": "`<RedirectToCreateOrganization />` (deprecated)",
+      "title": "`<RedirectToCreateOrganization />`",
       "url": "https://clerk.com/docs/vue/reference/components/control/redirect-to-create-organization.md",
       "primaryCategory": "users-organizations",
       "tags": [
@@ -25958,10 +26112,10 @@
       ],
       "framework": "Vue",
       "kind": "reference",
-      "deprecated": true
+      "deprecated": false
     },
     {
-      "title": "`<RedirectToOrganizationProfile />` (deprecated)",
+      "title": "`<RedirectToOrganizationProfile />`",
       "url": "https://clerk.com/docs/vue/reference/components/control/redirect-to-organization-profile.md",
       "primaryCategory": "users-organizations",
       "tags": [
@@ -25972,7 +26126,7 @@
       ],
       "framework": "Vue",
       "kind": "reference",
-      "deprecated": true
+      "deprecated": false
     },
     {
       "title": "`<RedirectToSignIn />`",
@@ -26016,7 +26170,7 @@
       "deprecated": false
     },
     {
-      "title": "`<RedirectToUserProfile />` (deprecated)",
+      "title": "`<RedirectToUserProfile />`",
       "url": "https://clerk.com/docs/vue/reference/components/control/redirect-to-user-profile.md",
       "primaryCategory": "operations",
       "tags": [
@@ -26026,7 +26180,7 @@
       ],
       "framework": "Vue",
       "kind": "reference",
-      "deprecated": true
+      "deprecated": false
     },
     {
       "title": "`<Show>`",
@@ -26677,6 +26831,18 @@
     {
       "title": "`BillingSubscriptionResource`",
       "url": "https://clerk.com/docs/vue/reference/types/billing-subscription-resource.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "Vue",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingTotals`",
+      "url": "https://clerk.com/docs/vue/reference/types/billing-totals.md",
       "primaryCategory": "billing",
       "tags": [
         "billing",

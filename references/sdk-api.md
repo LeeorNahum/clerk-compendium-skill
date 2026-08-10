@@ -81,7 +81,7 @@ This focused list selects 60 of 368 current documents in this category. Search [
 - [Clerk Ruby SDK](https://clerk.com/docs/reference/ruby/overview.md) (reference, api)
 - [Clerk TanStack React Start SDK](https://clerk.com/docs/reference/tanstack-react-start/overview.md) (reference, api)
 - [Clerk Vue SDK](https://clerk.com/docs/reference/vue/overview.md) (reference, api)
-- [Expo Native Components (beta)](https://clerk.com/docs/reference/expo/native-components/overview.md) (reference, components, api)
+- [Expo Native Components](https://clerk.com/docs/reference/expo/native-components/overview.md) (reference, components, api)
 - [SDK References](https://clerk.com/docs/reference/overview.md) (reference, api)
 
 ### Astro
