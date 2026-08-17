@@ -15,7 +15,7 @@ Use this reference when protecting routes or resources, reviewing trust boundari
 
 ## Selected Official Sources
 
-This focused list selects 47 of 47 current documents in this category. Search [source-index.json](source-index.json) when the exact method, object, framework page, or resource is not listed.
+This focused list selects 48 of 48 current documents in this category. Search [source-index.json](source-index.json) when the exact method, object, framework page, or resource is not listed.
 
 ### Cross-framework
 
@@ -30,7 +30,7 @@ This focused list selects 47 of 47 current documents in this category. Search [s
 - [Fixation protection](https://clerk.com/docs/guides/secure/best-practices/fixation-protection.md) (guide, security)
 - [Password protection and rules](https://clerk.com/docs/guides/secure/password-protection-and-rules.md) (guide, authentication, security)
 - [Protect email link sign-ins and sign-ups](https://clerk.com/docs/guides/secure/best-practices/protect-email-links.md) (guide, authentication, security)
-- [Restrictions](https://clerk.com/docs/guides/secure/restricting-access.md) (guide, security)
+- [Restricting access](https://clerk.com/docs/guides/secure/restricting-access.md) (guide, security)
 - [The Backend `InstanceRestrictions` object](https://clerk.com/docs/reference/backend/types/backend-instance-restrictions.md) (reference, security, api)
 - [User enumeration protection](https://clerk.com/docs/guides/secure/user-enumeration-protection.md) (guide, security)
 - [Vulnerability disclosure policy](https://clerk.com/docs/guides/how-clerk-works/security/vulnerability-disclosure-policy.md) (guide, security)
@@ -73,6 +73,7 @@ This focused list selects 47 of 47 current documents in this category. Search [s
 
 - [`ProtectCheckResource`](https://clerk.com/docs/nextjs/reference/types/protect-check-resource.md) (reference, security, api)
 - [Add bot protection to your custom sign-up flow](https://clerk.com/docs/nextjs/guides/development/custom-flows/authentication/bot-sign-up-protection.md) (guide, authentication, security)
+- [Clerk: `<Protect>` is not available in @clerk/nextjs Core 3](https://clerk.com/docs/nextjs/reference/errors/protect-is-not-available-in-clerk-nextjs.md) (reference, security, api)
 - [Protect content from unauthenticated users](https://clerk.com/docs/nextjs/guides/secure/protect-content.md) (guide, authentication, security)
 - [useReverification()](https://clerk.com/docs/nextjs/reference/hooks/use-reverification.md) (reference, security, api)
 

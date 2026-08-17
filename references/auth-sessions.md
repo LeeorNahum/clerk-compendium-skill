@@ -15,7 +15,7 @@ Use this reference for sign-in, sign-up, sessions, tokens, claims, MFA, passkeys
 
 ## Selected Official Sources
 
-This focused list selects 60 of 638 current documents in this category. Search [source-index.json](source-index.json) when the exact method, object, framework page, or resource is not listed.
+This focused list selects 60 of 639 current documents in this category. Search [source-index.json](source-index.json) when the exact method, object, framework page, or resource is not listed.
 
 ### Cross-framework
 
@@ -29,8 +29,6 @@ This focused list selects 60 of 638 current documents in this category. Search [
 - [Add custom onboarding to your authentication flow](https://clerk.com/docs/guides/development/add-onboarding-flow.md) (guide, authentication)
 - [Build your own sign-in-or-up page for your Expo web app](https://clerk.com/docs/guides/development/web-support/custom-sign-in-or-up-page.md) (guide, authentication)
 - [Build your own sign-up page with prebuilt components on web](https://clerk.com/docs/guides/development/web-support/custom-sign-up-page.md) (component, authentication, components)
-- [Configure passkeys for Android](https://clerk.com/docs/reference/android/passkeys.md) (reference, authentication, api)
-- [Configure passkeys for Expo](https://clerk.com/docs/reference/expo/passkeys.md) (reference, authentication, api)
 - [Customize your session token](https://clerk.com/docs/guides/sessions/customize-session-tokens.md) (guide, sessions)
 - [Machine Authentication](https://clerk.com/docs/guides/development/machine-auth/overview.md) (concept, authentication)
 - [Sign-up and sign-in options](https://clerk.com/docs/guides/configure/auth-strategies/sign-up-sign-in-options.md) (guide, authentication)
@@ -39,6 +37,7 @@ This focused list selects 60 of 638 current documents in this category. Search [
 
 ### Android
 
+- [Configure passkeys for Android](https://clerk.com/docs/android/reference/passkeys.md) (reference, authentication, api)
 - [Social connections (OAuth)](https://clerk.com/docs/android/guides/configure/auth-strategies/social-connections/overview.md) (concept, authentication)
 - [Use hosted authentication in native apps](https://clerk.com/docs/android/guides/account-portal/hosted-auth.md) (guide, authentication)
 
@@ -52,6 +51,7 @@ This focused list selects 60 of 638 current documents in this category. Search [
 
 ### Expo
 
+- [Configure passkeys for Expo](https://clerk.com/docs/expo/reference/passkeys.md) (reference, authentication, api)
 - [Social connections (OAuth)](https://clerk.com/docs/expo/guides/configure/auth-strategies/social-connections/overview.md) (concept, authentication)
 - [Use hosted authentication in native apps](https://clerk.com/docs/expo/guides/account-portal/hosted-auth.md) (guide, authentication)
 

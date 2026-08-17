@@ -1,37 +1,37 @@
 {
   "generated": true,
   "discoverySource": "https://clerk.com/docs/llms.txt",
-  "discoverySha256": "4eaf48ce34d604b79e61ec069649523c2d9501341cb353a9cb27ff3ddc1b3be6",
+  "discoverySha256": "31b0340f114254c5d1b1dee0a68ab0a1cf0e17118d0aa166c96b67cb3b21e5b2",
   "counts": {
-    "documents": 2357,
+    "documents": 2475,
     "categories": {
-      "auth-sessions": 638,
-      "billing": 309,
-      "concepts-components": 424,
+      "auth-sessions": 639,
+      "billing": 423,
+      "concepts-components": 480,
       "integrations-databases": 45,
-      "operations": 180,
+      "operations": 182,
       "quickstarts": 21,
-      "sdk-api": 368,
-      "security": 47,
+      "sdk-api": 312,
+      "security": 48,
       "users-organizations": 325
     },
     "frameworks": {
-      "Android": 23,
-      "Astro": 144,
-      "Chrome Extension": 155,
-      "Expo": 154,
-      "Express": 23,
-      "Fastify": 22,
-      "Go": 18,
-      "iOS": 22,
-      "JavaScript": 138,
-      "Next.js": 195,
-      "Nuxt": 161,
-      "React": 192,
-      "React Router": 179,
-      "Ruby": 18,
-      "TanStack React Start": 178,
-      "Vue": 157
+      "Android": 24,
+      "Astro": 169,
+      "Chrome Extension": 168,
+      "Expo": 178,
+      "Express": 27,
+      "Fastify": 25,
+      "Go": 19,
+      "iOS": 24,
+      "JavaScript": 150,
+      "Next.js": 220,
+      "Nuxt": 175,
+      "React": 204,
+      "React Router": 194,
+      "Ruby": 24,
+      "TanStack React Start": 195,
+      "Vue": 171
     },
     "packages": 24,
     "repositories": 10
@@ -231,13 +231,13 @@
       "key": "environment-variables",
       "title": "Clerk environment variables",
       "url": "https://clerk.com/docs/guides/development/clerk-environment-variables.md",
-      "sha256": "52aa1ba65c3c331fd7c349e36e0f9411581648d0e286149eb2ef0f91d3243ba5"
+      "sha256": "16c6b8a9ef69460f18ccf6b777d6baff25961d6a07d10798d1e4806472e6c604"
     },
     {
       "key": "nextjs-quickstart",
       "title": "Next.js Quickstart (App Router)",
       "url": "https://clerk.com/docs/nextjs/getting-started/quickstart.md",
-      "sha256": "82314af474216ddc280f5a83ed16bb1972ce50a08536634d74390e254c6cb1df"
+      "sha256": "6793f421f3a4fb8e47ee4890a0258b02e6629e9cf068cb8f7921951314b60cdb"
     },
     {
       "key": "organizations",
@@ -447,6 +447,18 @@
       "url": "https://clerk.com/docs/android/reference/native-mobile/user.md",
       "primaryCategory": "concepts-components",
       "tags": [
+        "api"
+      ],
+      "framework": "Android",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "Configure passkeys for Android",
+      "url": "https://clerk.com/docs/android/reference/passkeys.md",
+      "primaryCategory": "auth-sessions",
+      "tags": [
+        "authentication",
         "api"
       ],
       "framework": "Android",
@@ -844,6 +856,111 @@
       "deprecated": false
     },
     {
+      "title": "`clerkMiddleware()` | Astro",
+      "url": "https://clerk.com/docs/astro/reference/clerk-middleware.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "api"
+      ],
+      "framework": "Astro",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`$authStore`",
+      "url": "https://clerk.com/docs/astro/reference/client-side-helpers/auth-store.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "authentication",
+        "api"
+      ],
+      "framework": "Astro",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`$clerkStore`",
+      "url": "https://clerk.com/docs/astro/reference/client-side-helpers/clerk-store.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "api"
+      ],
+      "framework": "Astro",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`$organizationStore`",
+      "url": "https://clerk.com/docs/astro/reference/client-side-helpers/organization-store.md",
+      "primaryCategory": "users-organizations",
+      "tags": [
+        "organizations",
+        "api"
+      ],
+      "framework": "Astro",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`$sessionListStore`",
+      "url": "https://clerk.com/docs/astro/reference/client-side-helpers/session-list-store.md",
+      "primaryCategory": "auth-sessions",
+      "tags": [
+        "sessions",
+        "api"
+      ],
+      "framework": "Astro",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`$sessionStore`",
+      "url": "https://clerk.com/docs/astro/reference/client-side-helpers/session-store.md",
+      "primaryCategory": "auth-sessions",
+      "tags": [
+        "sessions",
+        "api"
+      ],
+      "framework": "Astro",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`$signInStore`",
+      "url": "https://clerk.com/docs/astro/reference/client-side-helpers/sign-in-store.md",
+      "primaryCategory": "auth-sessions",
+      "tags": [
+        "authentication",
+        "api"
+      ],
+      "framework": "Astro",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`$signUpStore`",
+      "url": "https://clerk.com/docs/astro/reference/client-side-helpers/sign-up-store.md",
+      "primaryCategory": "auth-sessions",
+      "tags": [
+        "authentication",
+        "api"
+      ],
+      "framework": "Astro",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`$userStore`",
+      "url": "https://clerk.com/docs/astro/reference/client-side-helpers/user-store.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "api"
+      ],
+      "framework": "Astro",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "`<APIKeys />` component",
       "url": "https://clerk.com/docs/astro/reference/components/api-keys.md",
       "primaryCategory": "auth-sessions",
@@ -1145,6 +1262,28 @@
       "deprecated": false
     },
     {
+      "title": "Integration",
+      "url": "https://clerk.com/docs/astro/reference/integration.md",
+      "primaryCategory": "integrations-databases",
+      "tags": [
+        "api"
+      ],
+      "framework": "Astro",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "Locals",
+      "url": "https://clerk.com/docs/astro/reference/locals.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "api"
+      ],
+      "framework": "Astro",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "`APIKeys` object",
       "url": "https://clerk.com/docs/astro/reference/objects/api-keys.md",
       "primaryCategory": "auth-sessions",
@@ -1260,6 +1399,28 @@
       "deprecated": false
     },
     {
+      "title": "Clerk Astro SDK",
+      "url": "https://clerk.com/docs/astro/reference/overview.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "api"
+      ],
+      "framework": "Astro",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "Use Clerk with Astro and React",
+      "url": "https://clerk.com/docs/astro/reference/react.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "api"
+      ],
+      "framework": "Astro",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "`APIKeyResource`",
       "url": "https://clerk.com/docs/astro/reference/types/api-key-resource.md",
       "primaryCategory": "auth-sessions",
@@ -1275,6 +1436,18 @@
       "url": "https://clerk.com/docs/astro/reference/types/backup-code-resource.md",
       "primaryCategory": "sdk-api",
       "tags": [
+        "api"
+      ],
+      "framework": "Astro",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingAppliedDiscount`",
+      "url": "https://clerk.com/docs/astro/reference/types/billing-applied-discount.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
         "api"
       ],
       "framework": "Astro",
@@ -1330,6 +1503,42 @@
       "deprecated": false
     },
     {
+      "title": "`BillingCredits`",
+      "url": "https://clerk.com/docs/astro/reference/types/billing-credits.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "Astro",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingDiscountRedemption`",
+      "url": "https://clerk.com/docs/astro/reference/types/billing-discount-redemption.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "Astro",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingDiscounts`",
+      "url": "https://clerk.com/docs/astro/reference/types/billing-discounts.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "Astro",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "`BillingInitializedPaymentMethodResource`",
       "url": "https://clerk.com/docs/astro/reference/types/billing-initialized-payment-method-resource.md",
       "primaryCategory": "billing",
@@ -1344,6 +1553,18 @@
     {
       "title": "`BillingMoneyAmount`",
       "url": "https://clerk.com/docs/astro/reference/types/billing-money-amount.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "Astro",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingPayerCredit`",
+      "url": "https://clerk.com/docs/astro/reference/types/billing-payer-credit.md",
       "primaryCategory": "billing",
       "tags": [
         "billing",
@@ -1390,6 +1611,18 @@
       "deprecated": false
     },
     {
+      "title": "`BillingPaymentTotals`",
+      "url": "https://clerk.com/docs/astro/reference/types/billing-payment-totals.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "Astro",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "`BillingPerUnitTotalTier`",
       "url": "https://clerk.com/docs/astro/reference/types/billing-per-unit-total-tier.md",
       "primaryCategory": "billing",
@@ -1404,6 +1637,18 @@
     {
       "title": "`BillingPerUnitTotal`",
       "url": "https://clerk.com/docs/astro/reference/types/billing-per-unit-total.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "Astro",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingPeriodTotals`",
+      "url": "https://clerk.com/docs/astro/reference/types/billing-period-totals.md",
       "primaryCategory": "billing",
       "tags": [
         "billing",
@@ -1462,6 +1707,30 @@
       "deprecated": false
     },
     {
+      "title": "`BillingProrationCreditDetail`",
+      "url": "https://clerk.com/docs/astro/reference/types/billing-proration-credit-detail.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "Astro",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingProrationDiscount`",
+      "url": "https://clerk.com/docs/astro/reference/types/billing-proration-discount.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "Astro",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "`BillingStatementGroup`",
       "url": "https://clerk.com/docs/astro/reference/types/billing-statement-group.md",
       "primaryCategory": "billing",
@@ -1498,6 +1767,18 @@
       "deprecated": false
     },
     {
+      "title": "`BillingSubscriptionItemNextPayment`",
+      "url": "https://clerk.com/docs/astro/reference/types/billing-subscription-item-next-payment.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "Astro",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "`BillingSubscriptionItemResource`",
       "url": "https://clerk.com/docs/astro/reference/types/billing-subscription-item-resource.md",
       "primaryCategory": "billing",
@@ -1512,6 +1793,18 @@
     {
       "title": "`BillingSubscriptionItemSeats`",
       "url": "https://clerk.com/docs/astro/reference/types/billing-subscription-item-seats.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "Astro",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingSubscriptionNextPayment`",
+      "url": "https://clerk.com/docs/astro/reference/types/billing-subscription-next-payment.md",
       "primaryCategory": "billing",
       "tags": [
         "billing",
@@ -2221,6 +2514,17 @@
       "deprecated": false
     },
     {
+      "title": "`updateClerkOptions()`",
+      "url": "https://clerk.com/docs/astro/reference/update-clerk-options.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "api"
+      ],
+      "framework": "Astro",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "Chrome Extension Quickstart (Plasmo)",
       "url": "https://clerk.com/docs/chrome-extension/getting-started/quickstart.md",
       "primaryCategory": "quickstarts",
@@ -2772,6 +3076,17 @@
       "deprecated": false
     },
     {
+      "title": "`createClerkClient()`",
+      "url": "https://clerk.com/docs/chrome-extension/reference/create-clerk-client.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "api"
+      ],
+      "framework": "Chrome Extension",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "useSignIn()",
       "url": "https://clerk.com/docs/chrome-extension/reference/hooks/legacy/use-sign-in.md",
       "primaryCategory": "auth-sessions",
@@ -3087,6 +3402,17 @@
       "deprecated": false
     },
     {
+      "title": "Clerk Chrome Extension SDK",
+      "url": "https://clerk.com/docs/chrome-extension/reference/overview.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "api"
+      ],
+      "framework": "Chrome Extension",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "`APIKeyResource`",
       "url": "https://clerk.com/docs/chrome-extension/reference/types/api-key-resource.md",
       "primaryCategory": "auth-sessions",
@@ -3102,6 +3428,18 @@
       "url": "https://clerk.com/docs/chrome-extension/reference/types/backup-code-resource.md",
       "primaryCategory": "sdk-api",
       "tags": [
+        "api"
+      ],
+      "framework": "Chrome Extension",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingAppliedDiscount`",
+      "url": "https://clerk.com/docs/chrome-extension/reference/types/billing-applied-discount.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
         "api"
       ],
       "framework": "Chrome Extension",
@@ -3157,6 +3495,42 @@
       "deprecated": false
     },
     {
+      "title": "`BillingCredits`",
+      "url": "https://clerk.com/docs/chrome-extension/reference/types/billing-credits.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "Chrome Extension",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingDiscountRedemption`",
+      "url": "https://clerk.com/docs/chrome-extension/reference/types/billing-discount-redemption.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "Chrome Extension",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingDiscounts`",
+      "url": "https://clerk.com/docs/chrome-extension/reference/types/billing-discounts.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "Chrome Extension",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "`BillingInitializedPaymentMethodResource`",
       "url": "https://clerk.com/docs/chrome-extension/reference/types/billing-initialized-payment-method-resource.md",
       "primaryCategory": "billing",
@@ -3171,6 +3545,18 @@
     {
       "title": "`BillingMoneyAmount`",
       "url": "https://clerk.com/docs/chrome-extension/reference/types/billing-money-amount.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "Chrome Extension",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingPayerCredit`",
+      "url": "https://clerk.com/docs/chrome-extension/reference/types/billing-payer-credit.md",
       "primaryCategory": "billing",
       "tags": [
         "billing",
@@ -3217,6 +3603,18 @@
       "deprecated": false
     },
     {
+      "title": "`BillingPaymentTotals`",
+      "url": "https://clerk.com/docs/chrome-extension/reference/types/billing-payment-totals.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "Chrome Extension",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "`BillingPerUnitTotalTier`",
       "url": "https://clerk.com/docs/chrome-extension/reference/types/billing-per-unit-total-tier.md",
       "primaryCategory": "billing",
@@ -3231,6 +3629,18 @@
     {
       "title": "`BillingPerUnitTotal`",
       "url": "https://clerk.com/docs/chrome-extension/reference/types/billing-per-unit-total.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "Chrome Extension",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingPeriodTotals`",
+      "url": "https://clerk.com/docs/chrome-extension/reference/types/billing-period-totals.md",
       "primaryCategory": "billing",
       "tags": [
         "billing",
@@ -3289,6 +3699,30 @@
       "deprecated": false
     },
     {
+      "title": "`BillingProrationCreditDetail`",
+      "url": "https://clerk.com/docs/chrome-extension/reference/types/billing-proration-credit-detail.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "Chrome Extension",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingProrationDiscount`",
+      "url": "https://clerk.com/docs/chrome-extension/reference/types/billing-proration-discount.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "Chrome Extension",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "`BillingStatementGroup`",
       "url": "https://clerk.com/docs/chrome-extension/reference/types/billing-statement-group.md",
       "primaryCategory": "billing",
@@ -3325,6 +3759,18 @@
       "deprecated": false
     },
     {
+      "title": "`BillingSubscriptionItemNextPayment`",
+      "url": "https://clerk.com/docs/chrome-extension/reference/types/billing-subscription-item-next-payment.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "Chrome Extension",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "`BillingSubscriptionItemResource`",
       "url": "https://clerk.com/docs/chrome-extension/reference/types/billing-subscription-item-resource.md",
       "primaryCategory": "billing",
@@ -3339,6 +3785,18 @@
     {
       "title": "`BillingSubscriptionItemSeats`",
       "url": "https://clerk.com/docs/chrome-extension/reference/types/billing-subscription-item-seats.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "Chrome Extension",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingSubscriptionNextPayment`",
+      "url": "https://clerk.com/docs/chrome-extension/reference/types/billing-subscription-next-payment.md",
       "primaryCategory": "billing",
       "tags": [
         "billing",
@@ -4760,6 +5218,137 @@
       "deprecated": false
     },
     {
+      "title": "`<AuthView />` component",
+      "url": "https://clerk.com/docs/expo/reference/native-components/auth-view.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "authentication",
+        "components",
+        "api"
+      ],
+      "framework": "Expo",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "Expo Native Components",
+      "url": "https://clerk.com/docs/expo/reference/native-components/overview.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "components",
+        "api"
+      ],
+      "framework": "Expo",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "Theming Expo native components",
+      "url": "https://clerk.com/docs/expo/reference/native-components/theming.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "components",
+        "api"
+      ],
+      "framework": "Expo",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`<UserButton />`",
+      "url": "https://clerk.com/docs/expo/reference/native-components/user-button.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "components",
+        "api"
+      ],
+      "framework": "Expo",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`<UserProfileView />` component",
+      "url": "https://clerk.com/docs/expo/reference/native-components/user-profile-view.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "components",
+        "api"
+      ],
+      "framework": "Expo",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "useHostedAuth()",
+      "url": "https://clerk.com/docs/expo/reference/native-hooks/use-hosted-auth.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "authentication",
+        "api"
+      ],
+      "framework": "Expo",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`useLocalCredentials()`",
+      "url": "https://clerk.com/docs/expo/reference/native-hooks/use-local-credentials.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "api"
+      ],
+      "framework": "Expo",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "useOAuth()",
+      "url": "https://clerk.com/docs/expo/reference/native-hooks/use-oauth.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "authentication",
+        "api"
+      ],
+      "framework": "Expo",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`useSignInWithApple()`",
+      "url": "https://clerk.com/docs/expo/reference/native-hooks/use-sign-in-with-apple.md",
+      "primaryCategory": "auth-sessions",
+      "tags": [
+        "authentication",
+        "api"
+      ],
+      "framework": "Expo",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`useSignInWithGoogle()`",
+      "url": "https://clerk.com/docs/expo/reference/native-hooks/use-sign-in-with-google.md",
+      "primaryCategory": "auth-sessions",
+      "tags": [
+        "authentication",
+        "api"
+      ],
+      "framework": "Expo",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "useSSO()",
+      "url": "https://clerk.com/docs/expo/reference/native-hooks/use-sso.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "api"
+      ],
+      "framework": "Expo",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "`APIKeys` object",
       "url": "https://clerk.com/docs/expo/reference/objects/api-keys.md",
       "primaryCategory": "auth-sessions",
@@ -4899,6 +5488,29 @@
       "deprecated": false
     },
     {
+      "title": "Clerk Expo SDK",
+      "url": "https://clerk.com/docs/expo/reference/overview.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "api"
+      ],
+      "framework": "Expo",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "Configure passkeys for Expo",
+      "url": "https://clerk.com/docs/expo/reference/passkeys.md",
+      "primaryCategory": "auth-sessions",
+      "tags": [
+        "authentication",
+        "api"
+      ],
+      "framework": "Expo",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "`APIKeyResource`",
       "url": "https://clerk.com/docs/expo/reference/types/api-key-resource.md",
       "primaryCategory": "auth-sessions",
@@ -4914,6 +5526,18 @@
       "url": "https://clerk.com/docs/expo/reference/types/backup-code-resource.md",
       "primaryCategory": "sdk-api",
       "tags": [
+        "api"
+      ],
+      "framework": "Expo",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingAppliedDiscount`",
+      "url": "https://clerk.com/docs/expo/reference/types/billing-applied-discount.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
         "api"
       ],
       "framework": "Expo",
@@ -4969,6 +5593,42 @@
       "deprecated": false
     },
     {
+      "title": "`BillingCredits`",
+      "url": "https://clerk.com/docs/expo/reference/types/billing-credits.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "Expo",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingDiscountRedemption`",
+      "url": "https://clerk.com/docs/expo/reference/types/billing-discount-redemption.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "Expo",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingDiscounts`",
+      "url": "https://clerk.com/docs/expo/reference/types/billing-discounts.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "Expo",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "`BillingInitializedPaymentMethodResource`",
       "url": "https://clerk.com/docs/expo/reference/types/billing-initialized-payment-method-resource.md",
       "primaryCategory": "billing",
@@ -4983,6 +5643,18 @@
     {
       "title": "`BillingMoneyAmount`",
       "url": "https://clerk.com/docs/expo/reference/types/billing-money-amount.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "Expo",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingPayerCredit`",
+      "url": "https://clerk.com/docs/expo/reference/types/billing-payer-credit.md",
       "primaryCategory": "billing",
       "tags": [
         "billing",
@@ -5029,6 +5701,18 @@
       "deprecated": false
     },
     {
+      "title": "`BillingPaymentTotals`",
+      "url": "https://clerk.com/docs/expo/reference/types/billing-payment-totals.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "Expo",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "`BillingPerUnitTotalTier`",
       "url": "https://clerk.com/docs/expo/reference/types/billing-per-unit-total-tier.md",
       "primaryCategory": "billing",
@@ -5043,6 +5727,18 @@
     {
       "title": "`BillingPerUnitTotal`",
       "url": "https://clerk.com/docs/expo/reference/types/billing-per-unit-total.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "Expo",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingPeriodTotals`",
+      "url": "https://clerk.com/docs/expo/reference/types/billing-period-totals.md",
       "primaryCategory": "billing",
       "tags": [
         "billing",
@@ -5101,6 +5797,30 @@
       "deprecated": false
     },
     {
+      "title": "`BillingProrationCreditDetail`",
+      "url": "https://clerk.com/docs/expo/reference/types/billing-proration-credit-detail.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "Expo",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingProrationDiscount`",
+      "url": "https://clerk.com/docs/expo/reference/types/billing-proration-discount.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "Expo",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "`BillingStatementGroup`",
       "url": "https://clerk.com/docs/expo/reference/types/billing-statement-group.md",
       "primaryCategory": "billing",
@@ -5137,6 +5857,18 @@
       "deprecated": false
     },
     {
+      "title": "`BillingSubscriptionItemNextPayment`",
+      "url": "https://clerk.com/docs/expo/reference/types/billing-subscription-item-next-payment.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "Expo",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "`BillingSubscriptionItemResource`",
       "url": "https://clerk.com/docs/expo/reference/types/billing-subscription-item-resource.md",
       "primaryCategory": "billing",
@@ -5151,6 +5883,18 @@
     {
       "title": "`BillingSubscriptionItemSeats`",
       "url": "https://clerk.com/docs/expo/reference/types/billing-subscription-item-seats.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "Expo",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingSubscriptionNextPayment`",
+      "url": "https://clerk.com/docs/expo/reference/types/billing-subscription-next-payment.md",
       "primaryCategory": "billing",
       "tags": [
         "billing",
@@ -6102,11 +6846,57 @@
       "deprecated": false
     },
     {
+      "title": "`clerkMiddleware()`",
+      "url": "https://clerk.com/docs/expressjs/reference/clerk-middleware.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "api"
+      ],
+      "framework": "Express",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "Component Reference",
       "url": "https://clerk.com/docs/expressjs/reference/components/overview.md",
       "primaryCategory": "concepts-components",
       "tags": [
         "components",
+        "api"
+      ],
+      "framework": "Express",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`getAuth()`",
+      "url": "https://clerk.com/docs/expressjs/reference/get-auth.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "authentication",
+        "api"
+      ],
+      "framework": "Express",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "Clerk Express SDK",
+      "url": "https://clerk.com/docs/expressjs/reference/overview.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "api"
+      ],
+      "framework": "Express",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`requireAuth()`",
+      "url": "https://clerk.com/docs/expressjs/reference/require-auth.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "authentication",
         "api"
       ],
       "framework": "Express",
@@ -6347,11 +7137,45 @@
       "deprecated": false
     },
     {
+      "title": "`clerkPlugin()`",
+      "url": "https://clerk.com/docs/fastify/reference/clerk-plugin.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "api"
+      ],
+      "framework": "Fastify",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "Component Reference",
       "url": "https://clerk.com/docs/fastify/reference/components/overview.md",
       "primaryCategory": "concepts-components",
       "tags": [
         "components",
+        "api"
+      ],
+      "framework": "Fastify",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`getAuth()`",
+      "url": "https://clerk.com/docs/fastify/reference/get-auth.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "authentication",
+        "api"
+      ],
+      "framework": "Fastify",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "Clerk Fastify SDK",
+      "url": "https://clerk.com/docs/fastify/reference/overview.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
         "api"
       ],
       "framework": "Fastify",
@@ -6606,6 +7430,17 @@
       "deprecated": false
     },
     {
+      "title": "Clerk Go SDK",
+      "url": "https://clerk.com/docs/go/reference/overview.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "api"
+      ],
+      "framework": "Go",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "Linking to Account Portal pages",
       "url": "https://clerk.com/docs/guides/account-portal/direct-links.md",
       "primaryCategory": "concepts-components",
@@ -6761,6 +7596,17 @@
     {
       "title": "Default Plans",
       "url": "https://clerk.com/docs/guides/billing/default-plans.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing"
+      ],
+      "framework": null,
+      "kind": "guide",
+      "deprecated": false
+    },
+    {
+      "title": "Discounts and promo codes",
+      "url": "https://clerk.com/docs/guides/billing/discounts.md",
       "primaryCategory": "billing",
       "tags": [
         "billing"
@@ -9611,7 +10457,7 @@
       "deprecated": false
     },
     {
-      "title": "Restrictions",
+      "title": "Restricting access",
       "url": "https://clerk.com/docs/guides/secure/restricting-access.md",
       "primaryCategory": "security",
       "tags": [
@@ -9951,6 +10797,17 @@
       "deprecated": false
     },
     {
+      "title": "SwiftUI previews",
+      "url": "https://clerk.com/docs/ios/reference/swiftui-previews.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "api"
+      ],
+      "framework": "iOS",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "`AuthView`",
       "url": "https://clerk.com/docs/ios/reference/views/authentication/auth-view.md",
       "primaryCategory": "auth-sessions",
@@ -10023,6 +10880,17 @@
     {
       "title": "`UserProfileView`",
       "url": "https://clerk.com/docs/ios/reference/views/user/user-profile-view.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "api"
+      ],
+      "framework": "iOS",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "Watch Connectivity",
+      "url": "https://clerk.com/docs/ios/reference/watch-connectivity.md",
       "primaryCategory": "concepts-components",
       "tags": [
         "api"
@@ -10694,6 +11562,17 @@
       "deprecated": false
     },
     {
+      "title": "Clerk JavaScript SDK",
+      "url": "https://clerk.com/docs/js-frontend/reference/overview.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "api"
+      ],
+      "framework": "JavaScript",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "`APIKeyResource`",
       "url": "https://clerk.com/docs/js-frontend/reference/types/api-key-resource.md",
       "primaryCategory": "auth-sessions",
@@ -10709,6 +11588,18 @@
       "url": "https://clerk.com/docs/js-frontend/reference/types/backup-code-resource.md",
       "primaryCategory": "sdk-api",
       "tags": [
+        "api"
+      ],
+      "framework": "JavaScript",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingAppliedDiscount`",
+      "url": "https://clerk.com/docs/js-frontend/reference/types/billing-applied-discount.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
         "api"
       ],
       "framework": "JavaScript",
@@ -10764,6 +11655,42 @@
       "deprecated": false
     },
     {
+      "title": "`BillingCredits`",
+      "url": "https://clerk.com/docs/js-frontend/reference/types/billing-credits.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "JavaScript",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingDiscountRedemption`",
+      "url": "https://clerk.com/docs/js-frontend/reference/types/billing-discount-redemption.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "JavaScript",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingDiscounts`",
+      "url": "https://clerk.com/docs/js-frontend/reference/types/billing-discounts.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "JavaScript",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "`BillingInitializedPaymentMethodResource`",
       "url": "https://clerk.com/docs/js-frontend/reference/types/billing-initialized-payment-method-resource.md",
       "primaryCategory": "billing",
@@ -10778,6 +11705,18 @@
     {
       "title": "`BillingMoneyAmount`",
       "url": "https://clerk.com/docs/js-frontend/reference/types/billing-money-amount.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "JavaScript",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingPayerCredit`",
+      "url": "https://clerk.com/docs/js-frontend/reference/types/billing-payer-credit.md",
       "primaryCategory": "billing",
       "tags": [
         "billing",
@@ -10824,6 +11763,18 @@
       "deprecated": false
     },
     {
+      "title": "`BillingPaymentTotals`",
+      "url": "https://clerk.com/docs/js-frontend/reference/types/billing-payment-totals.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "JavaScript",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "`BillingPerUnitTotalTier`",
       "url": "https://clerk.com/docs/js-frontend/reference/types/billing-per-unit-total-tier.md",
       "primaryCategory": "billing",
@@ -10838,6 +11789,18 @@
     {
       "title": "`BillingPerUnitTotal`",
       "url": "https://clerk.com/docs/js-frontend/reference/types/billing-per-unit-total.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "JavaScript",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingPeriodTotals`",
+      "url": "https://clerk.com/docs/js-frontend/reference/types/billing-period-totals.md",
       "primaryCategory": "billing",
       "tags": [
         "billing",
@@ -10896,6 +11859,30 @@
       "deprecated": false
     },
     {
+      "title": "`BillingProrationCreditDetail`",
+      "url": "https://clerk.com/docs/js-frontend/reference/types/billing-proration-credit-detail.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "JavaScript",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingProrationDiscount`",
+      "url": "https://clerk.com/docs/js-frontend/reference/types/billing-proration-discount.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "JavaScript",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "`BillingStatementGroup`",
       "url": "https://clerk.com/docs/js-frontend/reference/types/billing-statement-group.md",
       "primaryCategory": "billing",
@@ -10932,6 +11919,18 @@
       "deprecated": false
     },
     {
+      "title": "`BillingSubscriptionItemNextPayment`",
+      "url": "https://clerk.com/docs/js-frontend/reference/types/billing-subscription-item-next-payment.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "JavaScript",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "`BillingSubscriptionItemResource`",
       "url": "https://clerk.com/docs/js-frontend/reference/types/billing-subscription-item-resource.md",
       "primaryCategory": "billing",
@@ -10946,6 +11945,18 @@
     {
       "title": "`BillingSubscriptionItemSeats`",
       "url": "https://clerk.com/docs/js-frontend/reference/types/billing-subscription-item-seats.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "JavaScript",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingSubscriptionNextPayment`",
+      "url": "https://clerk.com/docs/js-frontend/reference/types/billing-subscription-next-payment.md",
       "primaryCategory": "billing",
       "tags": [
         "billing",
@@ -12085,6 +13096,62 @@
       "deprecated": false
     },
     {
+      "title": "`auth()`",
+      "url": "https://clerk.com/docs/nextjs/reference/app-router/auth.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "authentication",
+        "api"
+      ],
+      "framework": "Next.js",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`currentUser()`",
+      "url": "https://clerk.com/docs/nextjs/reference/app-router/current-user.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "api"
+      ],
+      "framework": "Next.js",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "Route Handlers",
+      "url": "https://clerk.com/docs/nextjs/reference/app-router/route-handlers.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "api"
+      ],
+      "framework": "Next.js",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "Server Actions",
+      "url": "https://clerk.com/docs/nextjs/reference/app-router/server-actions.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "api"
+      ],
+      "framework": "Next.js",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "clerkMiddleware()",
+      "url": "https://clerk.com/docs/nextjs/reference/clerk-middleware.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "api"
+      ],
+      "framework": "Next.js",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "`<APIKeys />` component",
       "url": "https://clerk.com/docs/nextjs/reference/components/api-keys.md",
       "primaryCategory": "auth-sessions",
@@ -12585,6 +13652,63 @@
       "deprecated": false
     },
     {
+      "title": "Clerk: auth() was called but Clerk can't detect usage of clerkMiddleware()",
+      "url": "https://clerk.com/docs/nextjs/reference/errors/auth-was-called.md",
+      "primaryCategory": "operations",
+      "tags": [
+        "authentication",
+        "api"
+      ],
+      "framework": "Next.js",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "Clerk: `<Protect>` is not available in @clerk/nextjs Core 3",
+      "url": "https://clerk.com/docs/nextjs/reference/errors/protect-is-not-available-in-clerk-nextjs.md",
+      "primaryCategory": "security",
+      "tags": [
+        "security",
+        "api"
+      ],
+      "framework": "Next.js",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "Clerk: `<SignedIn>` is not available in @clerk/nextjs Core 3",
+      "url": "https://clerk.com/docs/nextjs/reference/errors/signedin-is-not-available-in-clerk-nextjs.md",
+      "primaryCategory": "operations",
+      "tags": [
+        "api"
+      ],
+      "framework": "Next.js",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "Clerk: `<SignedOut>` is not available in @clerk/nextjs Core 3",
+      "url": "https://clerk.com/docs/nextjs/reference/errors/signedout-is-not-available-in-clerk-nextjs.md",
+      "primaryCategory": "operations",
+      "tags": [
+        "api"
+      ],
+      "framework": "Next.js",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`@clerk/eslint-plugin`",
+      "url": "https://clerk.com/docs/nextjs/reference/eslint-plugin.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "api"
+      ],
+      "framework": "Next.js",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "useSignIn()",
       "url": "https://clerk.com/docs/nextjs/reference/hooks/legacy/use-sign-in.md",
       "primaryCategory": "auth-sessions",
@@ -13002,6 +14126,40 @@
       "deprecated": false
     },
     {
+      "title": "Clerk Next.js SDK",
+      "url": "https://clerk.com/docs/nextjs/reference/overview.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "api"
+      ],
+      "framework": "Next.js",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`buildClerkProps`",
+      "url": "https://clerk.com/docs/nextjs/reference/pages-router/build-clerk-props.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "api"
+      ],
+      "framework": "Next.js",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`getAuth()`",
+      "url": "https://clerk.com/docs/nextjs/reference/pages-router/get-auth.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "authentication",
+        "api"
+      ],
+      "framework": "Next.js",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "`APIKeyResource`",
       "url": "https://clerk.com/docs/nextjs/reference/types/api-key-resource.md",
       "primaryCategory": "auth-sessions",
@@ -13017,6 +14175,18 @@
       "url": "https://clerk.com/docs/nextjs/reference/types/backup-code-resource.md",
       "primaryCategory": "sdk-api",
       "tags": [
+        "api"
+      ],
+      "framework": "Next.js",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingAppliedDiscount`",
+      "url": "https://clerk.com/docs/nextjs/reference/types/billing-applied-discount.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
         "api"
       ],
       "framework": "Next.js",
@@ -13072,6 +14242,42 @@
       "deprecated": false
     },
     {
+      "title": "`BillingCredits`",
+      "url": "https://clerk.com/docs/nextjs/reference/types/billing-credits.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "Next.js",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingDiscountRedemption`",
+      "url": "https://clerk.com/docs/nextjs/reference/types/billing-discount-redemption.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "Next.js",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingDiscounts`",
+      "url": "https://clerk.com/docs/nextjs/reference/types/billing-discounts.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "Next.js",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "`BillingInitializedPaymentMethodResource`",
       "url": "https://clerk.com/docs/nextjs/reference/types/billing-initialized-payment-method-resource.md",
       "primaryCategory": "billing",
@@ -13086,6 +14292,18 @@
     {
       "title": "`BillingMoneyAmount`",
       "url": "https://clerk.com/docs/nextjs/reference/types/billing-money-amount.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "Next.js",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingPayerCredit`",
+      "url": "https://clerk.com/docs/nextjs/reference/types/billing-payer-credit.md",
       "primaryCategory": "billing",
       "tags": [
         "billing",
@@ -13132,6 +14350,18 @@
       "deprecated": false
     },
     {
+      "title": "`BillingPaymentTotals`",
+      "url": "https://clerk.com/docs/nextjs/reference/types/billing-payment-totals.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "Next.js",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "`BillingPerUnitTotalTier`",
       "url": "https://clerk.com/docs/nextjs/reference/types/billing-per-unit-total-tier.md",
       "primaryCategory": "billing",
@@ -13146,6 +14376,18 @@
     {
       "title": "`BillingPerUnitTotal`",
       "url": "https://clerk.com/docs/nextjs/reference/types/billing-per-unit-total.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "Next.js",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingPeriodTotals`",
+      "url": "https://clerk.com/docs/nextjs/reference/types/billing-period-totals.md",
       "primaryCategory": "billing",
       "tags": [
         "billing",
@@ -13204,6 +14446,30 @@
       "deprecated": false
     },
     {
+      "title": "`BillingProrationCreditDetail`",
+      "url": "https://clerk.com/docs/nextjs/reference/types/billing-proration-credit-detail.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "Next.js",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingProrationDiscount`",
+      "url": "https://clerk.com/docs/nextjs/reference/types/billing-proration-discount.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "Next.js",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "`BillingStatementGroup`",
       "url": "https://clerk.com/docs/nextjs/reference/types/billing-statement-group.md",
       "primaryCategory": "billing",
@@ -13240,6 +14506,18 @@
       "deprecated": false
     },
     {
+      "title": "`BillingSubscriptionItemNextPayment`",
+      "url": "https://clerk.com/docs/nextjs/reference/types/billing-subscription-item-next-payment.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "Next.js",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "`BillingSubscriptionItemResource`",
       "url": "https://clerk.com/docs/nextjs/reference/types/billing-subscription-item-resource.md",
       "primaryCategory": "billing",
@@ -13254,6 +14532,18 @@
     {
       "title": "`BillingSubscriptionItemSeats`",
       "url": "https://clerk.com/docs/nextjs/reference/types/billing-subscription-item-seats.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "Next.js",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingSubscriptionNextPayment`",
+      "url": "https://clerk.com/docs/nextjs/reference/types/billing-subscription-next-payment.md",
       "primaryCategory": "billing",
       "tags": [
         "billing",
@@ -13963,6 +15253,17 @@
       "deprecated": false
     },
     {
+      "title": "Use Clerk with Next.js 12 and older",
+      "url": "https://clerk.com/docs/nextjs/reference/usage-with-older-versions.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "api"
+      ],
+      "framework": "Next.js",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "Nuxt Quickstart",
       "url": "https://clerk.com/docs/nuxt/getting-started/quickstart.md",
       "primaryCategory": "quickstarts",
@@ -14314,6 +15615,17 @@
       "tags": [],
       "framework": "Nuxt",
       "kind": "guide",
+      "deprecated": false
+    },
+    {
+      "title": "clerkMiddleware() | Nuxt",
+      "url": "https://clerk.com/docs/nuxt/reference/clerk-middleware.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "api"
+      ],
+      "framework": "Nuxt",
+      "kind": "reference",
       "deprecated": false
     },
     {
@@ -14784,6 +16096,17 @@
       "deprecated": false
     },
     {
+      "title": "`@clerk/nuxt` module",
+      "url": "https://clerk.com/docs/nuxt/reference/integration.md",
+      "primaryCategory": "integrations-databases",
+      "tags": [
+        "api"
+      ],
+      "framework": "Nuxt",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "`APIKeys` object",
       "url": "https://clerk.com/docs/nuxt/reference/objects/api-keys.md",
       "primaryCategory": "auth-sessions",
@@ -14899,6 +16222,17 @@
       "deprecated": false
     },
     {
+      "title": "Clerk Nuxt SDK",
+      "url": "https://clerk.com/docs/nuxt/reference/overview.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "api"
+      ],
+      "framework": "Nuxt",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "`APIKeyResource`",
       "url": "https://clerk.com/docs/nuxt/reference/types/api-key-resource.md",
       "primaryCategory": "auth-sessions",
@@ -14914,6 +16248,18 @@
       "url": "https://clerk.com/docs/nuxt/reference/types/backup-code-resource.md",
       "primaryCategory": "sdk-api",
       "tags": [
+        "api"
+      ],
+      "framework": "Nuxt",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingAppliedDiscount`",
+      "url": "https://clerk.com/docs/nuxt/reference/types/billing-applied-discount.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
         "api"
       ],
       "framework": "Nuxt",
@@ -14969,6 +16315,42 @@
       "deprecated": false
     },
     {
+      "title": "`BillingCredits`",
+      "url": "https://clerk.com/docs/nuxt/reference/types/billing-credits.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "Nuxt",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingDiscountRedemption`",
+      "url": "https://clerk.com/docs/nuxt/reference/types/billing-discount-redemption.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "Nuxt",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingDiscounts`",
+      "url": "https://clerk.com/docs/nuxt/reference/types/billing-discounts.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "Nuxt",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "`BillingInitializedPaymentMethodResource`",
       "url": "https://clerk.com/docs/nuxt/reference/types/billing-initialized-payment-method-resource.md",
       "primaryCategory": "billing",
@@ -14983,6 +16365,18 @@
     {
       "title": "`BillingMoneyAmount`",
       "url": "https://clerk.com/docs/nuxt/reference/types/billing-money-amount.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "Nuxt",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingPayerCredit`",
+      "url": "https://clerk.com/docs/nuxt/reference/types/billing-payer-credit.md",
       "primaryCategory": "billing",
       "tags": [
         "billing",
@@ -15029,6 +16423,18 @@
       "deprecated": false
     },
     {
+      "title": "`BillingPaymentTotals`",
+      "url": "https://clerk.com/docs/nuxt/reference/types/billing-payment-totals.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "Nuxt",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "`BillingPerUnitTotalTier`",
       "url": "https://clerk.com/docs/nuxt/reference/types/billing-per-unit-total-tier.md",
       "primaryCategory": "billing",
@@ -15043,6 +16449,18 @@
     {
       "title": "`BillingPerUnitTotal`",
       "url": "https://clerk.com/docs/nuxt/reference/types/billing-per-unit-total.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "Nuxt",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingPeriodTotals`",
+      "url": "https://clerk.com/docs/nuxt/reference/types/billing-period-totals.md",
       "primaryCategory": "billing",
       "tags": [
         "billing",
@@ -15101,6 +16519,30 @@
       "deprecated": false
     },
     {
+      "title": "`BillingProrationCreditDetail`",
+      "url": "https://clerk.com/docs/nuxt/reference/types/billing-proration-credit-detail.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "Nuxt",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingProrationDiscount`",
+      "url": "https://clerk.com/docs/nuxt/reference/types/billing-proration-discount.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "Nuxt",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "`BillingStatementGroup`",
       "url": "https://clerk.com/docs/nuxt/reference/types/billing-statement-group.md",
       "primaryCategory": "billing",
@@ -15137,6 +16579,18 @@
       "deprecated": false
     },
     {
+      "title": "`BillingSubscriptionItemNextPayment`",
+      "url": "https://clerk.com/docs/nuxt/reference/types/billing-subscription-item-next-payment.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "Nuxt",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "`BillingSubscriptionItemResource`",
       "url": "https://clerk.com/docs/nuxt/reference/types/billing-subscription-item-resource.md",
       "primaryCategory": "billing",
@@ -15151,6 +16605,18 @@
     {
       "title": "`BillingSubscriptionItemSeats`",
       "url": "https://clerk.com/docs/nuxt/reference/types/billing-subscription-item-seats.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "Nuxt",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingSubscriptionNextPayment`",
+      "url": "https://clerk.com/docs/nuxt/reference/types/billing-subscription-next-payment.md",
       "primaryCategory": "billing",
       "tags": [
         "billing",
@@ -16234,6 +17700,17 @@
       "deprecated": false
     },
     {
+      "title": "`clerkMiddleware()` | React Router",
+      "url": "https://clerk.com/docs/react-router/reference/clerk-middleware.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "api"
+      ],
+      "framework": "React Router",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "`<APIKeys />` component",
       "url": "https://clerk.com/docs/react-router/reference/components/api-keys.md",
       "primaryCategory": "auth-sessions",
@@ -16695,6 +18172,18 @@
       "deprecated": false
     },
     {
+      "title": "`getAuth()`",
+      "url": "https://clerk.com/docs/react-router/reference/get-auth.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "authentication",
+        "api"
+      ],
+      "framework": "React Router",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "useSignIn()",
       "url": "https://clerk.com/docs/react-router/reference/hooks/legacy/use-sign-in.md",
       "primaryCategory": "auth-sessions",
@@ -17022,6 +18511,29 @@
       "deprecated": false
     },
     {
+      "title": "Clerk React Router SDK",
+      "url": "https://clerk.com/docs/react-router/reference/overview.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "api"
+      ],
+      "framework": "React Router",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`rootAuthLoader()`",
+      "url": "https://clerk.com/docs/react-router/reference/root-auth-loader.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "authentication",
+        "api"
+      ],
+      "framework": "React Router",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "`APIKeyResource`",
       "url": "https://clerk.com/docs/react-router/reference/types/api-key-resource.md",
       "primaryCategory": "auth-sessions",
@@ -17037,6 +18549,18 @@
       "url": "https://clerk.com/docs/react-router/reference/types/backup-code-resource.md",
       "primaryCategory": "sdk-api",
       "tags": [
+        "api"
+      ],
+      "framework": "React Router",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingAppliedDiscount`",
+      "url": "https://clerk.com/docs/react-router/reference/types/billing-applied-discount.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
         "api"
       ],
       "framework": "React Router",
@@ -17092,6 +18616,42 @@
       "deprecated": false
     },
     {
+      "title": "`BillingCredits`",
+      "url": "https://clerk.com/docs/react-router/reference/types/billing-credits.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "React Router",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingDiscountRedemption`",
+      "url": "https://clerk.com/docs/react-router/reference/types/billing-discount-redemption.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "React Router",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingDiscounts`",
+      "url": "https://clerk.com/docs/react-router/reference/types/billing-discounts.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "React Router",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "`BillingInitializedPaymentMethodResource`",
       "url": "https://clerk.com/docs/react-router/reference/types/billing-initialized-payment-method-resource.md",
       "primaryCategory": "billing",
@@ -17106,6 +18666,18 @@
     {
       "title": "`BillingMoneyAmount`",
       "url": "https://clerk.com/docs/react-router/reference/types/billing-money-amount.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "React Router",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingPayerCredit`",
+      "url": "https://clerk.com/docs/react-router/reference/types/billing-payer-credit.md",
       "primaryCategory": "billing",
       "tags": [
         "billing",
@@ -17152,6 +18724,18 @@
       "deprecated": false
     },
     {
+      "title": "`BillingPaymentTotals`",
+      "url": "https://clerk.com/docs/react-router/reference/types/billing-payment-totals.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "React Router",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "`BillingPerUnitTotalTier`",
       "url": "https://clerk.com/docs/react-router/reference/types/billing-per-unit-total-tier.md",
       "primaryCategory": "billing",
@@ -17166,6 +18750,18 @@
     {
       "title": "`BillingPerUnitTotal`",
       "url": "https://clerk.com/docs/react-router/reference/types/billing-per-unit-total.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "React Router",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingPeriodTotals`",
+      "url": "https://clerk.com/docs/react-router/reference/types/billing-period-totals.md",
       "primaryCategory": "billing",
       "tags": [
         "billing",
@@ -17224,6 +18820,30 @@
       "deprecated": false
     },
     {
+      "title": "`BillingProrationCreditDetail`",
+      "url": "https://clerk.com/docs/react-router/reference/types/billing-proration-credit-detail.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "React Router",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingProrationDiscount`",
+      "url": "https://clerk.com/docs/react-router/reference/types/billing-proration-discount.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "React Router",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "`BillingStatementGroup`",
       "url": "https://clerk.com/docs/react-router/reference/types/billing-statement-group.md",
       "primaryCategory": "billing",
@@ -17260,6 +18880,18 @@
       "deprecated": false
     },
     {
+      "title": "`BillingSubscriptionItemNextPayment`",
+      "url": "https://clerk.com/docs/react-router/reference/types/billing-subscription-item-next-payment.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "React Router",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "`BillingSubscriptionItemResource`",
       "url": "https://clerk.com/docs/react-router/reference/types/billing-subscription-item-resource.md",
       "primaryCategory": "billing",
@@ -17274,6 +18906,18 @@
     {
       "title": "`BillingSubscriptionItemSeats`",
       "url": "https://clerk.com/docs/react-router/reference/types/billing-subscription-item-seats.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "React Router",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingSubscriptionNextPayment`",
+      "url": "https://clerk.com/docs/react-router/reference/types/billing-subscription-next-payment.md",
       "primaryCategory": "billing",
       "tags": [
         "billing",
@@ -19286,6 +20930,17 @@
       "deprecated": false
     },
     {
+      "title": "Clerk React SDK",
+      "url": "https://clerk.com/docs/react/reference/overview.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "api"
+      ],
+      "framework": "React",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "`APIKeyResource`",
       "url": "https://clerk.com/docs/react/reference/types/api-key-resource.md",
       "primaryCategory": "auth-sessions",
@@ -19301,6 +20956,18 @@
       "url": "https://clerk.com/docs/react/reference/types/backup-code-resource.md",
       "primaryCategory": "sdk-api",
       "tags": [
+        "api"
+      ],
+      "framework": "React",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingAppliedDiscount`",
+      "url": "https://clerk.com/docs/react/reference/types/billing-applied-discount.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
         "api"
       ],
       "framework": "React",
@@ -19356,6 +21023,42 @@
       "deprecated": false
     },
     {
+      "title": "`BillingCredits`",
+      "url": "https://clerk.com/docs/react/reference/types/billing-credits.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "React",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingDiscountRedemption`",
+      "url": "https://clerk.com/docs/react/reference/types/billing-discount-redemption.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "React",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingDiscounts`",
+      "url": "https://clerk.com/docs/react/reference/types/billing-discounts.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "React",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "`BillingInitializedPaymentMethodResource`",
       "url": "https://clerk.com/docs/react/reference/types/billing-initialized-payment-method-resource.md",
       "primaryCategory": "billing",
@@ -19370,6 +21073,18 @@
     {
       "title": "`BillingMoneyAmount`",
       "url": "https://clerk.com/docs/react/reference/types/billing-money-amount.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "React",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingPayerCredit`",
+      "url": "https://clerk.com/docs/react/reference/types/billing-payer-credit.md",
       "primaryCategory": "billing",
       "tags": [
         "billing",
@@ -19416,6 +21131,18 @@
       "deprecated": false
     },
     {
+      "title": "`BillingPaymentTotals`",
+      "url": "https://clerk.com/docs/react/reference/types/billing-payment-totals.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "React",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "`BillingPerUnitTotalTier`",
       "url": "https://clerk.com/docs/react/reference/types/billing-per-unit-total-tier.md",
       "primaryCategory": "billing",
@@ -19430,6 +21157,18 @@
     {
       "title": "`BillingPerUnitTotal`",
       "url": "https://clerk.com/docs/react/reference/types/billing-per-unit-total.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "React",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingPeriodTotals`",
+      "url": "https://clerk.com/docs/react/reference/types/billing-period-totals.md",
       "primaryCategory": "billing",
       "tags": [
         "billing",
@@ -19488,6 +21227,30 @@
       "deprecated": false
     },
     {
+      "title": "`BillingProrationCreditDetail`",
+      "url": "https://clerk.com/docs/react/reference/types/billing-proration-credit-detail.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "React",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingProrationDiscount`",
+      "url": "https://clerk.com/docs/react/reference/types/billing-proration-discount.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "React",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "`BillingStatementGroup`",
       "url": "https://clerk.com/docs/react/reference/types/billing-statement-group.md",
       "primaryCategory": "billing",
@@ -19524,6 +21287,18 @@
       "deprecated": false
     },
     {
+      "title": "`BillingSubscriptionItemNextPayment`",
+      "url": "https://clerk.com/docs/react/reference/types/billing-subscription-item-next-payment.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "React",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "`BillingSubscriptionItemResource`",
       "url": "https://clerk.com/docs/react/reference/types/billing-subscription-item-resource.md",
       "primaryCategory": "billing",
@@ -19538,6 +21313,18 @@
     {
       "title": "`BillingSubscriptionItemSeats`",
       "url": "https://clerk.com/docs/react/reference/types/billing-subscription-item-seats.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "React",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingSubscriptionNextPayment`",
+      "url": "https://clerk.com/docs/react/reference/types/billing-subscription-next-payment.md",
       "primaryCategory": "billing",
       "tags": [
         "billing",
@@ -20247,180 +22034,8 @@
       "deprecated": false
     },
     {
-      "title": "Configure passkeys for Android",
-      "url": "https://clerk.com/docs/reference/android/passkeys.md",
-      "primaryCategory": "auth-sessions",
-      "tags": [
-        "authentication",
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
       "title": "API Reference",
       "url": "https://clerk.com/docs/reference/api/overview.md",
-      "primaryCategory": "sdk-api",
-      "tags": [
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "`clerkMiddleware()` | Astro",
-      "url": "https://clerk.com/docs/reference/astro/clerk-middleware.md",
-      "primaryCategory": "sdk-api",
-      "tags": [
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "`$authStore`",
-      "url": "https://clerk.com/docs/reference/astro/client-side-helpers/auth-store.md",
-      "primaryCategory": "sdk-api",
-      "tags": [
-        "authentication",
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "`$clerkStore`",
-      "url": "https://clerk.com/docs/reference/astro/client-side-helpers/clerk-store.md",
-      "primaryCategory": "sdk-api",
-      "tags": [
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "`$organizationStore`",
-      "url": "https://clerk.com/docs/reference/astro/client-side-helpers/organization-store.md",
-      "primaryCategory": "users-organizations",
-      "tags": [
-        "organizations",
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "`$sessionListStore`",
-      "url": "https://clerk.com/docs/reference/astro/client-side-helpers/session-list-store.md",
-      "primaryCategory": "auth-sessions",
-      "tags": [
-        "sessions",
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "`$sessionStore`",
-      "url": "https://clerk.com/docs/reference/astro/client-side-helpers/session-store.md",
-      "primaryCategory": "auth-sessions",
-      "tags": [
-        "sessions",
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "`$signInStore`",
-      "url": "https://clerk.com/docs/reference/astro/client-side-helpers/sign-in-store.md",
-      "primaryCategory": "auth-sessions",
-      "tags": [
-        "authentication",
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "`$signUpStore`",
-      "url": "https://clerk.com/docs/reference/astro/client-side-helpers/sign-up-store.md",
-      "primaryCategory": "auth-sessions",
-      "tags": [
-        "authentication",
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "`$userStore`",
-      "url": "https://clerk.com/docs/reference/astro/client-side-helpers/user-store.md",
-      "primaryCategory": "sdk-api",
-      "tags": [
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "Integration",
-      "url": "https://clerk.com/docs/reference/astro/integration.md",
-      "primaryCategory": "integrations-databases",
-      "tags": [
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "Locals",
-      "url": "https://clerk.com/docs/reference/astro/locals.md",
-      "primaryCategory": "sdk-api",
-      "tags": [
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "Clerk Astro SDK",
-      "url": "https://clerk.com/docs/reference/astro/overview.md",
-      "primaryCategory": "sdk-api",
-      "tags": [
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "Use Clerk with Astro and React",
-      "url": "https://clerk.com/docs/reference/astro/react.md",
-      "primaryCategory": "sdk-api",
-      "tags": [
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "`updateClerkOptions()`",
-      "url": "https://clerk.com/docs/reference/astro/update-clerk-options.md",
       "primaryCategory": "sdk-api",
       "tags": [
         "api"
@@ -22468,6 +24083,18 @@
       "deprecated": false
     },
     {
+      "title": "`removePassword()`",
+      "url": "https://clerk.com/docs/reference/backend/user/remove-password.md",
+      "primaryCategory": "auth-sessions",
+      "tags": [
+        "authentication",
+        "api"
+      ],
+      "framework": null,
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "`replaceUserMetadata()`",
       "url": "https://clerk.com/docs/reference/backend/user/replace-user-metadata.md",
       "primaryCategory": "sdk-api",
@@ -22671,28 +24298,6 @@
       "deprecated": false
     },
     {
-      "title": "`createClerkClient()`",
-      "url": "https://clerk.com/docs/reference/chrome-extension/create-clerk-client.md",
-      "primaryCategory": "sdk-api",
-      "tags": [
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "Clerk Chrome Extension SDK",
-      "url": "https://clerk.com/docs/reference/chrome-extension/overview.md",
-      "primaryCategory": "sdk-api",
-      "tags": [
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
       "title": "Component Changelog",
       "url": "https://clerk.com/docs/reference/components/changelog.md",
       "primaryCategory": "sdk-api",
@@ -22717,441 +24322,6 @@
       "deprecated": false
     },
     {
-      "title": "`<AuthView />` component",
-      "url": "https://clerk.com/docs/reference/expo/native-components/auth-view.md",
-      "primaryCategory": "sdk-api",
-      "tags": [
-        "authentication",
-        "components",
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "Expo Native Components",
-      "url": "https://clerk.com/docs/reference/expo/native-components/overview.md",
-      "primaryCategory": "sdk-api",
-      "tags": [
-        "components",
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "Theming Expo native components",
-      "url": "https://clerk.com/docs/reference/expo/native-components/theming.md",
-      "primaryCategory": "sdk-api",
-      "tags": [
-        "components",
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "`<UserButton />`",
-      "url": "https://clerk.com/docs/reference/expo/native-components/user-button.md",
-      "primaryCategory": "sdk-api",
-      "tags": [
-        "components",
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "`<UserProfileView />` component",
-      "url": "https://clerk.com/docs/reference/expo/native-components/user-profile-view.md",
-      "primaryCategory": "sdk-api",
-      "tags": [
-        "components",
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "useHostedAuth()",
-      "url": "https://clerk.com/docs/reference/expo/native-hooks/use-hosted-auth.md",
-      "primaryCategory": "sdk-api",
-      "tags": [
-        "authentication",
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "`useLocalCredentials()`",
-      "url": "https://clerk.com/docs/reference/expo/native-hooks/use-local-credentials.md",
-      "primaryCategory": "sdk-api",
-      "tags": [
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "useOAuth()",
-      "url": "https://clerk.com/docs/reference/expo/native-hooks/use-oauth.md",
-      "primaryCategory": "sdk-api",
-      "tags": [
-        "authentication",
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "`useSignInWithApple()`",
-      "url": "https://clerk.com/docs/reference/expo/native-hooks/use-sign-in-with-apple.md",
-      "primaryCategory": "auth-sessions",
-      "tags": [
-        "authentication",
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "`useSignInWithGoogle()`",
-      "url": "https://clerk.com/docs/reference/expo/native-hooks/use-sign-in-with-google.md",
-      "primaryCategory": "auth-sessions",
-      "tags": [
-        "authentication",
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "useSSO()",
-      "url": "https://clerk.com/docs/reference/expo/native-hooks/use-sso.md",
-      "primaryCategory": "sdk-api",
-      "tags": [
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "Clerk Expo SDK",
-      "url": "https://clerk.com/docs/reference/expo/overview.md",
-      "primaryCategory": "sdk-api",
-      "tags": [
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "Configure passkeys for Expo",
-      "url": "https://clerk.com/docs/reference/expo/passkeys.md",
-      "primaryCategory": "auth-sessions",
-      "tags": [
-        "authentication",
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "`clerkMiddleware()`",
-      "url": "https://clerk.com/docs/reference/express/clerk-middleware.md",
-      "primaryCategory": "sdk-api",
-      "tags": [
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "`getAuth()`",
-      "url": "https://clerk.com/docs/reference/express/get-auth.md",
-      "primaryCategory": "sdk-api",
-      "tags": [
-        "authentication",
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "Clerk Express SDK",
-      "url": "https://clerk.com/docs/reference/express/overview.md",
-      "primaryCategory": "sdk-api",
-      "tags": [
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "`requireAuth()`",
-      "url": "https://clerk.com/docs/reference/express/require-auth.md",
-      "primaryCategory": "sdk-api",
-      "tags": [
-        "authentication",
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "`clerkPlugin()`",
-      "url": "https://clerk.com/docs/reference/fastify/clerk-plugin.md",
-      "primaryCategory": "sdk-api",
-      "tags": [
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "`getAuth()`",
-      "url": "https://clerk.com/docs/reference/fastify/get-auth.md",
-      "primaryCategory": "sdk-api",
-      "tags": [
-        "authentication",
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "Clerk Fastify SDK",
-      "url": "https://clerk.com/docs/reference/fastify/overview.md",
-      "primaryCategory": "sdk-api",
-      "tags": [
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "Clerk Go SDK",
-      "url": "https://clerk.com/docs/reference/go/overview.md",
-      "primaryCategory": "sdk-api",
-      "tags": [
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "SwiftUI previews",
-      "url": "https://clerk.com/docs/reference/ios/swiftui-previews.md",
-      "primaryCategory": "sdk-api",
-      "tags": [
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "Watch Connectivity",
-      "url": "https://clerk.com/docs/reference/ios/watch-connectivity.md",
-      "primaryCategory": "sdk-api",
-      "tags": [
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "Clerk JavaScript SDK",
-      "url": "https://clerk.com/docs/reference/javascript/overview.md",
-      "primaryCategory": "sdk-api",
-      "tags": [
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "`auth()`",
-      "url": "https://clerk.com/docs/reference/nextjs/app-router/auth.md",
-      "primaryCategory": "sdk-api",
-      "tags": [
-        "authentication",
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "`currentUser()`",
-      "url": "https://clerk.com/docs/reference/nextjs/app-router/current-user.md",
-      "primaryCategory": "sdk-api",
-      "tags": [
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "Route Handlers",
-      "url": "https://clerk.com/docs/reference/nextjs/app-router/route-handlers.md",
-      "primaryCategory": "sdk-api",
-      "tags": [
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "Server Actions",
-      "url": "https://clerk.com/docs/reference/nextjs/app-router/server-actions.md",
-      "primaryCategory": "sdk-api",
-      "tags": [
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "clerkMiddleware()",
-      "url": "https://clerk.com/docs/reference/nextjs/clerk-middleware.md",
-      "primaryCategory": "sdk-api",
-      "tags": [
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "Clerk: auth() was called but Clerk can't detect usage of clerkMiddleware()",
-      "url": "https://clerk.com/docs/reference/nextjs/errors/auth-was-called.md",
-      "primaryCategory": "operations",
-      "tags": [
-        "authentication",
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "`@clerk/eslint-plugin`",
-      "url": "https://clerk.com/docs/reference/nextjs/eslint-plugin.md",
-      "primaryCategory": "sdk-api",
-      "tags": [
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "Clerk Next.js SDK",
-      "url": "https://clerk.com/docs/reference/nextjs/overview.md",
-      "primaryCategory": "sdk-api",
-      "tags": [
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "`buildClerkProps`",
-      "url": "https://clerk.com/docs/reference/nextjs/pages-router/build-clerk-props.md",
-      "primaryCategory": "sdk-api",
-      "tags": [
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "`getAuth()`",
-      "url": "https://clerk.com/docs/reference/nextjs/pages-router/get-auth.md",
-      "primaryCategory": "sdk-api",
-      "tags": [
-        "authentication",
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "Use Clerk with Next.js 12 and older",
-      "url": "https://clerk.com/docs/reference/nextjs/usage-with-older-versions.md",
-      "primaryCategory": "sdk-api",
-      "tags": [
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "clerkMiddleware() | Nuxt",
-      "url": "https://clerk.com/docs/reference/nuxt/clerk-middleware.md",
-      "primaryCategory": "sdk-api",
-      "tags": [
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "`@clerk/nuxt` module",
-      "url": "https://clerk.com/docs/reference/nuxt/integration.md",
-      "primaryCategory": "integrations-databases",
-      "tags": [
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "Clerk Nuxt SDK",
-      "url": "https://clerk.com/docs/reference/nuxt/overview.md",
-      "primaryCategory": "sdk-api",
-      "tags": [
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
       "title": "SDK References",
       "url": "https://clerk.com/docs/reference/overview.md",
       "primaryCategory": "sdk-api",
@@ -23163,198 +24333,8 @@
       "deprecated": false
     },
     {
-      "title": "`clerkMiddleware()` | React Router",
-      "url": "https://clerk.com/docs/reference/react-router/clerk-middleware.md",
-      "primaryCategory": "sdk-api",
-      "tags": [
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "`getAuth()`",
-      "url": "https://clerk.com/docs/reference/react-router/get-auth.md",
-      "primaryCategory": "sdk-api",
-      "tags": [
-        "authentication",
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "Clerk React Router SDK",
-      "url": "https://clerk.com/docs/reference/react-router/overview.md",
-      "primaryCategory": "sdk-api",
-      "tags": [
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "`rootAuthLoader()`",
-      "url": "https://clerk.com/docs/reference/react-router/root-auth-loader.md",
-      "primaryCategory": "sdk-api",
-      "tags": [
-        "authentication",
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "Clerk React SDK",
-      "url": "https://clerk.com/docs/reference/react/overview.md",
-      "primaryCategory": "sdk-api",
-      "tags": [
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "Clerk Ruby SDK",
-      "url": "https://clerk.com/docs/reference/ruby/overview.md",
-      "primaryCategory": "sdk-api",
-      "tags": [
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "Ruby with Rack",
-      "url": "https://clerk.com/docs/reference/ruby/rack.md",
-      "primaryCategory": "sdk-api",
-      "tags": [
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "Ruby on Rails integration",
-      "url": "https://clerk.com/docs/reference/ruby/rails.md",
-      "primaryCategory": "integrations-databases",
-      "tags": [
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "Sinatra integration",
-      "url": "https://clerk.com/docs/reference/ruby/sinatra.md",
-      "primaryCategory": "integrations-databases",
-      "tags": [
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "Upgrade to `clerk-sdk-ruby` v4",
-      "url": "https://clerk.com/docs/reference/ruby/v4-upgrade-guide.md",
-      "primaryCategory": "operations",
-      "tags": [
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "Upgrade to `clerk-sdk-ruby` v5",
-      "url": "https://clerk.com/docs/reference/ruby/v5-upgrade-guide.md",
-      "primaryCategory": "operations",
-      "tags": [
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "`auth()`",
-      "url": "https://clerk.com/docs/reference/tanstack-react-start/auth.md",
-      "primaryCategory": "sdk-api",
-      "tags": [
-        "authentication",
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "`clerkMiddleware()`",
-      "url": "https://clerk.com/docs/reference/tanstack-react-start/clerk-middleware.md",
-      "primaryCategory": "sdk-api",
-      "tags": [
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "Clerk TanStack React Start SDK",
-      "url": "https://clerk.com/docs/reference/tanstack-react-start/overview.md",
-      "primaryCategory": "sdk-api",
-      "tags": [
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
       "title": "`AgentTask`",
       "url": "https://clerk.com/docs/reference/types/agent-task.md",
-      "primaryCategory": "sdk-api",
-      "tags": [
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "`clerkPlugin`",
-      "url": "https://clerk.com/docs/reference/vue/clerk-plugin.md",
-      "primaryCategory": "sdk-api",
-      "tags": [
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "Clerk Vue SDK",
-      "url": "https://clerk.com/docs/reference/vue/overview.md",
-      "primaryCategory": "sdk-api",
-      "tags": [
-        "api"
-      ],
-      "framework": null,
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "`updateClerkOptions()`",
-      "url": "https://clerk.com/docs/reference/vue/update-clerk-options.md",
       "primaryCategory": "sdk-api",
       "tags": [
         "api"
@@ -23557,6 +24537,72 @@
       "primaryCategory": "concepts-components",
       "tags": [
         "components",
+        "api"
+      ],
+      "framework": "Ruby",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "Clerk Ruby SDK",
+      "url": "https://clerk.com/docs/ruby/reference/overview.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "api"
+      ],
+      "framework": "Ruby",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "Ruby with Rack",
+      "url": "https://clerk.com/docs/ruby/reference/rack.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "api"
+      ],
+      "framework": "Ruby",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "Ruby on Rails integration",
+      "url": "https://clerk.com/docs/ruby/reference/rails.md",
+      "primaryCategory": "integrations-databases",
+      "tags": [
+        "api"
+      ],
+      "framework": "Ruby",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "Sinatra integration",
+      "url": "https://clerk.com/docs/ruby/reference/sinatra.md",
+      "primaryCategory": "integrations-databases",
+      "tags": [
+        "api"
+      ],
+      "framework": "Ruby",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "Upgrade to `clerk-sdk-ruby` v4",
+      "url": "https://clerk.com/docs/ruby/reference/v4-upgrade-guide.md",
+      "primaryCategory": "operations",
+      "tags": [
+        "api"
+      ],
+      "framework": "Ruby",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "Upgrade to `clerk-sdk-ruby` v5",
+      "url": "https://clerk.com/docs/ruby/reference/v5-upgrade-guide.md",
+      "primaryCategory": "operations",
+      "tags": [
         "api"
       ],
       "framework": "Ruby",
@@ -23918,6 +24964,29 @@
       "deprecated": false
     },
     {
+      "title": "`auth()`",
+      "url": "https://clerk.com/docs/tanstack-react-start/reference/auth.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "authentication",
+        "api"
+      ],
+      "framework": "TanStack React Start",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`clerkMiddleware()`",
+      "url": "https://clerk.com/docs/tanstack-react-start/reference/clerk-middleware.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "api"
+      ],
+      "framework": "TanStack React Start",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "`<APIKeys />` component",
       "url": "https://clerk.com/docs/tanstack-react-start/reference/components/api-keys.md",
       "primaryCategory": "auth-sessions",
@@ -24035,8 +25104,47 @@
       "deprecated": false
     },
     {
+      "title": "`<CheckoutButton />` component",
+      "url": "https://clerk.com/docs/tanstack-react-start/reference/components/billing/checkout-button.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "components",
+        "api"
+      ],
+      "framework": "TanStack React Start",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`<PlanDetailsButton />` component",
+      "url": "https://clerk.com/docs/tanstack-react-start/reference/components/billing/plan-details-button.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "components",
+        "api"
+      ],
+      "framework": "TanStack React Start",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "`<PricingTable />`",
       "url": "https://clerk.com/docs/tanstack-react-start/reference/components/billing/pricing-table.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "components",
+        "api"
+      ],
+      "framework": "TanStack React Start",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`<SubscriptionDetailsButton />` component",
+      "url": "https://clerk.com/docs/tanstack-react-start/reference/components/billing/subscription-details-button.md",
       "primaryCategory": "billing",
       "tags": [
         "billing",
@@ -24706,6 +25814,17 @@
       "deprecated": false
     },
     {
+      "title": "Clerk TanStack React Start SDK",
+      "url": "https://clerk.com/docs/tanstack-react-start/reference/overview.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "api"
+      ],
+      "framework": "TanStack React Start",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "`APIKeyResource`",
       "url": "https://clerk.com/docs/tanstack-react-start/reference/types/api-key-resource.md",
       "primaryCategory": "auth-sessions",
@@ -24721,6 +25840,18 @@
       "url": "https://clerk.com/docs/tanstack-react-start/reference/types/backup-code-resource.md",
       "primaryCategory": "sdk-api",
       "tags": [
+        "api"
+      ],
+      "framework": "TanStack React Start",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingAppliedDiscount`",
+      "url": "https://clerk.com/docs/tanstack-react-start/reference/types/billing-applied-discount.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
         "api"
       ],
       "framework": "TanStack React Start",
@@ -24776,6 +25907,42 @@
       "deprecated": false
     },
     {
+      "title": "`BillingCredits`",
+      "url": "https://clerk.com/docs/tanstack-react-start/reference/types/billing-credits.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "TanStack React Start",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingDiscountRedemption`",
+      "url": "https://clerk.com/docs/tanstack-react-start/reference/types/billing-discount-redemption.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "TanStack React Start",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingDiscounts`",
+      "url": "https://clerk.com/docs/tanstack-react-start/reference/types/billing-discounts.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "TanStack React Start",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "`BillingInitializedPaymentMethodResource`",
       "url": "https://clerk.com/docs/tanstack-react-start/reference/types/billing-initialized-payment-method-resource.md",
       "primaryCategory": "billing",
@@ -24790,6 +25957,18 @@
     {
       "title": "`BillingMoneyAmount`",
       "url": "https://clerk.com/docs/tanstack-react-start/reference/types/billing-money-amount.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "TanStack React Start",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingPayerCredit`",
+      "url": "https://clerk.com/docs/tanstack-react-start/reference/types/billing-payer-credit.md",
       "primaryCategory": "billing",
       "tags": [
         "billing",
@@ -24836,6 +26015,18 @@
       "deprecated": false
     },
     {
+      "title": "`BillingPaymentTotals`",
+      "url": "https://clerk.com/docs/tanstack-react-start/reference/types/billing-payment-totals.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "TanStack React Start",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "`BillingPerUnitTotalTier`",
       "url": "https://clerk.com/docs/tanstack-react-start/reference/types/billing-per-unit-total-tier.md",
       "primaryCategory": "billing",
@@ -24850,6 +26041,18 @@
     {
       "title": "`BillingPerUnitTotal`",
       "url": "https://clerk.com/docs/tanstack-react-start/reference/types/billing-per-unit-total.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "TanStack React Start",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingPeriodTotals`",
+      "url": "https://clerk.com/docs/tanstack-react-start/reference/types/billing-period-totals.md",
       "primaryCategory": "billing",
       "tags": [
         "billing",
@@ -24908,6 +26111,30 @@
       "deprecated": false
     },
     {
+      "title": "`BillingProrationCreditDetail`",
+      "url": "https://clerk.com/docs/tanstack-react-start/reference/types/billing-proration-credit-detail.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "TanStack React Start",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingProrationDiscount`",
+      "url": "https://clerk.com/docs/tanstack-react-start/reference/types/billing-proration-discount.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "TanStack React Start",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "`BillingStatementGroup`",
       "url": "https://clerk.com/docs/tanstack-react-start/reference/types/billing-statement-group.md",
       "primaryCategory": "billing",
@@ -24944,6 +26171,18 @@
       "deprecated": false
     },
     {
+      "title": "`BillingSubscriptionItemNextPayment`",
+      "url": "https://clerk.com/docs/tanstack-react-start/reference/types/billing-subscription-item-next-payment.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "TanStack React Start",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "`BillingSubscriptionItemResource`",
       "url": "https://clerk.com/docs/tanstack-react-start/reference/types/billing-subscription-item-resource.md",
       "primaryCategory": "billing",
@@ -24958,6 +26197,18 @@
     {
       "title": "`BillingSubscriptionItemSeats`",
       "url": "https://clerk.com/docs/tanstack-react-start/reference/types/billing-subscription-item-seats.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "TanStack React Start",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingSubscriptionNextPayment`",
+      "url": "https://clerk.com/docs/tanstack-react-start/reference/types/billing-subscription-next-payment.md",
       "primaryCategory": "billing",
       "tags": [
         "billing",
@@ -25934,6 +27185,17 @@
       "deprecated": false
     },
     {
+      "title": "`clerkPlugin`",
+      "url": "https://clerk.com/docs/vue/reference/clerk-plugin.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "api"
+      ],
+      "framework": "Vue",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "`<APIKeys />` component",
       "url": "https://clerk.com/docs/vue/reference/components/api-keys.md",
       "primaryCategory": "auth-sessions",
@@ -26567,6 +27829,17 @@
       "deprecated": false
     },
     {
+      "title": "Clerk Vue SDK",
+      "url": "https://clerk.com/docs/vue/reference/overview.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "api"
+      ],
+      "framework": "Vue",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "`APIKeyResource`",
       "url": "https://clerk.com/docs/vue/reference/types/api-key-resource.md",
       "primaryCategory": "auth-sessions",
@@ -26582,6 +27855,18 @@
       "url": "https://clerk.com/docs/vue/reference/types/backup-code-resource.md",
       "primaryCategory": "sdk-api",
       "tags": [
+        "api"
+      ],
+      "framework": "Vue",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingAppliedDiscount`",
+      "url": "https://clerk.com/docs/vue/reference/types/billing-applied-discount.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
         "api"
       ],
       "framework": "Vue",
@@ -26637,6 +27922,42 @@
       "deprecated": false
     },
     {
+      "title": "`BillingCredits`",
+      "url": "https://clerk.com/docs/vue/reference/types/billing-credits.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "Vue",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingDiscountRedemption`",
+      "url": "https://clerk.com/docs/vue/reference/types/billing-discount-redemption.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "Vue",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingDiscounts`",
+      "url": "https://clerk.com/docs/vue/reference/types/billing-discounts.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "Vue",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "`BillingInitializedPaymentMethodResource`",
       "url": "https://clerk.com/docs/vue/reference/types/billing-initialized-payment-method-resource.md",
       "primaryCategory": "billing",
@@ -26651,6 +27972,18 @@
     {
       "title": "`BillingMoneyAmount`",
       "url": "https://clerk.com/docs/vue/reference/types/billing-money-amount.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "Vue",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingPayerCredit`",
+      "url": "https://clerk.com/docs/vue/reference/types/billing-payer-credit.md",
       "primaryCategory": "billing",
       "tags": [
         "billing",
@@ -26697,6 +28030,18 @@
       "deprecated": false
     },
     {
+      "title": "`BillingPaymentTotals`",
+      "url": "https://clerk.com/docs/vue/reference/types/billing-payment-totals.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "Vue",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "`BillingPerUnitTotalTier`",
       "url": "https://clerk.com/docs/vue/reference/types/billing-per-unit-total-tier.md",
       "primaryCategory": "billing",
@@ -26711,6 +28056,18 @@
     {
       "title": "`BillingPerUnitTotal`",
       "url": "https://clerk.com/docs/vue/reference/types/billing-per-unit-total.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "Vue",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingPeriodTotals`",
+      "url": "https://clerk.com/docs/vue/reference/types/billing-period-totals.md",
       "primaryCategory": "billing",
       "tags": [
         "billing",
@@ -26769,6 +28126,30 @@
       "deprecated": false
     },
     {
+      "title": "`BillingProrationCreditDetail`",
+      "url": "https://clerk.com/docs/vue/reference/types/billing-proration-credit-detail.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "Vue",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingProrationDiscount`",
+      "url": "https://clerk.com/docs/vue/reference/types/billing-proration-discount.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "Vue",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "`BillingStatementGroup`",
       "url": "https://clerk.com/docs/vue/reference/types/billing-statement-group.md",
       "primaryCategory": "billing",
@@ -26805,6 +28186,18 @@
       "deprecated": false
     },
     {
+      "title": "`BillingSubscriptionItemNextPayment`",
+      "url": "https://clerk.com/docs/vue/reference/types/billing-subscription-item-next-payment.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "Vue",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "`BillingSubscriptionItemResource`",
       "url": "https://clerk.com/docs/vue/reference/types/billing-subscription-item-resource.md",
       "primaryCategory": "billing",
@@ -26819,6 +28212,18 @@
     {
       "title": "`BillingSubscriptionItemSeats`",
       "url": "https://clerk.com/docs/vue/reference/types/billing-subscription-item-seats.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "Vue",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BillingSubscriptionNextPayment`",
+      "url": "https://clerk.com/docs/vue/reference/types/billing-subscription-next-payment.md",
       "primaryCategory": "billing",
       "tags": [
         "billing",
@@ -27520,6 +28925,17 @@
       "title": "`Web3Wallet`",
       "url": "https://clerk.com/docs/vue/reference/types/web3-wallet.md",
       "primaryCategory": "auth-sessions",
+      "tags": [
+        "api"
+      ],
+      "framework": "Vue",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`updateClerkOptions()`",
+      "url": "https://clerk.com/docs/vue/reference/update-clerk-options.md",
+      "primaryCategory": "concepts-components",
       "tags": [
         "api"
       ],

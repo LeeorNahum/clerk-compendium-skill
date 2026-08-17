@@ -19,7 +19,6 @@ This focused list selects 45 of 45 current documents in this category. Search [s
 
 ### Cross-framework
 
-- [`@clerk/nuxt` module](https://clerk.com/docs/reference/nuxt/integration.md) (reference, api)
 - [`create()`](https://clerk.com/docs/reference/backend/oauth-applications/create.md) (reference, authentication, api)
 - [`delete()`](https://clerk.com/docs/reference/backend/oauth-applications/delete.md) (reference, authentication, api)
 - [`get()`](https://clerk.com/docs/reference/backend/oauth-applications/get.md) (reference, authentication, api)
@@ -44,11 +43,8 @@ This focused list selects 45 of 45 current documents in this category. Search [s
 - [Integrate Prisma Postgres with Clerk](https://clerk.com/docs/guides/development/integrations/databases/prisma-postgres.md) (guide)
 - [Integrate Shopify with Clerk](https://clerk.com/docs/guides/development/integrations/platforms/shopify.md) (guide)
 - [Integrate Supabase with Clerk](https://clerk.com/docs/guides/development/integrations/databases/supabase.md) (guide)
-- [Integration](https://clerk.com/docs/reference/astro/integration.md) (reference, api)
 - [Integrations](https://clerk.com/docs/guides/development/integrations/overview.md) (concept)
 - [Migrate from Firebase](https://clerk.com/docs/guides/development/migrating/firebase.md) (migration)
-- [Ruby on Rails integration](https://clerk.com/docs/reference/ruby/rails.md) (reference, api)
-- [Sinatra integration](https://clerk.com/docs/reference/ruby/sinatra.md) (reference, api)
 - [Sync Clerk data to your app with webhooks](https://clerk.com/docs/guides/development/webhooks/syncing.md) (guide, webhooks)
 - [The Backend `OAuthApplication` object](https://clerk.com/docs/reference/backend/types/backend-oauth-application.md) (reference, authentication, api)
 - [Webhooks overview](https://clerk.com/docs/guides/development/webhooks/overview.md) (concept, webhooks)
@@ -60,6 +56,7 @@ This focused list selects 45 of 45 current documents in this category. Search [s
 ### Astro
 
 - [`OAuthApplication`](https://clerk.com/docs/astro/reference/types/oauth-application.md) (reference, authentication, api)
+- [Integration](https://clerk.com/docs/astro/reference/integration.md) (reference, api)
 
 ### Chrome Extension
 
@@ -83,6 +80,7 @@ This focused list selects 45 of 45 current documents in this category. Search [s
 
 ### Nuxt
 
+- [`@clerk/nuxt` module](https://clerk.com/docs/nuxt/reference/integration.md) (reference, api)
 - [`OAuthApplication`](https://clerk.com/docs/nuxt/reference/types/oauth-application.md) (reference, authentication, api)
 
 ### React
@@ -92,6 +90,11 @@ This focused list selects 45 of 45 current documents in this category. Search [s
 ### React Router
 
 - [`OAuthApplication`](https://clerk.com/docs/react-router/reference/types/oauth-application.md) (reference, authentication, api)
+
+### Ruby
+
+- [Ruby on Rails integration](https://clerk.com/docs/ruby/reference/rails.md) (reference, api)
+- [Sinatra integration](https://clerk.com/docs/ruby/reference/sinatra.md) (reference, api)
 
 ### TanStack React Start
 

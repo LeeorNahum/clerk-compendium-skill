@@ -15,7 +15,7 @@ Use this reference for environment variables, instances, domains, redirects, dep
 
 ## Selected Official Sources
 
-This focused list selects 60 of 180 current documents in this category. Search [source-index.json](source-index.json) when the exact method, object, framework page, or resource is not listed.
+This focused list selects 60 of 182 current documents in this category. Search [source-index.json](source-index.json) when the exact method, object, framework page, or resource is not listed.
 
 ### Cross-framework
 
@@ -37,8 +37,6 @@ This focused list selects 60 of 180 current documents in this category. Search [
 - [Testing with Playwright](https://clerk.com/docs/guides/development/testing/playwright/overview.md) (concept, testing)
 - [Troubleshooting](https://clerk.com/docs/guides/development/troubleshooting/overview.md) (troubleshooting)
 - [Upgrade guides overview](https://clerk.com/docs/guides/development/upgrading/overview.md) (migration)
-- [Upgrade to `clerk-sdk-ruby` v4](https://clerk.com/docs/reference/ruby/v4-upgrade-guide.md) (reference, api)
-- [Upgrade to `clerk-sdk-ruby` v5](https://clerk.com/docs/reference/ruby/v5-upgrade-guide.md) (reference, api)
 - [User profile](https://clerk.com/docs/guides/dashboard/user-profile.md) (guide)
 
 ### Android
@@ -115,6 +113,8 @@ This focused list selects 60 of 180 current documents in this category. Search [
 ### Ruby
 
 - [Error handling](https://clerk.com/docs/ruby/guides/development/custom-flows/error-handling.md) (troubleshooting)
+- [Upgrade to `clerk-sdk-ruby` v4](https://clerk.com/docs/ruby/reference/v4-upgrade-guide.md) (reference, api)
+- [Upgrade to `clerk-sdk-ruby` v5](https://clerk.com/docs/ruby/reference/v5-upgrade-guide.md) (reference, api)
 
 ### TanStack React Start
 

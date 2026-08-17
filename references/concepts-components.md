@@ -15,7 +15,7 @@ Use this reference when choosing Clerk architecture, prebuilt components, custom
 
 ## Selected Official Sources
 
-This focused list selects 60 of 424 current documents in this category. Search [source-index.json](source-index.json) when the exact method, object, framework page, or resource is not listed.
+This focused list selects 60 of 480 current documents in this category. Search [source-index.json](source-index.json) when the exact method, object, framework page, or resource is not listed.
 
 ### Cross-framework
 
@@ -44,37 +44,37 @@ This focused list selects 60 of 424 current documents in this category. Search [
 
 - [`Appearance` prop](https://clerk.com/docs/astro/guides/customizing-clerk/appearance-prop/overview.md) (concept, components)
 - [AI prompts](https://clerk.com/docs/astro/guides/ai/prompts.md) (guide)
-- [Component Reference](https://clerk.com/docs/astro/reference/components/overview.md) (reference, components, api)
+- [Clerk Astro SDK](https://clerk.com/docs/astro/reference/overview.md) (reference, api)
 
 ### Chrome Extension
 
 - [`Appearance` prop](https://clerk.com/docs/chrome-extension/guides/customizing-clerk/appearance-prop/overview.md) (concept, components)
 - [Add custom items and links to the `<UserButton />` component](https://clerk.com/docs/chrome-extension/guides/customizing-clerk/adding-items/user-button.md) (component, components)
-- [Component Reference](https://clerk.com/docs/chrome-extension/reference/components/overview.md) (reference, components, api)
+- [Clerk Chrome Extension SDK](https://clerk.com/docs/chrome-extension/reference/overview.md) (reference, api)
 
 ### Expo
 
 - [`Appearance` prop](https://clerk.com/docs/expo/guides/customizing-clerk/appearance-prop/overview.md) (concept, components)
 - [Add custom items and links to the `<UserButton />` component](https://clerk.com/docs/expo/guides/customizing-clerk/adding-items/user-button.md) (component, components)
-- [Component Reference](https://clerk.com/docs/expo/reference/components/overview.md) (reference, components, api)
+- [Clerk Expo SDK](https://clerk.com/docs/expo/reference/overview.md) (reference, api)
 
 ### Express
 
 - [`Appearance` prop](https://clerk.com/docs/expressjs/guides/customizing-clerk/appearance-prop/overview.md) (concept, components)
 - [Build an MCP server in your application with Clerk](https://clerk.com/docs/expressjs/guides/ai/mcp/build-mcp-server.md) (guide)
-- [Component Reference](https://clerk.com/docs/expressjs/reference/components/overview.md) (reference, components, api)
+- [Clerk Express SDK](https://clerk.com/docs/expressjs/reference/overview.md) (reference, api)
 
 ### Fastify
 
 - [`Appearance` prop](https://clerk.com/docs/fastify/guides/customizing-clerk/appearance-prop/overview.md) (concept, components)
 - [Bring your own CSS](https://clerk.com/docs/fastify/guides/customizing-clerk/appearance-prop/bring-your-own-css.md) (guide, components)
-- [Component Reference](https://clerk.com/docs/fastify/reference/components/overview.md) (reference, components, api)
+- [Clerk Fastify SDK](https://clerk.com/docs/fastify/reference/overview.md) (reference, api)
 
 ### Go
 
 - [`Appearance` prop](https://clerk.com/docs/go/guides/customizing-clerk/appearance-prop/overview.md) (concept, components)
 - [Bring your own CSS](https://clerk.com/docs/go/guides/customizing-clerk/appearance-prop/bring-your-own-css.md) (guide, components)
-- [Component Reference](https://clerk.com/docs/go/reference/components/overview.md) (reference, components, api)
+- [Clerk Go SDK](https://clerk.com/docs/go/reference/overview.md) (reference, api)
 
 ### iOS
 
@@ -83,47 +83,47 @@ This focused list selects 60 of 424 current documents in this category. Search [
 ### JavaScript
 
 - [`Appearance` prop](https://clerk.com/docs/js-frontend/guides/customizing-clerk/appearance-prop/overview.md) (concept, components)
-- [Component Reference](https://clerk.com/docs/js-frontend/reference/components/overview.md) (reference, components, api)
+- [Clerk JavaScript SDK](https://clerk.com/docs/js-frontend/reference/overview.md) (reference, api)
 - [Set up a custom OAuth consent page](https://clerk.com/docs/js-frontend/guides/configure/auth-strategies/oauth/custom-consent-page.md) (guide, authentication)
 
 ### Next.js
 
 - [`Appearance` prop](https://clerk.com/docs/nextjs/guides/customizing-clerk/appearance-prop/overview.md) (concept, components)
-- [Build a custom waitlist page](https://clerk.com/docs/nextjs/guides/secure/waitlist.md) (guide)
 - [Build an MCP server in your application with Clerk](https://clerk.com/docs/nextjs/guides/ai/mcp/build-mcp-server.md) (guide)
-- [Component Reference](https://clerk.com/docs/nextjs/reference/components/overview.md) (reference, components, api)
+- [Clerk Next.js SDK](https://clerk.com/docs/nextjs/reference/overview.md) (reference, api)
 
 ### Nuxt
 
 - [`Appearance` prop](https://clerk.com/docs/nuxt/guides/customizing-clerk/appearance-prop/overview.md) (concept, components)
-- [Build a custom waitlist page](https://clerk.com/docs/nuxt/guides/secure/waitlist.md) (guide)
-- [Component Reference](https://clerk.com/docs/nuxt/reference/components/overview.md) (reference, components, api)
+- [Clerk Nuxt SDK](https://clerk.com/docs/nuxt/reference/overview.md) (reference, api)
 - [Set up a custom OAuth consent page](https://clerk.com/docs/nuxt/guides/configure/auth-strategies/oauth/custom-consent-page.md) (guide, authentication)
 
 ### React
 
 - [`Appearance` prop](https://clerk.com/docs/react/guides/customizing-clerk/appearance-prop/overview.md) (concept, components)
 - [AI prompts](https://clerk.com/docs/react/guides/ai/prompts.md) (guide)
-- [Build a custom waitlist page](https://clerk.com/docs/react/guides/secure/waitlist.md) (guide)
+- [Clerk React SDK](https://clerk.com/docs/react/reference/overview.md) (reference, api)
 
 ### React Router
 
 - [`Appearance` prop](https://clerk.com/docs/react-router/guides/customizing-clerk/appearance-prop/overview.md) (concept, components)
-- [Build a custom waitlist page](https://clerk.com/docs/react-router/guides/secure/waitlist.md) (guide)
+- [Clerk React Router SDK](https://clerk.com/docs/react-router/reference/overview.md) (reference, api)
 - [Set up a custom OAuth consent page](https://clerk.com/docs/react-router/guides/configure/auth-strategies/oauth/custom-consent-page.md) (guide, authentication)
 
 ### Ruby
 
 - [`Appearance` prop](https://clerk.com/docs/ruby/guides/customizing-clerk/appearance-prop/overview.md) (concept, components)
 - [Bring your own CSS](https://clerk.com/docs/ruby/guides/customizing-clerk/appearance-prop/bring-your-own-css.md) (guide, components)
+- [Clerk Ruby SDK](https://clerk.com/docs/ruby/reference/overview.md) (reference, api)
 
 ### TanStack React Start
 
 - [`Appearance` prop](https://clerk.com/docs/tanstack-react-start/guides/customizing-clerk/appearance-prop/overview.md) (concept, components)
-- [Build a custom waitlist page](https://clerk.com/docs/tanstack-react-start/guides/secure/waitlist.md) (guide)
+- [Clerk TanStack React Start SDK](https://clerk.com/docs/tanstack-react-start/reference/overview.md) (reference, api)
 - [Set up a custom OAuth consent page](https://clerk.com/docs/tanstack-react-start/guides/configure/auth-strategies/oauth/custom-consent-page.md) (guide, authentication)
 
 ### Vue
 
 - [`Appearance` prop](https://clerk.com/docs/vue/guides/customizing-clerk/appearance-prop/overview.md) (concept, components)
+- [Clerk Vue SDK](https://clerk.com/docs/vue/reference/overview.md) (reference, api)
 - [Set up a custom OAuth consent page](https://clerk.com/docs/vue/guides/configure/auth-strategies/oauth/custom-consent-page.md) (guide, authentication)

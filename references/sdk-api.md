@@ -59,34 +59,25 @@ Use this reference for exact packages, imports, helpers, methods, types, Backend
 
 ## Selected Official Sources
 
-This focused list selects 60 of 368 current documents in this category. Search [source-index.json](source-index.json) when the exact method, object, framework page, or resource is not listed.
+This focused list selects 60 of 312 current documents in this category. Search [source-index.json](source-index.json) when the exact method, object, framework page, or resource is not listed.
 
 ### Cross-framework
 
+- [`AgentTask`](https://clerk.com/docs/reference/types/agent-task.md) (reference, api)
+- [`authenticateRequest()`](https://clerk.com/docs/reference/backend/authenticate-request.md) (reference, authentication, api)
+- [`banUser()`](https://clerk.com/docs/reference/backend/user/ban-user.md) (reference, api)
 - [`clerkClient`](https://clerk.com/docs/reference/backend/overview.md) (reference, api)
 - [`verifyClient()`](https://clerk.com/docs/reference/backend/client/verify-client.md) (reference, api)
 - [`verifyTOTP()`](https://clerk.com/docs/reference/backend/user/verify-totp.md) (reference, api)
 - [API Reference](https://clerk.com/docs/reference/api/overview.md) (reference, api)
-- [Clerk Astro SDK](https://clerk.com/docs/reference/astro/overview.md) (reference, api)
-- [Clerk Chrome Extension SDK](https://clerk.com/docs/reference/chrome-extension/overview.md) (reference, api)
-- [Clerk Expo SDK](https://clerk.com/docs/reference/expo/overview.md) (reference, api)
-- [Clerk Express SDK](https://clerk.com/docs/reference/express/overview.md) (reference, api)
-- [Clerk Fastify SDK](https://clerk.com/docs/reference/fastify/overview.md) (reference, api)
-- [Clerk Go SDK](https://clerk.com/docs/reference/go/overview.md) (reference, api)
-- [Clerk JavaScript SDK](https://clerk.com/docs/reference/javascript/overview.md) (reference, api)
-- [Clerk Next.js SDK](https://clerk.com/docs/reference/nextjs/overview.md) (reference, api)
-- [Clerk Nuxt SDK](https://clerk.com/docs/reference/nuxt/overview.md) (reference, api)
-- [Clerk React Router SDK](https://clerk.com/docs/reference/react-router/overview.md) (reference, api)
-- [Clerk React SDK](https://clerk.com/docs/reference/react/overview.md) (reference, api)
-- [Clerk Ruby SDK](https://clerk.com/docs/reference/ruby/overview.md) (reference, api)
-- [Clerk TanStack React Start SDK](https://clerk.com/docs/reference/tanstack-react-start/overview.md) (reference, api)
-- [Clerk Vue SDK](https://clerk.com/docs/reference/vue/overview.md) (reference, api)
-- [Expo Native Components](https://clerk.com/docs/reference/expo/native-components/overview.md) (reference, components, api)
+- [Component Changelog](https://clerk.com/docs/reference/components/changelog.md) (reference, components, api)
+- [Component Versioning](https://clerk.com/docs/reference/components/versioning.md) (reference, components, api)
 - [SDK References](https://clerk.com/docs/reference/overview.md) (reference, api)
 
 ### Astro
 
 - [`BackupCodeResource`](https://clerk.com/docs/astro/reference/types/backup-code-resource.md) (reference, api)
+- [`ClerkPaginatedResponse`](https://clerk.com/docs/astro/reference/types/clerk-paginated-response.md) (reference, api)
 - [`CustomMenuItem`](https://clerk.com/docs/astro/reference/types/custom-menu-item.md) (reference, api)
 - [`CustomPage`](https://clerk.com/docs/astro/reference/types/custom-page.md) (reference, api)
 - [Clerk types](https://clerk.com/docs/astro/reference/types/overview.md) (reference, api)
@@ -94,6 +85,7 @@ This focused list selects 60 of 368 current documents in this category. Search [
 ### Chrome Extension
 
 - [`BackupCodeResource`](https://clerk.com/docs/chrome-extension/reference/types/backup-code-resource.md) (reference, api)
+- [`ClerkPaginatedResponse`](https://clerk.com/docs/chrome-extension/reference/types/clerk-paginated-response.md) (reference, api)
 - [`CustomMenuItem`](https://clerk.com/docs/chrome-extension/reference/types/custom-menu-item.md) (reference, api)
 - [`CustomPage`](https://clerk.com/docs/chrome-extension/reference/types/custom-page.md) (reference, api)
 - [Clerk types](https://clerk.com/docs/chrome-extension/reference/types/overview.md) (reference, api)
@@ -101,6 +93,7 @@ This focused list selects 60 of 368 current documents in this category. Search [
 ### Expo
 
 - [`BackupCodeResource`](https://clerk.com/docs/expo/reference/types/backup-code-resource.md) (reference, api)
+- [`ClerkPaginatedResponse`](https://clerk.com/docs/expo/reference/types/clerk-paginated-response.md) (reference, api)
 - [`CustomMenuItem`](https://clerk.com/docs/expo/reference/types/custom-menu-item.md) (reference, api)
 - [`CustomPage`](https://clerk.com/docs/expo/reference/types/custom-page.md) (reference, api)
 - [Clerk types](https://clerk.com/docs/expo/reference/types/overview.md) (reference, api)
@@ -108,6 +101,7 @@ This focused list selects 60 of 368 current documents in this category. Search [
 ### JavaScript
 
 - [`BackupCodeResource`](https://clerk.com/docs/js-frontend/reference/types/backup-code-resource.md) (reference, api)
+- [`ClerkPaginatedResponse`](https://clerk.com/docs/js-frontend/reference/types/clerk-paginated-response.md) (reference, api)
 - [`CustomMenuItem`](https://clerk.com/docs/js-frontend/reference/types/custom-menu-item.md) (reference, api)
 - [`CustomPage`](https://clerk.com/docs/js-frontend/reference/types/custom-page.md) (reference, api)
 - [Clerk types](https://clerk.com/docs/js-frontend/reference/types/overview.md) (reference, api)
@@ -115,6 +109,7 @@ This focused list selects 60 of 368 current documents in this category. Search [
 ### Next.js
 
 - [`BackupCodeResource`](https://clerk.com/docs/nextjs/reference/types/backup-code-resource.md) (reference, api)
+- [`ClerkPaginatedResponse`](https://clerk.com/docs/nextjs/reference/types/clerk-paginated-response.md) (reference, api)
 - [`CustomMenuItem`](https://clerk.com/docs/nextjs/reference/types/custom-menu-item.md) (reference, api)
 - [`CustomPage`](https://clerk.com/docs/nextjs/reference/types/custom-page.md) (reference, api)
 - [Clerk types](https://clerk.com/docs/nextjs/reference/types/overview.md) (reference, api)
@@ -122,6 +117,7 @@ This focused list selects 60 of 368 current documents in this category. Search [
 ### Nuxt
 
 - [`BackupCodeResource`](https://clerk.com/docs/nuxt/reference/types/backup-code-resource.md) (reference, api)
+- [`ClerkPaginatedResponse`](https://clerk.com/docs/nuxt/reference/types/clerk-paginated-response.md) (reference, api)
 - [`CustomMenuItem`](https://clerk.com/docs/nuxt/reference/types/custom-menu-item.md) (reference, api)
 - [`CustomPage`](https://clerk.com/docs/nuxt/reference/types/custom-page.md) (reference, api)
 - [Clerk types](https://clerk.com/docs/nuxt/reference/types/overview.md) (reference, api)
@@ -129,6 +125,7 @@ This focused list selects 60 of 368 current documents in this category. Search [
 ### React
 
 - [`BackupCodeResource`](https://clerk.com/docs/react/reference/types/backup-code-resource.md) (reference, api)
+- [`ClerkPaginatedResponse`](https://clerk.com/docs/react/reference/types/clerk-paginated-response.md) (reference, api)
 - [`CustomMenuItem`](https://clerk.com/docs/react/reference/types/custom-menu-item.md) (reference, api)
 - [`CustomPage`](https://clerk.com/docs/react/reference/types/custom-page.md) (reference, api)
 - [Clerk types](https://clerk.com/docs/react/reference/types/overview.md) (reference, api)
@@ -136,6 +133,7 @@ This focused list selects 60 of 368 current documents in this category. Search [
 ### React Router
 
 - [`BackupCodeResource`](https://clerk.com/docs/react-router/reference/types/backup-code-resource.md) (reference, api)
+- [`ClerkPaginatedResponse`](https://clerk.com/docs/react-router/reference/types/clerk-paginated-response.md) (reference, api)
 - [`CustomMenuItem`](https://clerk.com/docs/react-router/reference/types/custom-menu-item.md) (reference, api)
 - [`CustomPage`](https://clerk.com/docs/react-router/reference/types/custom-page.md) (reference, api)
 - [Clerk types](https://clerk.com/docs/react-router/reference/types/overview.md) (reference, api)
@@ -143,6 +141,7 @@ This focused list selects 60 of 368 current documents in this category. Search [
 ### TanStack React Start
 
 - [`BackupCodeResource`](https://clerk.com/docs/tanstack-react-start/reference/types/backup-code-resource.md) (reference, api)
+- [`ClerkPaginatedResponse`](https://clerk.com/docs/tanstack-react-start/reference/types/clerk-paginated-response.md) (reference, api)
 - [`CustomMenuItem`](https://clerk.com/docs/tanstack-react-start/reference/types/custom-menu-item.md) (reference, api)
 - [`CustomPage`](https://clerk.com/docs/tanstack-react-start/reference/types/custom-page.md) (reference, api)
 - [Clerk types](https://clerk.com/docs/tanstack-react-start/reference/types/overview.md) (reference, api)
@@ -150,6 +149,7 @@ This focused list selects 60 of 368 current documents in this category. Search [
 ### Vue
 
 - [`BackupCodeResource`](https://clerk.com/docs/vue/reference/types/backup-code-resource.md) (reference, api)
+- [`ClerkPaginatedResponse`](https://clerk.com/docs/vue/reference/types/clerk-paginated-response.md) (reference, api)
 - [`CustomMenuItem`](https://clerk.com/docs/vue/reference/types/custom-menu-item.md) (reference, api)
 - [`CustomPage`](https://clerk.com/docs/vue/reference/types/custom-page.md) (reference, api)
 - [Clerk types](https://clerk.com/docs/vue/reference/types/overview.md) (reference, api)
