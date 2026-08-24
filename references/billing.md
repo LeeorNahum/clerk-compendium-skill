@@ -15,7 +15,7 @@ Use this reference for Clerk plans, features, subscriptions, trials, entitlement
 
 ## Selected Official Sources
 
-This focused list selects 60 of 423 current documents in this category. Search [source-index.json](source-index.json) when the exact method, object, framework page, or resource is not listed.
+This focused list selects 60 of 424 current documents in this category. Search [source-index.json](source-index.json) when the exact method, object, framework page, or resource is not listed.
 
 ### Cross-framework
 
@@ -24,6 +24,7 @@ This focused list selects 60 of 423 current documents in this category. Search [
 - [Custom Plans and prices](https://clerk.com/docs/guides/billing/custom-plans.md) (guide, billing)
 - [Default Plans](https://clerk.com/docs/guides/billing/default-plans.md) (guide, billing)
 - [Discounts and promo codes](https://clerk.com/docs/guides/billing/discounts.md) (guide, billing)
+- [Free and complimentary access](https://clerk.com/docs/guides/billing/free-and-complimentary-access.md) (guide, billing)
 - [Free trials](https://clerk.com/docs/guides/billing/free-trials.md) (guide, billing)
 - [Seat-based Plans](https://clerk.com/docs/guides/billing/seat-based-plans.md) (guide, billing)
 
@@ -37,7 +38,7 @@ This focused list selects 60 of 423 current documents in this category. Search [
 
 ### Chrome Extension
 
-- [`<PricingTable />`](https://clerk.com/docs/chrome-extension/reference/components/billing/pricing-table.md) (reference, billing, components, api)
+- [`<PricingTable />` component](https://clerk.com/docs/chrome-extension/reference/components/billing/pricing-table.md) (reference, billing, components, api)
 - [`Billing` object](https://clerk.com/docs/chrome-extension/reference/objects/billing.md) (reference, billing, api)
 - [`BillingAppliedDiscount`](https://clerk.com/docs/chrome-extension/reference/types/billing-applied-discount.md) (reference, billing, api)
 - [`BillingCheckoutResource`](https://clerk.com/docs/chrome-extension/reference/types/billing-checkout-resource.md) (reference, billing, api)
@@ -72,7 +73,6 @@ This focused list selects 60 of 423 current documents in this category. Search [
 - [`Billing` object](https://clerk.com/docs/nextjs/reference/objects/billing.md) (reference, billing, api)
 - [`BillingAppliedDiscount`](https://clerk.com/docs/nextjs/reference/types/billing-applied-discount.md) (reference, billing, api)
 - [`BillingCheckoutResource`](https://clerk.com/docs/nextjs/reference/types/billing-checkout-resource.md) (reference, billing, api)
-- [`BillingCheckoutTotals`](https://clerk.com/docs/nextjs/reference/types/billing-checkout-totals.md) (reference, billing, api)
 - [Build a custom checkout flow with a new payment method](https://clerk.com/docs/nextjs/guides/development/custom-flows/billing/checkout-new-payment-method.md) (guide, billing, api)
 - [Build a custom checkout flow with an existing payment method](https://clerk.com/docs/nextjs/guides/development/custom-flows/billing/checkout-existing-payment-method.md) (guide, billing, api)
 - [Build a custom flow for adding a new payment method](https://clerk.com/docs/nextjs/guides/development/custom-flows/billing/add-new-payment-method.md) (guide, billing, components, api)

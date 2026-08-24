@@ -44,8 +44,8 @@ This focused list selects 48 of 48 current documents in this category. Search [s
 ### Chrome Extension
 
 - [`ProtectCheckResource`](https://clerk.com/docs/chrome-extension/reference/types/protect-check-resource.md) (reference, security, api)
+- [`useReverification()`](https://clerk.com/docs/chrome-extension/reference/hooks/use-reverification.md) (reference, security, api)
 - [Add bot protection to your custom sign-up flow](https://clerk.com/docs/chrome-extension/guides/development/custom-flows/authentication/bot-sign-up-protection.md) (guide, authentication, security)
-- [useReverification()](https://clerk.com/docs/chrome-extension/reference/hooks/use-reverification.md) (reference, security, api)
 
 ### Expo
 
@@ -72,10 +72,10 @@ This focused list selects 48 of 48 current documents in this category. Search [s
 ### Next.js
 
 - [`ProtectCheckResource`](https://clerk.com/docs/nextjs/reference/types/protect-check-resource.md) (reference, security, api)
+- [`useReverification()`](https://clerk.com/docs/nextjs/reference/hooks/use-reverification.md) (reference, security, api)
 - [Add bot protection to your custom sign-up flow](https://clerk.com/docs/nextjs/guides/development/custom-flows/authentication/bot-sign-up-protection.md) (guide, authentication, security)
 - [Clerk: `<Protect>` is not available in @clerk/nextjs Core 3](https://clerk.com/docs/nextjs/reference/errors/protect-is-not-available-in-clerk-nextjs.md) (reference, security, api)
 - [Protect content from unauthenticated users](https://clerk.com/docs/nextjs/guides/secure/protect-content.md) (guide, authentication, security)
-- [useReverification()](https://clerk.com/docs/nextjs/reference/hooks/use-reverification.md) (reference, security, api)
 
 ### Nuxt
 
@@ -86,14 +86,14 @@ This focused list selects 48 of 48 current documents in this category. Search [s
 ### React
 
 - [`ProtectCheckResource`](https://clerk.com/docs/react/reference/types/protect-check-resource.md) (reference, security, api)
+- [`useReverification()`](https://clerk.com/docs/react/reference/hooks/use-reverification.md) (reference, security, api)
 - [Add bot protection to your custom sign-up flow](https://clerk.com/docs/react/guides/development/custom-flows/authentication/bot-sign-up-protection.md) (guide, authentication, security)
-- [useReverification()](https://clerk.com/docs/react/reference/hooks/use-reverification.md) (reference, security, api)
 
 ### React Router
 
 - [`ProtectCheckResource`](https://clerk.com/docs/react-router/reference/types/protect-check-resource.md) (reference, security, api)
+- [`useReverification()`](https://clerk.com/docs/react-router/reference/hooks/use-reverification.md) (reference, security, api)
 - [Add bot protection to your custom sign-up flow](https://clerk.com/docs/react-router/guides/development/custom-flows/authentication/bot-sign-up-protection.md) (guide, authentication, security)
-- [useReverification()](https://clerk.com/docs/react-router/reference/hooks/use-reverification.md) (reference, security, api)
 
 ### Ruby
 
@@ -102,8 +102,8 @@ This focused list selects 48 of 48 current documents in this category. Search [s
 ### TanStack React Start
 
 - [`ProtectCheckResource`](https://clerk.com/docs/tanstack-react-start/reference/types/protect-check-resource.md) (reference, security, api)
+- [`useReverification()`](https://clerk.com/docs/tanstack-react-start/reference/hooks/use-reverification.md) (reference, security, api)
 - [Add bot protection to your custom sign-up flow](https://clerk.com/docs/tanstack-react-start/guides/development/custom-flows/authentication/bot-sign-up-protection.md) (guide, authentication, security)
-- [useReverification()](https://clerk.com/docs/tanstack-react-start/reference/hooks/use-reverification.md) (reference, security, api)
 
 ### Vue
 

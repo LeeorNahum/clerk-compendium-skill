@@ -1,13 +1,13 @@
 {
   "generated": true,
   "discoverySource": "https://clerk.com/docs/llms.txt",
-  "discoverySha256": "31b0340f114254c5d1b1dee0a68ab0a1cf0e17118d0aa166c96b67cb3b21e5b2",
+  "discoverySha256": "0f25d021cdb26dd63021157c28de8b2ecab4407fcbd2f5f7a7e5efd0da6b4b91",
   "counts": {
-    "documents": 2475,
+    "documents": 2482,
     "categories": {
-      "auth-sessions": 639,
-      "billing": 423,
-      "concepts-components": 480,
+      "auth-sessions": 642,
+      "billing": 424,
+      "concepts-components": 483,
       "integrations-databases": 45,
       "operations": 182,
       "quickstarts": 21,
@@ -16,14 +16,14 @@
       "users-organizations": 325
     },
     "frameworks": {
-      "Android": 24,
+      "Android": 25,
       "Astro": 169,
       "Chrome Extension": 168,
-      "Expo": 178,
+      "Expo": 182,
       "Express": 27,
       "Fastify": 25,
       "Go": 19,
-      "iOS": 24,
+      "iOS": 25,
       "JavaScript": 150,
       "Next.js": 220,
       "Nuxt": 175,
@@ -249,7 +249,7 @@
       "key": "react-quickstart",
       "title": "React Quickstart",
       "url": "https://clerk.com/docs/react/getting-started/quickstart.md",
-      "sha256": "83af18f69c78835b01880a661d9a8124405bb23aaa728de6468d1f193a8ecda5"
+      "sha256": "a8ff9a09c0b04b3cdc41aa5964d86f2d27aa5817b1284803666f0bbe63f47ce6"
     },
     {
       "key": "sessions",
@@ -337,6 +337,17 @@
       "primaryCategory": "concepts-components",
       "tags": [
         "components"
+      ],
+      "framework": "Android",
+      "kind": "guide",
+      "deprecated": false
+    },
+    {
+      "title": "Build a custom authentication flow using biometric sign-in",
+      "url": "https://clerk.com/docs/android/guides/development/custom-flows/authentication/biometric-sign-in.md",
+      "primaryCategory": "auth-sessions",
+      "tags": [
+        "authentication"
       ],
       "framework": "Android",
       "kind": "guide",
@@ -1038,7 +1049,7 @@
       "deprecated": false
     },
     {
-      "title": "`<PricingTable />`",
+      "title": "`<PricingTable />` component",
       "url": "https://clerk.com/docs/astro/reference/components/billing/pricing-table.md",
       "primaryCategory": "billing",
       "tags": [
@@ -1051,7 +1062,7 @@
       "deprecated": false
     },
     {
-      "title": "`<AuthenticateWithRedirectCallback />`",
+      "title": "`<AuthenticateWithRedirectCallback />` component",
       "url": "https://clerk.com/docs/astro/reference/components/control/authenticate-with-redirect-callback.md",
       "primaryCategory": "operations",
       "tags": [
@@ -1065,7 +1076,7 @@
       "deprecated": false
     },
     {
-      "title": "`<ClerkLoaded>`",
+      "title": "`<ClerkLoaded>` component",
       "url": "https://clerk.com/docs/astro/reference/components/control/clerk-loaded.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -1077,7 +1088,7 @@
       "deprecated": false
     },
     {
-      "title": "`<ClerkLoading>`",
+      "title": "`<ClerkLoading>` component",
       "url": "https://clerk.com/docs/astro/reference/components/control/clerk-loading.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -1089,7 +1100,7 @@
       "deprecated": false
     },
     {
-      "title": "`<Show>`",
+      "title": "`<Show>` component",
       "url": "https://clerk.com/docs/astro/reference/components/control/show.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -1165,7 +1176,7 @@
       "deprecated": false
     },
     {
-      "title": "`<SignInButton>`",
+      "title": "`<SignInButton>` component",
       "url": "https://clerk.com/docs/astro/reference/components/unstyled/sign-in-button.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -1178,7 +1189,7 @@
       "deprecated": false
     },
     {
-      "title": "`<SignOutButton>`",
+      "title": "`<SignOutButton>` component",
       "url": "https://clerk.com/docs/astro/reference/components/unstyled/sign-out-button.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -1190,7 +1201,7 @@
       "deprecated": false
     },
     {
-      "title": "`<SignUpButton>`",
+      "title": "`<SignUpButton>` component",
       "url": "https://clerk.com/docs/astro/reference/components/unstyled/sign-up-button.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -1250,7 +1261,7 @@
       "deprecated": false
     },
     {
-      "title": "useAuth()",
+      "title": "`useAuth()`",
       "url": "https://clerk.com/docs/astro/reference/hooks/use-auth.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -2798,7 +2809,7 @@
       "deprecated": false
     },
     {
-      "title": "`<PricingTable />`",
+      "title": "`<PricingTable />` component",
       "url": "https://clerk.com/docs/chrome-extension/reference/components/billing/pricing-table.md",
       "primaryCategory": "billing",
       "tags": [
@@ -2811,7 +2822,7 @@
       "deprecated": false
     },
     {
-      "title": "`<ClerkProvider>`",
+      "title": "`<ClerkProvider>` component",
       "url": "https://clerk.com/docs/chrome-extension/reference/components/clerk-provider.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -2823,7 +2834,7 @@
       "deprecated": false
     },
     {
-      "title": "`<AuthenticateWithRedirectCallback />`",
+      "title": "`<AuthenticateWithRedirectCallback />` component",
       "url": "https://clerk.com/docs/chrome-extension/reference/components/control/authenticate-with-redirect-callback.md",
       "primaryCategory": "operations",
       "tags": [
@@ -2837,7 +2848,7 @@
       "deprecated": false
     },
     {
-      "title": "`<ClerkDegraded>`",
+      "title": "`<ClerkDegraded>` component",
       "url": "https://clerk.com/docs/chrome-extension/reference/components/control/clerk-degraded.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -2849,7 +2860,7 @@
       "deprecated": false
     },
     {
-      "title": "`<ClerkFailed>`",
+      "title": "`<ClerkFailed>` component",
       "url": "https://clerk.com/docs/chrome-extension/reference/components/control/clerk-failed.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -2861,7 +2872,7 @@
       "deprecated": false
     },
     {
-      "title": "`<ClerkLoaded>`",
+      "title": "`<ClerkLoaded>` component",
       "url": "https://clerk.com/docs/chrome-extension/reference/components/control/clerk-loaded.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -2873,7 +2884,7 @@
       "deprecated": false
     },
     {
-      "title": "`<ClerkLoading>`",
+      "title": "`<ClerkLoading>` component",
       "url": "https://clerk.com/docs/chrome-extension/reference/components/control/clerk-loading.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -2885,7 +2896,7 @@
       "deprecated": false
     },
     {
-      "title": "`<RedirectToSignIn />`",
+      "title": "`<RedirectToSignIn />` component",
       "url": "https://clerk.com/docs/chrome-extension/reference/components/control/redirect-to-sign-in.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -2899,7 +2910,7 @@
       "deprecated": false
     },
     {
-      "title": "`<RedirectToSignUp />`",
+      "title": "`<RedirectToSignUp />` component",
       "url": "https://clerk.com/docs/chrome-extension/reference/components/control/redirect-to-sign-up.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -2913,7 +2924,7 @@
       "deprecated": false
     },
     {
-      "title": "`<RedirectToTasks />`",
+      "title": "`<RedirectToTasks />` component",
       "url": "https://clerk.com/docs/chrome-extension/reference/components/control/redirect-to-tasks.md",
       "primaryCategory": "operations",
       "tags": [
@@ -2926,7 +2937,7 @@
       "deprecated": false
     },
     {
-      "title": "`<Show>`",
+      "title": "`<Show>` component",
       "url": "https://clerk.com/docs/chrome-extension/reference/components/control/show.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -3002,7 +3013,7 @@
       "deprecated": false
     },
     {
-      "title": "`<SignInButton>`",
+      "title": "`<SignInButton>` component",
       "url": "https://clerk.com/docs/chrome-extension/reference/components/unstyled/sign-in-button.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -3015,7 +3026,7 @@
       "deprecated": false
     },
     {
-      "title": "`<SignOutButton>`",
+      "title": "`<SignOutButton>` component",
       "url": "https://clerk.com/docs/chrome-extension/reference/components/unstyled/sign-out-button.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -3027,7 +3038,7 @@
       "deprecated": false
     },
     {
-      "title": "`<SignUpButton>`",
+      "title": "`<SignUpButton>` component",
       "url": "https://clerk.com/docs/chrome-extension/reference/components/unstyled/sign-up-button.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -3087,7 +3098,7 @@
       "deprecated": false
     },
     {
-      "title": "useSignIn()",
+      "title": "`useSignIn()`",
       "url": "https://clerk.com/docs/chrome-extension/reference/hooks/legacy/use-sign-in.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -3099,7 +3110,7 @@
       "deprecated": true
     },
     {
-      "title": "useSignUp()",
+      "title": "`useSignUp()`",
       "url": "https://clerk.com/docs/chrome-extension/reference/hooks/legacy/use-sign-up.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -3122,7 +3133,7 @@
       "deprecated": false
     },
     {
-      "title": "useAuth()",
+      "title": "`useAuth()`",
       "url": "https://clerk.com/docs/chrome-extension/reference/hooks/use-auth.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -3134,7 +3145,7 @@
       "deprecated": false
     },
     {
-      "title": "useClerk()",
+      "title": "`useClerk()`",
       "url": "https://clerk.com/docs/chrome-extension/reference/hooks/use-clerk.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -3145,7 +3156,7 @@
       "deprecated": false
     },
     {
-      "title": "useOrganizationCreationDefaults()",
+      "title": "`useOrganizationCreationDefaults()`",
       "url": "https://clerk.com/docs/chrome-extension/reference/hooks/use-organization-creation-defaults.md",
       "primaryCategory": "users-organizations",
       "tags": [
@@ -3169,7 +3180,7 @@
       "deprecated": false
     },
     {
-      "title": "useOrganization()",
+      "title": "`useOrganization()`",
       "url": "https://clerk.com/docs/chrome-extension/reference/hooks/use-organization.md",
       "primaryCategory": "users-organizations",
       "tags": [
@@ -3181,7 +3192,7 @@
       "deprecated": false
     },
     {
-      "title": "useReverification()",
+      "title": "`useReverification()`",
       "url": "https://clerk.com/docs/chrome-extension/reference/hooks/use-reverification.md",
       "primaryCategory": "security",
       "tags": [
@@ -3193,7 +3204,7 @@
       "deprecated": false
     },
     {
-      "title": "useSessionList()",
+      "title": "`useSessionList()`",
       "url": "https://clerk.com/docs/chrome-extension/reference/hooks/use-session-list.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -3205,7 +3216,7 @@
       "deprecated": false
     },
     {
-      "title": "useSession()",
+      "title": "`useSession()`",
       "url": "https://clerk.com/docs/chrome-extension/reference/hooks/use-session.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -3217,7 +3228,7 @@
       "deprecated": false
     },
     {
-      "title": "useSignIn()",
+      "title": "`useSignIn()`",
       "url": "https://clerk.com/docs/chrome-extension/reference/hooks/use-sign-in.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -3229,7 +3240,7 @@
       "deprecated": false
     },
     {
-      "title": "useSignUp()",
+      "title": "`useSignUp()`",
       "url": "https://clerk.com/docs/chrome-extension/reference/hooks/use-sign-up.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -3241,7 +3252,7 @@
       "deprecated": false
     },
     {
-      "title": "useUser()",
+      "title": "`useUser()`",
       "url": "https://clerk.com/docs/chrome-extension/reference/hooks/use-user.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -3252,7 +3263,7 @@
       "deprecated": false
     },
     {
-      "title": "useWaitlist()",
+      "title": "`useWaitlist()`",
       "url": "https://clerk.com/docs/chrome-extension/reference/hooks/use-waitlist.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -4701,6 +4712,17 @@
       "deprecated": false
     },
     {
+      "title": "Build a custom authentication flow using biometric sign-in",
+      "url": "https://clerk.com/docs/expo/guides/development/custom-flows/authentication/biometric-sign-in.md",
+      "primaryCategory": "auth-sessions",
+      "tags": [
+        "authentication"
+      ],
+      "framework": "Expo",
+      "kind": "guide",
+      "deprecated": false
+    },
+    {
       "title": "Add bot protection to your custom sign-up flow",
       "url": "https://clerk.com/docs/expo/guides/development/custom-flows/authentication/bot-sign-up-protection.md",
       "primaryCategory": "security",
@@ -4817,7 +4839,7 @@
       "deprecated": false
     },
     {
-      "title": "`<PricingTable />`",
+      "title": "`<PricingTable />` component",
       "url": "https://clerk.com/docs/expo/reference/components/billing/pricing-table.md",
       "primaryCategory": "billing",
       "tags": [
@@ -4830,7 +4852,7 @@
       "deprecated": false
     },
     {
-      "title": "`<ClerkProvider>`",
+      "title": "`<ClerkProvider>` component",
       "url": "https://clerk.com/docs/expo/reference/components/clerk-provider.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -4842,7 +4864,7 @@
       "deprecated": false
     },
     {
-      "title": "`<ClerkLoaded>`",
+      "title": "`<ClerkLoaded>` component",
       "url": "https://clerk.com/docs/expo/reference/components/control/clerk-loaded.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -4854,7 +4876,7 @@
       "deprecated": false
     },
     {
-      "title": "`<ClerkLoading>`",
+      "title": "`<ClerkLoading>` component",
       "url": "https://clerk.com/docs/expo/reference/components/control/clerk-loading.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -4866,7 +4888,7 @@
       "deprecated": false
     },
     {
-      "title": "`<RedirectToTasks />`",
+      "title": "`<RedirectToTasks />` component",
       "url": "https://clerk.com/docs/expo/reference/components/control/redirect-to-tasks.md",
       "primaryCategory": "operations",
       "tags": [
@@ -4879,7 +4901,7 @@
       "deprecated": false
     },
     {
-      "title": "`<Show>`",
+      "title": "`<Show>` component",
       "url": "https://clerk.com/docs/expo/reference/components/control/show.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -4955,7 +4977,7 @@
       "deprecated": false
     },
     {
-      "title": "`<SignInButton>`",
+      "title": "`<SignInButton>` component",
       "url": "https://clerk.com/docs/expo/reference/components/unstyled/sign-in-button.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -4968,7 +4990,7 @@
       "deprecated": false
     },
     {
-      "title": "`<SignInWithMetamaskButton>`",
+      "title": "`<SignInWithMetamaskButton>` component",
       "url": "https://clerk.com/docs/expo/reference/components/unstyled/sign-in-with-metamask.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -4981,7 +5003,7 @@
       "deprecated": false
     },
     {
-      "title": "`<SignOutButton>`",
+      "title": "`<SignOutButton>` component",
       "url": "https://clerk.com/docs/expo/reference/components/unstyled/sign-out-button.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -4993,7 +5015,7 @@
       "deprecated": false
     },
     {
-      "title": "`<SignUpButton>`",
+      "title": "`<SignUpButton>` component",
       "url": "https://clerk.com/docs/expo/reference/components/unstyled/sign-up-button.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -5054,7 +5076,7 @@
       "deprecated": false
     },
     {
-      "title": "useSignIn()",
+      "title": "`useSignIn()`",
       "url": "https://clerk.com/docs/expo/reference/hooks/legacy/use-sign-in.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -5066,7 +5088,7 @@
       "deprecated": true
     },
     {
-      "title": "useSignUp()",
+      "title": "`useSignUp()`",
       "url": "https://clerk.com/docs/expo/reference/hooks/legacy/use-sign-up.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -5089,7 +5111,7 @@
       "deprecated": false
     },
     {
-      "title": "useAuth()",
+      "title": "`useAuth()`",
       "url": "https://clerk.com/docs/expo/reference/hooks/use-auth.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -5101,7 +5123,7 @@
       "deprecated": false
     },
     {
-      "title": "useClerk()",
+      "title": "`useClerk()`",
       "url": "https://clerk.com/docs/expo/reference/hooks/use-clerk.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -5112,7 +5134,7 @@
       "deprecated": false
     },
     {
-      "title": "useOrganizationCreationDefaults()",
+      "title": "`useOrganizationCreationDefaults()`",
       "url": "https://clerk.com/docs/expo/reference/hooks/use-organization-creation-defaults.md",
       "primaryCategory": "users-organizations",
       "tags": [
@@ -5136,7 +5158,7 @@
       "deprecated": false
     },
     {
-      "title": "useOrganization()",
+      "title": "`useOrganization()`",
       "url": "https://clerk.com/docs/expo/reference/hooks/use-organization.md",
       "primaryCategory": "users-organizations",
       "tags": [
@@ -5148,7 +5170,7 @@
       "deprecated": false
     },
     {
-      "title": "useSessionList()",
+      "title": "`useSessionList()`",
       "url": "https://clerk.com/docs/expo/reference/hooks/use-session-list.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -5160,7 +5182,7 @@
       "deprecated": false
     },
     {
-      "title": "useSession()",
+      "title": "`useSession()`",
       "url": "https://clerk.com/docs/expo/reference/hooks/use-session.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -5172,7 +5194,7 @@
       "deprecated": false
     },
     {
-      "title": "useSignIn()",
+      "title": "`useSignIn()`",
       "url": "https://clerk.com/docs/expo/reference/hooks/use-sign-in.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -5184,7 +5206,7 @@
       "deprecated": false
     },
     {
-      "title": "useSignUp()",
+      "title": "`useSignUp()`",
       "url": "https://clerk.com/docs/expo/reference/hooks/use-sign-up.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -5196,7 +5218,7 @@
       "deprecated": false
     },
     {
-      "title": "useUser()",
+      "title": "`useUser()`",
       "url": "https://clerk.com/docs/expo/reference/hooks/use-user.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -5207,7 +5229,7 @@
       "deprecated": false
     },
     {
-      "title": "useWaitlist()",
+      "title": "`useWaitlist()`",
       "url": "https://clerk.com/docs/expo/reference/hooks/use-waitlist.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -5255,7 +5277,7 @@
       "deprecated": false
     },
     {
-      "title": "`<UserButton />`",
+      "title": "`<UserButton />` component",
       "url": "https://clerk.com/docs/expo/reference/native-components/user-button.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -5279,7 +5301,19 @@
       "deprecated": false
     },
     {
-      "title": "useHostedAuth()",
+      "title": "`useAuthViewState()`",
+      "url": "https://clerk.com/docs/expo/reference/native-hooks/use-auth-view-state.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "authentication",
+        "api"
+      ],
+      "framework": "Expo",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`useHostedAuth()`",
       "url": "https://clerk.com/docs/expo/reference/native-hooks/use-hosted-auth.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -5302,7 +5336,7 @@
       "deprecated": false
     },
     {
-      "title": "useOAuth()",
+      "title": "`useOAuth()`",
       "url": "https://clerk.com/docs/expo/reference/native-hooks/use-oauth.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -5338,8 +5372,30 @@
       "deprecated": false
     },
     {
-      "title": "useSSO()",
+      "title": "`useSSO()`",
       "url": "https://clerk.com/docs/expo/reference/native-hooks/use-sso.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "api"
+      ],
+      "framework": "Expo",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`useTrustedDevices()`",
+      "url": "https://clerk.com/docs/expo/reference/native-hooks/use-trusted-devices.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "api"
+      ],
+      "framework": "Expo",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`useUserProfileCustomPageNavigation()`",
+      "url": "https://clerk.com/docs/expo/reference/native-hooks/use-user-profile-custom-page-navigation.md",
       "primaryCategory": "concepts-components",
       "tags": [
         "api"
@@ -7607,6 +7663,17 @@
     {
       "title": "Discounts and promo codes",
       "url": "https://clerk.com/docs/guides/billing/discounts.md",
+      "primaryCategory": "billing",
+      "tags": [
+        "billing"
+      ],
+      "framework": null,
+      "kind": "guide",
+      "deprecated": false
+    },
+    {
+      "title": "Free and complimentary access",
+      "url": "https://clerk.com/docs/guides/billing/free-and-complimentary-access.md",
       "primaryCategory": "billing",
       "tags": [
         "billing"
@@ -10686,6 +10753,17 @@
       "deprecated": false
     },
     {
+      "title": "Build a custom authentication flow using biometric sign-in",
+      "url": "https://clerk.com/docs/ios/guides/development/custom-flows/authentication/biometric-sign-in.md",
+      "primaryCategory": "auth-sessions",
+      "tags": [
+        "authentication"
+      ],
+      "framework": "iOS",
+      "kind": "guide",
+      "deprecated": false
+    },
+    {
       "title": "Error handling",
       "url": "https://clerk.com/docs/ios/guides/development/custom-flows/error-handling.md",
       "primaryCategory": "operations",
@@ -11284,7 +11362,7 @@
       "deprecated": false
     },
     {
-      "title": "`<PricingTable />`",
+      "title": "`<PricingTable />` component",
       "url": "https://clerk.com/docs/js-frontend/reference/components/billing/pricing-table.md",
       "primaryCategory": "billing",
       "tags": [
@@ -11297,7 +11375,7 @@
       "deprecated": false
     },
     {
-      "title": "`<AuthenticateWithRedirectCallback />`",
+      "title": "`<AuthenticateWithRedirectCallback />` component",
       "url": "https://clerk.com/docs/js-frontend/reference/components/control/authenticate-with-redirect-callback.md",
       "primaryCategory": "operations",
       "tags": [
@@ -11311,7 +11389,7 @@
       "deprecated": false
     },
     {
-      "title": "`<ClerkLoaded>`",
+      "title": "`<ClerkLoaded>` component",
       "url": "https://clerk.com/docs/js-frontend/reference/components/control/clerk-loaded.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -13295,7 +13373,7 @@
       "deprecated": false
     },
     {
-      "title": "`<PricingTable />`",
+      "title": "`<PricingTable />` component",
       "url": "https://clerk.com/docs/nextjs/reference/components/billing/pricing-table.md",
       "primaryCategory": "billing",
       "tags": [
@@ -13321,7 +13399,7 @@
       "deprecated": false
     },
     {
-      "title": "`<ClerkProvider>`",
+      "title": "`<ClerkProvider>` component",
       "url": "https://clerk.com/docs/nextjs/reference/components/clerk-provider.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -13333,7 +13411,7 @@
       "deprecated": false
     },
     {
-      "title": "`<AuthenticateWithRedirectCallback />`",
+      "title": "`<AuthenticateWithRedirectCallback />` component",
       "url": "https://clerk.com/docs/nextjs/reference/components/control/authenticate-with-redirect-callback.md",
       "primaryCategory": "operations",
       "tags": [
@@ -13347,7 +13425,7 @@
       "deprecated": false
     },
     {
-      "title": "`<ClerkDegraded>`",
+      "title": "`<ClerkDegraded>` component",
       "url": "https://clerk.com/docs/nextjs/reference/components/control/clerk-degraded.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -13359,7 +13437,7 @@
       "deprecated": false
     },
     {
-      "title": "`<ClerkFailed>`",
+      "title": "`<ClerkFailed>` component",
       "url": "https://clerk.com/docs/nextjs/reference/components/control/clerk-failed.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -13371,7 +13449,7 @@
       "deprecated": false
     },
     {
-      "title": "`<ClerkLoaded>`",
+      "title": "`<ClerkLoaded>` component",
       "url": "https://clerk.com/docs/nextjs/reference/components/control/clerk-loaded.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -13383,7 +13461,7 @@
       "deprecated": false
     },
     {
-      "title": "`<ClerkLoading>`",
+      "title": "`<ClerkLoading>` component",
       "url": "https://clerk.com/docs/nextjs/reference/components/control/clerk-loading.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -13395,7 +13473,7 @@
       "deprecated": false
     },
     {
-      "title": "`<RedirectToCreateOrganization />`",
+      "title": "`<RedirectToCreateOrganization />` component",
       "url": "https://clerk.com/docs/nextjs/reference/components/control/redirect-to-create-organization.md",
       "primaryCategory": "users-organizations",
       "tags": [
@@ -13409,7 +13487,7 @@
       "deprecated": false
     },
     {
-      "title": "`<RedirectToOrganizationProfile />`",
+      "title": "`<RedirectToOrganizationProfile />` component",
       "url": "https://clerk.com/docs/nextjs/reference/components/control/redirect-to-organization-profile.md",
       "primaryCategory": "users-organizations",
       "tags": [
@@ -13423,7 +13501,7 @@
       "deprecated": false
     },
     {
-      "title": "`<RedirectToSignIn />`",
+      "title": "`<RedirectToSignIn />` component",
       "url": "https://clerk.com/docs/nextjs/reference/components/control/redirect-to-sign-in.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -13437,7 +13515,7 @@
       "deprecated": false
     },
     {
-      "title": "`<RedirectToSignUp />`",
+      "title": "`<RedirectToSignUp />` component",
       "url": "https://clerk.com/docs/nextjs/reference/components/control/redirect-to-sign-up.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -13451,7 +13529,7 @@
       "deprecated": false
     },
     {
-      "title": "`<RedirectToTasks />`",
+      "title": "`<RedirectToTasks />` component",
       "url": "https://clerk.com/docs/nextjs/reference/components/control/redirect-to-tasks.md",
       "primaryCategory": "operations",
       "tags": [
@@ -13464,7 +13542,7 @@
       "deprecated": false
     },
     {
-      "title": "`<RedirectToUserProfile />`",
+      "title": "`<RedirectToUserProfile />` component",
       "url": "https://clerk.com/docs/nextjs/reference/components/control/redirect-to-user-profile.md",
       "primaryCategory": "operations",
       "tags": [
@@ -13477,7 +13555,7 @@
       "deprecated": false
     },
     {
-      "title": "`<Show>`",
+      "title": "`<Show>` component",
       "url": "https://clerk.com/docs/nextjs/reference/components/control/show.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -13553,7 +13631,7 @@
       "deprecated": false
     },
     {
-      "title": "`<SignInButton>`",
+      "title": "`<SignInButton>` component",
       "url": "https://clerk.com/docs/nextjs/reference/components/unstyled/sign-in-button.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -13566,7 +13644,7 @@
       "deprecated": false
     },
     {
-      "title": "`<SignInWithMetamaskButton>`",
+      "title": "`<SignInWithMetamaskButton>` component",
       "url": "https://clerk.com/docs/nextjs/reference/components/unstyled/sign-in-with-metamask.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -13579,7 +13657,7 @@
       "deprecated": false
     },
     {
-      "title": "`<SignOutButton>`",
+      "title": "`<SignOutButton>` component",
       "url": "https://clerk.com/docs/nextjs/reference/components/unstyled/sign-out-button.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -13591,7 +13669,7 @@
       "deprecated": false
     },
     {
-      "title": "`<SignUpButton>`",
+      "title": "`<SignUpButton>` component",
       "url": "https://clerk.com/docs/nextjs/reference/components/unstyled/sign-up-button.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -13709,7 +13787,7 @@
       "deprecated": false
     },
     {
-      "title": "useSignIn()",
+      "title": "`useSignIn()`",
       "url": "https://clerk.com/docs/nextjs/reference/hooks/legacy/use-sign-in.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -13721,7 +13799,7 @@
       "deprecated": true
     },
     {
-      "title": "useSignUp()",
+      "title": "`useSignUp()`",
       "url": "https://clerk.com/docs/nextjs/reference/hooks/legacy/use-sign-up.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -13755,7 +13833,7 @@
       "deprecated": false
     },
     {
-      "title": "useAuth()",
+      "title": "`useAuth()`",
       "url": "https://clerk.com/docs/nextjs/reference/hooks/use-auth.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -13778,7 +13856,7 @@
       "deprecated": false
     },
     {
-      "title": "useClerk()",
+      "title": "`useClerk()`",
       "url": "https://clerk.com/docs/nextjs/reference/hooks/use-clerk.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -13789,7 +13867,7 @@
       "deprecated": false
     },
     {
-      "title": "useOAuthConsent()",
+      "title": "`useOAuthConsent()`",
       "url": "https://clerk.com/docs/nextjs/reference/hooks/use-oauth-consent.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -13801,7 +13879,7 @@
       "deprecated": false
     },
     {
-      "title": "useOrganizationCreationDefaults()",
+      "title": "`useOrganizationCreationDefaults()`",
       "url": "https://clerk.com/docs/nextjs/reference/hooks/use-organization-creation-defaults.md",
       "primaryCategory": "users-organizations",
       "tags": [
@@ -13825,7 +13903,7 @@
       "deprecated": false
     },
     {
-      "title": "useOrganization()",
+      "title": "`useOrganization()`",
       "url": "https://clerk.com/docs/nextjs/reference/hooks/use-organization.md",
       "primaryCategory": "users-organizations",
       "tags": [
@@ -13882,7 +13960,7 @@
       "deprecated": false
     },
     {
-      "title": "useReverification()",
+      "title": "`useReverification()`",
       "url": "https://clerk.com/docs/nextjs/reference/hooks/use-reverification.md",
       "primaryCategory": "security",
       "tags": [
@@ -13894,7 +13972,7 @@
       "deprecated": false
     },
     {
-      "title": "useSessionList()",
+      "title": "`useSessionList()`",
       "url": "https://clerk.com/docs/nextjs/reference/hooks/use-session-list.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -13906,7 +13984,7 @@
       "deprecated": false
     },
     {
-      "title": "useSession()",
+      "title": "`useSession()`",
       "url": "https://clerk.com/docs/nextjs/reference/hooks/use-session.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -13918,7 +13996,7 @@
       "deprecated": false
     },
     {
-      "title": "useSignIn()",
+      "title": "`useSignIn()`",
       "url": "https://clerk.com/docs/nextjs/reference/hooks/use-sign-in.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -13930,7 +14008,7 @@
       "deprecated": false
     },
     {
-      "title": "useSignUp()",
+      "title": "`useSignUp()`",
       "url": "https://clerk.com/docs/nextjs/reference/hooks/use-sign-up.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -13965,7 +14043,7 @@
       "deprecated": false
     },
     {
-      "title": "useUser()",
+      "title": "`useUser()`",
       "url": "https://clerk.com/docs/nextjs/reference/hooks/use-user.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -13976,7 +14054,7 @@
       "deprecated": false
     },
     {
-      "title": "useWaitlist()",
+      "title": "`useWaitlist()`",
       "url": "https://clerk.com/docs/nextjs/reference/hooks/use-waitlist.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -15706,7 +15784,7 @@
       "deprecated": false
     },
     {
-      "title": "`<PricingTable />`",
+      "title": "`<PricingTable />` component",
       "url": "https://clerk.com/docs/nuxt/reference/components/billing/pricing-table.md",
       "primaryCategory": "billing",
       "tags": [
@@ -15719,7 +15797,7 @@
       "deprecated": false
     },
     {
-      "title": "`<AuthenticateWithRedirectCallback />`",
+      "title": "`<AuthenticateWithRedirectCallback />` component",
       "url": "https://clerk.com/docs/nuxt/reference/components/control/authenticate-with-redirect-callback.md",
       "primaryCategory": "operations",
       "tags": [
@@ -15733,7 +15811,7 @@
       "deprecated": false
     },
     {
-      "title": "`<ClerkLoaded>`",
+      "title": "`<ClerkLoaded>` component",
       "url": "https://clerk.com/docs/nuxt/reference/components/control/clerk-loaded.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -15745,7 +15823,7 @@
       "deprecated": false
     },
     {
-      "title": "`<ClerkLoading>`",
+      "title": "`<ClerkLoading>` component",
       "url": "https://clerk.com/docs/nuxt/reference/components/control/clerk-loading.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -15757,7 +15835,7 @@
       "deprecated": false
     },
     {
-      "title": "`<RedirectToCreateOrganization />`",
+      "title": "`<RedirectToCreateOrganization />` component",
       "url": "https://clerk.com/docs/nuxt/reference/components/control/redirect-to-create-organization.md",
       "primaryCategory": "users-organizations",
       "tags": [
@@ -15771,7 +15849,7 @@
       "deprecated": false
     },
     {
-      "title": "`<RedirectToOrganizationProfile />`",
+      "title": "`<RedirectToOrganizationProfile />` component",
       "url": "https://clerk.com/docs/nuxt/reference/components/control/redirect-to-organization-profile.md",
       "primaryCategory": "users-organizations",
       "tags": [
@@ -15785,7 +15863,7 @@
       "deprecated": false
     },
     {
-      "title": "`<RedirectToSignIn />`",
+      "title": "`<RedirectToSignIn />` component",
       "url": "https://clerk.com/docs/nuxt/reference/components/control/redirect-to-sign-in.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -15799,7 +15877,7 @@
       "deprecated": false
     },
     {
-      "title": "`<RedirectToSignUp />`",
+      "title": "`<RedirectToSignUp />` component",
       "url": "https://clerk.com/docs/nuxt/reference/components/control/redirect-to-sign-up.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -15813,7 +15891,7 @@
       "deprecated": false
     },
     {
-      "title": "`<RedirectToTasks />`",
+      "title": "`<RedirectToTasks />` component",
       "url": "https://clerk.com/docs/nuxt/reference/components/control/redirect-to-tasks.md",
       "primaryCategory": "operations",
       "tags": [
@@ -15826,7 +15904,7 @@
       "deprecated": false
     },
     {
-      "title": "`<RedirectToUserProfile />`",
+      "title": "`<RedirectToUserProfile />` component",
       "url": "https://clerk.com/docs/nuxt/reference/components/control/redirect-to-user-profile.md",
       "primaryCategory": "operations",
       "tags": [
@@ -15839,7 +15917,7 @@
       "deprecated": false
     },
     {
-      "title": "`<Show>`",
+      "title": "`<Show>` component",
       "url": "https://clerk.com/docs/nuxt/reference/components/control/show.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -15915,7 +15993,7 @@
       "deprecated": false
     },
     {
-      "title": "`<SignInButton>`",
+      "title": "`<SignInButton>` component",
       "url": "https://clerk.com/docs/nuxt/reference/components/unstyled/sign-in-button.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -15928,7 +16006,7 @@
       "deprecated": false
     },
     {
-      "title": "`<SignInWithMetamaskButton>`",
+      "title": "`<SignInWithMetamaskButton>` component",
       "url": "https://clerk.com/docs/nuxt/reference/components/unstyled/sign-in-with-metamask.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -15941,7 +16019,7 @@
       "deprecated": false
     },
     {
-      "title": "`<SignOutButton>`",
+      "title": "`<SignOutButton>` component",
       "url": "https://clerk.com/docs/nuxt/reference/components/unstyled/sign-out-button.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -15953,7 +16031,7 @@
       "deprecated": false
     },
     {
-      "title": "`<SignUpButton>`",
+      "title": "`<SignUpButton>` component",
       "url": "https://clerk.com/docs/nuxt/reference/components/unstyled/sign-up-button.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -16002,7 +16080,7 @@
       "deprecated": false
     },
     {
-      "title": "useAuth() | Vue",
+      "title": "`useAuth()` | Vue",
       "url": "https://clerk.com/docs/nuxt/reference/composables/use-auth.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -16014,7 +16092,7 @@
       "deprecated": false
     },
     {
-      "title": "useClerk() | Vue",
+      "title": "`useClerk()` | Vue",
       "url": "https://clerk.com/docs/nuxt/reference/composables/use-clerk.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -16025,7 +16103,7 @@
       "deprecated": false
     },
     {
-      "title": "useOrganization() | Vue",
+      "title": "`useOrganization()` | Vue",
       "url": "https://clerk.com/docs/nuxt/reference/composables/use-organization.md",
       "primaryCategory": "users-organizations",
       "tags": [
@@ -16037,7 +16115,7 @@
       "deprecated": false
     },
     {
-      "title": "useSessionList() | Vue",
+      "title": "`useSessionList()` | Vue",
       "url": "https://clerk.com/docs/nuxt/reference/composables/use-session-list.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -16049,7 +16127,7 @@
       "deprecated": false
     },
     {
-      "title": "useSession() | Vue",
+      "title": "`useSession()` | Vue",
       "url": "https://clerk.com/docs/nuxt/reference/composables/use-session.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -16061,7 +16139,7 @@
       "deprecated": false
     },
     {
-      "title": "useSignIn() | Vue",
+      "title": "`useSignIn()` | Vue",
       "url": "https://clerk.com/docs/nuxt/reference/composables/use-sign-in.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -16073,7 +16151,7 @@
       "deprecated": false
     },
     {
-      "title": "useSignUp() | Vue",
+      "title": "`useSignUp()` | Vue",
       "url": "https://clerk.com/docs/nuxt/reference/composables/use-sign-up.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -16085,7 +16163,7 @@
       "deprecated": false
     },
     {
-      "title": "useUser() | Vue",
+      "title": "`useUser()` | Vue",
       "url": "https://clerk.com/docs/nuxt/reference/composables/use-user.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -17828,7 +17906,7 @@
       "deprecated": false
     },
     {
-      "title": "`<PricingTable />`",
+      "title": "`<PricingTable />` component",
       "url": "https://clerk.com/docs/react-router/reference/components/billing/pricing-table.md",
       "primaryCategory": "billing",
       "tags": [
@@ -17841,7 +17919,7 @@
       "deprecated": false
     },
     {
-      "title": "`<ClerkProvider>`",
+      "title": "`<ClerkProvider>` component",
       "url": "https://clerk.com/docs/react-router/reference/components/clerk-provider.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -17853,7 +17931,7 @@
       "deprecated": false
     },
     {
-      "title": "`<AuthenticateWithRedirectCallback />`",
+      "title": "`<AuthenticateWithRedirectCallback />` component",
       "url": "https://clerk.com/docs/react-router/reference/components/control/authenticate-with-redirect-callback.md",
       "primaryCategory": "operations",
       "tags": [
@@ -17867,7 +17945,7 @@
       "deprecated": false
     },
     {
-      "title": "`<ClerkDegraded>`",
+      "title": "`<ClerkDegraded>` component",
       "url": "https://clerk.com/docs/react-router/reference/components/control/clerk-degraded.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -17879,7 +17957,7 @@
       "deprecated": false
     },
     {
-      "title": "`<ClerkFailed>`",
+      "title": "`<ClerkFailed>` component",
       "url": "https://clerk.com/docs/react-router/reference/components/control/clerk-failed.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -17891,7 +17969,7 @@
       "deprecated": false
     },
     {
-      "title": "`<ClerkLoaded>`",
+      "title": "`<ClerkLoaded>` component",
       "url": "https://clerk.com/docs/react-router/reference/components/control/clerk-loaded.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -17903,7 +17981,7 @@
       "deprecated": false
     },
     {
-      "title": "`<ClerkLoading>`",
+      "title": "`<ClerkLoading>` component",
       "url": "https://clerk.com/docs/react-router/reference/components/control/clerk-loading.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -17915,7 +17993,7 @@
       "deprecated": false
     },
     {
-      "title": "`<RedirectToCreateOrganization />`",
+      "title": "`<RedirectToCreateOrganization />` component",
       "url": "https://clerk.com/docs/react-router/reference/components/control/redirect-to-create-organization.md",
       "primaryCategory": "users-organizations",
       "tags": [
@@ -17929,7 +18007,7 @@
       "deprecated": false
     },
     {
-      "title": "`<RedirectToOrganizationProfile />`",
+      "title": "`<RedirectToOrganizationProfile />` component",
       "url": "https://clerk.com/docs/react-router/reference/components/control/redirect-to-organization-profile.md",
       "primaryCategory": "users-organizations",
       "tags": [
@@ -17943,7 +18021,7 @@
       "deprecated": false
     },
     {
-      "title": "`<RedirectToSignIn />`",
+      "title": "`<RedirectToSignIn />` component",
       "url": "https://clerk.com/docs/react-router/reference/components/control/redirect-to-sign-in.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -17957,7 +18035,7 @@
       "deprecated": false
     },
     {
-      "title": "`<RedirectToSignUp />`",
+      "title": "`<RedirectToSignUp />` component",
       "url": "https://clerk.com/docs/react-router/reference/components/control/redirect-to-sign-up.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -17971,7 +18049,7 @@
       "deprecated": false
     },
     {
-      "title": "`<RedirectToTasks />`",
+      "title": "`<RedirectToTasks />` component",
       "url": "https://clerk.com/docs/react-router/reference/components/control/redirect-to-tasks.md",
       "primaryCategory": "operations",
       "tags": [
@@ -17984,7 +18062,7 @@
       "deprecated": false
     },
     {
-      "title": "`<RedirectToUserProfile />`",
+      "title": "`<RedirectToUserProfile />` component",
       "url": "https://clerk.com/docs/react-router/reference/components/control/redirect-to-user-profile.md",
       "primaryCategory": "operations",
       "tags": [
@@ -17997,7 +18075,7 @@
       "deprecated": false
     },
     {
-      "title": "`<Show>`",
+      "title": "`<Show>` component",
       "url": "https://clerk.com/docs/react-router/reference/components/control/show.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -18073,7 +18151,7 @@
       "deprecated": false
     },
     {
-      "title": "`<SignInButton>`",
+      "title": "`<SignInButton>` component",
       "url": "https://clerk.com/docs/react-router/reference/components/unstyled/sign-in-button.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -18086,7 +18164,7 @@
       "deprecated": false
     },
     {
-      "title": "`<SignInWithMetamaskButton>`",
+      "title": "`<SignInWithMetamaskButton>` component",
       "url": "https://clerk.com/docs/react-router/reference/components/unstyled/sign-in-with-metamask.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -18099,7 +18177,7 @@
       "deprecated": false
     },
     {
-      "title": "`<SignOutButton>`",
+      "title": "`<SignOutButton>` component",
       "url": "https://clerk.com/docs/react-router/reference/components/unstyled/sign-out-button.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -18111,7 +18189,7 @@
       "deprecated": false
     },
     {
-      "title": "`<SignUpButton>`",
+      "title": "`<SignUpButton>` component",
       "url": "https://clerk.com/docs/react-router/reference/components/unstyled/sign-up-button.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -18184,7 +18262,7 @@
       "deprecated": false
     },
     {
-      "title": "useSignIn()",
+      "title": "`useSignIn()`",
       "url": "https://clerk.com/docs/react-router/reference/hooks/legacy/use-sign-in.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -18196,7 +18274,7 @@
       "deprecated": true
     },
     {
-      "title": "useSignUp()",
+      "title": "`useSignUp()`",
       "url": "https://clerk.com/docs/react-router/reference/hooks/legacy/use-sign-up.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -18219,7 +18297,7 @@
       "deprecated": false
     },
     {
-      "title": "useAuth()",
+      "title": "`useAuth()`",
       "url": "https://clerk.com/docs/react-router/reference/hooks/use-auth.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -18231,7 +18309,7 @@
       "deprecated": false
     },
     {
-      "title": "useClerk()",
+      "title": "`useClerk()`",
       "url": "https://clerk.com/docs/react-router/reference/hooks/use-clerk.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -18242,7 +18320,7 @@
       "deprecated": false
     },
     {
-      "title": "useOAuthConsent()",
+      "title": "`useOAuthConsent()`",
       "url": "https://clerk.com/docs/react-router/reference/hooks/use-oauth-consent.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -18254,7 +18332,7 @@
       "deprecated": false
     },
     {
-      "title": "useOrganizationCreationDefaults()",
+      "title": "`useOrganizationCreationDefaults()`",
       "url": "https://clerk.com/docs/react-router/reference/hooks/use-organization-creation-defaults.md",
       "primaryCategory": "users-organizations",
       "tags": [
@@ -18278,7 +18356,7 @@
       "deprecated": false
     },
     {
-      "title": "useOrganization()",
+      "title": "`useOrganization()`",
       "url": "https://clerk.com/docs/react-router/reference/hooks/use-organization.md",
       "primaryCategory": "users-organizations",
       "tags": [
@@ -18290,7 +18368,7 @@
       "deprecated": false
     },
     {
-      "title": "useReverification()",
+      "title": "`useReverification()`",
       "url": "https://clerk.com/docs/react-router/reference/hooks/use-reverification.md",
       "primaryCategory": "security",
       "tags": [
@@ -18302,7 +18380,7 @@
       "deprecated": false
     },
     {
-      "title": "useSessionList()",
+      "title": "`useSessionList()`",
       "url": "https://clerk.com/docs/react-router/reference/hooks/use-session-list.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -18314,7 +18392,7 @@
       "deprecated": false
     },
     {
-      "title": "useSession()",
+      "title": "`useSession()`",
       "url": "https://clerk.com/docs/react-router/reference/hooks/use-session.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -18326,7 +18404,7 @@
       "deprecated": false
     },
     {
-      "title": "useSignIn()",
+      "title": "`useSignIn()`",
       "url": "https://clerk.com/docs/react-router/reference/hooks/use-sign-in.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -18338,7 +18416,7 @@
       "deprecated": false
     },
     {
-      "title": "useSignUp()",
+      "title": "`useSignUp()`",
       "url": "https://clerk.com/docs/react-router/reference/hooks/use-sign-up.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -18350,7 +18428,7 @@
       "deprecated": false
     },
     {
-      "title": "useUser()",
+      "title": "`useUser()`",
       "url": "https://clerk.com/docs/react-router/reference/hooks/use-user.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -18361,7 +18439,7 @@
       "deprecated": false
     },
     {
-      "title": "useWaitlist()",
+      "title": "`useWaitlist()`",
       "url": "https://clerk.com/docs/react-router/reference/hooks/use-waitlist.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -20156,7 +20234,7 @@
       "deprecated": false
     },
     {
-      "title": "`<PricingTable />`",
+      "title": "`<PricingTable />` component",
       "url": "https://clerk.com/docs/react/reference/components/billing/pricing-table.md",
       "primaryCategory": "billing",
       "tags": [
@@ -20182,7 +20260,7 @@
       "deprecated": false
     },
     {
-      "title": "`<ClerkProvider>`",
+      "title": "`<ClerkProvider>` component",
       "url": "https://clerk.com/docs/react/reference/components/clerk-provider.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -20194,7 +20272,7 @@
       "deprecated": false
     },
     {
-      "title": "`<AuthenticateWithRedirectCallback />`",
+      "title": "`<AuthenticateWithRedirectCallback />` component",
       "url": "https://clerk.com/docs/react/reference/components/control/authenticate-with-redirect-callback.md",
       "primaryCategory": "operations",
       "tags": [
@@ -20208,7 +20286,7 @@
       "deprecated": false
     },
     {
-      "title": "`<ClerkDegraded>`",
+      "title": "`<ClerkDegraded>` component",
       "url": "https://clerk.com/docs/react/reference/components/control/clerk-degraded.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -20220,7 +20298,7 @@
       "deprecated": false
     },
     {
-      "title": "`<ClerkFailed>`",
+      "title": "`<ClerkFailed>` component",
       "url": "https://clerk.com/docs/react/reference/components/control/clerk-failed.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -20232,7 +20310,7 @@
       "deprecated": false
     },
     {
-      "title": "`<ClerkLoaded>`",
+      "title": "`<ClerkLoaded>` component",
       "url": "https://clerk.com/docs/react/reference/components/control/clerk-loaded.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -20244,7 +20322,7 @@
       "deprecated": false
     },
     {
-      "title": "`<ClerkLoading>`",
+      "title": "`<ClerkLoading>` component",
       "url": "https://clerk.com/docs/react/reference/components/control/clerk-loading.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -20256,7 +20334,7 @@
       "deprecated": false
     },
     {
-      "title": "`<RedirectToCreateOrganization />`",
+      "title": "`<RedirectToCreateOrganization />` component",
       "url": "https://clerk.com/docs/react/reference/components/control/redirect-to-create-organization.md",
       "primaryCategory": "users-organizations",
       "tags": [
@@ -20270,7 +20348,7 @@
       "deprecated": false
     },
     {
-      "title": "`<RedirectToOrganizationProfile />`",
+      "title": "`<RedirectToOrganizationProfile />` component",
       "url": "https://clerk.com/docs/react/reference/components/control/redirect-to-organization-profile.md",
       "primaryCategory": "users-organizations",
       "tags": [
@@ -20284,7 +20362,7 @@
       "deprecated": false
     },
     {
-      "title": "`<RedirectToSignIn />`",
+      "title": "`<RedirectToSignIn />` component",
       "url": "https://clerk.com/docs/react/reference/components/control/redirect-to-sign-in.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -20298,7 +20376,7 @@
       "deprecated": false
     },
     {
-      "title": "`<RedirectToSignUp />`",
+      "title": "`<RedirectToSignUp />` component",
       "url": "https://clerk.com/docs/react/reference/components/control/redirect-to-sign-up.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -20312,7 +20390,7 @@
       "deprecated": false
     },
     {
-      "title": "`<RedirectToTasks />`",
+      "title": "`<RedirectToTasks />` component",
       "url": "https://clerk.com/docs/react/reference/components/control/redirect-to-tasks.md",
       "primaryCategory": "operations",
       "tags": [
@@ -20325,7 +20403,7 @@
       "deprecated": false
     },
     {
-      "title": "`<RedirectToUserProfile />`",
+      "title": "`<RedirectToUserProfile />` component",
       "url": "https://clerk.com/docs/react/reference/components/control/redirect-to-user-profile.md",
       "primaryCategory": "operations",
       "tags": [
@@ -20338,7 +20416,7 @@
       "deprecated": false
     },
     {
-      "title": "`<Show>`",
+      "title": "`<Show>` component",
       "url": "https://clerk.com/docs/react/reference/components/control/show.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -20414,7 +20492,7 @@
       "deprecated": false
     },
     {
-      "title": "`<SignInButton>`",
+      "title": "`<SignInButton>` component",
       "url": "https://clerk.com/docs/react/reference/components/unstyled/sign-in-button.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -20427,7 +20505,7 @@
       "deprecated": false
     },
     {
-      "title": "`<SignInWithMetamaskButton>`",
+      "title": "`<SignInWithMetamaskButton>` component",
       "url": "https://clerk.com/docs/react/reference/components/unstyled/sign-in-with-metamask.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -20440,7 +20518,7 @@
       "deprecated": false
     },
     {
-      "title": "`<SignOutButton>`",
+      "title": "`<SignOutButton>` component",
       "url": "https://clerk.com/docs/react/reference/components/unstyled/sign-out-button.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -20452,7 +20530,7 @@
       "deprecated": false
     },
     {
-      "title": "`<SignUpButton>`",
+      "title": "`<SignUpButton>` component",
       "url": "https://clerk.com/docs/react/reference/components/unstyled/sign-up-button.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -20513,7 +20591,7 @@
       "deprecated": false
     },
     {
-      "title": "useSignIn()",
+      "title": "`useSignIn()`",
       "url": "https://clerk.com/docs/react/reference/hooks/legacy/use-sign-in.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -20525,7 +20603,7 @@
       "deprecated": true
     },
     {
-      "title": "useSignUp()",
+      "title": "`useSignUp()`",
       "url": "https://clerk.com/docs/react/reference/hooks/legacy/use-sign-up.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -20559,7 +20637,7 @@
       "deprecated": false
     },
     {
-      "title": "useAuth()",
+      "title": "`useAuth()`",
       "url": "https://clerk.com/docs/react/reference/hooks/use-auth.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -20582,7 +20660,7 @@
       "deprecated": false
     },
     {
-      "title": "useClerk()",
+      "title": "`useClerk()`",
       "url": "https://clerk.com/docs/react/reference/hooks/use-clerk.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -20593,7 +20671,7 @@
       "deprecated": false
     },
     {
-      "title": "useOAuthConsent()",
+      "title": "`useOAuthConsent()`",
       "url": "https://clerk.com/docs/react/reference/hooks/use-oauth-consent.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -20605,7 +20683,7 @@
       "deprecated": false
     },
     {
-      "title": "useOrganizationCreationDefaults()",
+      "title": "`useOrganizationCreationDefaults()`",
       "url": "https://clerk.com/docs/react/reference/hooks/use-organization-creation-defaults.md",
       "primaryCategory": "users-organizations",
       "tags": [
@@ -20629,7 +20707,7 @@
       "deprecated": false
     },
     {
-      "title": "useOrganization()",
+      "title": "`useOrganization()`",
       "url": "https://clerk.com/docs/react/reference/hooks/use-organization.md",
       "primaryCategory": "users-organizations",
       "tags": [
@@ -20686,7 +20764,7 @@
       "deprecated": false
     },
     {
-      "title": "useReverification()",
+      "title": "`useReverification()`",
       "url": "https://clerk.com/docs/react/reference/hooks/use-reverification.md",
       "primaryCategory": "security",
       "tags": [
@@ -20698,7 +20776,7 @@
       "deprecated": false
     },
     {
-      "title": "useSessionList()",
+      "title": "`useSessionList()`",
       "url": "https://clerk.com/docs/react/reference/hooks/use-session-list.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -20710,7 +20788,7 @@
       "deprecated": false
     },
     {
-      "title": "useSession()",
+      "title": "`useSession()`",
       "url": "https://clerk.com/docs/react/reference/hooks/use-session.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -20722,7 +20800,7 @@
       "deprecated": false
     },
     {
-      "title": "useSignIn()",
+      "title": "`useSignIn()`",
       "url": "https://clerk.com/docs/react/reference/hooks/use-sign-in.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -20734,7 +20812,7 @@
       "deprecated": false
     },
     {
-      "title": "useSignUp()",
+      "title": "`useSignUp()`",
       "url": "https://clerk.com/docs/react/reference/hooks/use-sign-up.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -20769,7 +20847,7 @@
       "deprecated": false
     },
     {
-      "title": "useUser()",
+      "title": "`useUser()`",
       "url": "https://clerk.com/docs/react/reference/hooks/use-user.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -20780,7 +20858,7 @@
       "deprecated": false
     },
     {
-      "title": "useWaitlist()",
+      "title": "`useWaitlist()`",
       "url": "https://clerk.com/docs/react/reference/hooks/use-waitlist.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -25130,7 +25208,7 @@
       "deprecated": false
     },
     {
-      "title": "`<PricingTable />`",
+      "title": "`<PricingTable />` component",
       "url": "https://clerk.com/docs/tanstack-react-start/reference/components/billing/pricing-table.md",
       "primaryCategory": "billing",
       "tags": [
@@ -25156,7 +25234,7 @@
       "deprecated": false
     },
     {
-      "title": "`<ClerkProvider>`",
+      "title": "`<ClerkProvider>` component",
       "url": "https://clerk.com/docs/tanstack-react-start/reference/components/clerk-provider.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -25168,7 +25246,7 @@
       "deprecated": false
     },
     {
-      "title": "`<AuthenticateWithRedirectCallback />`",
+      "title": "`<AuthenticateWithRedirectCallback />` component",
       "url": "https://clerk.com/docs/tanstack-react-start/reference/components/control/authenticate-with-redirect-callback.md",
       "primaryCategory": "operations",
       "tags": [
@@ -25182,7 +25260,7 @@
       "deprecated": false
     },
     {
-      "title": "`<ClerkDegraded>`",
+      "title": "`<ClerkDegraded>` component",
       "url": "https://clerk.com/docs/tanstack-react-start/reference/components/control/clerk-degraded.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -25194,7 +25272,7 @@
       "deprecated": false
     },
     {
-      "title": "`<ClerkFailed>`",
+      "title": "`<ClerkFailed>` component",
       "url": "https://clerk.com/docs/tanstack-react-start/reference/components/control/clerk-failed.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -25206,7 +25284,7 @@
       "deprecated": false
     },
     {
-      "title": "`<ClerkLoaded>`",
+      "title": "`<ClerkLoaded>` component",
       "url": "https://clerk.com/docs/tanstack-react-start/reference/components/control/clerk-loaded.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -25218,7 +25296,7 @@
       "deprecated": false
     },
     {
-      "title": "`<ClerkLoading>`",
+      "title": "`<ClerkLoading>` component",
       "url": "https://clerk.com/docs/tanstack-react-start/reference/components/control/clerk-loading.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -25230,7 +25308,7 @@
       "deprecated": false
     },
     {
-      "title": "`<RedirectToCreateOrganization />`",
+      "title": "`<RedirectToCreateOrganization />` component",
       "url": "https://clerk.com/docs/tanstack-react-start/reference/components/control/redirect-to-create-organization.md",
       "primaryCategory": "users-organizations",
       "tags": [
@@ -25244,7 +25322,7 @@
       "deprecated": false
     },
     {
-      "title": "`<RedirectToOrganizationProfile />`",
+      "title": "`<RedirectToOrganizationProfile />` component",
       "url": "https://clerk.com/docs/tanstack-react-start/reference/components/control/redirect-to-organization-profile.md",
       "primaryCategory": "users-organizations",
       "tags": [
@@ -25258,7 +25336,7 @@
       "deprecated": false
     },
     {
-      "title": "`<RedirectToSignIn />`",
+      "title": "`<RedirectToSignIn />` component",
       "url": "https://clerk.com/docs/tanstack-react-start/reference/components/control/redirect-to-sign-in.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -25272,7 +25350,7 @@
       "deprecated": false
     },
     {
-      "title": "`<RedirectToSignUp />`",
+      "title": "`<RedirectToSignUp />` component",
       "url": "https://clerk.com/docs/tanstack-react-start/reference/components/control/redirect-to-sign-up.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -25286,7 +25364,7 @@
       "deprecated": false
     },
     {
-      "title": "`<RedirectToTasks />`",
+      "title": "`<RedirectToTasks />` component",
       "url": "https://clerk.com/docs/tanstack-react-start/reference/components/control/redirect-to-tasks.md",
       "primaryCategory": "operations",
       "tags": [
@@ -25299,7 +25377,7 @@
       "deprecated": false
     },
     {
-      "title": "`<RedirectToUserProfile />`",
+      "title": "`<RedirectToUserProfile />` component",
       "url": "https://clerk.com/docs/tanstack-react-start/reference/components/control/redirect-to-user-profile.md",
       "primaryCategory": "operations",
       "tags": [
@@ -25312,7 +25390,7 @@
       "deprecated": false
     },
     {
-      "title": "`<Show>`",
+      "title": "`<Show>` component",
       "url": "https://clerk.com/docs/tanstack-react-start/reference/components/control/show.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -25388,7 +25466,7 @@
       "deprecated": false
     },
     {
-      "title": "`<SignInButton>`",
+      "title": "`<SignInButton>` component",
       "url": "https://clerk.com/docs/tanstack-react-start/reference/components/unstyled/sign-in-button.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -25401,7 +25479,7 @@
       "deprecated": false
     },
     {
-      "title": "`<SignInWithMetamaskButton>`",
+      "title": "`<SignInWithMetamaskButton>` component",
       "url": "https://clerk.com/docs/tanstack-react-start/reference/components/unstyled/sign-in-with-metamask.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -25414,7 +25492,7 @@
       "deprecated": false
     },
     {
-      "title": "`<SignOutButton>`",
+      "title": "`<SignOutButton>` component",
       "url": "https://clerk.com/docs/tanstack-react-start/reference/components/unstyled/sign-out-button.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -25426,7 +25504,7 @@
       "deprecated": false
     },
     {
-      "title": "`<SignUpButton>`",
+      "title": "`<SignUpButton>` component",
       "url": "https://clerk.com/docs/tanstack-react-start/reference/components/unstyled/sign-up-button.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -25487,7 +25565,7 @@
       "deprecated": false
     },
     {
-      "title": "useSignIn()",
+      "title": "`useSignIn()`",
       "url": "https://clerk.com/docs/tanstack-react-start/reference/hooks/legacy/use-sign-in.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -25499,7 +25577,7 @@
       "deprecated": true
     },
     {
-      "title": "useSignUp()",
+      "title": "`useSignUp()`",
       "url": "https://clerk.com/docs/tanstack-react-start/reference/hooks/legacy/use-sign-up.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -25522,7 +25600,7 @@
       "deprecated": false
     },
     {
-      "title": "useAuth()",
+      "title": "`useAuth()`",
       "url": "https://clerk.com/docs/tanstack-react-start/reference/hooks/use-auth.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -25534,7 +25612,7 @@
       "deprecated": false
     },
     {
-      "title": "useClerk()",
+      "title": "`useClerk()`",
       "url": "https://clerk.com/docs/tanstack-react-start/reference/hooks/use-clerk.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -25545,7 +25623,7 @@
       "deprecated": false
     },
     {
-      "title": "useOAuthConsent()",
+      "title": "`useOAuthConsent()`",
       "url": "https://clerk.com/docs/tanstack-react-start/reference/hooks/use-oauth-consent.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -25557,7 +25635,7 @@
       "deprecated": false
     },
     {
-      "title": "useOrganizationCreationDefaults()",
+      "title": "`useOrganizationCreationDefaults()`",
       "url": "https://clerk.com/docs/tanstack-react-start/reference/hooks/use-organization-creation-defaults.md",
       "primaryCategory": "users-organizations",
       "tags": [
@@ -25581,7 +25659,7 @@
       "deprecated": false
     },
     {
-      "title": "useOrganization()",
+      "title": "`useOrganization()`",
       "url": "https://clerk.com/docs/tanstack-react-start/reference/hooks/use-organization.md",
       "primaryCategory": "users-organizations",
       "tags": [
@@ -25593,7 +25671,7 @@
       "deprecated": false
     },
     {
-      "title": "useReverification()",
+      "title": "`useReverification()`",
       "url": "https://clerk.com/docs/tanstack-react-start/reference/hooks/use-reverification.md",
       "primaryCategory": "security",
       "tags": [
@@ -25605,7 +25683,7 @@
       "deprecated": false
     },
     {
-      "title": "useSessionList()",
+      "title": "`useSessionList()`",
       "url": "https://clerk.com/docs/tanstack-react-start/reference/hooks/use-session-list.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -25617,7 +25695,7 @@
       "deprecated": false
     },
     {
-      "title": "useSession()",
+      "title": "`useSession()`",
       "url": "https://clerk.com/docs/tanstack-react-start/reference/hooks/use-session.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -25629,7 +25707,7 @@
       "deprecated": false
     },
     {
-      "title": "useSignIn()",
+      "title": "`useSignIn()`",
       "url": "https://clerk.com/docs/tanstack-react-start/reference/hooks/use-sign-in.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -25641,7 +25719,7 @@
       "deprecated": false
     },
     {
-      "title": "useSignUp()",
+      "title": "`useSignUp()`",
       "url": "https://clerk.com/docs/tanstack-react-start/reference/hooks/use-sign-up.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -25653,7 +25731,7 @@
       "deprecated": false
     },
     {
-      "title": "useUser()",
+      "title": "`useUser()`",
       "url": "https://clerk.com/docs/tanstack-react-start/reference/hooks/use-user.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -25664,7 +25742,7 @@
       "deprecated": false
     },
     {
-      "title": "useWaitlist()",
+      "title": "`useWaitlist()`",
       "url": "https://clerk.com/docs/tanstack-react-start/reference/hooks/use-waitlist.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -27299,7 +27377,7 @@
       "deprecated": false
     },
     {
-      "title": "`<PricingTable />`",
+      "title": "`<PricingTable />` component",
       "url": "https://clerk.com/docs/vue/reference/components/billing/pricing-table.md",
       "primaryCategory": "billing",
       "tags": [
@@ -27325,7 +27403,7 @@
       "deprecated": false
     },
     {
-      "title": "`<AuthenticateWithRedirectCallback />`",
+      "title": "`<AuthenticateWithRedirectCallback />` component",
       "url": "https://clerk.com/docs/vue/reference/components/control/authenticate-with-redirect-callback.md",
       "primaryCategory": "operations",
       "tags": [
@@ -27339,7 +27417,7 @@
       "deprecated": false
     },
     {
-      "title": "`<ClerkLoaded>`",
+      "title": "`<ClerkLoaded>` component",
       "url": "https://clerk.com/docs/vue/reference/components/control/clerk-loaded.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -27351,7 +27429,7 @@
       "deprecated": false
     },
     {
-      "title": "`<ClerkLoading>`",
+      "title": "`<ClerkLoading>` component",
       "url": "https://clerk.com/docs/vue/reference/components/control/clerk-loading.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -27363,7 +27441,7 @@
       "deprecated": false
     },
     {
-      "title": "`<RedirectToCreateOrganization />`",
+      "title": "`<RedirectToCreateOrganization />` component",
       "url": "https://clerk.com/docs/vue/reference/components/control/redirect-to-create-organization.md",
       "primaryCategory": "users-organizations",
       "tags": [
@@ -27377,7 +27455,7 @@
       "deprecated": false
     },
     {
-      "title": "`<RedirectToOrganizationProfile />`",
+      "title": "`<RedirectToOrganizationProfile />` component",
       "url": "https://clerk.com/docs/vue/reference/components/control/redirect-to-organization-profile.md",
       "primaryCategory": "users-organizations",
       "tags": [
@@ -27391,7 +27469,7 @@
       "deprecated": false
     },
     {
-      "title": "`<RedirectToSignIn />`",
+      "title": "`<RedirectToSignIn />` component",
       "url": "https://clerk.com/docs/vue/reference/components/control/redirect-to-sign-in.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -27405,7 +27483,7 @@
       "deprecated": false
     },
     {
-      "title": "`<RedirectToSignUp />`",
+      "title": "`<RedirectToSignUp />` component",
       "url": "https://clerk.com/docs/vue/reference/components/control/redirect-to-sign-up.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -27419,7 +27497,7 @@
       "deprecated": false
     },
     {
-      "title": "`<RedirectToTasks />`",
+      "title": "`<RedirectToTasks />` component",
       "url": "https://clerk.com/docs/vue/reference/components/control/redirect-to-tasks.md",
       "primaryCategory": "operations",
       "tags": [
@@ -27432,7 +27510,7 @@
       "deprecated": false
     },
     {
-      "title": "`<RedirectToUserProfile />`",
+      "title": "`<RedirectToUserProfile />` component",
       "url": "https://clerk.com/docs/vue/reference/components/control/redirect-to-user-profile.md",
       "primaryCategory": "operations",
       "tags": [
@@ -27445,7 +27523,7 @@
       "deprecated": false
     },
     {
-      "title": "`<Show>`",
+      "title": "`<Show>` component",
       "url": "https://clerk.com/docs/vue/reference/components/control/show.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -27521,7 +27599,7 @@
       "deprecated": false
     },
     {
-      "title": "`<SignInButton>`",
+      "title": "`<SignInButton>` component",
       "url": "https://clerk.com/docs/vue/reference/components/unstyled/sign-in-button.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -27534,7 +27612,7 @@
       "deprecated": false
     },
     {
-      "title": "`<SignInWithMetamaskButton>`",
+      "title": "`<SignInWithMetamaskButton>` component",
       "url": "https://clerk.com/docs/vue/reference/components/unstyled/sign-in-with-metamask.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -27547,7 +27625,7 @@
       "deprecated": false
     },
     {
-      "title": "`<SignOutButton>`",
+      "title": "`<SignOutButton>` component",
       "url": "https://clerk.com/docs/vue/reference/components/unstyled/sign-out-button.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -27559,7 +27637,7 @@
       "deprecated": false
     },
     {
-      "title": "`<SignUpButton>`",
+      "title": "`<SignUpButton>` component",
       "url": "https://clerk.com/docs/vue/reference/components/unstyled/sign-up-button.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -27620,7 +27698,7 @@
       "deprecated": false
     },
     {
-      "title": "useAuth() | Vue",
+      "title": "`useAuth()` | Vue",
       "url": "https://clerk.com/docs/vue/reference/composables/use-auth.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -27632,7 +27710,7 @@
       "deprecated": false
     },
     {
-      "title": "useClerk() | Vue",
+      "title": "`useClerk()` | Vue",
       "url": "https://clerk.com/docs/vue/reference/composables/use-clerk.md",
       "primaryCategory": "concepts-components",
       "tags": [
@@ -27643,7 +27721,7 @@
       "deprecated": false
     },
     {
-      "title": "useOrganization() | Vue",
+      "title": "`useOrganization()` | Vue",
       "url": "https://clerk.com/docs/vue/reference/composables/use-organization.md",
       "primaryCategory": "users-organizations",
       "tags": [
@@ -27655,7 +27733,7 @@
       "deprecated": false
     },
     {
-      "title": "useSessionList() | Vue",
+      "title": "`useSessionList()` | Vue",
       "url": "https://clerk.com/docs/vue/reference/composables/use-session-list.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -27667,7 +27745,7 @@
       "deprecated": false
     },
     {
-      "title": "useSession() | Vue",
+      "title": "`useSession()` | Vue",
       "url": "https://clerk.com/docs/vue/reference/composables/use-session.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -27679,7 +27757,7 @@
       "deprecated": false
     },
     {
-      "title": "useSignIn() | Vue",
+      "title": "`useSignIn()` | Vue",
       "url": "https://clerk.com/docs/vue/reference/composables/use-sign-in.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -27691,7 +27769,7 @@
       "deprecated": false
     },
     {
-      "title": "useSignUp() | Vue",
+      "title": "`useSignUp()` | Vue",
       "url": "https://clerk.com/docs/vue/reference/composables/use-sign-up.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -27703,7 +27781,7 @@
       "deprecated": false
     },
     {
-      "title": "useUser() | Vue",
+      "title": "`useUser()` | Vue",
       "url": "https://clerk.com/docs/vue/reference/composables/use-user.md",
       "primaryCategory": "concepts-components",
       "tags": [
