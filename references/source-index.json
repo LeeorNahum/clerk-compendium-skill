@@ -1,19 +1,19 @@
 {
   "generated": true,
   "discoverySource": "https://clerk.com/docs/llms.txt",
-  "discoverySha256": "0f25d021cdb26dd63021157c28de8b2ecab4407fcbd2f5f7a7e5efd0da6b4b91",
+  "discoverySha256": "a7c2aee7c00ea9c892125b9fa7556c9759fd807dca43147d174ae81b6d7d67b6",
   "counts": {
-    "documents": 2482,
+    "documents": 2490,
     "categories": {
-      "auth-sessions": 642,
+      "auth-sessions": 643,
       "billing": 424,
       "concepts-components": 483,
       "integrations-databases": 45,
-      "operations": 182,
+      "operations": 184,
       "quickstarts": 21,
       "sdk-api": 312,
       "security": 48,
-      "users-organizations": 325
+      "users-organizations": 330
     },
     "frameworks": {
       "Android": 25,
@@ -25,12 +25,12 @@
       "Go": 19,
       "iOS": 25,
       "JavaScript": 150,
-      "Next.js": 220,
+      "Next.js": 221,
       "Nuxt": 175,
-      "React": 204,
-      "React Router": 194,
+      "React": 205,
+      "React Router": 195,
       "Ruby": 24,
-      "TanStack React Start": 195,
+      "TanStack React Start": 196,
       "Vue": 171
     },
     "packages": 24,
@@ -225,7 +225,7 @@
       "key": "billing",
       "title": "Clerk Billing",
       "url": "https://clerk.com/docs/guides/billing/overview.md",
-      "sha256": "46f83c10544b2b92b8a10a6e90f4b6417fdbfab512f0204b5a0b29deee46be75"
+      "sha256": "b1dc3e4507a0c5d3d865d5cd4b5fdc9a056775913a9105e6b25cf0b5a932e937"
     },
     {
       "key": "environment-variables",
@@ -249,7 +249,7 @@
       "key": "react-quickstart",
       "title": "React Quickstart",
       "url": "https://clerk.com/docs/react/getting-started/quickstart.md",
-      "sha256": "a8ff9a09c0b04b3cdc41aa5964d86f2d27aa5817b1284803666f0bbe63f47ce6"
+      "sha256": "9e34e924a35e8c10447ddc26609345262a0a7d72a9d2c0567f15509d35ba431b"
     },
     {
       "key": "sessions",
@@ -261,13 +261,13 @@
       "key": "testing",
       "title": "Testing",
       "url": "https://clerk.com/docs/guides/development/testing/overview.md",
-      "sha256": "d260d4c21dd0822795240745a18ee5b436b53571370e2acabf66cea292d63e79"
+      "sha256": "e74ff30829aa6af74cc6f5db444e77d3ad8d8f3da698695680deb3ae39f03d51"
     },
     {
       "key": "webhooks",
       "title": "Webhooks overview",
       "url": "https://clerk.com/docs/guides/development/webhooks/overview.md",
-      "sha256": "34420c4a781fca2bcde406f4d326f8ff28c46beff5689ec015c747b57af73bcf"
+      "sha256": "f107cc2748fbb8edf0f09a93a4db5bb1a65899d6618242d12974e60c4b4d310c"
     }
   ],
   "documents": [
@@ -5313,6 +5313,17 @@
       "deprecated": false
     },
     {
+      "title": "`useBiometricCredentials()`",
+      "url": "https://clerk.com/docs/expo/reference/native-hooks/use-biometric-credentials.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "api"
+      ],
+      "framework": "Expo",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "`useHostedAuth()`",
       "url": "https://clerk.com/docs/expo/reference/native-hooks/use-hosted-auth.md",
       "primaryCategory": "concepts-components",
@@ -5374,17 +5385,6 @@
     {
       "title": "`useSSO()`",
       "url": "https://clerk.com/docs/expo/reference/native-hooks/use-sso.md",
-      "primaryCategory": "concepts-components",
-      "tags": [
-        "api"
-      ],
-      "framework": "Expo",
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "`useTrustedDevices()`",
-      "url": "https://clerk.com/docs/expo/reference/native-hooks/use-trusted-devices.md",
       "primaryCategory": "concepts-components",
       "tags": [
         "api"
@@ -8517,12 +8517,30 @@
       "deprecated": false
     },
     {
+      "title": "Admin Logs",
+      "url": "https://clerk.com/docs/guides/dashboard/logs/admin-logs.md",
+      "primaryCategory": "operations",
+      "tags": [],
+      "framework": null,
+      "kind": "guide",
+      "deprecated": false
+    },
+    {
       "title": "Application Logs",
       "url": "https://clerk.com/docs/guides/dashboard/logs/application-logs.md",
       "primaryCategory": "operations",
       "tags": [],
       "framework": null,
       "kind": "guide",
+      "deprecated": false
+    },
+    {
+      "title": "Dashboard Logs",
+      "url": "https://clerk.com/docs/guides/dashboard/logs/overview.md",
+      "primaryCategory": "operations",
+      "tags": [],
+      "framework": null,
+      "kind": "concept",
       "deprecated": false
     },
     {
@@ -9774,6 +9792,19 @@
       "deprecated": false
     },
     {
+      "title": "Test Organization domains",
+      "url": "https://clerk.com/docs/guides/development/testing/test-organization-domains.md",
+      "primaryCategory": "users-organizations",
+      "tags": [
+        "organizations",
+        "testing",
+        "deployment"
+      ],
+      "framework": null,
+      "kind": "guide",
+      "deprecated": false
+    },
+    {
       "title": "Email deliverability",
       "url": "https://clerk.com/docs/guides/development/troubleshooting/email-deliverability.md",
       "primaryCategory": "operations",
@@ -10497,6 +10528,15 @@
       "title": "Legal compliance",
       "url": "https://clerk.com/docs/guides/secure/legal-compliance.md",
       "primaryCategory": "concepts-components",
+      "tags": [],
+      "framework": null,
+      "kind": "guide",
+      "deprecated": false
+    },
+    {
+      "title": "MFA account recovery",
+      "url": "https://clerk.com/docs/guides/secure/mfa-recovery.md",
+      "primaryCategory": "auth-sessions",
       "tags": [],
       "framework": null,
       "kind": "guide",
@@ -13569,6 +13609,19 @@
     {
       "title": "`<CreateOrganization />` component",
       "url": "https://clerk.com/docs/nextjs/reference/components/organization/create-organization.md",
+      "primaryCategory": "users-organizations",
+      "tags": [
+        "organizations",
+        "components",
+        "api"
+      ],
+      "framework": "Next.js",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`<InviteMembersButton />`",
+      "url": "https://clerk.com/docs/nextjs/reference/components/organization/invite-members-button.md",
       "primaryCategory": "users-organizations",
       "tags": [
         "organizations",
@@ -18100,6 +18153,19 @@
       "deprecated": false
     },
     {
+      "title": "`<InviteMembersButton />`",
+      "url": "https://clerk.com/docs/react-router/reference/components/organization/invite-members-button.md",
+      "primaryCategory": "users-organizations",
+      "tags": [
+        "organizations",
+        "components",
+        "api"
+      ],
+      "framework": "React Router",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "`<OrganizationList />` component",
       "url": "https://clerk.com/docs/react-router/reference/components/organization/organization-list.md",
       "primaryCategory": "users-organizations",
@@ -20430,6 +20496,19 @@
     {
       "title": "`<CreateOrganization />` component",
       "url": "https://clerk.com/docs/react/reference/components/organization/create-organization.md",
+      "primaryCategory": "users-organizations",
+      "tags": [
+        "organizations",
+        "components",
+        "api"
+      ],
+      "framework": "React",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`<InviteMembersButton />`",
+      "url": "https://clerk.com/docs/react/reference/components/organization/invite-members-button.md",
       "primaryCategory": "users-organizations",
       "tags": [
         "organizations",
@@ -25404,6 +25483,19 @@
     {
       "title": "`<CreateOrganization />` component",
       "url": "https://clerk.com/docs/tanstack-react-start/reference/components/organization/create-organization.md",
+      "primaryCategory": "users-organizations",
+      "tags": [
+        "organizations",
+        "components",
+        "api"
+      ],
+      "framework": "TanStack React Start",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`<InviteMembersButton />`",
+      "url": "https://clerk.com/docs/tanstack-react-start/reference/components/organization/invite-members-button.md",
       "primaryCategory": "users-organizations",
       "tags": [
         "organizations",

@@ -15,7 +15,7 @@ Use this reference for sign-in, sign-up, sessions, tokens, claims, MFA, passkeys
 
 ## Selected Official Sources
 
-This focused list selects 60 of 642 current documents in this category. Search [source-index.json](source-index.json) when the exact method, object, framework page, or resource is not listed.
+This focused list selects 60 of 643 current documents in this category. Search [source-index.json](source-index.json) when the exact method, object, framework page, or resource is not listed.
 
 ### Cross-framework
 

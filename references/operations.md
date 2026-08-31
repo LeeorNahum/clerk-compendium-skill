@@ -15,7 +15,7 @@ Use this reference for environment variables, instances, domains, redirects, dep
 
 ## Selected Official Sources
 
-This focused list selects 60 of 182 current documents in this category. Search [source-index.json](source-index.json) when the exact method, object, framework page, or resource is not listed.
+This focused list selects 60 of 184 current documents in this category. Search [source-index.json](source-index.json) when the exact method, object, framework page, or resource is not listed.
 
 ### Cross-framework
 
@@ -25,6 +25,7 @@ This focused list selects 60 of 182 current documents in this category. Search [
 - [Clerk environment variables](https://clerk.com/docs/guides/development/clerk-environment-variables.md) (guide, deployment)
 - [Custom commands](https://clerk.com/docs/guides/development/testing/cypress/custom-commands.md) (guide, testing)
 - [Customize your redirect URLs](https://clerk.com/docs/guides/development/customize-redirect-urls.md) (guide, deployment)
+- [Dashboard Logs](https://clerk.com/docs/guides/dashboard/logs/overview.md) (concept)
 - [Errors overview](https://clerk.com/docs/guides/development/errors/overview.md) (troubleshooting)
 - [Install Clerk with shadcn/ui CLI](https://clerk.com/docs/guides/development/shadcn-cli.md) (guide)
 - [Instances / Environments](https://clerk.com/docs/guides/development/managing-environments.md) (guide, deployment)
@@ -61,7 +62,6 @@ This focused list selects 60 of 182 current documents in this category. Search [
 
 - [`ClerkAPIError`](https://clerk.com/docs/expo/reference/types/clerk-api-error.md) (reference, api)
 - [`ClerkAPIResponseError`](https://clerk.com/docs/expo/reference/types/clerk-api-response-error.md) (reference, api)
-- [`ClerkError`](https://clerk.com/docs/expo/reference/types/clerk-error.md) (reference, api)
 - [Error handling](https://clerk.com/docs/expo/guides/development/custom-flows/error-handling.md) (troubleshooting)
 
 ### Express
