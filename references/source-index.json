@@ -1,7 +1,7 @@
 {
   "generated": true,
   "discoverySource": "https://clerk.com/docs/llms.txt",
-  "discoverySha256": "a7c2aee7c00ea9c892125b9fa7556c9759fd807dca43147d174ae81b6d7d67b6",
+  "discoverySha256": "4159ce7f4cdb6f1a289a2cb635805133a5f2d0dcd1ae53beb263c323b6a8cfa4",
   "counts": {
     "documents": 2490,
     "categories": {
@@ -237,7 +237,7 @@
       "key": "nextjs-quickstart",
       "title": "Next.js Quickstart (App Router)",
       "url": "https://clerk.com/docs/nextjs/getting-started/quickstart.md",
-      "sha256": "6793f421f3a4fb8e47ee4890a0258b02e6629e9cf068cb8f7921951314b60cdb"
+      "sha256": "1bdee925a9041eb22973277cc37c8369ea8d1bbcee2f344b350826c336a3efa0"
     },
     {
       "key": "organizations",
@@ -249,7 +249,7 @@
       "key": "react-quickstart",
       "title": "React Quickstart",
       "url": "https://clerk.com/docs/react/getting-started/quickstart.md",
-      "sha256": "9e34e924a35e8c10447ddc26609345262a0a7d72a9d2c0567f15509d35ba431b"
+      "sha256": "2aa908c77082ad4edf653c31388d57af6209dbb4ce45077900f4aca22898b9c4"
     },
     {
       "key": "sessions",
