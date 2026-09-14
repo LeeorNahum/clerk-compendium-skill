@@ -1,23 +1,23 @@
 {
   "generated": true,
   "discoverySource": "https://clerk.com/docs/llms.txt",
-  "discoverySha256": "4159ce7f4cdb6f1a289a2cb635805133a5f2d0dcd1ae53beb263c323b6a8cfa4",
+  "discoverySha256": "6d57defd808a270f882ddb1e421080995ff89a37b85239b49822de4ae3dbee65",
   "counts": {
-    "documents": 2490,
+    "documents": 2488,
     "categories": {
       "auth-sessions": 643,
       "billing": 424,
-      "concepts-components": 483,
+      "concepts-components": 480,
       "integrations-databases": 45,
       "operations": 184,
       "quickstarts": 21,
       "sdk-api": 312,
-      "security": 48,
+      "security": 49,
       "users-organizations": 330
     },
     "frameworks": {
       "Android": 25,
-      "Astro": 169,
+      "Astro": 168,
       "Chrome Extension": 168,
       "Expo": 182,
       "Express": 27,
@@ -25,9 +25,9 @@
       "Go": 19,
       "iOS": 25,
       "JavaScript": 150,
-      "Next.js": 221,
+      "Next.js": 220,
       "Nuxt": 175,
-      "React": 205,
+      "React": 204,
       "React Router": 195,
       "Ruby": 24,
       "TanStack React Start": 196,
@@ -249,7 +249,7 @@
       "key": "react-quickstart",
       "title": "React Quickstart",
       "url": "https://clerk.com/docs/react/getting-started/quickstart.md",
-      "sha256": "2aa908c77082ad4edf653c31388d57af6209dbb4ce45077900f4aca22898b9c4"
+      "sha256": "ccba0b30c3f80338b6536a4e2c81944da91b8f360b095e8dd01796fdbbeba82d"
     },
     {
       "key": "sessions",
@@ -564,15 +564,6 @@
       "tags": [],
       "framework": "Astro",
       "kind": "quickstart",
-      "deprecated": false
-    },
-    {
-      "title": "AI prompts",
-      "url": "https://clerk.com/docs/astro/guides/ai/prompts.md",
-      "primaryCategory": "concepts-components",
-      "tags": [],
-      "framework": "Astro",
-      "kind": "guide",
       "deprecated": false
     },
     {
@@ -7881,6 +7872,18 @@
       "deprecated": false
     },
     {
+      "title": "Use OAuth Device Authorization Grant",
+      "url": "https://clerk.com/docs/guides/configure/auth-strategies/oauth/device-authorization-grant.md",
+      "primaryCategory": "security",
+      "tags": [
+        "authentication",
+        "security"
+      ],
+      "framework": null,
+      "kind": "guide",
+      "deprecated": false
+    },
+    {
       "title": "How Clerk implements OAuth",
       "url": "https://clerk.com/docs/guides/configure/auth-strategies/oauth/how-clerk-implements-oauth.md",
       "primaryCategory": "concepts-components",
@@ -12804,15 +12807,6 @@
     {
       "title": "Build an MCP server in your application with Clerk",
       "url": "https://clerk.com/docs/nextjs/guides/ai/mcp/build-mcp-server.md",
-      "primaryCategory": "concepts-components",
-      "tags": [],
-      "framework": "Next.js",
-      "kind": "guide",
-      "deprecated": false
-    },
-    {
-      "title": "AI prompts",
-      "url": "https://clerk.com/docs/nextjs/guides/ai/prompts.md",
       "primaryCategory": "concepts-components",
       "tags": [],
       "framework": "Next.js",
@@ -19777,15 +19771,6 @@
       "tags": [],
       "framework": "React",
       "kind": "quickstart",
-      "deprecated": false
-    },
-    {
-      "title": "AI prompts",
-      "url": "https://clerk.com/docs/react/guides/ai/prompts.md",
-      "primaryCategory": "concepts-components",
-      "tags": [],
-      "framework": "React",
-      "kind": "guide",
       "deprecated": false
     },
     {

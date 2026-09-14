@@ -15,7 +15,7 @@ Use this reference when choosing Clerk architecture, prebuilt components, custom
 
 ## Selected Official Sources
 
-This focused list selects 60 of 483 current documents in this category. Search [source-index.json](source-index.json) when the exact method, object, framework page, or resource is not listed.
+This focused list selects 60 of 480 current documents in this category. Search [source-index.json](source-index.json) when the exact method, object, framework page, or resource is not listed.
 
 ### Cross-framework
 
@@ -43,8 +43,8 @@ This focused list selects 60 of 483 current documents in this category. Search [
 ### Astro
 
 - [`Appearance` prop](https://clerk.com/docs/astro/guides/customizing-clerk/appearance-prop/overview.md) (concept, components)
-- [AI prompts](https://clerk.com/docs/astro/guides/ai/prompts.md) (guide)
 - [Clerk Astro SDK](https://clerk.com/docs/astro/reference/overview.md) (reference, api)
+- [Set up a custom OAuth consent page](https://clerk.com/docs/astro/guides/configure/auth-strategies/oauth/custom-consent-page.md) (guide, authentication)
 
 ### Chrome Extension
 
@@ -101,8 +101,8 @@ This focused list selects 60 of 483 current documents in this category. Search [
 ### React
 
 - [`Appearance` prop](https://clerk.com/docs/react/guides/customizing-clerk/appearance-prop/overview.md) (concept, components)
-- [AI prompts](https://clerk.com/docs/react/guides/ai/prompts.md) (guide)
 - [Clerk React SDK](https://clerk.com/docs/react/reference/overview.md) (reference, api)
+- [Set up a custom OAuth consent page](https://clerk.com/docs/react/guides/configure/auth-strategies/oauth/custom-consent-page.md) (guide, authentication)
 
 ### React Router
 

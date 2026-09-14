@@ -15,7 +15,7 @@ Use this reference when protecting routes or resources, reviewing trust boundari
 
 ## Selected Official Sources
 
-This focused list selects 48 of 48 current documents in this category. Search [source-index.json](source-index.json) when the exact method, object, framework page, or resource is not listed.
+This focused list selects 49 of 49 current documents in this category. Search [source-index.json](source-index.json) when the exact method, object, framework page, or resource is not listed.
 
 ### Cross-framework
 
@@ -32,6 +32,7 @@ This focused list selects 48 of 48 current documents in this category. Search [s
 - [Protect email link sign-ins and sign-ups](https://clerk.com/docs/guides/secure/best-practices/protect-email-links.md) (guide, authentication, security)
 - [Restricting access](https://clerk.com/docs/guides/secure/restricting-access.md) (guide, security)
 - [The Backend `InstanceRestrictions` object](https://clerk.com/docs/reference/backend/types/backend-instance-restrictions.md) (reference, security, api)
+- [Use OAuth Device Authorization Grant](https://clerk.com/docs/guides/configure/auth-strategies/oauth/device-authorization-grant.md) (guide, authentication, security)
 - [User enumeration protection](https://clerk.com/docs/guides/secure/user-enumeration-protection.md) (guide, security)
 - [Vulnerability disclosure policy](https://clerk.com/docs/guides/how-clerk-works/security/vulnerability-disclosure-policy.md) (guide, security)
 - [XSS leak protection](https://clerk.com/docs/guides/secure/best-practices/xss-leak-protection.md) (guide, security)
