@@ -1,15 +1,15 @@
 {
   "generated": true,
   "discoverySource": "https://clerk.com/docs/llms.txt",
-  "discoverySha256": "6d57defd808a270f882ddb1e421080995ff89a37b85239b49822de4ae3dbee65",
+  "discoverySha256": "384e67bda721bab8e376ddced525a98c9da03c3aea9a15d3535f86dbafcb0128",
   "counts": {
-    "documents": 2488,
+    "documents": 2489,
     "categories": {
       "auth-sessions": 643,
       "billing": 424,
       "concepts-components": 480,
       "integrations-databases": 45,
-      "operations": 184,
+      "operations": 185,
       "quickstarts": 21,
       "sdk-api": 312,
       "security": 49,
@@ -33,7 +33,7 @@
       "TanStack React Start": 196,
       "Vue": 171
     },
-    "packages": 24,
+    "packages": 25,
     "repositories": 10
   },
   "repositories": [
@@ -170,6 +170,11 @@
       "repository": "clerk/javascript"
     },
     {
+      "name": "@clerk/mosaic",
+      "directory": "packages/mosaic",
+      "repository": "clerk/javascript"
+    },
+    {
       "name": "@clerk/nextjs",
       "directory": "packages/nextjs",
       "repository": "clerk/javascript"
@@ -225,7 +230,7 @@
       "key": "billing",
       "title": "Clerk Billing",
       "url": "https://clerk.com/docs/guides/billing/overview.md",
-      "sha256": "b1dc3e4507a0c5d3d865d5cd4b5fdc9a056775913a9105e6b25cf0b5a932e937"
+      "sha256": "0a7e0429786775d01af4b3b2f5d7a3ec9584b9ee3c844cd07a5e96590616340d"
     },
     {
       "key": "environment-variables",
@@ -237,19 +242,19 @@
       "key": "nextjs-quickstart",
       "title": "Next.js Quickstart (App Router)",
       "url": "https://clerk.com/docs/nextjs/getting-started/quickstart.md",
-      "sha256": "1bdee925a9041eb22973277cc37c8369ea8d1bbcee2f344b350826c336a3efa0"
+      "sha256": "4b6a340d185e637054a9c112ce965f1b1015e2210b297be72280c1293487f932"
     },
     {
       "key": "organizations",
       "title": "Organizations",
       "url": "https://clerk.com/docs/guides/organizations/overview.md",
-      "sha256": "72d5c4c1de6614031ccbdf3fd8b48e1d0af0f02fb0d86959c1c633b40d2f0e76"
+      "sha256": "f9d058832f9b107a3dcdfa1185faf30879a7920cd50d94287d328e6125bc222a"
     },
     {
       "key": "react-quickstart",
       "title": "React Quickstart",
       "url": "https://clerk.com/docs/react/getting-started/quickstart.md",
-      "sha256": "ccba0b30c3f80338b6536a4e2c81944da91b8f360b095e8dd01796fdbbeba82d"
+      "sha256": "3c053ff36d47cd6d3c94dad7b62e13d708b9989774b1f3b1f9cba1274a053107"
     },
     {
       "key": "sessions",
@@ -267,7 +272,7 @@
       "key": "webhooks",
       "title": "Webhooks overview",
       "url": "https://clerk.com/docs/guides/development/webhooks/overview.md",
-      "sha256": "f107cc2748fbb8edf0f09a93a4db5bb1a65899d6618242d12974e60c4b4d310c"
+      "sha256": "c536c6491d00d6d4cdf32a73ee36311dd5e9274fe332dd5dbd33123c2d8c12fe"
     }
   ],
   "documents": [
@@ -7817,7 +7822,7 @@
       "deprecated": false
     },
     {
-      "title": "Add a custom Identity Provider (IdP) as a SAML connection",
+      "title": "Add a custom identity provider as a SAML connection",
       "url": "https://clerk.com/docs/guides/configure/auth-strategies/enterprise-connections/saml/custom-provider.md",
       "primaryCategory": "users-organizations",
       "tags": [
@@ -8138,7 +8143,7 @@
       "deprecated": false
     },
     {
-      "title": "Add LinkedIn Open ID Connect (OIDC) as a social connection",
+      "title": "Add LinkedIn OpenID Connect (OIDC) as a social connection",
       "url": "https://clerk.com/docs/guides/configure/auth-strategies/social-connections/linkedin-oidc.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -8149,7 +8154,7 @@
       "deprecated": false
     },
     {
-      "title": "Add Microsoft Azure Entra ID as a social connection",
+      "title": "Add Microsoft Entra ID as a social connection",
       "url": "https://clerk.com/docs/guides/configure/auth-strategies/social-connections/microsoft.md",
       "primaryCategory": "auth-sessions",
       "tags": [
@@ -8544,6 +8549,17 @@
       "tags": [],
       "framework": null,
       "kind": "concept",
+      "deprecated": false
+    },
+    {
+      "title": "SMS delivery events",
+      "url": "https://clerk.com/docs/guides/dashboard/logs/sms-delivery-events.md",
+      "primaryCategory": "operations",
+      "tags": [
+        "webhooks"
+      ],
+      "framework": null,
+      "kind": "guide",
       "deprecated": false
     },
     {

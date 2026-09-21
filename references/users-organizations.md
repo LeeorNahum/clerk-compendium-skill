@@ -20,7 +20,7 @@ This focused list selects 60 of 330 current documents in this category. Search [
 ### Cross-framework
 
 - [Account linking](https://clerk.com/docs/guides/configure/auth-strategies/enterprise-connections/account-linking.md) (guide, authentication)
-- [Add a custom Identity Provider (IdP) as a SAML connection](https://clerk.com/docs/guides/configure/auth-strategies/enterprise-connections/saml/custom-provider.md) (guide, authentication)
+- [Add a custom identity provider as a SAML connection](https://clerk.com/docs/guides/configure/auth-strategies/enterprise-connections/saml/custom-provider.md) (guide, authentication)
 - [Add a custom OpenID Connect (OIDC) Provider as an enterprise connection](https://clerk.com/docs/guides/configure/auth-strategies/enterprise-connections/oidc/custom-provider.md) (guide, authentication)
 - [Add Google as an EASIE connection](https://clerk.com/docs/guides/configure/auth-strategies/enterprise-connections/easie/google.md) (guide, authentication)
 - [Add Google Workspace as a SAML connection](https://clerk.com/docs/guides/configure/auth-strategies/enterprise-connections/saml/google.md) (guide, authentication)

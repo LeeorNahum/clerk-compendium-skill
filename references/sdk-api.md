@@ -46,6 +46,7 @@ Use this reference for exact packages, imports, helpers, methods, types, Backend
 | `@clerk/fastify` | [`packages/fastify`](https://github.com/clerk/javascript/tree/main/packages/fastify) |
 | `@clerk/hono` | [`packages/hono`](https://github.com/clerk/javascript/tree/main/packages/hono) |
 | `@clerk/localizations` | [`packages/localizations`](https://github.com/clerk/javascript/tree/main/packages/localizations) |
+| `@clerk/mosaic` | [`packages/mosaic`](https://github.com/clerk/javascript/tree/main/packages/mosaic) |
 | `@clerk/nextjs` | [`packages/nextjs`](https://github.com/clerk/javascript/tree/main/packages/nextjs) |
 | `@clerk/nuxt` | [`packages/nuxt`](https://github.com/clerk/javascript/tree/main/packages/nuxt) |
 | `@clerk/react` | [`packages/react`](https://github.com/clerk/javascript/tree/main/packages/react) |
