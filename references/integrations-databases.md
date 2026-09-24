@@ -8,7 +8,6 @@ Use this reference for webhooks, database synchronization, external backends, OA
 
 ## Operating Guidance
 
-- Verify a webhook signature against the raw request body before parsing or trusting payload fields.
 - Make event handling idempotent, transactional where needed, and tolerant of duplicate, delayed, and out-of-order delivery.
 - Use event identifiers and source versions to prevent an older event from overwriting newer application state.
 - Define which Clerk facts are mirrored, why they are needed, and how the application recovers after missed events.

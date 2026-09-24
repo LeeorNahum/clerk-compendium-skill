@@ -8,7 +8,6 @@ Use this reference for users, metadata, organizations, memberships, invitations,
 
 ## Operating Guidance
 
-- Derive organization membership and permissions from verified Clerk state at the server boundary.
 - An active organization selection is navigation context, not proof that the user may access every resource associated with that organization.
 - Store application-owned data in the application database and keep one declared owner for each fact synchronized from Clerk.
 - Design invitation and membership transitions for retries, revocation, expired links, and users who belong to several organizations.

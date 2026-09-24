@@ -9,7 +9,6 @@ Use this reference for Clerk plans, features, subscriptions, trials, entitlement
 ## Operating Guidance
 
 - Determine whether the subscription owner is a user or organization before modeling entitlement checks.
-- Enforce paid features at the server boundary. A hidden component or client-side feature check is not an entitlement gate.
 - Treat subscription state as provider-owned and application access rules as application-owned.
 - Test upgrades, downgrades, cancellation, trial expiration, delayed webhooks, and temporary provider failure.
 

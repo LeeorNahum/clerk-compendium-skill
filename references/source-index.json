@@ -1,13 +1,13 @@
 {
   "generated": true,
   "discoverySource": "https://clerk.com/docs/llms.txt",
-  "discoverySha256": "384e67bda721bab8e376ddced525a98c9da03c3aea9a15d3535f86dbafcb0128",
+  "discoverySha256": "078c3df438e9e1e32e9bbcf7245d501f9f57de01c15cd7f55a8ecf0d378ba3d2",
   "counts": {
-    "documents": 2489,
+    "documents": 2487,
     "categories": {
       "auth-sessions": 643,
       "billing": 424,
-      "concepts-components": 480,
+      "concepts-components": 478,
       "integrations-databases": 45,
       "operations": 185,
       "quickstarts": 21,
@@ -25,7 +25,7 @@
       "Go": 19,
       "iOS": 25,
       "JavaScript": 150,
-      "Next.js": 220,
+      "Next.js": 219,
       "Nuxt": 175,
       "React": 204,
       "React Router": 195,
@@ -230,7 +230,7 @@
       "key": "billing",
       "title": "Clerk Billing",
       "url": "https://clerk.com/docs/guides/billing/overview.md",
-      "sha256": "0a7e0429786775d01af4b3b2f5d7a3ec9584b9ee3c844cd07a5e96590616340d"
+      "sha256": "8dfecae6ec9bce1310a5572ab150b750b5ecccd2fd445b991cd6fafe6ee42579"
     },
     {
       "key": "environment-variables",
@@ -266,7 +266,7 @@
       "key": "testing",
       "title": "Testing",
       "url": "https://clerk.com/docs/guides/development/testing/overview.md",
-      "sha256": "e74ff30829aa6af74cc6f5db444e77d3ad8d8f3da698695680deb3ae39f03d51"
+      "sha256": "15290cd94d8eb0986b59e7257c406dea819217af2d797e46f6668e7a4a9691fa"
     },
     {
       "key": "webhooks",
@@ -10117,15 +10117,6 @@
       "deprecated": false
     },
     {
-      "title": "Upgrading from v2 to v3",
-      "url": "https://clerk.com/docs/guides/development/upgrading/upgrading-from-v2-to-v3.md",
-      "primaryCategory": "concepts-components",
-      "tags": [],
-      "framework": null,
-      "kind": "guide",
-      "deprecated": false
-    },
-    {
       "title": "Versioning overview",
       "url": "https://clerk.com/docs/guides/development/upgrading/versioning.md",
       "primaryCategory": "concepts-components",
@@ -15386,17 +15377,6 @@
       "title": "`Web3Wallet`",
       "url": "https://clerk.com/docs/nextjs/reference/types/web3-wallet.md",
       "primaryCategory": "auth-sessions",
-      "tags": [
-        "api"
-      ],
-      "framework": "Next.js",
-      "kind": "reference",
-      "deprecated": false
-    },
-    {
-      "title": "Use Clerk with Next.js 12 and older",
-      "url": "https://clerk.com/docs/nextjs/reference/usage-with-older-versions.md",
-      "primaryCategory": "concepts-components",
       "tags": [
         "api"
       ],

@@ -8,9 +8,6 @@ Use this reference when protecting routes or resources, reviewing trust boundari
 
 ## Operating Guidance
 
-- Keep secret keys, webhook secrets, and privileged Backend API calls in server-only runtimes.
-- Apply authorization where the protected operation executes, even when middleware also filters requests.
-- Fail closed when verified session, organization, permission, ownership, or entitlement state is absent.
 - Rotate credentials by stage and verify old credentials are retired after callers have moved.
 
 ## Selected Official Sources

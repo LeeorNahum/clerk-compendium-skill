@@ -15,7 +15,7 @@ This skill gives coding agents one progressively disclosed entry point for Clerk
 | `references/source-index.json`        | Complete normalized Clerk documentation and SDK index            | `scripts/sync.mjs` |
 | `scripts/sync.mjs`                    | Source discovery, classification, drift detection, and rendering | Hand               |
 | `evals/*.json`                        | Trigger and workflow evaluation definitions                      | Hand               |
-| `.github/workflows/sync-upstream.yml` | Future standalone scheduled refresh                              | Hand               |
+| `.github/workflows/sync-upstream.yml` | Scheduled refresh                                                | Hand               |
 | `.gitattributes`                      | Stable LF behavior                                               | Hand               |
 | `README.md`                           | Human installation and maintenance overview                      | Hand               |
 | `AGENTS.md`                           | This maintenance contract                                        | Hand               |
@@ -57,7 +57,7 @@ Every Clerk documentation entry belongs to exactly one primary category:
 - `operations`
 - `sdk-api`
 
-The complete entry stays in `source-index.json`. Focused Markdown references contain compact guidance and selected source lists. If a page can support several tasks, give it one primary category and additional tags rather than duplicating it.
+The complete entry stays in `source-index.json`. Focused Markdown references contain compact guidance and selected source lists. The Security Rules in `SKILL.md` own the identity, authorization, secret, fail-closed, claims, and webhook-signature rules. Reference guidance carries only what is specific to its topic and never restates them. If a page can support several tasks, give it one primary category and additional tags rather than duplicating it.
 
 Known top-level documentation roots are explicit in `scripts/sync.mjs`. A new root is a review event and must fail closed until classified. A new page under a known root may be classified automatically by ordered title and path rules, but review the generated diff for category quality.
 
@@ -101,12 +101,7 @@ When upstream changes:
 
 ## Versioning
 
-`metadata.version` in `SKILL.md` is the authored behavior version.
-
-- Bump patch for authored corrections that do not change routing or scope.
-- Bump minor for new task routing, guidance, framework coverage, or evaluation expectations.
-- Bump major for a renamed skill, incompatible scope change, or removed public behavior.
-- Do not bump for a generated source refresh with unchanged authored behavior.
+Bump `metadata.version` in `SKILL.md` by the release-versioning skill's rules for skills.
 
 ## Evaluation
 
@@ -132,6 +127,6 @@ Workflow evaluations compare fresh runs with and without the skill. Assertions s
 - Confirm every index entry has exactly one primary category.
 - Confirm every support file is reachable from `SKILL.md`.
 - Confirm generated files contain no copied Clerk documentation or prompt bodies.
-- Confirm authored behavior and `metadata.version` agree.
+- Confirm `metadata.version` was bumped as the release-versioning skill requires.
 - Confirm repeated synchronization produces no diff.
 - Confirm no nested Git metadata exists.

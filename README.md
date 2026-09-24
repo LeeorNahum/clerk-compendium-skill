@@ -15,7 +15,7 @@ A portable Agent Skill for current Clerk implementation work across first-party 
 
 ## Sources and Redistribution
 
-The synchronizer discovers canonical pages through `https://clerk.com/docs/llms.txt` and inventories official Clerk SDK repositories. The public Clerk documentation repository has no explicit detected license, so this skill stores independently authored guidance, factual metadata, hashes, and canonical links rather than copying documentation or prompt bodies.
+The synchronizer discovers canonical pages through `https://clerk.com/docs/llms.txt` and inventories official Clerk SDK repositories. What the skill may store from those sources is set in [AGENTS.md](AGENTS.md#redistribution-boundaries).
 
 ## Refresh
 
@@ -34,11 +34,7 @@ Validate from the consuming repository root:
 node .agents/skills/skill-forge/scripts/validate.mjs .agents/skills/clerk-compendium
 ```
 
-## Local Draft and Future Installation
-
-This copy is intentionally a plain local directory during review. Its nested GitHub workflow is inactive until the skill becomes the root of its own repository.
-
-Install the standalone repository at the same path:
+## Install
 
 ```text
 git submodule add https://github.com/LeeorNahum/clerk-compendium-skill.git .agents/skills/clerk-compendium

@@ -1,9 +1,9 @@
 ---
 name: "clerk-compendium"
-description: "Build, integrate, secure, test, migrate, and troubleshoot Clerk authentication and user management across supported web, backend, and mobile frameworks. Use when adding or reviewing Clerk SDK code, configuring sign-in or sign-up, sessions, users, organizations, roles and permissions, webhooks, Billing, machine authentication, environment or deployment settings, database integrations, or Clerk testing and upgrades. Also use when a repository contains @clerk/* or an official Clerk SDK and the user asks about route protection, tenant access, subscription gating, user sync, or auth failures without naming Clerk."
+description: "Use when building, integrating, securing, testing, migrating, or troubleshooting Clerk authentication and user management across supported web, backend, and mobile frameworks: adding or reviewing Clerk SDK code, configuring sign-in or sign-up, sessions, users, organizations, roles and permissions, webhooks, Billing, machine authentication, environment or deployment settings, database integrations, or Clerk testing and upgrades. Also use when a repository contains @clerk/* or an official Clerk SDK and the user asks about route protection, tenant access, subscription gating, user sync, or auth failures without naming Clerk."
 metadata:
   author: "Leeor Nahum"
-  version: "1.0.0"
+  version: "1.0.1"
 ---
 
 # Clerk Compendium
@@ -39,10 +39,10 @@ The installed package, its exports and types, and the target compiler are the im
 
 1. **Classify the boundary.** Identify what runs in the browser, application server, edge runtime, mobile client, background worker, or external webhook sender.
 2. **Establish identity.** Use the framework-native Clerk integration to derive verified session or machine identity in the runtime that executes the protected operation.
-3. **Authorize the operation.** Check the required user, organization membership, role, permission, resource ownership, or Billing entitlement at the server boundary.
-4. **Keep secrets server-side.** Publishable keys may enter supported clients. Secret keys, webhook secrets, privileged API calls, and credential rotation stay in server-only stores and runtimes.
+3. **Authorize the operation.** Check the required user, organization membership, role, permission, resource ownership, or Billing entitlement where Security Rules require it.
+4. **Keep secrets server-side.** Place every key and secret as Security Rules require.
 5. **Use one owner per fact.** Decide whether Clerk or the application owns each user, organization, membership, profile, entitlement, or synchronized field.
-6. **Handle asynchronous truth.** Verify webhook signatures against the raw body. Make consumers idempotent and safe for retries, duplicates, delays, and out-of-order events.
+6. **Handle asynchronous truth.** Verify webhook signatures as Security Rules require. Make consumers idempotent and safe for retries, duplicates, delays, and out-of-order events.
 7. **Respect environment separation.** Keep development and production Clerk instances, keys, domains, redirects, and webhook endpoints distinct while preserving consistent environment key names.
 8. **Validate reality.** Exercise public, signed-out, signed-in, unauthorized, and authorized paths that apply. Verify the protected server request, not only component visibility or type checking.
 
@@ -53,12 +53,13 @@ The installed package, its exports and types, and the target compiler are the im
 - Derive trusted user, session, organization, and permission state from verified Clerk authentication. Do not trust client-provided user or organization identifiers as proof.
 - Apply authorization where the data is read or changed, even when middleware also blocks broad route classes.
 - Fail closed when required verified state is absent. Give callers a clear unauthenticated, forbidden, unavailable, or provider failure as appropriate.
-- Verify webhook signatures before parsing fields into trusted state. Never log secrets or raw credentials in failures.
+- Publishable keys may enter supported clients. Secret keys, webhook secrets, privileged API calls, and credential rotation stay in server-only stores and runtimes.
+- Verify webhook signatures against the raw request body before parsing fields into trusted state. Never log secrets or raw credentials in failures.
 - Keep claims intentionally small and use them only when their refresh and staleness contract fits the decision.
 - Treat community-maintained integrations as non-first-party. Prefer Clerk-owned packages and repositories when they support the target stack.
 
 ## Source Discipline
 
-Clerk's canonical documentation index is [the official `llms.txt`](https://clerk.com/docs/llms.txt). Generated references catalog that index and official SDK repositories without copying Clerk documentation prose. When behavior depends on current provider configuration or a specific SDK release, open the linked canonical page and verify the installed version before editing.
+Clerk's canonical documentation index is [the official `llms.txt`](https://clerk.com/docs/llms.txt). When behavior depends on current provider configuration or a specific SDK release, open the linked canonical page and verify the installed version before editing.
 
 Do not answer version-sensitive Clerk API questions from model memory alone.

@@ -8,9 +8,6 @@ Use this reference for sign-in, sign-up, sessions, tokens, claims, MFA, passkeys
 
 ## Operating Guidance
 
-- Authentication proves identity. It does not prove authorization to a route, organization, or resource.
-- Use the framework's server helper to derive trusted session state. Do not authorize from a client-provided user identifier or token payload that was not verified.
-- Keep session claims small and use them only when their freshness contract fits the decision.
 - Treat machine identities as a separate trust path with explicit audience, scope, rotation, and revocation behavior.
 
 ## Selected Official Sources

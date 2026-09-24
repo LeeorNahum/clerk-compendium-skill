@@ -15,7 +15,7 @@ Use this reference when choosing Clerk architecture, prebuilt components, custom
 
 ## Selected Official Sources
 
-This focused list selects 60 of 480 current documents in this category. Search [source-index.json](source-index.json) when the exact method, object, framework page, or resource is not listed.
+This focused list selects 60 of 478 current documents in this category. Search [source-index.json](source-index.json) when the exact method, object, framework page, or resource is not listed.
 
 ### Cross-framework
 

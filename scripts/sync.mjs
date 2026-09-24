@@ -121,9 +121,6 @@ const CATEGORY_CONFIG = {
     useWhen:
       "Use this reference for sign-in, sign-up, sessions, tokens, claims, MFA, passkeys, social connections, reverification, or machine authentication.",
     guidance: [
-      "Authentication proves identity. It does not prove authorization to a route, organization, or resource.",
-      "Use the framework's server helper to derive trusted session state. Do not authorize from a client-provided user identifier or token payload that was not verified.",
-      "Keep session claims small and use them only when their freshness contract fits the decision.",
       "Treat machine identities as a separate trust path with explicit audience, scope, rotation, and revocation behavior.",
     ],
   },
@@ -133,7 +130,6 @@ const CATEGORY_CONFIG = {
     useWhen:
       "Use this reference for users, metadata, organizations, memberships, invitations, active organization context, domains, roles, or permissions.",
     guidance: [
-      "Derive organization membership and permissions from verified Clerk state at the server boundary.",
       "An active organization selection is navigation context, not proof that the user may access every resource associated with that organization.",
       "Store application-owned data in the application database and keep one declared owner for each fact synchronized from Clerk.",
       "Design invitation and membership transitions for retries, revocation, expired links, and users who belong to several organizations.",
@@ -146,7 +142,6 @@ const CATEGORY_CONFIG = {
       "Use this reference for Clerk plans, features, subscriptions, trials, entitlements, Billing components, Billing webhooks, or server-side feature gates.",
     guidance: [
       "Determine whether the subscription owner is a user or organization before modeling entitlement checks.",
-      "Enforce paid features at the server boundary. A hidden component or client-side feature check is not an entitlement gate.",
       "Treat subscription state as provider-owned and application access rules as application-owned.",
       "Test upgrades, downgrades, cancellation, trial expiration, delayed webhooks, and temporary provider failure.",
     ],
@@ -157,9 +152,6 @@ const CATEGORY_CONFIG = {
     useWhen:
       "Use this reference when protecting routes or resources, reviewing trust boundaries, rotating keys, preventing abuse, or validating security posture.",
     guidance: [
-      "Keep secret keys, webhook secrets, and privileged Backend API calls in server-only runtimes.",
-      "Apply authorization where the protected operation executes, even when middleware also filters requests.",
-      "Fail closed when verified session, organization, permission, ownership, or entitlement state is absent.",
       "Rotate credentials by stage and verify old credentials are retired after callers have moved.",
     ],
   },
@@ -169,7 +161,6 @@ const CATEGORY_CONFIG = {
     useWhen:
       "Use this reference for webhooks, database synchronization, external backends, OAuth integrations, or third-party services.",
     guidance: [
-      "Verify a webhook signature against the raw request body before parsing or trusting payload fields.",
       "Make event handling idempotent, transactional where needed, and tolerant of duplicate, delayed, and out-of-order delivery.",
       "Use event identifiers and source versions to prevent an older event from overwriting newer application state.",
       "Define which Clerk facts are mirrored, why they are needed, and how the application recovers after missed events.",
