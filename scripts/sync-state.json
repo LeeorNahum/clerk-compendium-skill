@@ -1,0 +1,246 @@
+{
+  "repositories": [
+    {
+      "name": "clerk/clerk-android",
+      "url": "https://github.com/clerk/clerk-android",
+      "defaultBranch": "main",
+      "license": "MIT"
+    },
+    {
+      "name": "clerk/clerk-docs",
+      "url": "https://github.com/clerk/clerk-docs",
+      "defaultBranch": "main",
+      "license": null
+    },
+    {
+      "name": "clerk/clerk-ios",
+      "url": "https://github.com/clerk/clerk-ios",
+      "defaultBranch": "main",
+      "license": "MIT"
+    },
+    {
+      "name": "clerk/clerk-sdk-csharp",
+      "url": "https://github.com/clerk/clerk-sdk-csharp",
+      "defaultBranch": "main",
+      "license": "MIT"
+    },
+    {
+      "name": "clerk/clerk-sdk-go",
+      "url": "https://github.com/clerk/clerk-sdk-go",
+      "defaultBranch": "v2",
+      "license": "MIT"
+    },
+    {
+      "name": "clerk/clerk-sdk-java",
+      "url": "https://github.com/clerk/clerk-sdk-java",
+      "defaultBranch": "main",
+      "license": "MIT"
+    },
+    {
+      "name": "clerk/clerk-sdk-php",
+      "url": "https://github.com/clerk/clerk-sdk-php",
+      "defaultBranch": "main",
+      "license": "MIT"
+    },
+    {
+      "name": "clerk/clerk-sdk-python",
+      "url": "https://github.com/clerk/clerk-sdk-python",
+      "defaultBranch": "main",
+      "license": "MIT"
+    },
+    {
+      "name": "clerk/clerk-sdk-ruby",
+      "url": "https://github.com/clerk/clerk-sdk-ruby",
+      "defaultBranch": "main",
+      "license": null
+    },
+    {
+      "name": "clerk/javascript",
+      "url": "https://github.com/clerk/javascript",
+      "defaultBranch": "main",
+      "license": "MIT"
+    }
+  ],
+  "packages": [
+    {
+      "name": "@clerk/astro",
+      "directory": "packages/astro",
+      "repository": "clerk/javascript"
+    },
+    {
+      "name": "@clerk/backend",
+      "directory": "packages/backend",
+      "repository": "clerk/javascript"
+    },
+    {
+      "name": "@clerk/chrome-extension",
+      "directory": "packages/chrome-extension",
+      "repository": "clerk/javascript"
+    },
+    {
+      "name": "@clerk/clerk-js",
+      "directory": "packages/clerk-js",
+      "repository": "clerk/javascript"
+    },
+    {
+      "name": "@clerk/electron",
+      "directory": "packages/electron",
+      "repository": "clerk/javascript"
+    },
+    {
+      "name": "@clerk/electron-passkeys",
+      "directory": "packages/electron-passkeys",
+      "repository": "clerk/javascript"
+    },
+    {
+      "name": "@clerk/eslint-plugin",
+      "directory": "packages/eslint-plugin",
+      "repository": "clerk/javascript"
+    },
+    {
+      "name": "@clerk/expo",
+      "directory": "packages/expo",
+      "repository": "clerk/javascript"
+    },
+    {
+      "name": "@clerk/expo-biometrics",
+      "directory": "packages/expo-biometrics",
+      "repository": "clerk/javascript"
+    },
+    {
+      "name": "@clerk/expo-google-signin",
+      "directory": "packages/expo-google-signin",
+      "repository": "clerk/javascript"
+    },
+    {
+      "name": "@clerk/expo-passkeys",
+      "directory": "packages/expo-passkeys",
+      "repository": "clerk/javascript"
+    },
+    {
+      "name": "@clerk/express",
+      "directory": "packages/express",
+      "repository": "clerk/javascript"
+    },
+    {
+      "name": "@clerk/fastify",
+      "directory": "packages/fastify",
+      "repository": "clerk/javascript"
+    },
+    {
+      "name": "@clerk/hono",
+      "directory": "packages/hono",
+      "repository": "clerk/javascript"
+    },
+    {
+      "name": "@clerk/localizations",
+      "directory": "packages/localizations",
+      "repository": "clerk/javascript"
+    },
+    {
+      "name": "@clerk/mosaic",
+      "directory": "packages/mosaic",
+      "repository": "clerk/javascript"
+    },
+    {
+      "name": "@clerk/nextjs",
+      "directory": "packages/nextjs",
+      "repository": "clerk/javascript"
+    },
+    {
+      "name": "@clerk/nuxt",
+      "directory": "packages/nuxt",
+      "repository": "clerk/javascript"
+    },
+    {
+      "name": "@clerk/react",
+      "directory": "packages/react",
+      "repository": "clerk/javascript"
+    },
+    {
+      "name": "@clerk/react-router",
+      "directory": "packages/react-router",
+      "repository": "clerk/javascript"
+    },
+    {
+      "name": "@clerk/shared",
+      "directory": "packages/shared",
+      "repository": "clerk/javascript"
+    },
+    {
+      "name": "@clerk/tanstack-react-start",
+      "directory": "packages/tanstack-react-start",
+      "repository": "clerk/javascript"
+    },
+    {
+      "name": "@clerk/testing",
+      "directory": "packages/testing",
+      "repository": "clerk/javascript"
+    },
+    {
+      "name": "@clerk/ui",
+      "directory": "packages/ui",
+      "repository": "clerk/javascript"
+    },
+    {
+      "name": "@clerk/upgrade",
+      "directory": "packages/upgrade",
+      "repository": "clerk/javascript"
+    },
+    {
+      "name": "@clerk/vue",
+      "directory": "packages/vue",
+      "repository": "clerk/javascript"
+    }
+  ],
+  "anchors": [
+    {
+      "key": "billing",
+      "title": "Clerk Billing",
+      "url": "https://clerk.com/docs/guides/billing/overview.md",
+      "sha256": "8dfecae6ec9bce1310a5572ab150b750b5ecccd2fd445b991cd6fafe6ee42579"
+    },
+    {
+      "key": "environment-variables",
+      "title": "Clerk environment variables",
+      "url": "https://clerk.com/docs/guides/development/clerk-environment-variables.md",
+      "sha256": "16c6b8a9ef69460f18ccf6b777d6baff25961d6a07d10798d1e4806472e6c604"
+    },
+    {
+      "key": "nextjs-quickstart",
+      "title": "Next.js Quickstart (App Router)",
+      "url": "https://clerk.com/docs/nextjs/getting-started/quickstart.md",
+      "sha256": "11b1f1f981abaea1aabebd6e660c9cdbd6161177711df8f6daff9e8c8d4a79bd"
+    },
+    {
+      "key": "organizations",
+      "title": "Organizations",
+      "url": "https://clerk.com/docs/guides/organizations/overview.md",
+      "sha256": "f9d058832f9b107a3dcdfa1185faf30879a7920cd50d94287d328e6125bc222a"
+    },
+    {
+      "key": "react-quickstart",
+      "title": "React Quickstart",
+      "url": "https://clerk.com/docs/react/getting-started/quickstart.md",
+      "sha256": "b395e7c60509d77dbf923124409d76bceef637d33c3be3a86fcc847194c0e363"
+    },
+    {
+      "key": "sessions",
+      "title": "Session tokens",
+      "url": "https://clerk.com/docs/guides/sessions/session-tokens.md",
+      "sha256": "a39d46a1483bd94c97ab251085c96ac8e18bea449acb76640d4e9e7e55442f1e"
+    },
+    {
+      "key": "testing",
+      "title": "Testing",
+      "url": "https://clerk.com/docs/guides/development/testing/overview.md",
+      "sha256": "15290cd94d8eb0986b59e7257c406dea819217af2d797e46f6668e7a4a9691fa"
+    },
+    {
+      "key": "webhooks",
+      "title": "Webhooks overview",
+      "url": "https://clerk.com/docs/guides/development/webhooks/overview.md",
+      "sha256": "cf19df1e8e1b415a3ef24a8345207e1e73abc3f5620fd9253eb95e75e3af5fa7"
+    }
+  ]
+}

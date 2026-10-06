@@ -13,83 +13,38 @@ Use this reference when adding Clerk to a project, repairing framework provider,
 - Preserve working provider, middleware, proxy, and route conventions unless the task is an explicit migration.
 - After setup, verify a public route, a protected server request, a signed-out transition, and a signed-in transition.
 
-## Selected Official Sources
+## Official Sources
 
-This focused list selects 23 of 23 pages in this category. A page that exists under several framework roots counts once. Search [source-index.json](source-index.json) when the exact method, object, framework page, or resource is not listed.
+This reference lists every Clerk documentation page of this topic outside the `reference` folders, under headings that are folders of the page path. Pages for a component, hook, object, type, or Backend SDK method are in the four kind references, and pages one framework SDK documents for itself are in the SDK and API reference.
 
-### General Guides and References
+### Top Level
 
-- [Chrome Extension Quickstart (JavaScript)](https://clerk.com/docs/getting-started/quickstart/chrome-extension-js.md) (quickstart)
-- [Clerk templates and examples](https://clerk.com/docs/templates.md) (guide)
-- [Core concepts](https://clerk.com/docs/getting-started/core-concepts.md) (guide)
-- [Next.js Quickstart (Pages Router)](https://clerk.com/docs/getting-started/quickstart/pages-router.md) (quickstart)
-- [Quickstarts](https://clerk.com/docs/getting-started/quickstart/overview.md) (quickstart)
-- [Set up your Clerk account](https://clerk.com/docs/getting-started/quickstart/setup-clerk.md) (quickstart)
+- [Clerk templates and examples](https://clerk.com/docs/templates.md)
 
-### Android
+### `getting-started`
 
-- [Android Quickstart](https://clerk.com/docs/android/getting-started/quickstart.md) (quickstart)
+- [Core concepts](https://clerk.com/docs/getting-started/core-concepts.md)
+- [Android Quickstart](https://clerk.com/docs/android/getting-started/quickstart.md)
+- [Astro Quickstart](https://clerk.com/docs/astro/getting-started/quickstart.md)
+- [Chrome Extension Quickstart (Plasmo)](https://clerk.com/docs/chrome-extension/getting-started/quickstart.md)
+- [Clerk Go SDK](https://clerk.com/docs/go/getting-started/quickstart.md)
+- [Electron Quickstart](https://clerk.com/docs/electron/getting-started/quickstart.md)
+- [Expo Quickstart](https://clerk.com/docs/expo/getting-started/quickstart.md)
+- [Express Quickstart](https://clerk.com/docs/expressjs/getting-started/quickstart.md)
+- [Fastify Quickstart](https://clerk.com/docs/fastify/getting-started/quickstart.md)
+- [iOS Quickstart](https://clerk.com/docs/ios/getting-started/quickstart.md)
+- [JavaScript Quickstart](https://clerk.com/docs/js-frontend/getting-started/quickstart.md)
+- [Next.js Quickstart (App Router)](https://clerk.com/docs/nextjs/getting-started/quickstart.md)
+- [Nuxt Quickstart](https://clerk.com/docs/nuxt/getting-started/quickstart.md)
+- [React Quickstart](https://clerk.com/docs/react/getting-started/quickstart.md)
+- [React Router Quickstart](https://clerk.com/docs/react-router/getting-started/quickstart.md)
+- [Ruby Quickstart](https://clerk.com/docs/ruby/getting-started/quickstart.md)
+- [TanStack React Start Quickstart](https://clerk.com/docs/tanstack-react-start/getting-started/quickstart.md)
+- [Vue Quickstart](https://clerk.com/docs/vue/getting-started/quickstart.md)
 
-### Astro
+### `getting-started/quickstart`
 
-- [Astro Quickstart](https://clerk.com/docs/astro/getting-started/quickstart.md) (quickstart)
-
-### Chrome Extension
-
-- [Chrome Extension Quickstart (Plasmo)](https://clerk.com/docs/chrome-extension/getting-started/quickstart.md) (quickstart)
-
-### Electron
-
-- [Electron Quickstart](https://clerk.com/docs/electron/getting-started/quickstart.md) (quickstart)
-
-### Expo
-
-- [Expo Quickstart](https://clerk.com/docs/expo/getting-started/quickstart.md) (quickstart)
-
-### Express
-
-- [Express Quickstart](https://clerk.com/docs/expressjs/getting-started/quickstart.md) (quickstart)
-
-### Fastify
-
-- [Fastify Quickstart](https://clerk.com/docs/fastify/getting-started/quickstart.md) (quickstart)
-
-### Go
-
-- [Clerk Go SDK](https://clerk.com/docs/go/getting-started/quickstart.md) (quickstart, api)
-
-### iOS
-
-- [iOS Quickstart](https://clerk.com/docs/ios/getting-started/quickstart.md) (quickstart)
-
-### JavaScript
-
-- [JavaScript Quickstart](https://clerk.com/docs/js-frontend/getting-started/quickstart.md) (quickstart)
-
-### Next.js
-
-- [Next.js Quickstart (App Router)](https://clerk.com/docs/nextjs/getting-started/quickstart.md) (quickstart)
-
-### Nuxt
-
-- [Nuxt Quickstart](https://clerk.com/docs/nuxt/getting-started/quickstart.md) (quickstart)
-
-### React
-
-- [React Quickstart](https://clerk.com/docs/react/getting-started/quickstart.md) (quickstart)
-
-### React Router
-
-- [React Router Quickstart](https://clerk.com/docs/react-router/getting-started/quickstart.md) (quickstart)
-
-### Ruby
-
-- [Ruby Quickstart](https://clerk.com/docs/ruby/getting-started/quickstart.md) (quickstart)
-
-### TanStack React Start
-
-- [TanStack React Start Quickstart](https://clerk.com/docs/tanstack-react-start/getting-started/quickstart.md) (quickstart)
-
-### Vue
-
-- [Vue Quickstart](https://clerk.com/docs/vue/getting-started/quickstart.md) (quickstart)
+- [Quickstarts](https://clerk.com/docs/getting-started/quickstart/overview.md)
+- [Chrome Extension Quickstart (JavaScript)](https://clerk.com/docs/getting-started/quickstart/chrome-extension-js.md)
+- [Next.js Quickstart (Pages Router)](https://clerk.com/docs/getting-started/quickstart/pages-router.md)
+- [Set up your Clerk account](https://clerk.com/docs/getting-started/quickstart/setup-clerk.md)

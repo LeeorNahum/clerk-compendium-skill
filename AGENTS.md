@@ -11,8 +11,8 @@ This skill gives coding agents one progressively disclosed entry point for Clerk
 | Path                                  | Role                                                             | Owner              |
 | ------------------------------------- | ---------------------------------------------------------------- | ------------------ |
 | `SKILL.md`                            | Task router, operating workflow, and universal rules             | Hand               |
-| `references/*.md`                     | Focused Clerk source catalogs and compact guidance               | `scripts/sync.mjs` |
-| `references/source-index.json`        | Complete normalized Clerk documentation and SDK index            | `scripts/sync.mjs` |
+| `references/*.md`                     | Complete Clerk page lists by category, with compact guidance     | `scripts/sync.mjs` |
+| `scripts/sync-state.json`             | Sync state for drift detection, not an agent lookup              | `scripts/sync.mjs` |
 | `scripts/sync.mjs`                    | Source discovery, classification, drift detection, and rendering | Hand               |
 | `evals/*.json`                        | Trigger and workflow evaluation definitions                      | Hand               |
 | `.github/workflows/sync-upstream.yml` | Scheduled refresh                                                | Hand               |
@@ -55,9 +55,21 @@ Every Clerk documentation entry belongs to exactly one primary category:
 - `security`
 - `integrations-databases`
 - `operations`
+- `backend-reference`
+- `component-reference`
+- `hook-reference`
+- `object-type-reference`
 - `sdk-api`
 
-The complete entry stays in `source-index.json`. Focused Markdown references contain compact guidance and selected source lists. A selected list shows each page once. A page that several framework roots carry at the same path and title is one entry that names its roots, written `common` when they are the root set most shared pages have. The list holds at most 60 pages: the required anchors of the category first, then the highest-scored pages. A URL folder gives at most three pages until every page has been offered under that limit, and the best remaining pages fill what is left. A required anchor is also a page the sync must find, so add one only for a page a category cue promises. The Security Rules in `SKILL.md` own the identity, authorization, secret, fail-closed, claims, and webhook-signature rules. Reference guidance carries only what is specific to its topic and never restates them. If a page can support several tasks, give it one primary category and additional tags rather than duplicating it.
+A page in a `reference` folder is filed by its kind, which the next folder names: the map from folder to category is explicit in `scripts/sync.mjs`, and a reference folder outside that map goes to `sdk-api`. Every other page is filed by topic, by ordered title and path rules. A reader can then tell from a page's URL or from the kind of symbol which reference holds it.
+
+The Markdown references are the index an agent reads. Each one carries compact guidance and lists every page of its category by title and canonical URL, under headings that are folders of the page path. A heading starts at the first two folders. When it holds more than twelve pages, each next folder with at least three pages becomes a heading of its own. In the four kind references every next folder does, so a method sits under its resource. A `legacy` folder at any depth always gets its own heading. Pages directly under the documentation root are under `Top Level`. Within a heading, a folder's overview comes first, then pages by path, with deprecated pages last. `sdk-api` is the exception: its headings are framework roots, with `All Frameworks` for pages under no root, because it holds what each framework SDK documents for itself. It lists a page once under every root that carries it, and it carries the official repository and package tables. A page that several framework roots carry at the same path and title is one entry that gives the path below the root and names every root. The sync reads the rendered references back before writing and fails unless every indexed URL appears exactly once, under its own title, in the reference of its category. It also fails when the index holds a link its parser did not read. If a reference grows too large to scan, split it along a boundary a reader would expect and route each piece from `SKILL.md`. The sync removes a generated reference it no longer produces and refuses to touch a file in `references/` it did not generate.
+
+`scripts/sync-state.json` is the sync's own state. It holds the previous run's packages, repositories, and anchor hashes so the next run can report drift. The previous run's documents are read back from the references themselves, so no second copy of the index exists. Nothing routes an agent to the state file.
+
+Required anchors are the pages the authored guidance depends on. The sync hashes each one to report a change and fails when one disappears. They do not decide what a reference lists.
+
+The Security Rules in `SKILL.md` own the identity, authorization, secret, fail-closed, claims, and webhook-signature rules. Reference guidance carries only what is specific to its topic and never restates them. If a page can support several tasks, give it one primary category rather than duplicating it.
 
 Known top-level documentation roots are explicit in `scripts/sync.mjs`. A new root is a review event and must fail closed until classified. A new page under a known root may be classified automatically by ordered title and path rules, but review the generated diff for category quality.
 
@@ -90,10 +102,10 @@ The standalone workflow records exact revisions in commit history. Generated fil
 
 When upstream changes:
 
-- **A page appears**: Confirm its primary category and tags are useful.
+- **A page appears**: Confirm its primary category is where a reader would look for it.
 - **A page disappears or moves**: Confirm Clerk replaced or retired it and update required anchors if needed.
 - **A top-level root appears**: Add an explicit root policy and classification rules before accepting it.
-- **A framework or SDK appears**: Add it to the relevant allowlist, package mapping, focused reference, trigger cases, and workflow cases when warranted.
+- **A framework or SDK appears**: Add it to the relevant allowlist, package mapping, trigger cases, and workflow cases when warranted.
 - **A package disappears**: Verify whether it moved, merged, or was retired before accepting the removal.
 - **A license changes**: Stop and reassess what metadata or code may be redistributed.
 - **An anchor hash changes**: Review the canonical page for a behavioral change that should update authored guidance.
@@ -124,7 +136,7 @@ Workflow evaluations compare fresh runs with and without the skill. Assertions s
 
 - Run synchronization and `--check`.
 - Run the Skill Forge validator.
-- Confirm every index entry has exactly one primary category.
+- Confirm every indexed URL appears in exactly one reference. The sync enforces it and fails otherwise.
 - Confirm every support file is reachable from `SKILL.md`.
 - Confirm generated files contain no copied Clerk documentation or prompt bodies.
 - Confirm `metadata.version` was bumped as the release-versioning skill requires.

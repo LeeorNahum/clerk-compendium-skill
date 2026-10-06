@@ -10,41 +10,41 @@ Use this reference when protecting routes or resources, reviewing trust boundari
 
 - Rotate credentials by stage and verify old credentials are retired after callers have moved.
 
-## Selected Official Sources
+## Official Sources
 
-This focused list selects 22 of 22 pages in this category. A page that exists under several framework roots counts once. Search [source-index.json](source-index.json) when the exact method, object, framework page, or resource is not listed.
+This reference lists every Clerk documentation page of this topic outside the `reference` folders, under headings that are folders of the page path. Pages for a component, hook, object, type, or Backend SDK method are in the four kind references, and pages one framework SDK documents for itself are in the SDK and API reference.
 
-### General Guides and References
+A framework root is the first path segment after `https://clerk.com/docs/`, such as `nextjs` or `expressjs`. An entry written as a path that starts with `<framework>` is one page that exists under each root named after it, and its URL is `https://clerk.com/docs/` followed by that path with `<framework>` replaced by one of those roots.
 
-- [`updateRestrictions()`](https://clerk.com/docs/reference/backend/instance/update-restrictions.md) (reference, security, api)
-- [Add reverification for sensitive actions](https://clerk.com/docs/guides/secure/reverification.md) (guide, security)
-- [Authorization checks](https://clerk.com/docs/guides/secure/authorization-checks.md) (guide, authentication, security)
-- [Bot protection](https://clerk.com/docs/guides/secure/bot-protection.md) (guide, security)
-- [Brute force attacks and locking user accounts](https://clerk.com/docs/guides/secure/user-lockout.md) (guide)
-- [Clerk Telemetry](https://clerk.com/docs/guides/how-clerk-works/security/clerk-telemetry.md) (guide, security)
-- [Configure Clerk Content-Security-Policy headers](https://clerk.com/docs/guides/secure/best-practices/csp-headers.md) (guide, security)
-- [CSRF protection](https://clerk.com/docs/guides/secure/best-practices/csrf-protection.md) (guide, security)
-- [Fixation protection](https://clerk.com/docs/guides/secure/best-practices/fixation-protection.md) (guide, security)
-- [Password protection and rules](https://clerk.com/docs/guides/secure/password-protection-and-rules.md) (guide, authentication, security)
-- [Protect email link sign-ins and sign-ups](https://clerk.com/docs/guides/secure/best-practices/protect-email-links.md) (guide, authentication, security)
-- [Restricting access](https://clerk.com/docs/guides/secure/restricting-access.md) (guide, security)
-- [Rotate your Clerk API keys](https://clerk.com/docs/guides/secure/rotate-api-keys.md) (guide, api)
-- [The Backend `InstanceRestrictions` object](https://clerk.com/docs/reference/backend/types/backend-instance-restrictions.md) (reference, security, api)
-- [User enumeration protection](https://clerk.com/docs/guides/secure/user-enumeration-protection.md) (guide, security)
-- [Vulnerability disclosure policy](https://clerk.com/docs/guides/how-clerk-works/security/vulnerability-disclosure-policy.md) (guide, security)
-- [XSS leak protection](https://clerk.com/docs/guides/secure/best-practices/xss-leak-protection.md) (guide, security)
+### `guides/development`
 
-### Shared Across Frameworks
+- Add bot protection to your custom sign-up flow: `<framework>/guides/development/custom-flows/authentication/bot-sign-up-protection.md`. Roots: `astro`, `chrome-extension`, `electron`, `expo`, `expressjs`, `fastify`, `go`, `js-frontend`, `nextjs`, `nuxt`, `react`, `react-router`, `ruby`, `tanstack-react-start`, `vue`
 
-Each page below exists under every framework root named after it. A root is the first path segment after `https://clerk.com/docs/`, such as `nextjs` or `expressjs`. The URL of a page is `https://clerk.com/docs/` followed by its path, with `<framework>` replaced by one of its roots.
+### `guides/how-clerk-works`
 
-In every reference of this skill, the common roots are `astro`, `chrome-extension`, `electron`, `expo`, `js-frontend`, `nextjs`, `nuxt`, `react-router`, `react`, `tanstack-react-start`, `vue`.
+- [Clerk Telemetry](https://clerk.com/docs/guides/how-clerk-works/security/clerk-telemetry.md)
+- [Vulnerability disclosure policy](https://clerk.com/docs/guides/how-clerk-works/security/vulnerability-disclosure-policy.md)
 
-- `ProtectCheckResource`: `<framework>/reference/types/protect-check-resource.md` (reference). Roots: common
-- `useReverification()`: `<framework>/reference/hooks/use-reverification.md` (reference). Roots: `chrome-extension`, `electron`, `nextjs`, `react-router`, `react`, `tanstack-react-start`
-- Add bot protection to your custom sign-up flow: `<framework>/guides/development/custom-flows/authentication/bot-sign-up-protection.md` (guide). Roots: `astro`, `chrome-extension`, `electron`, `expo`, `expressjs`, `fastify`, `go`, `js-frontend`, `nextjs`, `nuxt`, `react-router`, `react`, `ruby`, `tanstack-react-start`, `vue`
-- Protect content from unauthenticated users: `<framework>/guides/secure/protect-content.md` (guide). Roots: `nextjs`, `nuxt`
+### `guides/secure`
 
-### Next.js
+- [Securing your app](https://clerk.com/docs/guides/secure/overview.md)
+- [Authorization checks](https://clerk.com/docs/guides/secure/authorization-checks.md)
+- [Bot protection](https://clerk.com/docs/guides/secure/bot-protection.md)
+- [Device Trust](https://clerk.com/docs/guides/secure/device-trust.md)
+- [Legal compliance](https://clerk.com/docs/guides/secure/legal-compliance.md)
+- [Password protection and rules](https://clerk.com/docs/guides/secure/password-protection-and-rules.md)
+- Protect content from unauthenticated users: `<framework>/guides/secure/protect-content.md`. Roots: `nextjs`, `nuxt`
+- [Restricting access](https://clerk.com/docs/guides/secure/restricting-access.md)
+- [Add reverification for sensitive actions](https://clerk.com/docs/guides/secure/reverification.md)
+- [Rotate your Clerk API keys](https://clerk.com/docs/guides/secure/rotate-api-keys.md)
+- [User enumeration protection](https://clerk.com/docs/guides/secure/user-enumeration-protection.md)
+- [Brute force attacks and locking user accounts](https://clerk.com/docs/guides/secure/user-lockout.md)
+- Build a custom waitlist page: `<framework>/guides/secure/waitlist.md`. Roots: `electron`, `nextjs`, `nuxt`, `react`, `react-router`, `tanstack-react-start`
 
-- [Clerk: `<Protect>` is not available in @clerk/nextjs Core 3](https://clerk.com/docs/nextjs/reference/errors/protect-is-not-available-in-clerk-nextjs.md) (reference, security, api)
+### `guides/secure/best-practices`
+
+- [Configure Clerk Content-Security-Policy headers](https://clerk.com/docs/guides/secure/best-practices/csp-headers.md)
+- [CSRF protection](https://clerk.com/docs/guides/secure/best-practices/csrf-protection.md)
+- [Fixation protection](https://clerk.com/docs/guides/secure/best-practices/fixation-protection.md)
+- [Protect email link sign-ins and sign-ups](https://clerk.com/docs/guides/secure/best-practices/protect-email-links.md)
+- [XSS leak protection](https://clerk.com/docs/guides/secure/best-practices/xss-leak-protection.md)

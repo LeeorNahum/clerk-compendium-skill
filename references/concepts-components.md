@@ -13,88 +13,103 @@ Use this reference when choosing Clerk architecture, prebuilt components, custom
 - Keep provider configuration centralized and preserve framework rendering boundaries.
 - Localize Clerk's vocabulary when the product uses different user-facing terms, and verify every mounted Clerk surface.
 
-## Selected Official Sources
+## Official Sources
 
-This focused list selects 60 of 165 pages in this category. A page that exists under several framework roots counts once. Search [source-index.json](source-index.json) when the exact method, object, framework page, or resource is not listed.
+This reference lists every Clerk documentation page of this topic outside the `reference` folders, under headings that are folders of the page path. Pages for a component, hook, object, type, or Backend SDK method are in the four kind references, and pages one framework SDK documents for itself are in the SDK and API reference.
 
-### General Guides and References
+A framework root is the first path segment after `https://clerk.com/docs/`, such as `nextjs` or `expressjs`. An entry written as a path that starts with `<framework>` is one page that exists under each root named after it, and its URL is `https://clerk.com/docs/` followed by that path with `<framework>` replaced by one of those roots.
 
-- [Account Portal overview](https://clerk.com/docs/guides/account-portal/overview.md) (concept, components)
-- [Authorize tool calls](https://clerk.com/docs/guides/ai/eve/authorize-tool-calls.md) (guide, authentication)
-- [Backend-only SDK](https://clerk.com/docs/guides/development/sdk-development/backend-only.md) (guide, api)
-- [Build a custom flow for adding a phone number to a user's account](https://clerk.com/docs/guides/development/custom-flows/account-updates/add-phone.md) (guide, components)
-- [Build a custom flow for adding an email to a user's account](https://clerk.com/docs/guides/development/custom-flows/account-updates/add-email.md) (guide, components)
-- [Build your own UI (custom flows)](https://clerk.com/docs/guides/development/custom-flows/overview.md) (concept, components)
-- [Clerk Elements](https://clerk.com/docs/guides/customizing-clerk/elements/overview.md) (concept)
-- [Clerk Skills](https://clerk.com/docs/guides/ai/skills.md) (guide)
-- [Common components](https://clerk.com/docs/guides/customizing-clerk/elements/reference/common.md) (reference, components, api)
-- [Configure a consistent CRX ID for your Chrome Extension](https://clerk.com/docs/guides/development/configure-consistent-crx-id.md) (guide)
-- [Connect MCP-compatible clients to your MCP server](https://clerk.com/docs/guides/ai/mcp/connect-mcp-client.md) (guide)
-- [Conventions](https://clerk.com/docs/guides/development/sdk-development/conventions.md) (guide, api)
-- [Cookies](https://clerk.com/docs/guides/how-clerk-works/cookies.md) (guide)
-- [Custom channel auth](https://clerk.com/docs/guides/ai/eve/custom-channel-auth.md) (guide, authentication)
-- [Customizing Clerk](https://clerk.com/docs/guides/customizing-clerk/overview.md) (concept)
-- [Device Trust](https://clerk.com/docs/guides/secure/device-trust.md) (guide)
-- [Disabling the Account Portal](https://clerk.com/docs/guides/account-portal/disable-account-portal.md) (guide, components)
-- [Email and SMS templates](https://clerk.com/docs/guides/customizing-clerk/email-sms-templates.md) (guide)
-- [Enrich instructions](https://clerk.com/docs/guides/ai/eve/enriching-instructions.md) (guide)
-- [Getting started with the Account Portal](https://clerk.com/docs/guides/account-portal/getting-started.md) (guide, components)
-- [How Clerk works](https://clerk.com/docs/guides/how-clerk-works/overview.md) (concept)
-- [Multi-tenant architecture](https://clerk.com/docs/guides/how-clerk-works/multi-tenant-architecture.md) (concept)
-- [Override Clerk interfaces with custom types](https://clerk.com/docs/guides/development/override-clerk-types-interfaces.md) (guide)
-- [Pin a Clerk SDK](https://clerk.com/docs/pinning.md) (guide, api)
-- [Primitives](https://clerk.com/docs/guides/customizing-clerk/elements/examples/primitives.md) (guide)
-- [SDK development](https://clerk.com/docs/guides/development/sdk-development/overview.md) (concept, api)
-- [Securing your app](https://clerk.com/docs/guides/secure/overview.md) (concept)
-- [shadcn/ui](https://clerk.com/docs/guides/customizing-clerk/elements/examples/shadcn-ui.md) (guide)
-- [Styling for Clerk Elements](https://clerk.com/docs/guides/customizing-clerk/elements/guides/styling.md) (guide)
-- [Use Clerk's MCP server](https://clerk.com/docs/guides/ai/mcp/clerk-mcp-server.md) (guide)
-- [Using Clerk with AI](https://clerk.com/docs/guides/ai/overview.md) (concept)
-- [Versioning overview](https://clerk.com/docs/guides/development/upgrading/versioning.md) (concept)
-- [Web support](https://clerk.com/docs/guides/development/web-support/overview.md) (concept)
-- [Welcome to Clerk Docs](https://clerk.com/docs.md) (guide)
+### Top Level
 
-### Shared Across Frameworks
+- [Welcome to Clerk Docs](https://clerk.com/docs.md)
+- [Pin a Clerk SDK](https://clerk.com/docs/pinning.md)
 
-Each page below exists under every framework root named after it. A root is the first path segment after `https://clerk.com/docs/`, such as `nextjs` or `expressjs`. The URL of a page is `https://clerk.com/docs/` followed by its path, with `<framework>` replaced by one of its roots.
+### `guides/account-portal`
 
-In every reference of this skill, the common roots are `astro`, `chrome-extension`, `electron`, `expo`, `js-frontend`, `nextjs`, `nuxt`, `react-router`, `react`, `tanstack-react-start`, `vue`.
+- [Account Portal overview](https://clerk.com/docs/guides/account-portal/overview.md)
+- [Linking to Account Portal pages](https://clerk.com/docs/guides/account-portal/direct-links.md)
+- [Disabling the Account Portal](https://clerk.com/docs/guides/account-portal/disable-account-portal.md)
+- [Getting started with the Account Portal](https://clerk.com/docs/guides/account-portal/getting-started.md)
 
-- `<ClerkProvider>` component: `<framework>/reference/components/clerk-provider.md` (reference). Roots: `chrome-extension`, `electron`, `expo`, `nextjs`, `react-router`, `react`, `tanstack-react-start`
-- `Appearance` prop: `<framework>/guides/customizing-clerk/appearance-prop/overview.md` (concept). Roots: `astro`, `chrome-extension`, `electron`, `expo`, `expressjs`, `fastify`, `go`, `js-frontend`, `nextjs`, `nuxt`, `react-router`, `react`, `ruby`, `tanstack-react-start`, `vue`
-- `captcha` prop: `<framework>/guides/customizing-clerk/appearance-prop/captcha.md` (guide). Roots: `astro`, `chrome-extension`, `electron`, `expo`, `expressjs`, `fastify`, `go`, `js-frontend`, `nextjs`, `nuxt`, `react-router`, `react`, `ruby`, `tanstack-react-start`, `vue`
-- `ClerkTheme`: `<framework>/guides/customizing-clerk/clerk-theme.md` (guide). Roots: `android`, `ios`
-- `Options` prop: `<framework>/guides/customizing-clerk/appearance-prop/options.md` (guide). Roots: `astro`, `chrome-extension`, `electron`, `expo`, `expressjs`, `fastify`, `go`, `js-frontend`, `nextjs`, `nuxt`, `react-router`, `react`, `ruby`, `tanstack-react-start`, `vue`
-- Add custom items and links to the `<UserButton />` component: `<framework>/guides/customizing-clerk/adding-items/user-button.md` (component). Roots: common
-- Add custom pages and links to the `<UserProfile />` component: `<framework>/guides/customizing-clerk/adding-items/user-profile.md` (component). Roots: common
-- Add React Router to your Clerk + React application: `<framework>/guides/development/declarative-mode.md` (guide). Roots: `react-router`, `react`
-- Build a custom flow for handling user impersonation: `<framework>/guides/development/custom-flows/account-updates/user-impersonation.md` (guide). Roots: `android`, `astro`, `chrome-extension`, `electron`, `expo`, `expressjs`, `fastify`, `go`, `js-frontend`, `nextjs`, `nuxt`, `react-router`, `react`, `ruby`, `tanstack-react-start`, `vue`
-- Build a custom waitlist page: `<framework>/guides/secure/waitlist.md` (guide). Roots: `electron`, `nextjs`, `nuxt`, `react-router`, `react`, `tanstack-react-start`
-- Build an MCP server in your application with Clerk: `<framework>/guides/ai/mcp/build-mcp-server.md` (guide). Roots: `expressjs`, `nextjs`
-- Component Reference: `<framework>/reference/components/overview.md` (reference). Roots: `astro`, `chrome-extension`, `electron`, `expo`, `expressjs`, `fastify`, `go`, `js-frontend`, `nextjs`, `nuxt`, `react-router`, `react`, `ruby`, `tanstack-react-start`, `vue`
-- Configure the SDK: `<framework>/reference/native-mobile/configuration.md` (reference). Roots: `android`, `ios`
-- Hooks Reference: `<framework>/reference/hooks/overview.md` (reference). Roots: `astro`, `chrome-extension`, `electron`, `expo`, `nextjs`, `react-router`, `react`, `tanstack-react-start`
-- Key Clerk objects: `<framework>/reference/objects/overview.md` (reference). Roots: common
-- View Reference: `<framework>/reference/views/overview.md` (reference). Roots: `android`, `ios`
-- Welcome: `<framework>/reference/native-mobile/overview.md` (reference). Roots: `android`, `ios`
+### `guides/ai`
 
-### Astro
+- [Using Clerk with AI](https://clerk.com/docs/guides/ai/overview.md)
+- [Clerk Skills](https://clerk.com/docs/guides/ai/skills.md)
+- [Authorize tool calls](https://clerk.com/docs/guides/ai/eve/authorize-tool-calls.md)
+- [Custom channel auth](https://clerk.com/docs/guides/ai/eve/custom-channel-auth.md)
+- [Enrich instructions](https://clerk.com/docs/guides/ai/eve/enriching-instructions.md)
+- [Get started with Clerk and eve](https://clerk.com/docs/guides/ai/eve/getting-started.md)
+- Build an MCP server in your application with Clerk: `<framework>/guides/ai/mcp/build-mcp-server.md`. Roots: `expressjs`, `nextjs`
+- [Use Clerk's MCP server](https://clerk.com/docs/guides/ai/mcp/clerk-mcp-server.md)
+- [Connect MCP-compatible clients to your MCP server](https://clerk.com/docs/guides/ai/mcp/connect-mcp-client.md)
 
-- [`$authStore`](https://clerk.com/docs/astro/reference/client-side-helpers/auth-store.md) (reference, authentication, api)
-- [`$clerkStore`](https://clerk.com/docs/astro/reference/client-side-helpers/clerk-store.md) (reference, api)
-- [Clerk Astro SDK](https://clerk.com/docs/astro/reference/overview.md) (reference, api)
+### `guides/customizing-clerk`
 
-### Chrome Extension
+- [Customizing Clerk](https://clerk.com/docs/guides/customizing-clerk/overview.md)
+- `ClerkTheme`: `<framework>/guides/customizing-clerk/clerk-theme.md`. Roots: `android`, `ios`
+- [Email and SMS templates](https://clerk.com/docs/guides/customizing-clerk/email-sms-templates.md)
+- [Localization prop](https://clerk.com/docs/guides/customizing-clerk/localization.md)
+- Add custom items and links to the `<UserButton />` component: `<framework>/guides/customizing-clerk/adding-items/user-button.md`. Roots: `astro`, `chrome-extension`, `electron`, `expo`, `js-frontend`, `nextjs`, `nuxt`, `react`, `react-router`, `tanstack-react-start`, `vue`
+- Add custom pages and links to the `<UserProfile />` component: `<framework>/guides/customizing-clerk/adding-items/user-profile.md`. Roots: `astro`, `chrome-extension`, `electron`, `expo`, `js-frontend`, `nextjs`, `nuxt`, `react`, `react-router`, `tanstack-react-start`, `vue`
 
-- [Clerk Chrome Extension SDK](https://clerk.com/docs/chrome-extension/reference/overview.md) (reference, api)
+### `guides/customizing-clerk/appearance-prop`
 
-### Electron
+- `Appearance` prop: `<framework>/guides/customizing-clerk/appearance-prop/overview.md`. Roots: `astro`, `chrome-extension`, `electron`, `expo`, `expressjs`, `fastify`, `go`, `js-frontend`, `nextjs`, `nuxt`, `react`, `react-router`, `ruby`, `tanstack-react-start`, `vue`
+- Bring your own CSS: `<framework>/guides/customizing-clerk/appearance-prop/bring-your-own-css.md`. Roots: `astro`, `chrome-extension`, `electron`, `expo`, `expressjs`, `fastify`, `go`, `js-frontend`, `nextjs`, `nuxt`, `react`, `react-router`, `ruby`, `tanstack-react-start`, `vue`
+- `captcha` prop: `<framework>/guides/customizing-clerk/appearance-prop/captcha.md`. Roots: `astro`, `chrome-extension`, `electron`, `expo`, `expressjs`, `fastify`, `go`, `js-frontend`, `nextjs`, `nuxt`, `react`, `react-router`, `ruby`, `tanstack-react-start`, `vue`
+- `Options` prop: `<framework>/guides/customizing-clerk/appearance-prop/options.md`. Roots: `astro`, `chrome-extension`, `electron`, `expo`, `expressjs`, `fastify`, `go`, `js-frontend`, `nextjs`, `nuxt`, `react`, `react-router`, `ruby`, `tanstack-react-start`, `vue`
+- Themes: `<framework>/guides/customizing-clerk/appearance-prop/themes.md`. Roots: `astro`, `chrome-extension`, `electron`, `expo`, `expressjs`, `fastify`, `go`, `js-frontend`, `nextjs`, `nuxt`, `react`, `react-router`, `ruby`, `tanstack-react-start`, `vue`
+- `Variables` prop: `<framework>/guides/customizing-clerk/appearance-prop/variables.md`. Roots: `astro`, `chrome-extension`, `electron`, `expo`, `expressjs`, `fastify`, `go`, `js-frontend`, `nextjs`, `nuxt`, `react`, `react-router`, `ruby`, `tanstack-react-start`, `vue`
 
-- [Clerk Electron SDK](https://clerk.com/docs/electron/reference/overview.md) (reference, api)
+### `guides/customizing-clerk/elements`
 
-### Expo
+- [Clerk Elements](https://clerk.com/docs/guides/customizing-clerk/elements/overview.md)
+- [Primitives](https://clerk.com/docs/guides/customizing-clerk/elements/examples/primitives.md)
+- [shadcn/ui](https://clerk.com/docs/guides/customizing-clerk/elements/examples/shadcn-ui.md)
+- [Styling for Clerk Elements](https://clerk.com/docs/guides/customizing-clerk/elements/guides/styling.md)
+- [Common components](https://clerk.com/docs/guides/customizing-clerk/elements/reference/common.md)
 
-- [`<AuthView />` component](https://clerk.com/docs/expo/reference/native-components/auth-view.md) (reference, authentication, components, api)
-- [`<UserButton />` component](https://clerk.com/docs/expo/reference/native-components/user-button.md) (reference, components, api)
-- [`useUserProfileCustomPageNavigation()`](https://clerk.com/docs/expo/reference/native-hooks/use-user-profile-custom-page-navigation.md) (reference, api)
-- [Expo Native Components](https://clerk.com/docs/expo/reference/native-components/overview.md) (reference, components, api)
+### `guides/development`
+
+- [Access the Clerk object outside of components](https://clerk.com/docs/guides/development/access-clerk-outside-components.md)
+- [Add React Router to your Clerk-powered Chrome Extension](https://clerk.com/docs/guides/development/add-react-router.md)
+- [Configure a consistent CRX ID for your Chrome Extension](https://clerk.com/docs/guides/development/configure-consistent-crx-id.md)
+- Add React Router to your Clerk + React application: `<framework>/guides/development/declarative-mode.md`. Roots: `react`, `react-router`
+- [Endpoints](https://clerk.com/docs/guides/development/endpoints.md)
+- [Basic geo blocking](https://clerk.com/docs/guides/development/geo-blocking.md)
+- [Astro hybrid rendering](https://clerk.com/docs/guides/development/hybrid-rendering.md)
+- [Use image optimization to improve app performance](https://clerk.com/docs/guides/development/image-optimization.md)
+- [Making authenticated requests](https://clerk.com/docs/guides/development/making-requests.md)
+- [Enable offline support in your Expo app](https://clerk.com/docs/guides/development/offline-support.md)
+- [Override Clerk interfaces with custom types](https://clerk.com/docs/guides/development/override-clerk-types-interfaces.md)
+- [Next.js rendering modes and Clerk](https://clerk.com/docs/guides/development/rendering-modes.md)
+- [Integrate Clerk into your Next.js + tRPC app](https://clerk.com/docs/guides/development/trpc.md)
+- [Versioning overview](https://clerk.com/docs/guides/development/upgrading/versioning.md)
+- [Web support](https://clerk.com/docs/guides/development/web-support/overview.md)
+
+### `guides/development/custom-flows`
+
+- [Build your own UI (custom flows)](https://clerk.com/docs/guides/development/custom-flows/overview.md)
+- [Build a custom flow for adding an email to a user's account](https://clerk.com/docs/guides/development/custom-flows/account-updates/add-email.md)
+- [Build a custom flow for adding a phone number to a user's account](https://clerk.com/docs/guides/development/custom-flows/account-updates/add-phone.md)
+- [Build a custom flow for managing SSO connections](https://clerk.com/docs/guides/development/custom-flows/account-updates/manage-sso-connections.md)
+- Build a custom flow for handling user impersonation: `<framework>/guides/development/custom-flows/account-updates/user-impersonation.md`. Roots: `android`, `astro`, `chrome-extension`, `electron`, `expo`, `expressjs`, `fastify`, `go`, `js-frontend`, `nextjs`, `nuxt`, `react`, `react-router`, `ruby`, `tanstack-react-start`, `vue`
+
+### `guides/development/sdk-development`
+
+- [SDK development](https://clerk.com/docs/guides/development/sdk-development/overview.md)
+- [Backend-only SDK](https://clerk.com/docs/guides/development/sdk-development/backend-only.md)
+- [Conventions](https://clerk.com/docs/guides/development/sdk-development/conventions.md)
+- [Frontend-only SDK](https://clerk.com/docs/guides/development/sdk-development/frontend-only.md)
+- [Fullstack SDK](https://clerk.com/docs/guides/development/sdk-development/fullstack.md)
+- [Philosophy](https://clerk.com/docs/guides/development/sdk-development/philosophy.md)
+- [Terminology](https://clerk.com/docs/guides/development/sdk-development/terminology.md)
+- [SDK types](https://clerk.com/docs/guides/development/sdk-development/types.md)
+
+### `guides/how-clerk-works`
+
+- [How Clerk works](https://clerk.com/docs/guides/how-clerk-works/overview.md)
+- [Cookies](https://clerk.com/docs/guides/how-clerk-works/cookies.md)
+- [Multi-tenant architecture](https://clerk.com/docs/guides/how-clerk-works/multi-tenant-architecture.md)
+- [Routing in Clerk](https://clerk.com/docs/guides/how-clerk-works/routing.md)
+- [Rate limits](https://clerk.com/docs/guides/how-clerk-works/system-limits.md)

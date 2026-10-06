@@ -4,14 +4,13 @@
 
 _Discovery source: [Clerk's language-model documentation index](https://clerk.com/docs/llms.txt)_
 
-Use this reference for exact packages, imports, helpers, methods, types, Backend API resources, Frontend API resources, or Platform API resources.
+Use this reference for exact packages, official repositories, and what one framework SDK documents for itself: its overview, middleware, server helpers, error pages, passkey setup, and the native Android and iOS SDK pages.
 
 ## Operating Guidance
 
 - Check the target project's installed SDK version and exports before using a symbol from current documentation.
 - Prefer a released first-party SDK over direct HTTP calls when the SDK supports the required operation and runtime.
 - Treat default-branch source as discovery evidence, not proof that a symbol exists in a released package.
-- Use the complete source index when an exact method, type, object, or resource is not listed in this focused reference.
 
 ## Official Clerk Repositories
 
@@ -59,76 +58,142 @@ Use this reference for exact packages, imports, helpers, methods, types, Backend
 | `@clerk/upgrade` | [`packages/upgrade`](https://github.com/clerk/javascript/tree/main/packages/upgrade) |
 | `@clerk/vue` | [`packages/vue`](https://github.com/clerk/javascript/tree/main/packages/vue) |
 
-## Selected Official Sources
+## Official Sources
 
-This focused list selects 60 of 98 pages in this category. A page that exists under several framework roots counts once. Search [source-index.json](source-index.json) when the exact method, object, framework page, or resource is not listed.
+This reference lists what each framework SDK documents for itself, which is every Clerk documentation page in a `reference` folder that no other reference lists, under headings that are framework roots. Pages outside the `reference` folders are in the topic references.
 
-### General Guides and References
+A framework root is the first path segment after `https://clerk.com/docs/`, such as `nextjs` or `expressjs`.
 
-- [`AgentTask`](https://clerk.com/docs/reference/types/agent-task.md) (reference, api)
-- [`authenticateRequest()`](https://clerk.com/docs/reference/backend/authenticate-request.md) (reference, authentication, api)
-- [`banUser()`](https://clerk.com/docs/reference/backend/user/ban-user.md) (reference, api)
-- [`clerkClient`](https://clerk.com/docs/reference/backend/overview.md) (reference, api)
-- [`create()` (agent-tasks)](https://clerk.com/docs/reference/backend/agent-tasks/create.md) (reference, api)
-- [`create()` (waitlist-entries)](https://clerk.com/docs/reference/backend/waitlist-entries/create.md) (reference, api)
-- [`createAllowlistIdentifier()`](https://clerk.com/docs/reference/backend/allowlist/create-allowlist-identifier.md) (reference, api)
-- [`createBulk()`](https://clerk.com/docs/reference/backend/waitlist-entries/create-bulk.md) (reference, api)
-- [`createEmailAddress()`](https://clerk.com/docs/reference/backend/email-addresses/create-email-address.md) (reference, api)
-- [`createPhoneNumber()`](https://clerk.com/docs/reference/backend/phone-numbers/create-phone-number.md) (reference, api)
-- [`createSamlConnection()`](https://clerk.com/docs/reference/backend/saml-connections/create-saml-connection.md) (reference, api)
-- [`createUser()`](https://clerk.com/docs/reference/backend/user/create-user.md) (reference, api)
-- [`delete()` (waitlist-entries)](https://clerk.com/docs/reference/backend/waitlist-entries/delete.md) (reference, api)
-- [`deleteAllowlistIdentifier()`](https://clerk.com/docs/reference/backend/allowlist/delete-allowlist-identifier.md) (reference, api)
-- [`deleteEmailAddress()`](https://clerk.com/docs/reference/backend/email-addresses/delete-email-address.md) (reference, api)
-- [`deletePhoneNumber()`](https://clerk.com/docs/reference/backend/phone-numbers/delete-phone-number.md) (reference, api)
-- [`deleteSamlConnection()`](https://clerk.com/docs/reference/backend/saml-connections/delete-saml-connection.md) (reference, api)
-- [`Feature`](https://clerk.com/docs/reference/backend/types/feature.md) (reference, billing, api)
-- [`get()` (instance)](https://clerk.com/docs/reference/backend/instance/get.md) (reference, api)
-- [`getAllowlistIdentifierList()`](https://clerk.com/docs/reference/backend/allowlist/get-allowlist-identifier-list.md) (reference, api)
-- [`getClient()`](https://clerk.com/docs/reference/backend/client/get-client.md) (reference, api)
-- [`getClientList()`](https://clerk.com/docs/reference/backend/client/get-client-list.md) (reference, api)
-- [`getEmailAddress()`](https://clerk.com/docs/reference/backend/email-addresses/get-email-address.md) (reference, api)
-- [`getPhoneNumber()`](https://clerk.com/docs/reference/backend/phone-numbers/get-phone-number.md) (reference, api)
-- [`getSamlConnection()`](https://clerk.com/docs/reference/backend/saml-connections/get-saml-connection.md) (reference, api)
-- [`PaginatedResourceResponse`](https://clerk.com/docs/reference/backend/types/paginated-resource-response.md) (reference, api)
-- [`revoke()` (agent-tasks)](https://clerk.com/docs/reference/backend/agent-tasks/revoke.md) (reference, api)
-- [`update()` (instance)](https://clerk.com/docs/reference/backend/instance/update.md) (reference, api)
-- [`verifyClient()`](https://clerk.com/docs/reference/backend/client/verify-client.md) (reference, api)
-- [`verifyTOTP()`](https://clerk.com/docs/reference/backend/user/verify-totp.md) (reference, api)
-- [API Reference](https://clerk.com/docs/reference/api/overview.md) (reference, api)
-- [Auth object](https://clerk.com/docs/reference/backend/types/auth-object.md) (reference, authentication, api)
-- [Component Changelog](https://clerk.com/docs/reference/components/changelog.md) (reference, components, api)
-- [Component Versioning](https://clerk.com/docs/reference/components/versioning.md) (reference, components, api)
-- [SDK References](https://clerk.com/docs/reference/overview.md) (reference, api)
+### All Frameworks
 
-### Shared Across Frameworks
+- [SDK References](https://clerk.com/docs/reference/overview.md)
+- [API Reference](https://clerk.com/docs/reference/api/overview.md)
 
-Each page below exists under every framework root named after it. A root is the first path segment after `https://clerk.com/docs/`, such as `nextjs` or `expressjs`. The URL of a page is `https://clerk.com/docs/` followed by its path, with `<framework>` replaced by one of its roots.
+### `android`
 
-In every reference of this skill, the common roots are `astro`, `chrome-extension`, `electron`, `expo`, `js-frontend`, `nextjs`, `nuxt`, `react-router`, `react`, `tanstack-react-start`, `vue`.
+- [Configure passkeys for Android](https://clerk.com/docs/android/reference/passkeys.md)
+- [Welcome](https://clerk.com/docs/android/reference/native-mobile/overview.md)
+- [Authentication flows](https://clerk.com/docs/android/reference/native-mobile/auth.md)
+- [Clerk](https://clerk.com/docs/android/reference/native-mobile/clerk.md)
+- [Configure the SDK](https://clerk.com/docs/android/reference/native-mobile/configuration.md)
+- [Install the SDK](https://clerk.com/docs/android/reference/native-mobile/installation.md)
+- [Organization management](https://clerk.com/docs/android/reference/native-mobile/organizations.md)
+- [Share sessions across apps](https://clerk.com/docs/android/reference/native-mobile/shared-session-sync.md)
+- [User management](https://clerk.com/docs/android/reference/native-mobile/user.md)
+- [Integrate Convex with Clerk](https://clerk.com/docs/android/reference/native-mobile/integrations/convex.md)
 
-- `BackupCodeResource`: `<framework>/reference/types/backup-code-resource.md` (reference). Roots: common
-- `ClerkPaginatedResponse`: `<framework>/reference/types/clerk-paginated-response.md` (reference). Roots: common
-- `CustomMenuItem`: `<framework>/reference/types/custom-menu-item.md` (reference). Roots: common
-- `CustomPage`: `<framework>/reference/types/custom-page.md` (reference). Roots: common
-- `DeletedObjectResource`: `<framework>/reference/types/deleted-object-resource.md` (reference). Roots: common
-- `EmailAddress`: `<framework>/reference/types/email-address.md` (reference). Roots: common
-- `EnterpriseAccount`: `<framework>/reference/types/enterprise-account.md` (reference). Roots: common
-- `EnterpriseAccountConnection`: `<framework>/reference/types/enterprise-account-connection.md` (reference). Roots: common
-- `ExternalAccount`: `<framework>/reference/types/external-account.md` (reference). Roots: common
-- `FeatureResource`: `<framework>/reference/types/feature-resource.md` (reference). Roots: common
-- `HandleOAuthCallbackParams`: `<framework>/reference/types/handle-o-auth-callback-params.md` (reference). Roots: common
-- `IdentificationLinkResource`: `<framework>/reference/types/identification-link-resource.md` (reference). Roots: common
-- `ImageResource`: `<framework>/reference/types/image-resource.md` (reference). Roots: common
-- `OAuthConsentInfo`: `<framework>/reference/types/oauth-consent-info.md` (reference). Roots: common
-- `OAuthConsentScope`: `<framework>/reference/types/oauth-consent-scope.md` (reference). Roots: common
-- `PhoneNumber`: `<framework>/reference/types/phone-number.md` (reference). Roots: common
-- `PublicUserData`: `<framework>/reference/types/public-user-data.md` (reference). Roots: common
-- `SetActiveParams`: `<framework>/reference/types/set-active-params.md` (reference). Roots: common
-- `SSOBypassAllowlistResource`: `<framework>/reference/types/sso-bypass-allowlist-resource.md` (reference). Roots: common
-- `TOTPResource`: `<framework>/reference/types/totp-resource.md` (reference). Roots: common
-- `VerificationResource`: `<framework>/reference/types/verification-resource.md` (reference). Roots: common
-- `Waitlist`: `<framework>/reference/types/waitlist.md` (reference). Roots: common
-- Clerk types: `<framework>/reference/types/overview.md` (reference). Roots: common
-- Metadata: `<framework>/reference/types/metadata.md` (reference). Roots: common
-- SSO Types: `<framework>/reference/types/sso.md` (reference). Roots: common
+### `astro`
+
+- [Clerk Astro SDK](https://clerk.com/docs/astro/reference/overview.md)
+- [`clerkMiddleware()` | Astro](https://clerk.com/docs/astro/reference/clerk-middleware.md)
+- [Integration](https://clerk.com/docs/astro/reference/integration.md)
+- [Locals](https://clerk.com/docs/astro/reference/locals.md)
+- [Use Clerk with Astro and React](https://clerk.com/docs/astro/reference/react.md)
+- [`updateClerkOptions()`](https://clerk.com/docs/astro/reference/update-clerk-options.md)
+
+### `chrome-extension`
+
+- [Clerk Chrome Extension SDK](https://clerk.com/docs/chrome-extension/reference/overview.md)
+- [`createClerkClient()`](https://clerk.com/docs/chrome-extension/reference/create-clerk-client.md)
+
+### `electron`
+
+- [Clerk Electron SDK](https://clerk.com/docs/electron/reference/overview.md)
+- [`createClerkBridge()`](https://clerk.com/docs/electron/reference/create-clerk-bridge.md)
+- [`exposeClerkBridge()`](https://clerk.com/docs/electron/reference/expose-clerk-bridge.md)
+- [Configure passkeys for Electron](https://clerk.com/docs/electron/reference/passkeys.md)
+- [`storage()`](https://clerk.com/docs/electron/reference/storage.md)
+
+### `expo`
+
+- [Clerk Expo SDK](https://clerk.com/docs/expo/reference/overview.md)
+- [Configure passkeys for Expo](https://clerk.com/docs/expo/reference/passkeys.md)
+
+### `expressjs`
+
+- [Clerk Express SDK](https://clerk.com/docs/expressjs/reference/overview.md)
+- [`clerkMiddleware()`](https://clerk.com/docs/expressjs/reference/clerk-middleware.md)
+- [`getAuth()`](https://clerk.com/docs/expressjs/reference/get-auth.md)
+- [`requireAuth()`](https://clerk.com/docs/expressjs/reference/require-auth.md)
+
+### `fastify`
+
+- [Clerk Fastify SDK](https://clerk.com/docs/fastify/reference/overview.md)
+- [`clerkPlugin()`](https://clerk.com/docs/fastify/reference/clerk-plugin.md)
+- [`getAuth()`](https://clerk.com/docs/fastify/reference/get-auth.md)
+
+### `go`
+
+- [Clerk Go SDK](https://clerk.com/docs/go/reference/overview.md)
+
+### `ios`
+
+- [SwiftUI previews](https://clerk.com/docs/ios/reference/swiftui-previews.md)
+- [Watch Connectivity](https://clerk.com/docs/ios/reference/watch-connectivity.md)
+- [Welcome](https://clerk.com/docs/ios/reference/native-mobile/overview.md)
+- [Authentication flows](https://clerk.com/docs/ios/reference/native-mobile/auth.md)
+- [Clerk](https://clerk.com/docs/ios/reference/native-mobile/clerk.md)
+- [Configure the SDK](https://clerk.com/docs/ios/reference/native-mobile/configuration.md)
+- [Install the SDK](https://clerk.com/docs/ios/reference/native-mobile/installation.md)
+- [Organization management](https://clerk.com/docs/ios/reference/native-mobile/organizations.md)
+- [Share sessions across apps](https://clerk.com/docs/ios/reference/native-mobile/shared-session-sync.md)
+- [User management](https://clerk.com/docs/ios/reference/native-mobile/user.md)
+- [Integrate Convex with Clerk](https://clerk.com/docs/ios/reference/native-mobile/integrations/convex.md)
+
+### `js-frontend`
+
+- [Clerk JavaScript SDK](https://clerk.com/docs/js-frontend/reference/overview.md)
+
+### `nextjs`
+
+- [Clerk Next.js SDK](https://clerk.com/docs/nextjs/reference/overview.md)
+- [clerkMiddleware()](https://clerk.com/docs/nextjs/reference/clerk-middleware.md)
+- [`@clerk/eslint-plugin`](https://clerk.com/docs/nextjs/reference/eslint-plugin.md)
+- [`auth()`](https://clerk.com/docs/nextjs/reference/app-router/auth.md)
+- [`currentUser()`](https://clerk.com/docs/nextjs/reference/app-router/current-user.md)
+- [Route Handlers](https://clerk.com/docs/nextjs/reference/app-router/route-handlers.md)
+- [Server Actions](https://clerk.com/docs/nextjs/reference/app-router/server-actions.md)
+- [Clerk: auth() was called but Clerk can't detect usage of clerkMiddleware()](https://clerk.com/docs/nextjs/reference/errors/auth-was-called.md)
+- [Clerk: `<Protect>` is not available in @clerk/nextjs Core 3](https://clerk.com/docs/nextjs/reference/errors/protect-is-not-available-in-clerk-nextjs.md)
+- [Clerk: `<SignedIn>` is not available in @clerk/nextjs Core 3](https://clerk.com/docs/nextjs/reference/errors/signedin-is-not-available-in-clerk-nextjs.md)
+- [Clerk: `<SignedOut>` is not available in @clerk/nextjs Core 3](https://clerk.com/docs/nextjs/reference/errors/signedout-is-not-available-in-clerk-nextjs.md)
+- [`buildClerkProps`](https://clerk.com/docs/nextjs/reference/pages-router/build-clerk-props.md)
+- [`getAuth()`](https://clerk.com/docs/nextjs/reference/pages-router/get-auth.md)
+
+### `nuxt`
+
+- [Clerk Nuxt SDK](https://clerk.com/docs/nuxt/reference/overview.md)
+- [clerkMiddleware() | Nuxt](https://clerk.com/docs/nuxt/reference/clerk-middleware.md)
+- [`@clerk/nuxt` module](https://clerk.com/docs/nuxt/reference/integration.md)
+
+### `react`
+
+- [Clerk React SDK](https://clerk.com/docs/react/reference/overview.md)
+
+### `react-router`
+
+- [Clerk React Router SDK](https://clerk.com/docs/react-router/reference/overview.md)
+- [`clerkMiddleware()` | React Router](https://clerk.com/docs/react-router/reference/clerk-middleware.md)
+- [`getAuth()`](https://clerk.com/docs/react-router/reference/get-auth.md)
+- [`rootAuthLoader()`](https://clerk.com/docs/react-router/reference/root-auth-loader.md)
+
+### `ruby`
+
+- [Clerk Ruby SDK](https://clerk.com/docs/ruby/reference/overview.md)
+- [Ruby with Rack](https://clerk.com/docs/ruby/reference/rack.md)
+- [Ruby on Rails integration](https://clerk.com/docs/ruby/reference/rails.md)
+- [Sinatra integration](https://clerk.com/docs/ruby/reference/sinatra.md)
+- [Upgrade to `clerk-sdk-ruby` v4](https://clerk.com/docs/ruby/reference/v4-upgrade-guide.md)
+- [Upgrade to `clerk-sdk-ruby` v5](https://clerk.com/docs/ruby/reference/v5-upgrade-guide.md)
+
+### `tanstack-react-start`
+
+- [Clerk TanStack React Start SDK](https://clerk.com/docs/tanstack-react-start/reference/overview.md)
+- [`auth()`](https://clerk.com/docs/tanstack-react-start/reference/auth.md)
+- [`clerkMiddleware()`](https://clerk.com/docs/tanstack-react-start/reference/clerk-middleware.md)
+
+### `vue`
+
+- [Clerk Vue SDK](https://clerk.com/docs/vue/reference/overview.md)
+- [`clerkPlugin`](https://clerk.com/docs/vue/reference/clerk-plugin.md)
+- [`updateClerkOptions()`](https://clerk.com/docs/vue/reference/update-clerk-options.md)

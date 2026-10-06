@@ -13,82 +13,115 @@ Use this reference for environment variables, instances, domains, redirects, dep
 - Use testing tokens and provider-supported test paths instead of weakening production security controls for automation.
 - During upgrades, inspect installed versions and migration guidance, then validate both browser flow and protected server behavior.
 
-## Selected Official Sources
+## Official Sources
 
-This focused list selects 60 of 99 pages in this category. A page that exists under several framework roots counts once. Search [source-index.json](source-index.json) when the exact method, object, framework page, or resource is not listed.
+This reference lists every Clerk documentation page of this topic outside the `reference` folders, under headings that are folders of the page path. Pages for a component, hook, object, type, or Backend SDK method are in the four kind references, and pages one framework SDK documents for itself are in the SDK and API reference.
 
-### General Guides and References
+A framework root is the first path segment after `https://clerk.com/docs/`, such as `nextjs` or `expressjs`. An entry written as a path that starts with `<framework>` is one page that exists under each root named after it, and its URL is `https://clerk.com/docs/` followed by that path with `<framework>` replaced by one of those roots.
 
-- [`add()` (domains)](https://clerk.com/docs/reference/backend/domains/add.md) (reference, organizations, deployment, api)
-- [`createRedirectUrl()`](https://clerk.com/docs/reference/backend/redirect-urls/create-redirect-url.md) (reference, deployment, api)
-- [`delete()` (domains)](https://clerk.com/docs/reference/backend/domains/delete.md) (reference, organizations, deployment, api)
-- [`deleteDomain()`](https://clerk.com/docs/reference/backend/domains/delete-domain.md) (reference, organizations, deployment, api)
-- [`deleteRedirectUrl()`](https://clerk.com/docs/reference/backend/redirect-urls/delete-redirect-url.md) (reference, deployment, api)
-- [`getRedirectUrl()`](https://clerk.com/docs/reference/backend/redirect-urls/get-redirect-url.md) (reference, deployment, api)
-- [Admin Logs](https://clerk.com/docs/guides/dashboard/logs/admin-logs.md) (guide)
-- [Agent Tasks](https://clerk.com/docs/guides/development/testing/agent-tasks.md) (guide, testing)
-- [Analytics](https://clerk.com/docs/guides/dashboard/analytics.md) (guide)
-- [Application Logs](https://clerk.com/docs/guides/dashboard/logs/application-logs.md) (guide)
-- [Backend `Domain` object](https://clerk.com/docs/reference/backend/types/domain.md) (reference, organizations, deployment, api)
-- [Backend API errors](https://clerk.com/docs/guides/development/errors/backend-api.md) (troubleshooting, api)
-- [Change domain](https://clerk.com/docs/guides/development/deployment/changing-domains.md) (guide, organizations, deployment)
-- [Clerk CLI](https://clerk.com/docs/cli.md) (guide)
-- [Clerk environment variables](https://clerk.com/docs/guides/development/clerk-environment-variables.md) (guide, deployment)
-- [Create a browser replay](https://clerk.com/docs/guides/development/troubleshooting/help-support/browser-replay.md) (troubleshooting)
-- [Create a minimal reproduction](https://clerk.com/docs/guides/development/troubleshooting/help-support/create-a-minimal-reproduction.md) (troubleshooting, deployment)
-- [Custom commands](https://clerk.com/docs/guides/development/testing/cypress/custom-commands.md) (guide, testing)
-- [Customize your redirect URLs](https://clerk.com/docs/guides/development/customize-redirect-urls.md) (guide, deployment)
-- [Dashboard Logs](https://clerk.com/docs/guides/dashboard/logs/overview.md) (concept)
-- [Deploy a Chrome Extension to production](https://clerk.com/docs/guides/development/deployment/chrome-extension.md) (guide, deployment)
-- [Deploy a Clerk app behind a proxy](https://clerk.com/docs/guides/development/deployment/behind-a-proxy.md) (guide, deployment)
-- [Email deliverability](https://clerk.com/docs/guides/development/troubleshooting/email-deliverability.md) (troubleshooting)
-- [Email suppression lists](https://clerk.com/docs/guides/development/troubleshooting/email-suppression-lists.md) (troubleshooting)
-- [Errors overview](https://clerk.com/docs/guides/development/errors/overview.md) (troubleshooting)
-- [Frontend API errors](https://clerk.com/docs/guides/development/errors/frontend-api.md) (troubleshooting, api)
-- [Install Clerk with shadcn/ui CLI](https://clerk.com/docs/guides/development/shadcn-cli.md) (guide)
-- [Maintenance Mode](https://clerk.com/docs/maintenance-mode.md) (guide)
-- [Manage team access](https://clerk.com/docs/guides/dashboard/manage-team-access.md) (guide)
-- [Manage your workspace](https://clerk.com/docs/guides/dashboard/overview.md) (concept)
-- [Migrate away from Middleware-based auth checks](https://clerk.com/docs/guides/development/upgrading/upgrade-guides/migrate-from-create-route-matcher.md) (migration, authentication)
-- [Migrate from Clerk Android SDK v0 to v1](https://clerk.com/docs/guides/development/upgrading/upgrade-guides/android-v1.md) (migration, api)
-- [Migrate from Clerk iOS SDK v0 to v1](https://clerk.com/docs/guides/development/upgrading/upgrade-guides/ios-v1.md) (migration, api)
-- [Migrating](https://clerk.com/docs/guides/development/migrating/overview.md) (concept)
-- [Migrating from the Astro community SDK](https://clerk.com/docs/guides/development/migrating/astro-community-sdk.md) (guide, api)
-- [Migrating from the Vue community SDK](https://clerk.com/docs/guides/development/migrating/vue-community-sdk.md) (guide, api)
-- [Proxying the Clerk Frontend API](https://clerk.com/docs/guides/dashboard/dns-domains/proxy-fapi.md) (guide, organizations, deployment, api)
-- [Reuse auth state across tests](https://clerk.com/docs/guides/development/testing/playwright/test-authenticated-flows.md) (guide, authentication, testing)
-- [Subdomain allowlist](https://clerk.com/docs/guides/dashboard/dns-domains/subdomain-allowlist.md) (guide, organizations, deployment)
-- [Test Account Portal flows](https://clerk.com/docs/guides/development/testing/cypress/test-account-portal.md) (guide, testing, components)
-- [Test emails and phones](https://clerk.com/docs/guides/development/testing/test-emails-and-phones.md) (guide, testing)
-- [Test helpers](https://clerk.com/docs/guides/development/testing/playwright/test-helpers.md) (guide, testing)
-- [Testing](https://clerk.com/docs/guides/development/testing/overview.md) (concept, testing)
-- [Testing with Cypress](https://clerk.com/docs/guides/development/testing/cypress/overview.md) (concept, testing)
-- [Testing with Playwright](https://clerk.com/docs/guides/development/testing/playwright/overview.md) (concept, testing)
-- [The Backend `RedirectUrl` object](https://clerk.com/docs/reference/backend/types/backend-redirect-url.md) (reference, deployment, api)
-- [Troubleshooting](https://clerk.com/docs/guides/development/troubleshooting/overview.md) (troubleshooting)
-- [Upgrade guides overview](https://clerk.com/docs/guides/development/upgrading/overview.md) (migration)
+### Top Level
 
-### Shared Across Frameworks
+- [Clerk CLI](https://clerk.com/docs/cli.md)
+- [Maintenance Mode](https://clerk.com/docs/maintenance-mode.md)
 
-Each page below exists under every framework root named after it. A root is the first path segment after `https://clerk.com/docs/`, such as `nextjs` or `expressjs`. The URL of a page is `https://clerk.com/docs/` followed by its path, with `<framework>` replaced by one of its roots.
+### `guides/dashboard`
 
-In every reference of this skill, the common roots are `astro`, `chrome-extension`, `electron`, `expo`, `js-frontend`, `nextjs`, `nuxt`, `react-router`, `react`, `tanstack-react-start`, `vue`.
+- [Manage your workspace](https://clerk.com/docs/guides/dashboard/overview.md)
+- [Analytics](https://clerk.com/docs/guides/dashboard/analytics.md)
+- [Manage team access](https://clerk.com/docs/guides/dashboard/manage-team-access.md)
+- [User profile](https://clerk.com/docs/guides/dashboard/user-profile.md)
+- [Proxying the Clerk Frontend API](https://clerk.com/docs/guides/dashboard/dns-domains/proxy-fapi.md)
+- [Subdomain allowlist](https://clerk.com/docs/guides/dashboard/dns-domains/subdomain-allowlist.md)
+- [Dashboard Logs](https://clerk.com/docs/guides/dashboard/logs/overview.md)
+- [Admin Logs](https://clerk.com/docs/guides/dashboard/logs/admin-logs.md)
+- [Application Logs](https://clerk.com/docs/guides/dashboard/logs/application-logs.md)
+- [Email Logs](https://clerk.com/docs/guides/dashboard/logs/email-logs.md)
+- [SMS delivery events](https://clerk.com/docs/guides/dashboard/logs/sms-delivery-events.md)
 
-- `<AuthenticateWithRedirectCallback />` component: `<framework>/reference/components/control/authenticate-with-redirect-callback.md` (reference). Roots: common except `electron`, `expo`
-- `<RedirectToTasks />` component: `<framework>/reference/components/control/redirect-to-tasks.md` (reference). Roots: common except `astro`, `js-frontend`
-- `<RedirectToUserProfile />` component: `<framework>/reference/components/control/redirect-to-user-profile.md` (reference). Roots: `electron`, `nextjs`, `nuxt`, `react-router`, `react`, `tanstack-react-start`, `vue`
-- `ClerkAPIError`: `<framework>/reference/types/clerk-api-error.md` (reference). Roots: common
-- `ClerkAPIResponseError`: `<framework>/reference/types/clerk-api-response-error.md` (reference). Roots: common
-- `ClerkError`: `<framework>/reference/types/clerk-error.md` (reference). Roots: common
-- Error handling: `<framework>/guides/development/custom-flows/error-handling.md` (troubleshooting). Roots: `android`, `astro`, `chrome-extension`, `electron`, `expo`, `expressjs`, `fastify`, `go`, `ios`, `js-frontend`, `nextjs`, `nuxt`, `react-router`, `react`, `ruby`, `tanstack-react-start`, `vue`
+### `guides/development`
 
-### Next.js
+- [Clerk environment variables](https://clerk.com/docs/guides/development/clerk-environment-variables.md)
+- [Customize your redirect URLs](https://clerk.com/docs/guides/development/customize-redirect-urls.md)
+- [Instances / Environments](https://clerk.com/docs/guides/development/managing-environments.md)
+- [Install Clerk with shadcn/ui CLI](https://clerk.com/docs/guides/development/shadcn-cli.md)
+- Error handling: `<framework>/guides/development/custom-flows/error-handling.md`. Roots: `android`, `astro`, `chrome-extension`, `electron`, `expo`, `expressjs`, `fastify`, `go`, `ios`, `js-frontend`, `nextjs`, `nuxt`, `react`, `react-router`, `ruby`, `tanstack-react-start`, `vue`
 
-- [Clerk: `<SignedIn>` is not available in @clerk/nextjs Core 3](https://clerk.com/docs/nextjs/reference/errors/signedin-is-not-available-in-clerk-nextjs.md) (reference, api)
-- [Clerk: `<SignedOut>` is not available in @clerk/nextjs Core 3](https://clerk.com/docs/nextjs/reference/errors/signedout-is-not-available-in-clerk-nextjs.md) (reference, api)
-- [Clerk: auth() was called but Clerk can't detect usage of clerkMiddleware()](https://clerk.com/docs/nextjs/reference/errors/auth-was-called.md) (reference, authentication, api)
+### `guides/development/deployment`
 
-### Ruby
+- [Deploy an Astro app to production](https://clerk.com/docs/guides/development/deployment/astro.md)
+- [Deploy a Clerk app behind a proxy](https://clerk.com/docs/guides/development/deployment/behind-a-proxy.md)
+- [Change domain](https://clerk.com/docs/guides/development/deployment/changing-domains.md)
+- [Deploy a Chrome Extension to production](https://clerk.com/docs/guides/development/deployment/chrome-extension.md)
+- [Deploy an Electron app to production](https://clerk.com/docs/guides/development/deployment/electron.md)
+- [Deploy an Expo app to production](https://clerk.com/docs/guides/development/deployment/expo.md)
+- [Deploy your Clerk app to production](https://clerk.com/docs/guides/development/deployment/production.md)
+- [Staging alternatives](https://clerk.com/docs/guides/development/deployment/staging-alternatives.md)
+- [Deploying a Clerk app to Vercel](https://clerk.com/docs/guides/development/deployment/vercel.md)
 
-- [Upgrade to `clerk-sdk-ruby` v4](https://clerk.com/docs/ruby/reference/v4-upgrade-guide.md) (reference, api)
-- [Upgrade to `clerk-sdk-ruby` v5](https://clerk.com/docs/ruby/reference/v5-upgrade-guide.md) (reference, api)
+### `guides/development/errors`
+
+- [Errors overview](https://clerk.com/docs/guides/development/errors/overview.md)
+- [Backend API errors](https://clerk.com/docs/guides/development/errors/backend-api.md)
+- [Frontend API errors](https://clerk.com/docs/guides/development/errors/frontend-api.md)
+- [Platform API errors](https://clerk.com/docs/guides/development/errors/platform-api.md)
+
+### `guides/development/migrating`
+
+- [Migrating](https://clerk.com/docs/guides/development/migrating/overview.md)
+- [Migrating from the Astro community SDK](https://clerk.com/docs/guides/development/migrating/astro-community-sdk.md)
+- [Migrate from Auth.js to Clerk](https://clerk.com/docs/guides/development/migrating/authjs.md)
+- [Migrate from Cognito](https://clerk.com/docs/guides/development/migrating/cognito.md)
+- [Migrating from the Vue community SDK](https://clerk.com/docs/guides/development/migrating/vue-community-sdk.md)
+
+### `guides/development/testing`
+
+- [Testing](https://clerk.com/docs/guides/development/testing/overview.md)
+- [Agent Tasks](https://clerk.com/docs/guides/development/testing/agent-tasks.md)
+- [Testing with Postman or Insomnia](https://clerk.com/docs/guides/development/testing/postman-or-insomnia.md)
+- [Test emails and phones](https://clerk.com/docs/guides/development/testing/test-emails-and-phones.md)
+- [Testing with Cypress](https://clerk.com/docs/guides/development/testing/cypress/overview.md)
+- [Custom commands](https://clerk.com/docs/guides/development/testing/cypress/custom-commands.md)
+- [Test Account Portal flows](https://clerk.com/docs/guides/development/testing/cypress/test-account-portal.md)
+- [Testing with Playwright](https://clerk.com/docs/guides/development/testing/playwright/overview.md)
+- [Reuse auth state across tests](https://clerk.com/docs/guides/development/testing/playwright/test-authenticated-flows.md)
+- [Test helpers](https://clerk.com/docs/guides/development/testing/playwright/test-helpers.md)
+
+### `guides/development/troubleshooting`
+
+- [Troubleshooting](https://clerk.com/docs/guides/development/troubleshooting/overview.md)
+- [Email deliverability](https://clerk.com/docs/guides/development/troubleshooting/email-deliverability.md)
+- [New domain reputation and email warm-up](https://clerk.com/docs/guides/development/troubleshooting/email-domain-name-warmup.md)
+- [Email suppression lists](https://clerk.com/docs/guides/development/troubleshooting/email-suppression-lists.md)
+- [Script loading](https://clerk.com/docs/guides/development/troubleshooting/script-loading.md)
+- [Using production keys in local development](https://clerk.com/docs/guides/development/troubleshooting/using-production-keys-in-development.md)
+- [Create a browser replay](https://clerk.com/docs/guides/development/troubleshooting/help-support/browser-replay.md)
+- [Create a minimal reproduction](https://clerk.com/docs/guides/development/troubleshooting/help-support/create-a-minimal-reproduction.md)
+
+### `guides/development/upgrading`
+
+- [Upgrade guides overview](https://clerk.com/docs/guides/development/upgrading/overview.md)
+
+### `guides/development/upgrading/upgrade-guides`
+
+- [Upgrade to API version 2025-11-10](https://clerk.com/docs/guides/development/upgrading/upgrade-guides/2025-11-10.md)
+- [Upgrade to API version 2026-05-12](https://clerk.com/docs/guides/development/upgrading/upgrade-guides/2026-05-12.md)
+- [Migrate from Clerk Android SDK v0 to v1](https://clerk.com/docs/guides/development/upgrading/upgrade-guides/android-v1.md)
+- [Upgrading to Clerk Core 2](https://clerk.com/docs/guides/development/upgrading/upgrade-guides/core-2.md)
+- [Upgrading to Clerk Core 3](https://clerk.com/docs/guides/development/upgrading/upgrade-guides/core-3.md)
+- [Upgrade to @clerk/clerk-expo v2](https://clerk.com/docs/guides/development/upgrading/upgrade-guides/expo-v2.md)
+- [Migrate from Clerk iOS SDK v0 to v1](https://clerk.com/docs/guides/development/upgrading/upgrade-guides/ios-v1.md)
+- [Migrate away from Middleware-based auth checks](https://clerk.com/docs/guides/development/upgrading/upgrade-guides/migrate-from-create-route-matcher.md)
+- [Upgrade to @clerk/nextjs v6](https://clerk.com/docs/guides/development/upgrading/upgrade-guides/nextjs-v6.md)
+- [Upgrade from Clerk's Node SDK to the Express SDK](https://clerk.com/docs/guides/development/upgrading/upgrade-guides/node-to-express.md)
+
+### `guides/development/upgrading/upgrade-guides/core-2`
+
+- [Upgrading `@clerk/backend` to Core 2](https://clerk.com/docs/guides/development/upgrading/upgrade-guides/core-2/backend.md)
+- [Upgrading `@clerk/chrome-extension` to Core 2](https://clerk.com/docs/guides/development/upgrading/upgrade-guides/core-2/chrome-extension.md)
+- [Upgrading `@clerk/clerk-expo` to Core 2](https://clerk.com/docs/guides/development/upgrading/upgrade-guides/core-2/expo.md)
+- [Upgrading `@clerk/fastify` to Core 2](https://clerk.com/docs/guides/development/upgrading/upgrade-guides/core-2/fastify.md)
+- [Upgrading `@clerk/clerk-js` to Core 2](https://clerk.com/docs/guides/development/upgrading/upgrade-guides/core-2/javascript.md)
+- [Upgrading `@clerk/nextjs` to Core 2](https://clerk.com/docs/guides/development/upgrading/upgrade-guides/core-2/nextjs.md)
+- [Upgrading `@clerk/clerk-sdk-node` to Core 2](https://clerk.com/docs/guides/development/upgrading/upgrade-guides/core-2/node.md)
+- [Upgrading `@clerk/clerk-react` to Core 2](https://clerk.com/docs/guides/development/upgrading/upgrade-guides/core-2/react.md)
+- [Upgrading `@clerk/remix` to Core 2](https://clerk.com/docs/guides/development/upgrading/upgrade-guides/core-2/remix.md)

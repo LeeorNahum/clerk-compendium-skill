@@ -1,14 +1,15 @@
 # Clerk Compendium
 
-A portable Agent Skill for current Clerk implementation work across first-party frameworks, SDKs, APIs, authentication, organizations, Billing, webhooks, security, testing, deployment, and upgrades. The main skill routes agents into focused generated references backed by Clerk's official documentation index and SDK repositories.
+A portable Agent Skill for current Clerk implementation work across first-party frameworks, SDKs, APIs, authentication, organizations, Billing, webhooks, security, testing, deployment, and upgrades. The main skill routes agents into generated references that list every page of Clerk's official documentation index by category, with the official SDK repositories and packages.
 
 ## Layout
 
 | Path                                  | Purpose                                                |
 | ------------------------------------- | ------------------------------------------------------ |
 | `SKILL.md`                            | Agent-facing workflow and reference router             |
-| `references/`                         | Generated focused catalogs and complete source index   |
+| `references/`                         | Generated lists of every Clerk page, by topic and kind |
 | `scripts/sync.mjs`                    | Deterministic first-party source synchronization       |
+| `scripts/sync-state.json`             | Generated sync state for drift detection               |
 | `AGENTS.md`                           | Maintenance and source contract                        |
 | `evals/`                              | Trigger and workflow evaluation cases                  |
 | `.github/workflows/sync-upstream.yml` | Scheduled first-party source refresh                     |

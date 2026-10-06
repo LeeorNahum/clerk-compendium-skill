@@ -3,7 +3,7 @@ name: "clerk-compendium"
 description: "Use when building, integrating, securing, testing, migrating, or troubleshooting Clerk authentication and user management across supported web, backend, mobile, and desktop frameworks: adding or reviewing Clerk SDK code, configuring sign-in or sign-up, sessions, users, organizations, roles and permissions, webhooks, Billing, machine authentication, environment or deployment settings, database integrations, or Clerk testing and upgrades. Also use when a repository contains @clerk/* or an official Clerk SDK and the user asks about route protection, tenant access, subscription gating, user sync, or auth failures without naming Clerk."
 metadata:
   author: "Leeor Nahum"
-  version: "1.1.0"
+  version: "1.2.0"
 ---
 
 # Clerk Compendium
@@ -18,7 +18,7 @@ Before changing code:
 2. Find every installed Clerk package or official language SDK and record its exact version.
 3. Inspect existing providers, middleware, proxies, server helpers, environment contracts, webhook handlers, tests, and provider configuration notes.
 4. Preserve a working integration unless the user requested migration or replacement.
-5. Choose the focused reference below. Search the complete source index only when the focused reference does not expose the exact page, symbol, object, or resource.
+5. Choose the references below that own the task: the topic reference for its guides, plus a kind reference for each component, hook, object, type, or Backend SDK method whose exact page is needed. Every Clerk documentation page appears in exactly one of them by title and URL, so find the page there and open it.
 
 The installed package, its exports and types, and the target compiler are the immediate code contract. Current documentation describes Clerk's current recommendation, but it can target a newer release. Confirm version-sensitive imports and helpers against the installed package or matching released source before using them.
 
@@ -32,8 +32,11 @@ The installed package, its exports and types, and the target compiler are the im
 - Read [security](references/security.md) when protecting routes or resources, reviewing trust boundaries, adding reverification, rotating keys, preventing abuse, or validating security posture.
 - Read [integrations and databases](references/integrations-databases.md) for webhooks, database synchronization, external backends, Clerk as an OAuth or OIDC provider, or third-party services.
 - Read [operations](references/operations.md) for environment variables, instances, domains, redirects, deployment, testing, troubleshooting, Dashboard configuration, or SDK upgrades.
-- Read [SDK and API reference](references/sdk-api.md) for exact packages, imports, helpers, methods, types, or API resources.
-- Search [the complete source index](references/source-index.json) when an exact current Clerk document is not present in the focused reference. Search it by title, URL fragment, framework, category, tag, or kind rather than loading the entire file.
+- Read [Backend SDK reference](references/backend-reference.md) for a Backend SDK method or Backend object, when the exact name, parameters, or returned shape matters.
+- Read [component reference](references/component-reference.md) for the props and usage of a prebuilt component, a control component, or a native view.
+- Read [hook and composable reference](references/hook-reference.md) for a React hook, a Vue or Nuxt composable, an Expo native hook, or an Astro client-side store.
+- Read [object and type reference](references/object-type-reference.md) for the shape of a Clerk frontend object or of a type that an SDK exports.
+- Read [SDK and API reference](references/sdk-api.md) for exact packages, official repositories, and what one framework SDK documents for itself: its overview, middleware, server helpers, error pages, passkey setup, and the native Android and iOS SDK pages.
 
 ## Implementation Workflow
 

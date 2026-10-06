@@ -12,68 +12,51 @@ Use this reference for webhooks, database synchronization, external backends, Cl
 - Use the delivery identifier to skip repeated events, and compare update or event times so an older event cannot overwrite newer application state or recreate a deleted record.
 - Define which Clerk facts are mirrored, why they are needed, and how the application recovers after missed events.
 
-## Selected Official Sources
+## Official Sources
 
-This focused list selects 43 of 43 pages in this category. A page that exists under several framework roots counts once. Search [source-index.json](source-index.json) when the exact method, object, framework page, or resource is not listed.
+This reference lists every Clerk documentation page of this topic outside the `reference` folders, under headings that are folders of the page path. Pages for a component, hook, object, type, or Backend SDK method are in the four kind references, and pages one framework SDK documents for itself are in the SDK and API reference.
 
-### General Guides and References
+A framework root is the first path segment after `https://clerk.com/docs/`, such as `nextjs` or `expressjs`. An entry written as a path that starts with `<framework>` is one page that exists under each root named after it, and its URL is `https://clerk.com/docs/` followed by that path with `<framework>` replaced by one of those roots.
 
-- [`create()` (oauth-applications)](https://clerk.com/docs/reference/backend/oauth-applications/create.md) (reference, authentication, api)
-- [`delete()` (oauth-applications)](https://clerk.com/docs/reference/backend/oauth-applications/delete.md) (reference, authentication, api)
-- [`get()` (oauth-applications)](https://clerk.com/docs/reference/backend/oauth-applications/get.md) (reference, authentication, api)
-- [`list()` (oauth-applications)](https://clerk.com/docs/reference/backend/oauth-applications/list.md) (reference, authentication, api)
-- [`revokeToken()`](https://clerk.com/docs/reference/backend/oauth-applications/revoke-token.md) (reference, authentication, sessions, api)
-- [`rotateSecret()`](https://clerk.com/docs/reference/backend/oauth-applications/rotate-secret.md) (reference, authentication, api)
-- [`update()` (oauth-applications)](https://clerk.com/docs/reference/backend/oauth-applications/update.md) (reference, authentication, api)
-- [`verifyWebhook()`](https://clerk.com/docs/reference/backend/verify-webhook.md) (reference, webhooks, api)
-- [Debug your webhooks](https://clerk.com/docs/guides/development/webhooks/debugging.md) (guide, webhooks)
-- [Enable Google Analytics for Clerk](https://clerk.com/docs/guides/development/integrations/analytics/google-analytics.md) (guide)
-- [Handling webhooks with Inngest](https://clerk.com/docs/guides/development/webhooks/inngest.md) (guide, webhooks)
-- [How Clerk implements OAuth](https://clerk.com/docs/guides/configure/auth-strategies/oauth/how-clerk-implements-oauth.md) (guide, authentication)
-- [Integrate Clerk through the Vercel Marketplace](https://clerk.com/docs/guides/development/integrations/platforms/vercel-marketplace.md) (guide)
-- [Integrate Convex with Clerk](https://clerk.com/docs/guides/development/integrations/databases/convex.md) (guide)
-- [Integrate Encore with Clerk](https://clerk.com/docs/guides/development/integrations/frameworks/encore.md) (guide)
-- [Integrate Firebase with Clerk](https://clerk.com/docs/guides/development/integrations/databases/firebase.md) (guide)
-- [Integrate Grafbase with Clerk](https://clerk.com/docs/guides/development/integrations/databases/grafbase.md) (guide)
-- [Integrate Hasura with Clerk](https://clerk.com/docs/guides/development/integrations/databases/hasura.md) (guide)
-- [Integrate InstantDB with Clerk](https://clerk.com/docs/guides/development/integrations/databases/instantdb.md) (guide)
-- [Integrate Loops with Clerk](https://clerk.com/docs/guides/development/webhooks/loops.md) (guide, webhooks)
-- [Integrate Neon Postgres with Clerk](https://clerk.com/docs/guides/development/integrations/databases/neon.md) (guide)
-- [Integrate Nhost with Clerk](https://clerk.com/docs/guides/development/integrations/databases/nhost.md) (guide)
-- [Integrate Prisma Postgres with Clerk](https://clerk.com/docs/guides/development/integrations/databases/prisma-postgres.md) (guide)
-- [Integrate Shopify with Clerk](https://clerk.com/docs/guides/development/integrations/platforms/shopify.md) (guide)
-- [Integrate Supabase with Clerk](https://clerk.com/docs/guides/development/integrations/databases/supabase.md) (guide)
-- [Integrations](https://clerk.com/docs/guides/development/integrations/overview.md) (concept)
-- [Manage OAuth clients with Client ID Metadata Documents](https://clerk.com/docs/guides/configure/auth-strategies/oauth/client-id-metadata-documents.md) (guide, authentication)
-- [Migrate from Firebase](https://clerk.com/docs/guides/development/migrating/firebase.md) (migration)
-- [OAuth and OIDC overview](https://clerk.com/docs/guides/configure/auth-strategies/oauth/overview.md) (concept, authentication)
-- [Sync Clerk data to your app with webhooks](https://clerk.com/docs/guides/development/webhooks/syncing.md) (guide, webhooks)
-- [The Backend `OAuthApplication` object](https://clerk.com/docs/reference/backend/types/backend-oauth-application.md) (reference, authentication, api)
-- [Use OAuth Device Authorization Grant](https://clerk.com/docs/guides/configure/auth-strategies/oauth/device-authorization-grant.md) (guide, authentication, security)
-- [Use OAuth for scoped access](https://clerk.com/docs/guides/configure/auth-strategies/oauth/scoped-access.md) (guide, authentication)
-- [Use OAuth for Single Sign-On (SSO)](https://clerk.com/docs/guides/configure/auth-strategies/oauth/single-sign-on.md) (guide, authentication)
-- [Verify OAuth tokens with Clerk](https://clerk.com/docs/guides/configure/auth-strategies/oauth/verify-oauth-tokens.md) (guide, authentication, sessions)
-- [Webhooks overview](https://clerk.com/docs/guides/development/webhooks/overview.md) (concept, webhooks)
+### `guides/configure`
 
-### Shared Across Frameworks
+- [OAuth and OIDC overview](https://clerk.com/docs/guides/configure/auth-strategies/oauth/overview.md)
+- [Manage OAuth clients with Client ID Metadata Documents](https://clerk.com/docs/guides/configure/auth-strategies/oauth/client-id-metadata-documents.md)
+- Set up a custom OAuth consent page: `<framework>/guides/configure/auth-strategies/oauth/custom-consent-page.md`. Roots: `astro`, `js-frontend`, `nextjs`, `nuxt`, `react`, `react-router`, `tanstack-react-start`, `vue`
+- [Use OAuth Device Authorization Grant](https://clerk.com/docs/guides/configure/auth-strategies/oauth/device-authorization-grant.md)
+- [How Clerk implements OAuth](https://clerk.com/docs/guides/configure/auth-strategies/oauth/how-clerk-implements-oauth.md)
+- [Use OAuth for scoped access](https://clerk.com/docs/guides/configure/auth-strategies/oauth/scoped-access.md)
+- [Use OAuth for Single Sign-On (SSO)](https://clerk.com/docs/guides/configure/auth-strategies/oauth/single-sign-on.md)
+- [Verify OAuth tokens with Clerk](https://clerk.com/docs/guides/configure/auth-strategies/oauth/verify-oauth-tokens.md)
 
-Each page below exists under every framework root named after it. A root is the first path segment after `https://clerk.com/docs/`, such as `nextjs` or `expressjs`. The URL of a page is `https://clerk.com/docs/` followed by its path, with `<framework>` replaced by one of its roots.
+### `guides/development`
 
-In every reference of this skill, the common roots are `astro`, `chrome-extension`, `electron`, `expo`, `js-frontend`, `nextjs`, `nuxt`, `react-router`, `react`, `tanstack-react-start`, `vue`.
+- [Migrate from Firebase](https://clerk.com/docs/guides/development/migrating/firebase.md)
 
-- `OAuthApplication`: `<framework>/reference/types/oauth-application.md` (reference). Roots: common
-- Integrate Convex with Clerk: `<framework>/reference/native-mobile/integrations/convex.md` (reference). Roots: `android`, `ios`
-- Set up a custom OAuth consent page: `<framework>/guides/configure/auth-strategies/oauth/custom-consent-page.md` (guide). Roots: `astro`, `js-frontend`, `nextjs`, `nuxt`, `react-router`, `react`, `tanstack-react-start`, `vue`
+### `guides/development/integrations`
 
-### Astro
+- [Integrations](https://clerk.com/docs/guides/development/integrations/overview.md)
+- [Enable Google Analytics for Clerk](https://clerk.com/docs/guides/development/integrations/analytics/google-analytics.md)
+- [Integrate Encore with Clerk](https://clerk.com/docs/guides/development/integrations/frameworks/encore.md)
+- [Integrate Shopify with Clerk](https://clerk.com/docs/guides/development/integrations/platforms/shopify.md)
+- [Integrate Clerk through the Vercel Marketplace](https://clerk.com/docs/guides/development/integrations/platforms/vercel-marketplace.md)
 
-- [Integration](https://clerk.com/docs/astro/reference/integration.md) (reference, api)
+### `guides/development/integrations/databases`
 
-### Nuxt
+- [Integrate Convex with Clerk](https://clerk.com/docs/guides/development/integrations/databases/convex.md)
+- [Integrate Firebase with Clerk](https://clerk.com/docs/guides/development/integrations/databases/firebase.md)
+- [Integrate Grafbase with Clerk](https://clerk.com/docs/guides/development/integrations/databases/grafbase.md)
+- [Integrate Hasura with Clerk](https://clerk.com/docs/guides/development/integrations/databases/hasura.md)
+- [Integrate InstantDB with Clerk](https://clerk.com/docs/guides/development/integrations/databases/instantdb.md)
+- [Integrate Neon Postgres with Clerk](https://clerk.com/docs/guides/development/integrations/databases/neon.md)
+- [Integrate Nhost with Clerk](https://clerk.com/docs/guides/development/integrations/databases/nhost.md)
+- [Integrate Prisma Postgres with Clerk](https://clerk.com/docs/guides/development/integrations/databases/prisma-postgres.md)
+- [Integrate Supabase with Clerk](https://clerk.com/docs/guides/development/integrations/databases/supabase.md)
 
-- [`@clerk/nuxt` module](https://clerk.com/docs/nuxt/reference/integration.md) (reference, api)
+### `guides/development/webhooks`
 
-### Ruby
-
-- [Ruby on Rails integration](https://clerk.com/docs/ruby/reference/rails.md) (reference, api)
-- [Sinatra integration](https://clerk.com/docs/ruby/reference/sinatra.md) (reference, api)
+- [Webhooks overview](https://clerk.com/docs/guides/development/webhooks/overview.md)
+- [Debug your webhooks](https://clerk.com/docs/guides/development/webhooks/debugging.md)
+- [Handling webhooks with Inngest](https://clerk.com/docs/guides/development/webhooks/inngest.md)
+- [Integrate Loops with Clerk](https://clerk.com/docs/guides/development/webhooks/loops.md)
+- [Sync Clerk data to your app with webhooks](https://clerk.com/docs/guides/development/webhooks/syncing.md)
