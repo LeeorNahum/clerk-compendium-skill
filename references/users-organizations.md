@@ -4,7 +4,7 @@
 
 _Discovery source: [Clerk's language-model documentation index](https://clerk.com/docs/llms.txt)_
 
-Use this reference for users, metadata, organizations, memberships, invitations, active organization context, domains, roles, or permissions.
+Use this reference for users, metadata, organizations, memberships, invitations, active organization context, domains, enterprise SSO connections, roles, or permissions.
 
 ## Operating Guidance
 
@@ -14,10 +14,22 @@ Use this reference for users, metadata, organizations, memberships, invitations,
 
 ## Selected Official Sources
 
-This focused list selects 60 of 330 current documents in this category. Search [source-index.json](source-index.json) when the exact method, object, framework page, or resource is not listed.
+This focused list selects 60 of 129 pages in this category. A page that exists under several framework roots counts once. Search [source-index.json](source-index.json) when the exact method, object, framework page, or resource is not listed.
 
-### Cross-framework
+### General Guides and References
 
+- [`createEnterpriseConnection()`](https://clerk.com/docs/reference/backend/enterprise-connections/create-enterprise-connection.md) (reference, api)
+- [`createInvitation()`](https://clerk.com/docs/reference/backend/invitations/create-invitation.md) (reference, organizations, api)
+- [`createInvitationBulk()`](https://clerk.com/docs/reference/backend/invitations/create-invitation-bulk.md) (reference, organizations, api)
+- [`createOrganization()`](https://clerk.com/docs/reference/backend/organization/create-organization.md) (reference, organizations, api)
+- [`createOrganizationDomain()`](https://clerk.com/docs/reference/backend/organization/create-organization-domain.md) (reference, organizations, deployment, api)
+- [`createOrganizationInvitation()`](https://clerk.com/docs/reference/backend/organization/create-organization-invitation.md) (reference, organizations, api)
+- [`deleteEnterpriseConnection()`](https://clerk.com/docs/reference/backend/enterprise-connections/delete-enterprise-connection.md) (reference, api)
+- [`deleteInvitation()`](https://clerk.com/docs/reference/backend/invitations/delete-invitation.md) (reference, organizations, api)
+- [`getEnterpriseConnection()`](https://clerk.com/docs/reference/backend/enterprise-connections/get-enterprise-connection.md) (reference, api)
+- [`getOrganizationInvitationList()`](https://clerk.com/docs/reference/backend/user/get-organization-invitation-list.md) (reference, organizations, api)
+- [`getOrganizationMembershipList()`](https://clerk.com/docs/reference/backend/user/get-organization-membership-list.md) (reference, organizations, api)
+- [`getOrganizationSettings()`](https://clerk.com/docs/reference/backend/instance/get-organization-settings.md) (reference, organizations, api)
 - [Account linking](https://clerk.com/docs/guides/configure/auth-strategies/enterprise-connections/account-linking.md) (guide, authentication)
 - [Add a custom identity provider as a SAML connection](https://clerk.com/docs/guides/configure/auth-strategies/enterprise-connections/saml/custom-provider.md) (guide, authentication)
 - [Add a custom OpenID Connect (OIDC) Provider as an enterprise connection](https://clerk.com/docs/guides/configure/auth-strategies/enterprise-connections/oidc/custom-provider.md) (guide, authentication)
@@ -25,92 +37,54 @@ This focused list selects 60 of 330 current documents in this category. Search [
 - [Add Google Workspace as a SAML connection](https://clerk.com/docs/guides/configure/auth-strategies/enterprise-connections/saml/google.md) (guide, authentication)
 - [Add Microsoft as an EASIE connection](https://clerk.com/docs/guides/configure/auth-strategies/enterprise-connections/easie/microsoft.md) (guide, authentication)
 - [Add Microsoft Entra ID as a SAML connection](https://clerk.com/docs/guides/configure/auth-strategies/enterprise-connections/saml/azure.md) (guide, authentication)
-- [Add Okta Workforce as a SAML connection](https://clerk.com/docs/guides/configure/auth-strategies/enterprise-connections/saml/okta.md) (guide, authentication)
 - [Build a custom flow for authenticating with enterprise connections](https://clerk.com/docs/guides/development/custom-flows/authentication/enterprise-connections.md) (guide, authentication, components)
 - [Build a custom flow for creating and managing Organization invitations](https://clerk.com/docs/guides/development/custom-flows/organizations/manage-organization-invitations.md) (guide, organizations, components)
 - [Build a custom flow for creating Organizations](https://clerk.com/docs/guides/development/custom-flows/organizations/create-organizations.md) (guide, organizations, components)
 - [Build a custom flow for managing a user's Organization invitations](https://clerk.com/docs/guides/development/custom-flows/organizations/manage-user-org-invitations.md) (guide, organizations, components)
-- [Build a custom flow for managing member Roles in an Organization](https://clerk.com/docs/guides/development/custom-flows/organizations/manage-roles.md) (guide, organizations, components)
-- [Build a custom flow for managing Organization Membership Requests](https://clerk.com/docs/guides/development/custom-flows/organizations/manage-membership-requests.md) (guide, organizations, components)
-- [Build a custom flow for switching Organizations](https://clerk.com/docs/guides/development/custom-flows/organizations/organization-switcher.md) (guide, organizations, components)
-- [Build a custom flow for updating an Organization](https://clerk.com/docs/guides/development/custom-flows/organizations/update-organizations.md) (guide, organizations, components)
 - [Configure Organizations](https://clerk.com/docs/guides/organizations/configure.md) (guide, organizations)
 - [Create and manage Organizations](https://clerk.com/docs/guides/organizations/create-and-manage.md) (guide, organizations)
 - [Custom Attribute Mapping](https://clerk.com/docs/guides/configure/auth-strategies/enterprise-connections/custom-attribute-mapping.md) (guide, authentication)
-- [Directory Sync](https://clerk.com/docs/guides/configure/auth-strategies/enterprise-connections/directory-sync.md) (guide, authentication)
 - [Enterprise Single Sign-On (SSO)](https://clerk.com/docs/guides/configure/auth-strategies/enterprise-connections/overview.md) (concept, authentication)
-- [Enterprise SSO authentication flows](https://clerk.com/docs/guides/configure/auth-strategies/enterprise-connections/authentication-flows.md) (guide, authentication)
-- [Handle accepting Organization invitation links](https://clerk.com/docs/guides/development/custom-flows/organizations/accept-organization-invitations.md) (guide, organizations)
-- [Just-in-Time (JIT) Provisioning during SAML SSO](https://clerk.com/docs/guides/configure/auth-strategies/enterprise-connections/jit-provisioning.md) (guide, authentication)
+- [Implement basic Role Based Access Control (RBAC) with metadata](https://clerk.com/docs/guides/secure/basic-rbac.md) (guide, organizations)
+- [Invite users to your application](https://clerk.com/docs/guides/users/inviting.md) (guide)
+- [Invite users to your Organization](https://clerk.com/docs/guides/organizations/add-members/invitations.md) (guide, organizations)
+- [Organization profile](https://clerk.com/docs/guides/dashboard/organization-profile.md) (guide, organizations)
+- [Organization-level Enterprise SSO](https://clerk.com/docs/guides/organizations/add-members/sso.md) (guide, organizations)
 - [Organizations](https://clerk.com/docs/guides/organizations/overview.md) (concept, organizations)
-- [Self-serve SSO](https://clerk.com/docs/guides/configure/auth-strategies/enterprise-connections/self-serve-sso.md) (guide, authentication)
+- [Role Sets](https://clerk.com/docs/guides/organizations/control-access/role-sets.md) (guide, organizations)
+- [Roles and Permissions](https://clerk.com/docs/guides/organizations/control-access/roles-and-permissions.md) (guide, organizations)
 - [Sign-up with application invitations](https://clerk.com/docs/guides/development/custom-flows/authentication/application-invitations.md) (guide, authentication, organizations)
+- [Test Organization domains](https://clerk.com/docs/guides/development/testing/test-organization-domains.md) (guide, organizations, testing, deployment)
 - [The Backend `EnterpriseConnectionCustomAttribute` object](https://clerk.com/docs/reference/backend/types/backend-enterprise-connection-custom-attribute.md) (reference, api)
+- [User metadata](https://clerk.com/docs/guides/users/extending.md) (guide)
+- [Verified Domains](https://clerk.com/docs/guides/organizations/add-members/verified-domains.md) (guide, organizations, deployment)
 
-### Android
+### Shared Across Frameworks
 
-- [Organization management](https://clerk.com/docs/android/reference/native-mobile/organizations.md) (reference, organizations, api)
+Each page below exists under every framework root named after it. A root is the first path segment after `https://clerk.com/docs/`, such as `nextjs` or `expressjs`. The URL of a page is `https://clerk.com/docs/` followed by its path, with `<framework>` replaced by one of its roots.
+
+In every reference of this skill, the common roots are `astro`, `chrome-extension`, `electron`, `expo`, `js-frontend`, `nextjs`, `nuxt`, `react-router`, `react`, `tanstack-react-start`, `vue`.
+
+- `<CreateOrganization />` component: `<framework>/reference/components/organization/create-organization.md` (reference). Roots: common
+- `<InviteMembersButton />`: `<framework>/reference/components/organization/invite-members-button.md` (reference). Roots: `electron`, `nextjs`, `react-router`, `react`, `tanstack-react-start`
+- `<OrganizationList />` component: `<framework>/reference/components/organization/organization-list.md` (reference). Roots: common
+- `<RedirectToCreateOrganization />` component: `<framework>/reference/components/control/redirect-to-create-organization.md` (reference). Roots: `electron`, `nextjs`, `nuxt`, `react-router`, `react`, `tanstack-react-start`, `vue`
+- `<RedirectToOrganizationProfile />` component: `<framework>/reference/components/control/redirect-to-organization-profile.md` (reference). Roots: `electron`, `nextjs`, `nuxt`, `react-router`, `react`, `tanstack-react-start`, `vue`
+- `<TaskChooseOrganization />` component: `<framework>/reference/components/authentication/task-choose-organization.md` (reference). Roots: `electron`, `js-frontend`, `nextjs`, `react-router`, `react`, `tanstack-react-start`
+- `Organization` object: `<framework>/reference/objects/organization.md` (reference). Roots: common
+- `OrganizationCreationDefaults`: `<framework>/reference/types/organization-creation-defaults.md` (reference). Roots: common
+- `OrganizationCustomPermissionKey`: `<framework>/reference/types/organization-custom-permission-key.md` (reference). Roots: common
+- `OrganizationCustomRoleKey`: `<framework>/reference/types/organization-custom-role-key.md` (reference). Roots: common
+- `OrganizationListView`: `<framework>/reference/views/organization/organization-list-view.md` (reference). Roots: `android`, `ios`
+- `useOrganization()`: `<framework>/reference/hooks/use-organization.md` (reference). Roots: `chrome-extension`, `electron`, `expo`, `nextjs`, `react-router`, `react`, `tanstack-react-start`
+- `useOrganization()` | Vue: `<framework>/reference/composables/use-organization.md` (reference). Roots: `nuxt`, `vue`
+- `useOrganizationCreationDefaults()`: `<framework>/reference/hooks/use-organization-creation-defaults.md` (reference). Roots: `chrome-extension`, `electron`, `expo`, `nextjs`, `react-router`, `react`, `tanstack-react-start`
+- `useOrganizationList()`: `<framework>/reference/hooks/use-organization-list.md` (reference). Roots: `chrome-extension`, `electron`, `expo`, `nextjs`, `react-router`, `react`, `tanstack-react-start`
+- Add custom pages and links to the `<OrganizationProfile />` component: `<framework>/guides/customizing-clerk/adding-items/organization-profile.md` (component). Roots: common
+- Check Roles and Permissions with Authorization Checks: `<framework>/guides/organizations/control-access/check-access.md` (guide). Roots: `astro`, `nextjs`, `nuxt`, `react-router`, `react`, `tanstack-react-start`
+- Organization management: `<framework>/reference/native-mobile/organizations.md` (reference). Roots: `android`, `ios`
+- Read user data: `<framework>/guides/users/reading.md` (guide). Roots: `astro`, `expo`, `nextjs`, `nuxt`, `react-router`, `react`, `tanstack-react-start`
 
 ### Astro
 
-- [`OrganizationCustomPermissionKey`](https://clerk.com/docs/astro/reference/types/organization-custom-permission-key.md) (reference, organizations, api)
-- [`OrganizationCustomRoleKey`](https://clerk.com/docs/astro/reference/types/organization-custom-role-key.md) (reference, organizations, api)
-- [Add custom pages and links to the `<OrganizationProfile />` component](https://clerk.com/docs/astro/guides/customizing-clerk/adding-items/organization-profile.md) (component, organizations, components)
-
-### Chrome Extension
-
-- [`OrganizationCustomPermissionKey`](https://clerk.com/docs/chrome-extension/reference/types/organization-custom-permission-key.md) (reference, organizations, api)
-- [`OrganizationCustomRoleKey`](https://clerk.com/docs/chrome-extension/reference/types/organization-custom-role-key.md) (reference, organizations, api)
-- [Add custom pages and links to the `<OrganizationProfile />` component](https://clerk.com/docs/chrome-extension/guides/customizing-clerk/adding-items/organization-profile.md) (component, organizations, components)
-
-### Expo
-
-- [`OrganizationCustomPermissionKey`](https://clerk.com/docs/expo/reference/types/organization-custom-permission-key.md) (reference, organizations, api)
-- [`OrganizationCustomRoleKey`](https://clerk.com/docs/expo/reference/types/organization-custom-role-key.md) (reference, organizations, api)
-- [Add custom pages and links to the `<OrganizationProfile />` component](https://clerk.com/docs/expo/guides/customizing-clerk/adding-items/organization-profile.md) (component, organizations, components)
-
-### iOS
-
-- [Organization management](https://clerk.com/docs/ios/reference/native-mobile/organizations.md) (reference, organizations, api)
-
-### JavaScript
-
-- [`OrganizationCustomPermissionKey`](https://clerk.com/docs/js-frontend/reference/types/organization-custom-permission-key.md) (reference, organizations, api)
-- [`OrganizationCustomRoleKey`](https://clerk.com/docs/js-frontend/reference/types/organization-custom-role-key.md) (reference, organizations, api)
-- [Add custom pages and links to the `<OrganizationProfile />` component](https://clerk.com/docs/js-frontend/guides/customizing-clerk/adding-items/organization-profile.md) (component, organizations, components)
-
-### Next.js
-
-- [`OrganizationCustomPermissionKey`](https://clerk.com/docs/nextjs/reference/types/organization-custom-permission-key.md) (reference, organizations, api)
-- [`OrganizationCustomRoleKey`](https://clerk.com/docs/nextjs/reference/types/organization-custom-role-key.md) (reference, organizations, api)
-- [Add custom pages and links to the `<OrganizationProfile />` component](https://clerk.com/docs/nextjs/guides/customizing-clerk/adding-items/organization-profile.md) (component, organizations, components)
-
-### Nuxt
-
-- [`OrganizationCustomPermissionKey`](https://clerk.com/docs/nuxt/reference/types/organization-custom-permission-key.md) (reference, organizations, api)
-- [`OrganizationCustomRoleKey`](https://clerk.com/docs/nuxt/reference/types/organization-custom-role-key.md) (reference, organizations, api)
-- [Add custom pages and links to the `<OrganizationProfile />` component](https://clerk.com/docs/nuxt/guides/customizing-clerk/adding-items/organization-profile.md) (component, organizations, components)
-
-### React
-
-- [`OrganizationCustomPermissionKey`](https://clerk.com/docs/react/reference/types/organization-custom-permission-key.md) (reference, organizations, api)
-- [`OrganizationCustomRoleKey`](https://clerk.com/docs/react/reference/types/organization-custom-role-key.md) (reference, organizations, api)
-- [Add custom pages and links to the `<OrganizationProfile />` component](https://clerk.com/docs/react/guides/customizing-clerk/adding-items/organization-profile.md) (component, organizations, components)
-
-### React Router
-
-- [`OrganizationCustomPermissionKey`](https://clerk.com/docs/react-router/reference/types/organization-custom-permission-key.md) (reference, organizations, api)
-- [`OrganizationCustomRoleKey`](https://clerk.com/docs/react-router/reference/types/organization-custom-role-key.md) (reference, organizations, api)
-- [Add custom pages and links to the `<OrganizationProfile />` component](https://clerk.com/docs/react-router/guides/customizing-clerk/adding-items/organization-profile.md) (component, organizations, components)
-
-### TanStack React Start
-
-- [`OrganizationCustomPermissionKey`](https://clerk.com/docs/tanstack-react-start/reference/types/organization-custom-permission-key.md) (reference, organizations, api)
-- [`OrganizationCustomRoleKey`](https://clerk.com/docs/tanstack-react-start/reference/types/organization-custom-role-key.md) (reference, organizations, api)
-- [Add custom pages and links to the `<OrganizationProfile />` component](https://clerk.com/docs/tanstack-react-start/guides/customizing-clerk/adding-items/organization-profile.md) (component, organizations, components)
-
-### Vue
-
-- [`OrganizationCustomPermissionKey`](https://clerk.com/docs/vue/reference/types/organization-custom-permission-key.md) (reference, organizations, api)
-- [`OrganizationCustomRoleKey`](https://clerk.com/docs/vue/reference/types/organization-custom-role-key.md) (reference, organizations, api)
-- [Add custom pages and links to the `<OrganizationProfile />` component](https://clerk.com/docs/vue/guides/customizing-clerk/adding-items/organization-profile.md) (component, organizations, components)
+- [`$organizationStore`](https://clerk.com/docs/astro/reference/client-side-helpers/organization-store.md) (reference, organizations, api)

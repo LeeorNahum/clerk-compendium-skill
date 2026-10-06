@@ -4,7 +4,7 @@
 
 _Discovery source: [Clerk's language-model documentation index](https://clerk.com/docs/llms.txt)_
 
-Use this reference when protecting routes or resources, reviewing trust boundaries, rotating keys, preventing abuse, or validating security posture.
+Use this reference when protecting routes or resources, reviewing trust boundaries, adding reverification, rotating keys, preventing abuse, or validating security posture.
 
 ## Operating Guidance
 
@@ -12,9 +12,9 @@ Use this reference when protecting routes or resources, reviewing trust boundari
 
 ## Selected Official Sources
 
-This focused list selects 49 of 49 current documents in this category. Search [source-index.json](source-index.json) when the exact method, object, framework page, or resource is not listed.
+This focused list selects 22 of 22 pages in this category. A page that exists under several framework roots counts once. Search [source-index.json](source-index.json) when the exact method, object, framework page, or resource is not listed.
 
-### Cross-framework
+### General Guides and References
 
 - [`updateRestrictions()`](https://clerk.com/docs/reference/backend/instance/update-restrictions.md) (reference, security, api)
 - [Add reverification for sensitive actions](https://clerk.com/docs/guides/secure/reverification.md) (guide, security)
@@ -28,82 +28,23 @@ This focused list selects 49 of 49 current documents in this category. Search [s
 - [Password protection and rules](https://clerk.com/docs/guides/secure/password-protection-and-rules.md) (guide, authentication, security)
 - [Protect email link sign-ins and sign-ups](https://clerk.com/docs/guides/secure/best-practices/protect-email-links.md) (guide, authentication, security)
 - [Restricting access](https://clerk.com/docs/guides/secure/restricting-access.md) (guide, security)
+- [Rotate your Clerk API keys](https://clerk.com/docs/guides/secure/rotate-api-keys.md) (guide, api)
 - [The Backend `InstanceRestrictions` object](https://clerk.com/docs/reference/backend/types/backend-instance-restrictions.md) (reference, security, api)
-- [Use OAuth Device Authorization Grant](https://clerk.com/docs/guides/configure/auth-strategies/oauth/device-authorization-grant.md) (guide, authentication, security)
 - [User enumeration protection](https://clerk.com/docs/guides/secure/user-enumeration-protection.md) (guide, security)
 - [Vulnerability disclosure policy](https://clerk.com/docs/guides/how-clerk-works/security/vulnerability-disclosure-policy.md) (guide, security)
 - [XSS leak protection](https://clerk.com/docs/guides/secure/best-practices/xss-leak-protection.md) (guide, security)
 
-### Astro
+### Shared Across Frameworks
 
-- [`ProtectCheckResource`](https://clerk.com/docs/astro/reference/types/protect-check-resource.md) (reference, security, api)
-- [Add bot protection to your custom sign-up flow](https://clerk.com/docs/astro/guides/development/custom-flows/authentication/bot-sign-up-protection.md) (guide, authentication, security)
+Each page below exists under every framework root named after it. A root is the first path segment after `https://clerk.com/docs/`, such as `nextjs` or `expressjs`. The URL of a page is `https://clerk.com/docs/` followed by its path, with `<framework>` replaced by one of its roots.
 
-### Chrome Extension
+In every reference of this skill, the common roots are `astro`, `chrome-extension`, `electron`, `expo`, `js-frontend`, `nextjs`, `nuxt`, `react-router`, `react`, `tanstack-react-start`, `vue`.
 
-- [`ProtectCheckResource`](https://clerk.com/docs/chrome-extension/reference/types/protect-check-resource.md) (reference, security, api)
-- [`useReverification()`](https://clerk.com/docs/chrome-extension/reference/hooks/use-reverification.md) (reference, security, api)
-- [Add bot protection to your custom sign-up flow](https://clerk.com/docs/chrome-extension/guides/development/custom-flows/authentication/bot-sign-up-protection.md) (guide, authentication, security)
-
-### Expo
-
-- [`ProtectCheckResource`](https://clerk.com/docs/expo/reference/types/protect-check-resource.md) (reference, security, api)
-- [Add bot protection to your custom sign-up flow](https://clerk.com/docs/expo/guides/development/custom-flows/authentication/bot-sign-up-protection.md) (guide, authentication, security)
-
-### Express
-
-- [Add bot protection to your custom sign-up flow](https://clerk.com/docs/expressjs/guides/development/custom-flows/authentication/bot-sign-up-protection.md) (guide, authentication, security)
-
-### Fastify
-
-- [Add bot protection to your custom sign-up flow](https://clerk.com/docs/fastify/guides/development/custom-flows/authentication/bot-sign-up-protection.md) (guide, authentication, security)
-
-### Go
-
-- [Add bot protection to your custom sign-up flow](https://clerk.com/docs/go/guides/development/custom-flows/authentication/bot-sign-up-protection.md) (guide, authentication, security)
-
-### JavaScript
-
-- [`ProtectCheckResource`](https://clerk.com/docs/js-frontend/reference/types/protect-check-resource.md) (reference, security, api)
-- [Add bot protection to your custom sign-up flow](https://clerk.com/docs/js-frontend/guides/development/custom-flows/authentication/bot-sign-up-protection.md) (guide, authentication, security)
+- `ProtectCheckResource`: `<framework>/reference/types/protect-check-resource.md` (reference). Roots: common
+- `useReverification()`: `<framework>/reference/hooks/use-reverification.md` (reference). Roots: `chrome-extension`, `electron`, `nextjs`, `react-router`, `react`, `tanstack-react-start`
+- Add bot protection to your custom sign-up flow: `<framework>/guides/development/custom-flows/authentication/bot-sign-up-protection.md` (guide). Roots: `astro`, `chrome-extension`, `electron`, `expo`, `expressjs`, `fastify`, `go`, `js-frontend`, `nextjs`, `nuxt`, `react-router`, `react`, `ruby`, `tanstack-react-start`, `vue`
+- Protect content from unauthenticated users: `<framework>/guides/secure/protect-content.md` (guide). Roots: `nextjs`, `nuxt`
 
 ### Next.js
 
-- [`ProtectCheckResource`](https://clerk.com/docs/nextjs/reference/types/protect-check-resource.md) (reference, security, api)
-- [`useReverification()`](https://clerk.com/docs/nextjs/reference/hooks/use-reverification.md) (reference, security, api)
-- [Add bot protection to your custom sign-up flow](https://clerk.com/docs/nextjs/guides/development/custom-flows/authentication/bot-sign-up-protection.md) (guide, authentication, security)
 - [Clerk: `<Protect>` is not available in @clerk/nextjs Core 3](https://clerk.com/docs/nextjs/reference/errors/protect-is-not-available-in-clerk-nextjs.md) (reference, security, api)
-- [Protect content from unauthenticated users](https://clerk.com/docs/nextjs/guides/secure/protect-content.md) (guide, authentication, security)
-
-### Nuxt
-
-- [`ProtectCheckResource`](https://clerk.com/docs/nuxt/reference/types/protect-check-resource.md) (reference, security, api)
-- [Add bot protection to your custom sign-up flow](https://clerk.com/docs/nuxt/guides/development/custom-flows/authentication/bot-sign-up-protection.md) (guide, authentication, security)
-- [Protect content from unauthenticated users](https://clerk.com/docs/nuxt/guides/secure/protect-content.md) (guide, authentication, security)
-
-### React
-
-- [`ProtectCheckResource`](https://clerk.com/docs/react/reference/types/protect-check-resource.md) (reference, security, api)
-- [`useReverification()`](https://clerk.com/docs/react/reference/hooks/use-reverification.md) (reference, security, api)
-- [Add bot protection to your custom sign-up flow](https://clerk.com/docs/react/guides/development/custom-flows/authentication/bot-sign-up-protection.md) (guide, authentication, security)
-
-### React Router
-
-- [`ProtectCheckResource`](https://clerk.com/docs/react-router/reference/types/protect-check-resource.md) (reference, security, api)
-- [`useReverification()`](https://clerk.com/docs/react-router/reference/hooks/use-reverification.md) (reference, security, api)
-- [Add bot protection to your custom sign-up flow](https://clerk.com/docs/react-router/guides/development/custom-flows/authentication/bot-sign-up-protection.md) (guide, authentication, security)
-
-### Ruby
-
-- [Add bot protection to your custom sign-up flow](https://clerk.com/docs/ruby/guides/development/custom-flows/authentication/bot-sign-up-protection.md) (guide, authentication, security)
-
-### TanStack React Start
-
-- [`ProtectCheckResource`](https://clerk.com/docs/tanstack-react-start/reference/types/protect-check-resource.md) (reference, security, api)
-- [`useReverification()`](https://clerk.com/docs/tanstack-react-start/reference/hooks/use-reverification.md) (reference, security, api)
-- [Add bot protection to your custom sign-up flow](https://clerk.com/docs/tanstack-react-start/guides/development/custom-flows/authentication/bot-sign-up-protection.md) (guide, authentication, security)
-
-### Vue
-
-- [`ProtectCheckResource`](https://clerk.com/docs/vue/reference/types/protect-check-resource.md) (reference, security, api)
-- [Add bot protection to your custom sign-up flow](https://clerk.com/docs/vue/guides/development/custom-flows/authentication/bot-sign-up-protection.md) (guide, authentication, security)

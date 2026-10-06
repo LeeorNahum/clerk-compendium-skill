@@ -14,11 +14,17 @@ Use this reference for Clerk plans, features, subscriptions, trials, entitlement
 
 ## Selected Official Sources
 
-This focused list selects 60 of 424 current documents in this category. Search [source-index.json](source-index.json) when the exact method, object, framework page, or resource is not listed.
+This focused list selects 60 of 64 pages in this category. A page that exists under several framework roots counts once. Search [source-index.json](source-index.json) when the exact method, object, framework page, or resource is not listed.
 
-### Cross-framework
+### General Guides and References
 
+- [`cancelSubscriptionItem()`](https://clerk.com/docs/reference/backend/billing/cancel-subscription-item.md) (reference, billing, api)
+- [`extendSubscriptionItemFreeTrial()`](https://clerk.com/docs/reference/backend/billing/extend-subscription-item-free-trial.md) (reference, billing, api)
+- [`getOrganizationBillingSubscription()`](https://clerk.com/docs/reference/backend/billing/get-organization-billing-subscription.md) (reference, organizations, billing, api)
 - [Account credits](https://clerk.com/docs/guides/billing/account-credits.md) (guide, billing)
+- [Backend `BillingPlan` object](https://clerk.com/docs/reference/backend/types/billing-plan.md) (reference, billing, api)
+- [Backend `BillingSubscription` object](https://clerk.com/docs/reference/backend/types/billing-subscription.md) (reference, billing, api)
+- [Backend `BillingSubscriptionItem` object](https://clerk.com/docs/reference/backend/types/billing-subscription-item.md) (reference, billing, api)
 - [Clerk Billing](https://clerk.com/docs/guides/billing/overview.md) (concept, billing)
 - [Custom Plans and prices](https://clerk.com/docs/guides/billing/custom-plans.md) (guide, billing)
 - [Default Plans](https://clerk.com/docs/guides/billing/default-plans.md) (guide, billing)
@@ -27,90 +33,55 @@ This focused list selects 60 of 424 current documents in this category. Search [
 - [Free trials](https://clerk.com/docs/guides/billing/free-trials.md) (guide, billing)
 - [Seat-based Plans](https://clerk.com/docs/guides/billing/seat-based-plans.md) (guide, billing)
 
-### Astro
+### Shared Across Frameworks
 
-- [`Billing` object](https://clerk.com/docs/astro/reference/objects/billing.md) (reference, billing, api)
-- [`BillingAppliedDiscount`](https://clerk.com/docs/astro/reference/types/billing-applied-discount.md) (reference, billing, api)
-- [`BillingCheckoutResource`](https://clerk.com/docs/astro/reference/types/billing-checkout-resource.md) (reference, billing, api)
-- [`BillingCheckoutTotals`](https://clerk.com/docs/astro/reference/types/billing-checkout-totals.md) (reference, billing, api)
-- [Clerk Billing for B2B SaaS](https://clerk.com/docs/astro/guides/billing/for-b2b.md) (guide, billing)
+Each page below exists under every framework root named after it. A root is the first path segment after `https://clerk.com/docs/`, such as `nextjs` or `expressjs`. The URL of a page is `https://clerk.com/docs/` followed by its path, with `<framework>` replaced by one of its roots.
 
-### Chrome Extension
+In every reference of this skill, the common roots are `astro`, `chrome-extension`, `electron`, `expo`, `js-frontend`, `nextjs`, `nuxt`, `react-router`, `react`, `tanstack-react-start`, `vue`.
 
-- [`<PricingTable />` component](https://clerk.com/docs/chrome-extension/reference/components/billing/pricing-table.md) (reference, billing, components, api)
-- [`Billing` object](https://clerk.com/docs/chrome-extension/reference/objects/billing.md) (reference, billing, api)
-- [`BillingAppliedDiscount`](https://clerk.com/docs/chrome-extension/reference/types/billing-applied-discount.md) (reference, billing, api)
-- [`BillingCheckoutResource`](https://clerk.com/docs/chrome-extension/reference/types/billing-checkout-resource.md) (reference, billing, api)
-- [`BillingCheckoutTotals`](https://clerk.com/docs/chrome-extension/reference/types/billing-checkout-totals.md) (reference, billing, api)
-
-### Expo
-
-- [`Billing` object](https://clerk.com/docs/expo/reference/objects/billing.md) (reference, billing, api)
-- [`BillingAppliedDiscount`](https://clerk.com/docs/expo/reference/types/billing-applied-discount.md) (reference, billing, api)
-- [`BillingCheckoutResource`](https://clerk.com/docs/expo/reference/types/billing-checkout-resource.md) (reference, billing, api)
-- [`BillingCheckoutTotals`](https://clerk.com/docs/expo/reference/types/billing-checkout-totals.md) (reference, billing, api)
-- [Clerk Billing for B2B SaaS](https://clerk.com/docs/expo/guides/billing/for-b2b.md) (guide, billing)
-
-### Express
-
-- [Clerk Billing for B2B SaaS](https://clerk.com/docs/expressjs/guides/billing/for-b2b.md) (guide, billing)
-
-### Fastify
-
-- [Clerk Billing for B2B SaaS](https://clerk.com/docs/fastify/guides/billing/for-b2b.md) (guide, billing)
-
-### JavaScript
-
-- [`Billing` object](https://clerk.com/docs/js-frontend/reference/objects/billing.md) (reference, billing, api)
-- [`BillingAppliedDiscount`](https://clerk.com/docs/js-frontend/reference/types/billing-applied-discount.md) (reference, billing, api)
-- [`BillingCheckoutResource`](https://clerk.com/docs/js-frontend/reference/types/billing-checkout-resource.md) (reference, billing, api)
-- [`BillingCheckoutTotals`](https://clerk.com/docs/js-frontend/reference/types/billing-checkout-totals.md) (reference, billing, api)
-- [Clerk Billing for B2B SaaS](https://clerk.com/docs/js-frontend/guides/billing/for-b2b.md) (guide, billing)
-
-### Next.js
-
-- [`Billing` object](https://clerk.com/docs/nextjs/reference/objects/billing.md) (reference, billing, api)
-- [`BillingAppliedDiscount`](https://clerk.com/docs/nextjs/reference/types/billing-applied-discount.md) (reference, billing, api)
-- [`BillingCheckoutResource`](https://clerk.com/docs/nextjs/reference/types/billing-checkout-resource.md) (reference, billing, api)
-- [Build a custom checkout flow with a new payment method](https://clerk.com/docs/nextjs/guides/development/custom-flows/billing/checkout-new-payment-method.md) (guide, billing, api)
-- [Build a custom checkout flow with an existing payment method](https://clerk.com/docs/nextjs/guides/development/custom-flows/billing/checkout-existing-payment-method.md) (guide, billing, api)
-- [Build a custom flow for adding a new payment method](https://clerk.com/docs/nextjs/guides/development/custom-flows/billing/add-new-payment-method.md) (guide, billing, components, api)
-- [Clerk Billing for B2B SaaS](https://clerk.com/docs/nextjs/guides/billing/for-b2b.md) (guide, billing)
-
-### Nuxt
-
-- [`Billing` object](https://clerk.com/docs/nuxt/reference/objects/billing.md) (reference, billing, api)
-- [`BillingAppliedDiscount`](https://clerk.com/docs/nuxt/reference/types/billing-applied-discount.md) (reference, billing, api)
-- [`BillingCheckoutResource`](https://clerk.com/docs/nuxt/reference/types/billing-checkout-resource.md) (reference, billing, api)
-- [Clerk Billing for B2B SaaS](https://clerk.com/docs/nuxt/guides/billing/for-b2b.md) (guide, billing)
-
-### React
-
-- [`Billing` object](https://clerk.com/docs/react/reference/objects/billing.md) (reference, billing, api)
-- [`BillingAppliedDiscount`](https://clerk.com/docs/react/reference/types/billing-applied-discount.md) (reference, billing, api)
-- [`BillingCheckoutResource`](https://clerk.com/docs/react/reference/types/billing-checkout-resource.md) (reference, billing, api)
-- [Build a custom checkout flow with a new payment method](https://clerk.com/docs/react/guides/development/custom-flows/billing/checkout-new-payment-method.md) (guide, billing, api)
-- [Build a custom checkout flow with an existing payment method](https://clerk.com/docs/react/guides/development/custom-flows/billing/checkout-existing-payment-method.md) (guide, billing, api)
-- [Build a custom flow for adding a new payment method](https://clerk.com/docs/react/guides/development/custom-flows/billing/add-new-payment-method.md) (guide, billing, components, api)
-- [Clerk Billing for B2B SaaS](https://clerk.com/docs/react/guides/billing/for-b2b.md) (guide, billing)
-
-### React Router
-
-- [`Billing` object](https://clerk.com/docs/react-router/reference/objects/billing.md) (reference, billing, api)
-- [`BillingAppliedDiscount`](https://clerk.com/docs/react-router/reference/types/billing-applied-discount.md) (reference, billing, api)
-- [`BillingCheckoutResource`](https://clerk.com/docs/react-router/reference/types/billing-checkout-resource.md) (reference, billing, api)
-- [Clerk Billing for B2B SaaS](https://clerk.com/docs/react-router/guides/billing/for-b2b.md) (guide, billing)
-
-### TanStack React Start
-
-- [`Billing` object](https://clerk.com/docs/tanstack-react-start/reference/objects/billing.md) (reference, billing, api)
-- [`BillingAppliedDiscount`](https://clerk.com/docs/tanstack-react-start/reference/types/billing-applied-discount.md) (reference, billing, api)
-- [`BillingCheckoutResource`](https://clerk.com/docs/tanstack-react-start/reference/types/billing-checkout-resource.md) (reference, billing, api)
-- [Clerk Billing for B2B SaaS](https://clerk.com/docs/tanstack-react-start/guides/billing/for-b2b.md) (guide, billing)
-
-### Vue
-
-- [`Billing` object](https://clerk.com/docs/vue/reference/objects/billing.md) (reference, billing, api)
-- [`BillingAppliedDiscount`](https://clerk.com/docs/vue/reference/types/billing-applied-discount.md) (reference, billing, api)
-- [`BillingCheckoutResource`](https://clerk.com/docs/vue/reference/types/billing-checkout-resource.md) (reference, billing, api)
-- [Clerk Billing for B2B SaaS](https://clerk.com/docs/vue/guides/billing/for-b2b.md) (guide, billing)
+- `<CheckoutButton />` component: `<framework>/reference/components/billing/checkout-button.md` (reference). Roots: `nextjs`, `react`, `tanstack-react-start`, `vue`
+- `<PlanDetailsButton />` component: `<framework>/reference/components/billing/plan-details-button.md` (reference). Roots: `nextjs`, `react`, `tanstack-react-start`, `vue`
+- `<PricingTable />` component: `<framework>/reference/components/billing/pricing-table.md` (reference). Roots: common except `electron`
+- `Billing` object: `<framework>/reference/objects/billing.md` (reference). Roots: common except `electron`
+- `BillingAppliedDiscount`: `<framework>/reference/types/billing-applied-discount.md` (reference). Roots: common except `electron`
+- `BillingCheckoutResource`: `<framework>/reference/types/billing-checkout-resource.md` (reference). Roots: common except `electron`
+- `BillingCheckoutTotals`: `<framework>/reference/types/billing-checkout-totals.md` (reference). Roots: common except `electron`
+- `BillingCreditBalanceResource`: `<framework>/reference/types/billing-credit-balance-resource.md` (reference). Roots: common except `electron`
+- `BillingCreditLedgerResource`: `<framework>/reference/types/billing-credit-ledger-resource.md` (reference). Roots: common except `electron`
+- `BillingCredits`: `<framework>/reference/types/billing-credits.md` (reference). Roots: common except `electron`
+- `BillingDiscountRedemption`: `<framework>/reference/types/billing-discount-redemption.md` (reference). Roots: common except `electron`
+- `BillingDiscounts`: `<framework>/reference/types/billing-discounts.md` (reference). Roots: common except `electron`
+- `BillingInitializedPaymentMethodResource`: `<framework>/reference/types/billing-initialized-payment-method-resource.md` (reference). Roots: common except `electron`
+- `BillingMoneyAmount`: `<framework>/reference/types/billing-money-amount.md` (reference). Roots: common except `electron`
+- `BillingPayerCredit`: `<framework>/reference/types/billing-payer-credit.md` (reference). Roots: common except `electron`
+- `BillingPayerResource`: `<framework>/reference/types/billing-payer-resource.md` (reference). Roots: common except `electron`
+- `BillingPaymentMethodResource`: `<framework>/reference/types/billing-payment-method-resource.md` (reference). Roots: common except `electron`
+- `BillingPaymentResource`: `<framework>/reference/types/billing-payment-resource.md` (reference). Roots: common except `electron`
+- `BillingPaymentTotals`: `<framework>/reference/types/billing-payment-totals.md` (reference). Roots: common except `electron`
+- `BillingPeriodTotals`: `<framework>/reference/types/billing-period-totals.md` (reference). Roots: common except `electron`
+- `BillingPerUnitTotal`: `<framework>/reference/types/billing-per-unit-total.md` (reference). Roots: common except `electron`
+- `BillingPerUnitTotalTier`: `<framework>/reference/types/billing-per-unit-total-tier.md` (reference). Roots: common except `electron`
+- `BillingPlanPrice`: `<framework>/reference/types/billing-plan-price.md` (reference). Roots: common except `electron`
+- `BillingPlanResource`: `<framework>/reference/types/billing-plan-resource.md` (reference). Roots: common except `electron`
+- `BillingPlanUnitPrice`: `<framework>/reference/types/billing-plan-unit-price.md` (reference). Roots: common except `electron`
+- `BillingPlanUnitPriceTier`: `<framework>/reference/types/billing-plan-unit-price-tier.md` (reference). Roots: common except `electron`
+- `BillingProrationCreditDetail`: `<framework>/reference/types/billing-proration-credit-detail.md` (reference). Roots: common except `electron`
+- `BillingProrationDiscount`: `<framework>/reference/types/billing-proration-discount.md` (reference). Roots: common except `electron`
+- `BillingStatementGroup`: `<framework>/reference/types/billing-statement-group.md` (reference). Roots: common except `electron`
+- `BillingStatementResource`: `<framework>/reference/types/billing-statement-resource.md` (reference). Roots: common except `electron`
+- `BillingStatementTotals`: `<framework>/reference/types/billing-statement-totals.md` (reference). Roots: common except `electron`
+- `BillingSubscriptionItemNextPayment`: `<framework>/reference/types/billing-subscription-item-next-payment.md` (reference). Roots: common except `electron`
+- `BillingSubscriptionItemResource`: `<framework>/reference/types/billing-subscription-item-resource.md` (reference). Roots: common except `electron`
+- `BillingSubscriptionItemSeats`: `<framework>/reference/types/billing-subscription-item-seats.md` (reference). Roots: common except `electron`
+- `BillingSubscriptionNextPayment`: `<framework>/reference/types/billing-subscription-next-payment.md` (reference). Roots: common except `electron`
+- `BillingSubscriptionResource`: `<framework>/reference/types/billing-subscription-resource.md` (reference). Roots: common except `electron`
+- `BillingTotals`: `<framework>/reference/types/billing-totals.md` (reference). Roots: common except `electron`
+- `useCheckout()`: `<framework>/reference/hooks/use-checkout.md` (reference). Roots: `nextjs`, `react`
+- `usePaymentAttempts()`: `<framework>/reference/hooks/use-payment-attempts.md` (reference). Roots: `nextjs`, `react`
+- `useSubscription()`: `<framework>/reference/hooks/use-subscription.md` (reference). Roots: `nextjs`, `react`
+- Build a custom checkout flow with a new payment method: `<framework>/guides/development/custom-flows/billing/checkout-new-payment-method.md` (guide). Roots: `nextjs`, `react`
+- Build a custom checkout flow with an existing payment method: `<framework>/guides/development/custom-flows/billing/checkout-existing-payment-method.md` (guide). Roots: `nextjs`, `react`
+- Build a custom flow for adding a new payment method: `<framework>/guides/development/custom-flows/billing/add-new-payment-method.md` (guide). Roots: `nextjs`, `react`
+- Clerk Billing for B2B SaaS: `<framework>/guides/billing/for-b2b.md` (guide). Roots: `astro`, `expo`, `expressjs`, `fastify`, `js-frontend`, `nextjs`, `nuxt`, `react-router`, `react`, `tanstack-react-start`, `vue`
+- Clerk Billing for B2C SaaS: `<framework>/guides/billing/for-b2c.md` (guide). Roots: `astro`, `expo`, `expressjs`, `fastify`, `js-frontend`, `nextjs`, `nuxt`, `react-router`, `react`, `tanstack-react-start`, `vue`
+- Clerk Billing webhooks: `<framework>/guides/development/webhooks/billing.md` (guide). Roots: `astro`, `expo`, `expressjs`, `fastify`, `js-frontend`, `nextjs`, `nuxt`, `react-router`, `react`, `tanstack-react-start`, `vue`

@@ -4,7 +4,7 @@
 
 _Discovery source: [Clerk's language-model documentation index](https://clerk.com/docs/llms.txt)_
 
-Use this reference for sign-in, sign-up, sessions, tokens, claims, MFA, passkeys, social connections, reverification, or machine authentication.
+Use this reference for sign-in, sign-up, sessions, tokens, claims, MFA, passkeys, social connections, or machine authentication.
 
 ## Operating Guidance
 
@@ -12,115 +12,92 @@ Use this reference for sign-in, sign-up, sessions, tokens, claims, MFA, passkeys
 
 ## Selected Official Sources
 
-This focused list selects 60 of 643 current documents in this category. Search [source-index.json](source-index.json) when the exact method, object, framework page, or resource is not listed.
+This focused list selects 60 of 227 pages in this category. A page that exists under several framework roots counts once. Search [source-index.json](source-index.json) when the exact method, object, framework page, or resource is not listed.
 
-### Cross-framework
+### General Guides and References
 
-- [`verify()`](https://clerk.com/docs/reference/backend/api-keys/verify.md) (reference, api)
-- [`verify()`](https://clerk.com/docs/reference/backend/m2m-tokens/verify.md) (reference, sessions, api)
+- [`verify()` (api-keys)](https://clerk.com/docs/reference/backend/api-keys/verify.md) (reference, api)
+- [`verify()` (m2m-tokens)](https://clerk.com/docs/reference/backend/m2m-tokens/verify.md) (reference, sessions, api)
 - [`verifyPassword()`](https://clerk.com/docs/reference/backend/user/verify-password.md) (reference, authentication, api)
 - [`verifySession()`](https://clerk.com/docs/reference/backend/sessions/verify-session.md) (reference, sessions, api)
 - [`verifyToken()`](https://clerk.com/docs/reference/backend/verify-token.md) (reference, sessions, api)
 - [Account linking for OAuth](https://clerk.com/docs/guides/configure/auth-strategies/social-connections/account-linking.md) (guide, authentication)
 - [Add a custom OAuth provider as a social connection](https://clerk.com/docs/guides/configure/auth-strategies/social-connections/custom-provider.md) (guide, authentication)
 - [Add custom onboarding to your authentication flow](https://clerk.com/docs/guides/development/add-onboarding-flow.md) (guide, authentication)
+- [API keys & M2M](https://clerk.com/docs/guides/ai/eve/api-keys-and-m2m.md) (guide, api)
+- [Authentication across different domains](https://clerk.com/docs/guides/dashboard/dns-domains/satellite-domains.md) (guide, authentication, organizations, deployment)
+- [Base](https://clerk.com/docs/guides/configure/auth-strategies/web3/base.md) (guide, authentication)
+- [Build a custom authentication flow using passkeys](https://clerk.com/docs/guides/development/custom-flows/authentication/passkeys.md) (guide, authentication)
+- [Build a custom email/password authentication flow](https://clerk.com/docs/guides/development/custom-flows/authentication/email-password.md) (guide, authentication)
+- [Build a custom flow for managing API keys](https://clerk.com/docs/guides/development/custom-flows/api-keys/manage-api-keys.md) (guide, components, api)
+- [Build a custom flow for managing multi-factor authentication](https://clerk.com/docs/guides/development/custom-flows/account-updates/manage-mfa.md) (guide, authentication, components)
+- [Build a custom flow for updating a user's password](https://clerk.com/docs/guides/development/custom-flows/account-updates/update-password.md) (guide, authentication, components)
+- [Build a sign-in flow with Clerk Elements](https://clerk.com/docs/guides/customizing-clerk/elements/guides/sign-in.md) (guide, authentication)
+- [Build a sign-up flow with Clerk Elements](https://clerk.com/docs/guides/customizing-clerk/elements/guides/sign-up.md) (guide, authentication)
 - [Build your own sign-in-or-up page for your Expo web app](https://clerk.com/docs/guides/development/web-support/custom-sign-in-or-up-page.md) (guide, authentication)
 - [Build your own sign-up page with prebuilt components on web](https://clerk.com/docs/guides/development/web-support/custom-sign-up-page.md) (component, authentication, components)
+- [Coinbase Wallet](https://clerk.com/docs/guides/configure/auth-strategies/web3/coinbase-wallet.md) (guide, authentication)
+- [Configure OAuth and SSO deep links for Electron](https://clerk.com/docs/guides/configure/auth-strategies/oauth-deep-links.md) (guide, authentication)
 - [Customize your session token](https://clerk.com/docs/guides/sessions/customize-session-tokens.md) (guide, sessions)
 - [Machine Authentication](https://clerk.com/docs/guides/development/machine-auth/overview.md) (concept, authentication)
-- [Sign-up and sign-in options](https://clerk.com/docs/guides/configure/auth-strategies/sign-up-sign-in-options.md) (guide, authentication)
+- [MetaMask](https://clerk.com/docs/guides/configure/auth-strategies/web3/metamask.md) (guide, authentication)
+- [MFA account recovery](https://clerk.com/docs/guides/secure/mfa-recovery.md) (guide)
+- [Session options](https://clerk.com/docs/guides/secure/session-options.md) (guide, sessions)
+- [Session tokens](https://clerk.com/docs/guides/sessions/session-tokens.md) (guide, sessions)
+- [Sign-in](https://clerk.com/docs/guides/customizing-clerk/elements/examples/sign-in.md) (guide, authentication)
+- [Sign-in components](https://clerk.com/docs/guides/customizing-clerk/elements/reference/sign-in.md) (reference, authentication, components, api)
+- [Sign-up](https://clerk.com/docs/guides/customizing-clerk/elements/examples/sign-up.md) (guide, authentication)
+- [Sign-up components](https://clerk.com/docs/guides/customizing-clerk/elements/reference/sign-up.md) (reference, authentication, components, api)
 - [Tasks after sign-up/sign-in](https://clerk.com/docs/guides/configure/session-tasks.md) (guide, authentication, sessions)
+- [Test the sign-up form](https://clerk.com/docs/guides/development/testing/playwright/test-sign-up-flows.md) (guide, authentication, testing)
+- [Token formats](https://clerk.com/docs/guides/development/machine-auth/token-formats.md) (guide, authentication, sessions)
+- [Tokens and signatures](https://clerk.com/docs/guides/how-clerk-works/tokens-and-signatures.md) (guide, sessions)
+- [Unauthorized sign-in](https://clerk.com/docs/guides/secure/best-practices/unauthorized-sign-in.md) (guide, authentication)
+- [Using API keys](https://clerk.com/docs/guides/development/machine-auth/api-keys.md) (guide, authentication, api)
 - [Verify a Clerk session in Go](https://clerk.com/docs/guides/sessions/verifying.md) (guide, sessions)
+
+### Shared Across Frameworks
+
+Each page below exists under every framework root named after it. A root is the first path segment after `https://clerk.com/docs/`, such as `nextjs` or `expressjs`. The URL of a page is `https://clerk.com/docs/` followed by its path, with `<framework>` replaced by one of its roots.
+
+In every reference of this skill, the common roots are `astro`, `chrome-extension`, `electron`, `expo`, `js-frontend`, `nextjs`, `nuxt`, `react-router`, `react`, `tanstack-react-start`, `vue`.
+
+- `<APIKeys />` component: `<framework>/reference/components/api-keys.md` (reference). Roots: common except `expo`
+- `<TaskSetupMFA />` component: `<framework>/reference/components/authentication/task-setup-mfa.md` (reference). Roots: `electron`, `js-frontend`, `nextjs`, `react-router`, `react`, `tanstack-react-start`
+- `APIKeyResource`: `<framework>/reference/types/api-key-resource.md` (reference). Roots: common
+- `APIKeys` object: `<framework>/reference/objects/api-keys.md` (reference). Roots: common
+- `LastAuthenticationStrategy`: `<framework>/reference/types/last-authentication-strategy.md` (reference). Roots: common
+- `PasskeyResource`: `<framework>/reference/types/passkey-resource.md` (reference). Roots: common
+- `Session` object: `<framework>/reference/objects/session.md` (reference). Roots: common
+- `SignIn` object: `<framework>/reference/objects/sign-in.md` (reference). Roots: `chrome-extension`, `electron`, `expo`, `js-frontend`, `nextjs`, `react-router`, `react`, `tanstack-react-start`
+- Build a custom authentication flow using biometric sign-in: `<framework>/guides/development/custom-flows/authentication/biometric-sign-in.md` (guide). Roots: `android`, `expo`, `ios`
+- Sign in with Apple: `<framework>/guides/configure/auth-strategies/sign-in-with-apple.md` (guide). Roots: `expo`, `ios`
+- Sign in with Google: `<framework>/guides/configure/auth-strategies/sign-in-with-google.md` (guide). Roots: `android`, `expo`
+- Social connections (OAuth): `<framework>/guides/configure/auth-strategies/social-connections/overview.md` (concept). Roots: `android`, `astro`, `chrome-extension`, `electron`, `expo`, `expressjs`, `fastify`, `go`, `ios`, `js-frontend`, `nextjs`, `nuxt`, `react-router`, `react`, `ruby`, `tanstack-react-start`, `vue`
+- Use hosted authentication in native apps: `<framework>/guides/account-portal/hosted-auth.md` (guide). Roots: `android`, `expo`, `ios`
 
 ### Android
 
 - [Configure passkeys for Android](https://clerk.com/docs/android/reference/passkeys.md) (reference, authentication, api)
-- [Social connections (OAuth)](https://clerk.com/docs/android/guides/configure/auth-strategies/social-connections/overview.md) (concept, authentication)
-- [Use hosted authentication in native apps](https://clerk.com/docs/android/guides/account-portal/hosted-auth.md) (guide, authentication)
 
 ### Astro
 
-- [Social connections (OAuth)](https://clerk.com/docs/astro/guides/configure/auth-strategies/social-connections/overview.md) (concept, authentication)
+- [`$sessionListStore`](https://clerk.com/docs/astro/reference/client-side-helpers/session-list-store.md) (reference, sessions, api)
+- [`$sessionStore`](https://clerk.com/docs/astro/reference/client-side-helpers/session-store.md) (reference, sessions, api)
+- [`$signInStore`](https://clerk.com/docs/astro/reference/client-side-helpers/sign-in-store.md) (reference, authentication, api)
 
-### Chrome Extension
+### Electron
 
-- [Social connections (OAuth)](https://clerk.com/docs/chrome-extension/guides/configure/auth-strategies/social-connections/overview.md) (concept, authentication)
+- [Configure passkeys for Electron](https://clerk.com/docs/electron/reference/passkeys.md) (reference, authentication, api)
 
 ### Expo
 
 - [Configure passkeys for Expo](https://clerk.com/docs/expo/reference/passkeys.md) (reference, authentication, api)
-- [Social connections (OAuth)](https://clerk.com/docs/expo/guides/configure/auth-strategies/social-connections/overview.md) (concept, authentication)
-- [Use hosted authentication in native apps](https://clerk.com/docs/expo/guides/account-portal/hosted-auth.md) (guide, authentication)
-
-### Express
-
-- [Social connections (OAuth)](https://clerk.com/docs/expressjs/guides/configure/auth-strategies/social-connections/overview.md) (concept, authentication)
-- [Verify API keys in your Express application with Clerk](https://clerk.com/docs/expressjs/guides/development/verifying-api-keys.md) (guide, api)
-
-### Fastify
-
-- [Social connections (OAuth)](https://clerk.com/docs/fastify/guides/configure/auth-strategies/social-connections/overview.md) (concept, authentication)
-- [Verify API keys in your Fastify application with Clerk](https://clerk.com/docs/fastify/guides/development/verifying-api-keys.md) (guide, api)
-
-### Go
-
-- [Social connections (OAuth)](https://clerk.com/docs/go/guides/configure/auth-strategies/social-connections/overview.md) (concept, authentication)
-
-### iOS
-
-- [Social connections (OAuth)](https://clerk.com/docs/ios/guides/configure/auth-strategies/social-connections/overview.md) (concept, authentication)
-- [Use hosted authentication in native apps](https://clerk.com/docs/ios/guides/account-portal/hosted-auth.md) (guide, authentication)
-
-### JavaScript
-
-- [`<TaskSetupMFA />` component](https://clerk.com/docs/js-frontend/reference/components/authentication/task-setup-mfa.md) (reference, authentication, components, api)
-- [Social connections (OAuth)](https://clerk.com/docs/js-frontend/guides/configure/auth-strategies/social-connections/overview.md) (concept, authentication)
 
 ### Next.js
 
-- [`<TaskSetupMFA />` component](https://clerk.com/docs/nextjs/reference/components/authentication/task-setup-mfa.md) (reference, authentication, components, api)
 - [Build your own sign-in-or-up page for your Next.js app with Clerk](https://clerk.com/docs/nextjs/guides/development/custom-sign-in-or-up-page.md) (guide, authentication)
-- [Build your own sign-up page for your Next.js app with Clerk](https://clerk.com/docs/nextjs/guides/development/custom-sign-up-page.md) (guide, authentication)
-- [Social connections (OAuth)](https://clerk.com/docs/nextjs/guides/configure/auth-strategies/social-connections/overview.md) (concept, authentication)
-- [Verify API keys in your Next.js application with Clerk](https://clerk.com/docs/nextjs/guides/development/verifying-api-keys.md) (guide, api)
-- [Verify OAuth access tokens in your Next.js application with Clerk](https://clerk.com/docs/nextjs/guides/development/verifying-oauth-access-tokens.md) (guide, authentication, sessions)
 
 ### Nuxt
 
 - [Build your own sign-in-or-up page for your Nuxt app with Clerk](https://clerk.com/docs/nuxt/guides/development/custom-sign-in-or-up-page.md) (guide, authentication)
-- [Build your own sign-up page for your Nuxt app with Clerk](https://clerk.com/docs/nuxt/guides/development/custom-sign-up-page.md) (guide, authentication)
-- [Social connections (OAuth)](https://clerk.com/docs/nuxt/guides/configure/auth-strategies/social-connections/overview.md) (concept, authentication)
-- [Verify API keys in your Nuxt application with Clerk](https://clerk.com/docs/nuxt/guides/development/verifying-api-keys.md) (guide, api)
-
-### React
-
-- [`<TaskSetupMFA />` component](https://clerk.com/docs/react/reference/components/authentication/task-setup-mfa.md) (reference, authentication, components, api)
-- [Build your own sign-in-or-up page for your React app with Clerk](https://clerk.com/docs/react/guides/development/custom-sign-in-or-up-page.md) (guide, authentication)
-- [Build your own sign-up page for your React app with Clerk](https://clerk.com/docs/react/guides/development/custom-sign-up-page.md) (guide, authentication)
-- [Social connections (OAuth)](https://clerk.com/docs/react/guides/configure/auth-strategies/social-connections/overview.md) (concept, authentication)
-
-### React Router
-
-- [`<TaskSetupMFA />` component](https://clerk.com/docs/react-router/reference/components/authentication/task-setup-mfa.md) (reference, authentication, components, api)
-- [Build your own sign-in-or-up page for your React Router app with Clerk](https://clerk.com/docs/react-router/guides/development/custom-sign-in-or-up-page.md) (guide, authentication)
-- [Build your own sign-up page for your React Router app with Clerk](https://clerk.com/docs/react-router/guides/development/custom-sign-up-page.md) (guide, authentication)
-- [Social connections (OAuth)](https://clerk.com/docs/react-router/guides/configure/auth-strategies/social-connections/overview.md) (concept, authentication)
-- [Verify API keys in your React Router application with Clerk](https://clerk.com/docs/react-router/guides/development/verifying-api-keys.md) (guide, api)
-- [Verify OAuth access tokens in your React Router application with Clerk](https://clerk.com/docs/react-router/guides/development/verifying-oauth-access-tokens.md) (guide, authentication, sessions)
-
-### Ruby
-
-- [Social connections (OAuth)](https://clerk.com/docs/ruby/guides/configure/auth-strategies/social-connections/overview.md) (concept, authentication)
-
-### TanStack React Start
-
-- [`<TaskSetupMFA />` component](https://clerk.com/docs/tanstack-react-start/reference/components/authentication/task-setup-mfa.md) (reference, authentication, components, api)
-- [Build your own sign-in-or-up page for your TanStack React Start app with Clerk](https://clerk.com/docs/tanstack-react-start/guides/development/custom-sign-in-or-up-page.md) (guide, authentication)
-- [Build your own sign-up page for your TanStack React Start app with Clerk](https://clerk.com/docs/tanstack-react-start/guides/development/custom-sign-up-page.md) (guide, authentication)
-- [Social connections (OAuth)](https://clerk.com/docs/tanstack-react-start/guides/configure/auth-strategies/social-connections/overview.md) (concept, authentication)
-- [Verify API keys in your TanStack React Start application with Clerk](https://clerk.com/docs/tanstack-react-start/guides/development/verifying-api-keys.md) (guide, api)
-- [Verify OAuth access tokens in your TanStack React Start application with Clerk](https://clerk.com/docs/tanstack-react-start/guides/development/verifying-oauth-access-tokens.md) (guide, authentication, sessions)
-
-### Vue
-
-- [Social connections (OAuth)](https://clerk.com/docs/vue/guides/configure/auth-strategies/social-connections/overview.md) (concept, authentication)

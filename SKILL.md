@@ -1,9 +1,9 @@
 ---
 name: "clerk-compendium"
-description: "Use when building, integrating, securing, testing, migrating, or troubleshooting Clerk authentication and user management across supported web, backend, and mobile frameworks: adding or reviewing Clerk SDK code, configuring sign-in or sign-up, sessions, users, organizations, roles and permissions, webhooks, Billing, machine authentication, environment or deployment settings, database integrations, or Clerk testing and upgrades. Also use when a repository contains @clerk/* or an official Clerk SDK and the user asks about route protection, tenant access, subscription gating, user sync, or auth failures without naming Clerk."
+description: "Use when building, integrating, securing, testing, migrating, or troubleshooting Clerk authentication and user management across supported web, backend, mobile, and desktop frameworks: adding or reviewing Clerk SDK code, configuring sign-in or sign-up, sessions, users, organizations, roles and permissions, webhooks, Billing, machine authentication, environment or deployment settings, database integrations, or Clerk testing and upgrades. Also use when a repository contains @clerk/* or an official Clerk SDK and the user asks about route protection, tenant access, subscription gating, user sync, or auth failures without naming Clerk."
 metadata:
   author: "Leeor Nahum"
-  version: "1.0.1"
+  version: "1.1.0"
 ---
 
 # Clerk Compendium
@@ -24,13 +24,13 @@ The installed package, its exports and types, and the target compiler are the im
 
 ## Reference Loading
 
-- Read [quickstarts](references/quickstarts.md) when adding Clerk or repairing framework provider, middleware, request-context, or root integration wiring.
+- Read [quickstarts](references/quickstarts.md) when adding Clerk, repairing framework provider, middleware, request-context, or root integration wiring, or looking for a Clerk-maintained starter, demo, or example repository.
 - Read [concepts and components](references/concepts-components.md) when choosing Clerk architecture, prebuilt components, custom flows, appearance, localization, or account-management surfaces.
-- Read [authentication and sessions](references/auth-sessions.md) for sign-in, sign-up, sessions, tokens, claims, MFA, passkeys, social connections, reverification, or machine authentication.
-- Read [users and organizations](references/users-organizations.md) for users, metadata, organizations, memberships, invitations, active organization context, domains, roles, or permissions.
+- Read [authentication and sessions](references/auth-sessions.md) for sign-in, sign-up, sessions, tokens, claims, MFA, passkeys, social connections, or machine authentication.
+- Read [users and organizations](references/users-organizations.md) for users, metadata, organizations, memberships, invitations, active organization context, domains, enterprise SSO connections, roles, or permissions.
 - Read [Billing](references/billing.md) for Clerk plans, features, subscriptions, trials, entitlements, Billing components, Billing webhooks, or server-side feature gates.
-- Read [security](references/security.md) when protecting routes or resources, reviewing trust boundaries, rotating keys, preventing abuse, or validating security posture.
-- Read [integrations and databases](references/integrations-databases.md) for webhooks, database synchronization, external backends, OAuth integrations, or third-party services.
+- Read [security](references/security.md) when protecting routes or resources, reviewing trust boundaries, adding reverification, rotating keys, preventing abuse, or validating security posture.
+- Read [integrations and databases](references/integrations-databases.md) for webhooks, database synchronization, external backends, Clerk as an OAuth or OIDC provider, or third-party services.
 - Read [operations](references/operations.md) for environment variables, instances, domains, redirects, deployment, testing, troubleshooting, Dashboard configuration, or SDK upgrades.
 - Read [SDK and API reference](references/sdk-api.md) for exact packages, imports, helpers, methods, types, or API resources.
 - Search [the complete source index](references/source-index.json) when an exact current Clerk document is not present in the focused reference. Search it by title, URL fragment, framework, category, tag, or kind rather than loading the entire file.

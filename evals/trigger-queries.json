@@ -46,6 +46,12 @@
       "should_trigger": true
     },
     {
+      "id": "train-positive-electron",
+      "split": "train",
+      "query": "Our Electron desktop app uses @clerk/electron, but Google sign-in never comes back to the packaged app. Fix the sign-in round trip.",
+      "should_trigger": true
+    },
+    {
       "id": "train-negative-auth0",
       "split": "train",
       "query": "Migrate our Auth0 tenant to rotating refresh tokens and update the callback handler.",
@@ -139,6 +145,12 @@
       "id": "validation-negative-mobile",
       "split": "validation",
       "query": "Implement biometric unlock for locally encrypted data in an Android app. There is no remote identity provider.",
+      "should_trigger": false
+    },
+    {
+      "id": "validation-negative-electron",
+      "split": "validation",
+      "query": "Our Electron app signs users in against our own OAuth server. Register a custom protocol for the callback and keep the refresh token in safeStorage.",
       "should_trigger": false
     },
     {

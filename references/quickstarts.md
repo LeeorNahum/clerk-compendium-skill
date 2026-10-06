@@ -4,7 +4,7 @@
 
 _Discovery source: [Clerk's language-model documentation index](https://clerk.com/docs/llms.txt)_
 
-Use this reference when adding Clerk to a project or repairing framework provider, middleware, request context, or root integration wiring.
+Use this reference when adding Clerk to a project, repairing framework provider, middleware, request context, or root integration wiring, or looking for a Clerk-maintained starter, demo, or example repository.
 
 ## Operating Guidance
 
@@ -15,11 +15,12 @@ Use this reference when adding Clerk to a project or repairing framework provide
 
 ## Selected Official Sources
 
-This focused list selects 21 of 21 current documents in this category. Search [source-index.json](source-index.json) when the exact method, object, framework page, or resource is not listed.
+This focused list selects 23 of 23 pages in this category. A page that exists under several framework roots counts once. Search [source-index.json](source-index.json) when the exact method, object, framework page, or resource is not listed.
 
-### Cross-framework
+### General Guides and References
 
 - [Chrome Extension Quickstart (JavaScript)](https://clerk.com/docs/getting-started/quickstart/chrome-extension-js.md) (quickstart)
+- [Clerk templates and examples](https://clerk.com/docs/templates.md) (guide)
 - [Core concepts](https://clerk.com/docs/getting-started/core-concepts.md) (guide)
 - [Next.js Quickstart (Pages Router)](https://clerk.com/docs/getting-started/quickstart/pages-router.md) (quickstart)
 - [Quickstarts](https://clerk.com/docs/getting-started/quickstart/overview.md) (quickstart)
@@ -36,6 +37,10 @@ This focused list selects 21 of 21 current documents in this category. Search [s
 ### Chrome Extension
 
 - [Chrome Extension Quickstart (Plasmo)](https://clerk.com/docs/chrome-extension/getting-started/quickstart.md) (quickstart)
+
+### Electron
+
+- [Electron Quickstart](https://clerk.com/docs/electron/getting-started/quickstart.md) (quickstart)
 
 ### Expo
 

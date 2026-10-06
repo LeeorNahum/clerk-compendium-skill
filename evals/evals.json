@@ -119,6 +119,25 @@
         "The request's organization identifier is not sufficient authorization",
         "Tests cover unauthenticated, forbidden, and authorized requests"
       ]
+    },
+    {
+      "id": 9,
+      "prompt": "Our Electron desktop app signs in with Clerk, and the main process then calls the Clerk Backend API with CLERK_SECRET_KEY to list the signed-in user's organization memberships. Google sign-in also never returns to the packaged app. Repair both.",
+      "expected_output": "An Electron integration that follows the main, preload, and renderer split of the installed @clerk/electron version, ships no Secret Key, moves the privileged read to a backend that verifies the session, and completes OAuth through a custom scheme that also serves the packaged renderer.",
+      "files": [
+        "evals/files/electron-desktop/package.json",
+        "evals/files/electron-desktop/main.ts",
+        "evals/files/electron-desktop/preload.ts"
+      ],
+      "assertions": [
+        "The agent checks the installed @clerk/electron and Electron versions before choosing entry points or options",
+        "The solution uses current first-party Electron guidance rather than server helpers from another framework",
+        "The Secret Key is removed from the main process and from everything the packaged app ships",
+        "The privileged read moves to a server that verifies the Clerk session token and authorizes the read, without trusting a user identifier sent by the app",
+        "The Clerk bridge is given a custom scheme, and the packaged renderer is served from that scheme instead of a file URL",
+        "The answer states that the scheme origin must be added to the allowed origins of the Clerk instance",
+        "The verification plan exercises OAuth in a packaged build and sends a signed-out request directly to the backend"
+      ]
     }
   ]
 }

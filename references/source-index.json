@@ -1,39 +1,40 @@
 {
   "generated": true,
   "discoverySource": "https://clerk.com/docs/llms.txt",
-  "discoverySha256": "31897bb5d33b46453d544ce6cef62cc348f53a97f6919624a1f4f372107f1781",
+  "discoverySha256": "31fb3e2ec7174eda03641358a6c18ba8be84d6c79c10dac813e8814137777d09",
   "counts": {
-    "documents": 2487,
+    "documents": 2644,
     "categories": {
-      "auth-sessions": 643,
+      "auth-sessions": 682,
       "billing": 424,
-      "concepts-components": 478,
-      "integrations-databases": 45,
-      "operations": 185,
-      "quickstarts": 21,
-      "sdk-api": 312,
-      "security": 49,
-      "users-organizations": 330
+      "concepts-components": 489,
+      "integrations-databases": 61,
+      "operations": 196,
+      "quickstarts": 23,
+      "sdk-api": 348,
+      "security": 52,
+      "users-organizations": 369
     },
     "frameworks": {
       "Android": 25,
-      "Astro": 168,
-      "Chrome Extension": 168,
-      "Expo": 182,
+      "Astro": 169,
+      "Chrome Extension": 169,
+      "Electron": 137,
+      "Expo": 183,
       "Express": 27,
       "Fastify": 25,
       "Go": 19,
       "iOS": 25,
-      "JavaScript": 150,
-      "Next.js": 219,
-      "Nuxt": 175,
-      "React": 204,
-      "React Router": 195,
+      "JavaScript": 151,
+      "Next.js": 220,
+      "Nuxt": 176,
+      "React": 205,
+      "React Router": 196,
       "Ruby": 24,
-      "TanStack React Start": 196,
-      "Vue": 171
+      "TanStack React Start": 197,
+      "Vue": 172
     },
-    "packages": 25,
+    "packages": 26,
     "repositories": 10
   },
   "repositories": [
@@ -140,6 +141,11 @@
       "repository": "clerk/javascript"
     },
     {
+      "name": "@clerk/expo-biometrics",
+      "directory": "packages/expo-biometrics",
+      "repository": "clerk/javascript"
+    },
+    {
       "name": "@clerk/expo-google-signin",
       "directory": "packages/expo-google-signin",
       "repository": "clerk/javascript"
@@ -242,7 +248,7 @@
       "key": "nextjs-quickstart",
       "title": "Next.js Quickstart (App Router)",
       "url": "https://clerk.com/docs/nextjs/getting-started/quickstart.md",
-      "sha256": "4b6a340d185e637054a9c112ce965f1b1015e2210b297be72280c1293487f932"
+      "sha256": "11b1f1f981abaea1aabebd6e660c9cdbd6161177711df8f6daff9e8c8d4a79bd"
     },
     {
       "key": "organizations",
@@ -254,7 +260,7 @@
       "key": "react-quickstart",
       "title": "React Quickstart",
       "url": "https://clerk.com/docs/react/getting-started/quickstart.md",
-      "sha256": "3c053ff36d47cd6d3c94dad7b62e13d708b9989774b1f3b1f9cba1274a053107"
+      "sha256": "b395e7c60509d77dbf923124409d76bceef637d33c3be3a86fcc847194c0e363"
     },
     {
       "key": "sessions",
@@ -269,10 +275,16 @@
       "sha256": "15290cd94d8eb0986b59e7257c406dea819217af2d797e46f6668e7a4a9691fa"
     },
     {
+      "key": "user-metadata",
+      "title": "User metadata",
+      "url": "https://clerk.com/docs/guides/users/extending.md",
+      "sha256": "979ccdf39eacdf69c9fb104b326babf48233337acfc941dcf88a1b575a27424e"
+    },
+    {
       "key": "webhooks",
       "title": "Webhooks overview",
       "url": "https://clerk.com/docs/guides/development/webhooks/overview.md",
-      "sha256": "c536c6491d00d6d4cdf32a73ee36311dd5e9274fe332dd5dbd33123c2d8c12fe"
+      "sha256": "cf19df1e8e1b415a3ef24a8345207e1e73abc3f5620fd9253eb95e75e3af5fa7"
     }
   ],
   "documents": [
@@ -596,7 +608,7 @@
     {
       "title": "Set up a custom OAuth consent page",
       "url": "https://clerk.com/docs/astro/guides/configure/auth-strategies/oauth/custom-consent-page.md",
-      "primaryCategory": "concepts-components",
+      "primaryCategory": "integrations-databases",
       "tags": [
         "authentication"
       ],
@@ -856,7 +868,7 @@
     {
       "title": "Read user data",
       "url": "https://clerk.com/docs/astro/guides/users/reading.md",
-      "primaryCategory": "concepts-components",
+      "primaryCategory": "users-organizations",
       "tags": [],
       "framework": "Astro",
       "kind": "guide",
@@ -2447,6 +2459,17 @@
       "primaryCategory": "auth-sessions",
       "tags": [
         "sessions",
+        "api"
+      ],
+      "framework": "Astro",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`SSOBypassAllowlistResource`",
+      "url": "https://clerk.com/docs/astro/reference/types/sso-bypass-allowlist-resource.md",
+      "primaryCategory": "sdk-api",
+      "tags": [
         "api"
       ],
       "framework": "Astro",
@@ -4446,6 +4469,17 @@
       "deprecated": false
     },
     {
+      "title": "`SSOBypassAllowlistResource`",
+      "url": "https://clerk.com/docs/chrome-extension/reference/types/sso-bypass-allowlist-resource.md",
+      "primaryCategory": "sdk-api",
+      "tags": [
+        "api"
+      ],
+      "framework": "Chrome Extension",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "SSO Types",
       "url": "https://clerk.com/docs/chrome-extension/reference/types/sso.md",
       "primaryCategory": "sdk-api",
@@ -4519,6 +4553,1618 @@
       "tags": [],
       "framework": null,
       "kind": "guide",
+      "deprecated": false
+    },
+    {
+      "title": "Electron Quickstart",
+      "url": "https://clerk.com/docs/electron/getting-started/quickstart.md",
+      "primaryCategory": "quickstarts",
+      "tags": [],
+      "framework": "Electron",
+      "kind": "quickstart",
+      "deprecated": false
+    },
+    {
+      "title": "Social connections (OAuth)",
+      "url": "https://clerk.com/docs/electron/guides/configure/auth-strategies/social-connections/overview.md",
+      "primaryCategory": "auth-sessions",
+      "tags": [
+        "authentication"
+      ],
+      "framework": "Electron",
+      "kind": "concept",
+      "deprecated": false
+    },
+    {
+      "title": "Add custom pages and links to the `<OrganizationProfile />` component",
+      "url": "https://clerk.com/docs/electron/guides/customizing-clerk/adding-items/organization-profile.md",
+      "primaryCategory": "users-organizations",
+      "tags": [
+        "organizations",
+        "components"
+      ],
+      "framework": "Electron",
+      "kind": "component",
+      "deprecated": false
+    },
+    {
+      "title": "Add custom items and links to the `<UserButton />` component",
+      "url": "https://clerk.com/docs/electron/guides/customizing-clerk/adding-items/user-button.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "components"
+      ],
+      "framework": "Electron",
+      "kind": "component",
+      "deprecated": false
+    },
+    {
+      "title": "Add custom pages and links to the `<UserProfile />` component",
+      "url": "https://clerk.com/docs/electron/guides/customizing-clerk/adding-items/user-profile.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "components"
+      ],
+      "framework": "Electron",
+      "kind": "component",
+      "deprecated": false
+    },
+    {
+      "title": "Bring your own CSS",
+      "url": "https://clerk.com/docs/electron/guides/customizing-clerk/appearance-prop/bring-your-own-css.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "components"
+      ],
+      "framework": "Electron",
+      "kind": "guide",
+      "deprecated": false
+    },
+    {
+      "title": "`captcha` prop",
+      "url": "https://clerk.com/docs/electron/guides/customizing-clerk/appearance-prop/captcha.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "components"
+      ],
+      "framework": "Electron",
+      "kind": "guide",
+      "deprecated": false
+    },
+    {
+      "title": "`Options` prop",
+      "url": "https://clerk.com/docs/electron/guides/customizing-clerk/appearance-prop/options.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "components"
+      ],
+      "framework": "Electron",
+      "kind": "guide",
+      "deprecated": false
+    },
+    {
+      "title": "`Appearance` prop",
+      "url": "https://clerk.com/docs/electron/guides/customizing-clerk/appearance-prop/overview.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "components"
+      ],
+      "framework": "Electron",
+      "kind": "concept",
+      "deprecated": false
+    },
+    {
+      "title": "Themes",
+      "url": "https://clerk.com/docs/electron/guides/customizing-clerk/appearance-prop/themes.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "components"
+      ],
+      "framework": "Electron",
+      "kind": "guide",
+      "deprecated": false
+    },
+    {
+      "title": "`Variables` prop",
+      "url": "https://clerk.com/docs/electron/guides/customizing-clerk/appearance-prop/variables.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "components"
+      ],
+      "framework": "Electron",
+      "kind": "guide",
+      "deprecated": false
+    },
+    {
+      "title": "Build a custom flow for handling user impersonation",
+      "url": "https://clerk.com/docs/electron/guides/development/custom-flows/account-updates/user-impersonation.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "components"
+      ],
+      "framework": "Electron",
+      "kind": "guide",
+      "deprecated": false
+    },
+    {
+      "title": "Add bot protection to your custom sign-up flow",
+      "url": "https://clerk.com/docs/electron/guides/development/custom-flows/authentication/bot-sign-up-protection.md",
+      "primaryCategory": "security",
+      "tags": [
+        "authentication",
+        "security"
+      ],
+      "framework": "Electron",
+      "kind": "guide",
+      "deprecated": false
+    },
+    {
+      "title": "Build a custom waitlist form",
+      "url": "https://clerk.com/docs/electron/guides/development/custom-flows/authentication/waitlist.md",
+      "primaryCategory": "auth-sessions",
+      "tags": [
+        "authentication"
+      ],
+      "framework": "Electron",
+      "kind": "guide",
+      "deprecated": false
+    },
+    {
+      "title": "Error handling",
+      "url": "https://clerk.com/docs/electron/guides/development/custom-flows/error-handling.md",
+      "primaryCategory": "operations",
+      "tags": [],
+      "framework": "Electron",
+      "kind": "troubleshooting",
+      "deprecated": false
+    },
+    {
+      "title": "Build a custom waitlist page",
+      "url": "https://clerk.com/docs/electron/guides/secure/waitlist.md",
+      "primaryCategory": "concepts-components",
+      "tags": [],
+      "framework": "Electron",
+      "kind": "guide",
+      "deprecated": false
+    },
+    {
+      "title": "`<APIKeys />` component",
+      "url": "https://clerk.com/docs/electron/reference/components/api-keys.md",
+      "primaryCategory": "auth-sessions",
+      "tags": [
+        "components",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`<SignIn />` component",
+      "url": "https://clerk.com/docs/electron/reference/components/authentication/sign-in.md",
+      "primaryCategory": "auth-sessions",
+      "tags": [
+        "authentication",
+        "components",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`<SignUp />` component",
+      "url": "https://clerk.com/docs/electron/reference/components/authentication/sign-up.md",
+      "primaryCategory": "auth-sessions",
+      "tags": [
+        "authentication",
+        "components",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`<TaskChooseOrganization />` component",
+      "url": "https://clerk.com/docs/electron/reference/components/authentication/task-choose-organization.md",
+      "primaryCategory": "users-organizations",
+      "tags": [
+        "authentication",
+        "organizations",
+        "components",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`<TaskResetPassword />` component",
+      "url": "https://clerk.com/docs/electron/reference/components/authentication/task-reset-password.md",
+      "primaryCategory": "auth-sessions",
+      "tags": [
+        "authentication",
+        "components",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`<TaskSetupMFA />` component",
+      "url": "https://clerk.com/docs/electron/reference/components/authentication/task-setup-mfa.md",
+      "primaryCategory": "auth-sessions",
+      "tags": [
+        "authentication",
+        "components",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`<Waitlist />` component",
+      "url": "https://clerk.com/docs/electron/reference/components/authentication/waitlist.md",
+      "primaryCategory": "auth-sessions",
+      "tags": [
+        "authentication",
+        "components",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`<ClerkProvider>` component",
+      "url": "https://clerk.com/docs/electron/reference/components/clerk-provider.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "components",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`<ClerkDegraded>` component",
+      "url": "https://clerk.com/docs/electron/reference/components/control/clerk-degraded.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "components",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`<ClerkFailed>` component",
+      "url": "https://clerk.com/docs/electron/reference/components/control/clerk-failed.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "components",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`<ClerkLoaded>` component",
+      "url": "https://clerk.com/docs/electron/reference/components/control/clerk-loaded.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "components",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`<ClerkLoading>` component",
+      "url": "https://clerk.com/docs/electron/reference/components/control/clerk-loading.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "components",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`<RedirectToCreateOrganization />` component",
+      "url": "https://clerk.com/docs/electron/reference/components/control/redirect-to-create-organization.md",
+      "primaryCategory": "users-organizations",
+      "tags": [
+        "organizations",
+        "deployment",
+        "components",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`<RedirectToOrganizationProfile />` component",
+      "url": "https://clerk.com/docs/electron/reference/components/control/redirect-to-organization-profile.md",
+      "primaryCategory": "users-organizations",
+      "tags": [
+        "organizations",
+        "deployment",
+        "components",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`<RedirectToSignIn />` component",
+      "url": "https://clerk.com/docs/electron/reference/components/control/redirect-to-sign-in.md",
+      "primaryCategory": "auth-sessions",
+      "tags": [
+        "authentication",
+        "deployment",
+        "components",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`<RedirectToSignUp />` component",
+      "url": "https://clerk.com/docs/electron/reference/components/control/redirect-to-sign-up.md",
+      "primaryCategory": "auth-sessions",
+      "tags": [
+        "authentication",
+        "deployment",
+        "components",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`<RedirectToTasks />` component",
+      "url": "https://clerk.com/docs/electron/reference/components/control/redirect-to-tasks.md",
+      "primaryCategory": "operations",
+      "tags": [
+        "deployment",
+        "components",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`<RedirectToUserProfile />` component",
+      "url": "https://clerk.com/docs/electron/reference/components/control/redirect-to-user-profile.md",
+      "primaryCategory": "operations",
+      "tags": [
+        "deployment",
+        "components",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`<Show>` component",
+      "url": "https://clerk.com/docs/electron/reference/components/control/show.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "components",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`<CreateOrganization />` component",
+      "url": "https://clerk.com/docs/electron/reference/components/organization/create-organization.md",
+      "primaryCategory": "users-organizations",
+      "tags": [
+        "organizations",
+        "components",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`<InviteMembersButton />`",
+      "url": "https://clerk.com/docs/electron/reference/components/organization/invite-members-button.md",
+      "primaryCategory": "users-organizations",
+      "tags": [
+        "organizations",
+        "components",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`<OrganizationList />` component",
+      "url": "https://clerk.com/docs/electron/reference/components/organization/organization-list.md",
+      "primaryCategory": "users-organizations",
+      "tags": [
+        "organizations",
+        "components",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`<OrganizationProfile />` component",
+      "url": "https://clerk.com/docs/electron/reference/components/organization/organization-profile.md",
+      "primaryCategory": "users-organizations",
+      "tags": [
+        "organizations",
+        "components",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`<OrganizationSwitcher />` component",
+      "url": "https://clerk.com/docs/electron/reference/components/organization/organization-switcher.md",
+      "primaryCategory": "users-organizations",
+      "tags": [
+        "organizations",
+        "components",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "Component Reference",
+      "url": "https://clerk.com/docs/electron/reference/components/overview.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "components",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`<SignInButton>` component",
+      "url": "https://clerk.com/docs/electron/reference/components/unstyled/sign-in-button.md",
+      "primaryCategory": "auth-sessions",
+      "tags": [
+        "authentication",
+        "components",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`<SignOutButton>` component",
+      "url": "https://clerk.com/docs/electron/reference/components/unstyled/sign-out-button.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "components",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`<SignUpButton>` component",
+      "url": "https://clerk.com/docs/electron/reference/components/unstyled/sign-up-button.md",
+      "primaryCategory": "auth-sessions",
+      "tags": [
+        "authentication",
+        "components",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`<UserAvatar />` component",
+      "url": "https://clerk.com/docs/electron/reference/components/user/user-avatar.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "components",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`<UserButton />` component",
+      "url": "https://clerk.com/docs/electron/reference/components/user/user-button.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "components",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`<UserProfile />` component",
+      "url": "https://clerk.com/docs/electron/reference/components/user/user-profile.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "components",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`<UNSAFE_PortalProvider>` component",
+      "url": "https://clerk.com/docs/electron/reference/components/utilities/portal-provider.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "components",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`createClerkBridge()`",
+      "url": "https://clerk.com/docs/electron/reference/create-clerk-bridge.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`exposeClerkBridge()`",
+      "url": "https://clerk.com/docs/electron/reference/expose-clerk-bridge.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "Hooks Reference",
+      "url": "https://clerk.com/docs/electron/reference/hooks/overview.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`useAPIKeys()`",
+      "url": "https://clerk.com/docs/electron/reference/hooks/use-api-keys.md",
+      "primaryCategory": "auth-sessions",
+      "tags": [
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`useAuth()`",
+      "url": "https://clerk.com/docs/electron/reference/hooks/use-auth.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "authentication",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`useClerk()`",
+      "url": "https://clerk.com/docs/electron/reference/hooks/use-clerk.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`useOrganizationCreationDefaults()`",
+      "url": "https://clerk.com/docs/electron/reference/hooks/use-organization-creation-defaults.md",
+      "primaryCategory": "users-organizations",
+      "tags": [
+        "organizations",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`useOrganizationList()`",
+      "url": "https://clerk.com/docs/electron/reference/hooks/use-organization-list.md",
+      "primaryCategory": "users-organizations",
+      "tags": [
+        "organizations",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`useOrganization()`",
+      "url": "https://clerk.com/docs/electron/reference/hooks/use-organization.md",
+      "primaryCategory": "users-organizations",
+      "tags": [
+        "organizations",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`useReverification()`",
+      "url": "https://clerk.com/docs/electron/reference/hooks/use-reverification.md",
+      "primaryCategory": "security",
+      "tags": [
+        "security",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`useSessionList()`",
+      "url": "https://clerk.com/docs/electron/reference/hooks/use-session-list.md",
+      "primaryCategory": "auth-sessions",
+      "tags": [
+        "sessions",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`useSession()`",
+      "url": "https://clerk.com/docs/electron/reference/hooks/use-session.md",
+      "primaryCategory": "auth-sessions",
+      "tags": [
+        "sessions",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`useSignIn()`",
+      "url": "https://clerk.com/docs/electron/reference/hooks/use-sign-in.md",
+      "primaryCategory": "auth-sessions",
+      "tags": [
+        "authentication",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`useSignUp()`",
+      "url": "https://clerk.com/docs/electron/reference/hooks/use-sign-up.md",
+      "primaryCategory": "auth-sessions",
+      "tags": [
+        "authentication",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`useUser()`",
+      "url": "https://clerk.com/docs/electron/reference/hooks/use-user.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`useWaitlist()`",
+      "url": "https://clerk.com/docs/electron/reference/hooks/use-waitlist.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`APIKeys` object",
+      "url": "https://clerk.com/docs/electron/reference/objects/api-keys.md",
+      "primaryCategory": "auth-sessions",
+      "tags": [
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`Clerk` class",
+      "url": "https://clerk.com/docs/electron/reference/objects/clerk.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`Client` object",
+      "url": "https://clerk.com/docs/electron/reference/objects/client.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`Organization` object",
+      "url": "https://clerk.com/docs/electron/reference/objects/organization.md",
+      "primaryCategory": "users-organizations",
+      "tags": [
+        "organizations",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "Key Clerk objects",
+      "url": "https://clerk.com/docs/electron/reference/objects/overview.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`Session` object",
+      "url": "https://clerk.com/docs/electron/reference/objects/session.md",
+      "primaryCategory": "auth-sessions",
+      "tags": [
+        "sessions",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`SignInFuture` object",
+      "url": "https://clerk.com/docs/electron/reference/objects/sign-in-future.md",
+      "primaryCategory": "auth-sessions",
+      "tags": [
+        "authentication",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`SignIn` object",
+      "url": "https://clerk.com/docs/electron/reference/objects/sign-in.md",
+      "primaryCategory": "auth-sessions",
+      "tags": [
+        "authentication",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`SignUpFuture` object",
+      "url": "https://clerk.com/docs/electron/reference/objects/sign-up-future.md",
+      "primaryCategory": "auth-sessions",
+      "tags": [
+        "authentication",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`SignUp` object",
+      "url": "https://clerk.com/docs/electron/reference/objects/sign-up.md",
+      "primaryCategory": "auth-sessions",
+      "tags": [
+        "authentication",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`User` object",
+      "url": "https://clerk.com/docs/electron/reference/objects/user.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "Clerk Electron SDK",
+      "url": "https://clerk.com/docs/electron/reference/overview.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "Configure passkeys for Electron",
+      "url": "https://clerk.com/docs/electron/reference/passkeys.md",
+      "primaryCategory": "auth-sessions",
+      "tags": [
+        "authentication",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`storage()`",
+      "url": "https://clerk.com/docs/electron/reference/storage.md",
+      "primaryCategory": "concepts-components",
+      "tags": [
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`APIKeyResource`",
+      "url": "https://clerk.com/docs/electron/reference/types/api-key-resource.md",
+      "primaryCategory": "auth-sessions",
+      "tags": [
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`BackupCodeResource`",
+      "url": "https://clerk.com/docs/electron/reference/types/backup-code-resource.md",
+      "primaryCategory": "sdk-api",
+      "tags": [
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`ClerkAPIError`",
+      "url": "https://clerk.com/docs/electron/reference/types/clerk-api-error.md",
+      "primaryCategory": "operations",
+      "tags": [
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`ClerkAPIResponseError`",
+      "url": "https://clerk.com/docs/electron/reference/types/clerk-api-response-error.md",
+      "primaryCategory": "operations",
+      "tags": [
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`ClerkError`",
+      "url": "https://clerk.com/docs/electron/reference/types/clerk-error.md",
+      "primaryCategory": "operations",
+      "tags": [
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`ClerkPaginatedResponse`",
+      "url": "https://clerk.com/docs/electron/reference/types/clerk-paginated-response.md",
+      "primaryCategory": "sdk-api",
+      "tags": [
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`CustomMenuItem`",
+      "url": "https://clerk.com/docs/electron/reference/types/custom-menu-item.md",
+      "primaryCategory": "sdk-api",
+      "tags": [
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`CustomPage`",
+      "url": "https://clerk.com/docs/electron/reference/types/custom-page.md",
+      "primaryCategory": "sdk-api",
+      "tags": [
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`DeletedObjectResource`",
+      "url": "https://clerk.com/docs/electron/reference/types/deleted-object-resource.md",
+      "primaryCategory": "sdk-api",
+      "tags": [
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`EmailAddress`",
+      "url": "https://clerk.com/docs/electron/reference/types/email-address.md",
+      "primaryCategory": "sdk-api",
+      "tags": [
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`EnterpriseAccountConnection`",
+      "url": "https://clerk.com/docs/electron/reference/types/enterprise-account-connection.md",
+      "primaryCategory": "sdk-api",
+      "tags": [
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`EnterpriseAccount`",
+      "url": "https://clerk.com/docs/electron/reference/types/enterprise-account.md",
+      "primaryCategory": "sdk-api",
+      "tags": [
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`Errors`",
+      "url": "https://clerk.com/docs/electron/reference/types/errors.md",
+      "primaryCategory": "operations",
+      "tags": [
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`ExternalAccount`",
+      "url": "https://clerk.com/docs/electron/reference/types/external-account.md",
+      "primaryCategory": "sdk-api",
+      "tags": [
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`FeatureResource`",
+      "url": "https://clerk.com/docs/electron/reference/types/feature-resource.md",
+      "primaryCategory": "sdk-api",
+      "tags": [
+        "billing",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`HandleOAuthCallbackParams`",
+      "url": "https://clerk.com/docs/electron/reference/types/handle-o-auth-callback-params.md",
+      "primaryCategory": "sdk-api",
+      "tags": [
+        "authentication",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`IdentificationLinkResource`",
+      "url": "https://clerk.com/docs/electron/reference/types/identification-link-resource.md",
+      "primaryCategory": "sdk-api",
+      "tags": [
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`ImageResource`",
+      "url": "https://clerk.com/docs/electron/reference/types/image-resource.md",
+      "primaryCategory": "sdk-api",
+      "tags": [
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`LastAuthenticationStrategy`",
+      "url": "https://clerk.com/docs/electron/reference/types/last-authentication-strategy.md",
+      "primaryCategory": "auth-sessions",
+      "tags": [
+        "authentication",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "Metadata",
+      "url": "https://clerk.com/docs/electron/reference/types/metadata.md",
+      "primaryCategory": "sdk-api",
+      "tags": [
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`OAuthApplication`",
+      "url": "https://clerk.com/docs/electron/reference/types/oauth-application.md",
+      "primaryCategory": "integrations-databases",
+      "tags": [
+        "authentication",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`OAuthConsentInfo`",
+      "url": "https://clerk.com/docs/electron/reference/types/oauth-consent-info.md",
+      "primaryCategory": "sdk-api",
+      "tags": [
+        "authentication",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`OAuthConsentScope`",
+      "url": "https://clerk.com/docs/electron/reference/types/oauth-consent-scope.md",
+      "primaryCategory": "sdk-api",
+      "tags": [
+        "authentication",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`OrganizationCreationDefaults`",
+      "url": "https://clerk.com/docs/electron/reference/types/organization-creation-defaults.md",
+      "primaryCategory": "users-organizations",
+      "tags": [
+        "organizations",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`OrganizationCustomPermissionKey`",
+      "url": "https://clerk.com/docs/electron/reference/types/organization-custom-permission-key.md",
+      "primaryCategory": "users-organizations",
+      "tags": [
+        "organizations",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`OrganizationCustomRoleKey`",
+      "url": "https://clerk.com/docs/electron/reference/types/organization-custom-role-key.md",
+      "primaryCategory": "users-organizations",
+      "tags": [
+        "organizations",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`OrganizationDomainResource`",
+      "url": "https://clerk.com/docs/electron/reference/types/organization-domain-resource.md",
+      "primaryCategory": "users-organizations",
+      "tags": [
+        "organizations",
+        "deployment",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`OrganizationDomainsBulkOwnershipVerificationResource`",
+      "url": "https://clerk.com/docs/electron/reference/types/organization-domains-bulk-ownership-verification-resource.md",
+      "primaryCategory": "users-organizations",
+      "tags": [
+        "organizations",
+        "deployment",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`OrganizationInvitation`",
+      "url": "https://clerk.com/docs/electron/reference/types/organization-invitation.md",
+      "primaryCategory": "users-organizations",
+      "tags": [
+        "organizations",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`OrganizationMembershipRequest`",
+      "url": "https://clerk.com/docs/electron/reference/types/organization-membership-request.md",
+      "primaryCategory": "users-organizations",
+      "tags": [
+        "organizations",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`OrganizationMembership`",
+      "url": "https://clerk.com/docs/electron/reference/types/organization-membership.md",
+      "primaryCategory": "users-organizations",
+      "tags": [
+        "organizations",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`OrganizationSuggestion`",
+      "url": "https://clerk.com/docs/electron/reference/types/organization-suggestion.md",
+      "primaryCategory": "users-organizations",
+      "tags": [
+        "organizations",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "Clerk types",
+      "url": "https://clerk.com/docs/electron/reference/types/overview.md",
+      "primaryCategory": "sdk-api",
+      "tags": [
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`PasskeyResource`",
+      "url": "https://clerk.com/docs/electron/reference/types/passkey-resource.md",
+      "primaryCategory": "auth-sessions",
+      "tags": [
+        "authentication",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`PermissionResource`",
+      "url": "https://clerk.com/docs/electron/reference/types/permission-resource.md",
+      "primaryCategory": "users-organizations",
+      "tags": [
+        "organizations",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`PhoneNumber`",
+      "url": "https://clerk.com/docs/electron/reference/types/phone-number.md",
+      "primaryCategory": "sdk-api",
+      "tags": [
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`ProtectCheckResource`",
+      "url": "https://clerk.com/docs/electron/reference/types/protect-check-resource.md",
+      "primaryCategory": "security",
+      "tags": [
+        "security",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`PublicUserData`",
+      "url": "https://clerk.com/docs/electron/reference/types/public-user-data.md",
+      "primaryCategory": "sdk-api",
+      "tags": [
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`RedirectOptions`",
+      "url": "https://clerk.com/docs/electron/reference/types/redirect-options.md",
+      "primaryCategory": "operations",
+      "tags": [
+        "deployment",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`RoleResource`",
+      "url": "https://clerk.com/docs/electron/reference/types/role-resource.md",
+      "primaryCategory": "users-organizations",
+      "tags": [
+        "organizations",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`SessionStatus`",
+      "url": "https://clerk.com/docs/electron/reference/types/session-status.md",
+      "primaryCategory": "auth-sessions",
+      "tags": [
+        "sessions",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`SessionTask`",
+      "url": "https://clerk.com/docs/electron/reference/types/session-task.md",
+      "primaryCategory": "auth-sessions",
+      "tags": [
+        "sessions",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`SessionVerification`",
+      "url": "https://clerk.com/docs/electron/reference/types/session-verification.md",
+      "primaryCategory": "auth-sessions",
+      "tags": [
+        "sessions",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`SessionWithActivities`",
+      "url": "https://clerk.com/docs/electron/reference/types/session-with-activities.md",
+      "primaryCategory": "auth-sessions",
+      "tags": [
+        "sessions",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`SetActiveParams`",
+      "url": "https://clerk.com/docs/electron/reference/types/set-active-params.md",
+      "primaryCategory": "sdk-api",
+      "tags": [
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`SignInFirstFactor`",
+      "url": "https://clerk.com/docs/electron/reference/types/sign-in-first-factor.md",
+      "primaryCategory": "auth-sessions",
+      "tags": [
+        "authentication",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`SignInInitialValues`",
+      "url": "https://clerk.com/docs/electron/reference/types/sign-in-initial-values.md",
+      "primaryCategory": "auth-sessions",
+      "tags": [
+        "authentication",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`SignInRedirectOptions`",
+      "url": "https://clerk.com/docs/electron/reference/types/sign-in-redirect-options.md",
+      "primaryCategory": "auth-sessions",
+      "tags": [
+        "authentication",
+        "deployment",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`SignInSecondFactor`",
+      "url": "https://clerk.com/docs/electron/reference/types/sign-in-second-factor.md",
+      "primaryCategory": "auth-sessions",
+      "tags": [
+        "authentication",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`SignUpInitialValues`",
+      "url": "https://clerk.com/docs/electron/reference/types/sign-up-initial-values.md",
+      "primaryCategory": "auth-sessions",
+      "tags": [
+        "authentication",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`SignUpRedirectOptions`",
+      "url": "https://clerk.com/docs/electron/reference/types/sign-up-redirect-options.md",
+      "primaryCategory": "auth-sessions",
+      "tags": [
+        "authentication",
+        "deployment",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`SignUpVerificationResource`",
+      "url": "https://clerk.com/docs/electron/reference/types/sign-up-verification-resource.md",
+      "primaryCategory": "auth-sessions",
+      "tags": [
+        "authentication",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`SignedInSessionResource`",
+      "url": "https://clerk.com/docs/electron/reference/types/signed-in-session-resource.md",
+      "primaryCategory": "auth-sessions",
+      "tags": [
+        "sessions",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`SSOBypassAllowlistResource`",
+      "url": "https://clerk.com/docs/electron/reference/types/sso-bypass-allowlist-resource.md",
+      "primaryCategory": "sdk-api",
+      "tags": [
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "SSO Types",
+      "url": "https://clerk.com/docs/electron/reference/types/sso.md",
+      "primaryCategory": "sdk-api",
+      "tags": [
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`TOTPResource`",
+      "url": "https://clerk.com/docs/electron/reference/types/totp-resource.md",
+      "primaryCategory": "sdk-api",
+      "tags": [
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`UserOrganizationInvitation`",
+      "url": "https://clerk.com/docs/electron/reference/types/user-organization-invitation.md",
+      "primaryCategory": "users-organizations",
+      "tags": [
+        "organizations",
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`VerificationResource`",
+      "url": "https://clerk.com/docs/electron/reference/types/verification-resource.md",
+      "primaryCategory": "sdk-api",
+      "tags": [
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`Waitlist`",
+      "url": "https://clerk.com/docs/electron/reference/types/waitlist.md",
+      "primaryCategory": "sdk-api",
+      "tags": [
+        "api"
+      ],
+      "framework": "Electron",
+      "kind": "reference",
       "deprecated": false
     },
     {
@@ -4776,7 +6422,7 @@
     {
       "title": "Read user data",
       "url": "https://clerk.com/docs/expo/guides/users/reading.md",
-      "primaryCategory": "concepts-components",
+      "primaryCategory": "users-organizations",
       "tags": [],
       "framework": "Expo",
       "kind": "guide",
@@ -6589,6 +8235,17 @@
       "deprecated": false
     },
     {
+      "title": "`SSOBypassAllowlistResource`",
+      "url": "https://clerk.com/docs/expo/reference/types/sso-bypass-allowlist-resource.md",
+      "primaryCategory": "sdk-api",
+      "tags": [
+        "api"
+      ],
+      "framework": "Expo",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "SSO Types",
       "url": "https://clerk.com/docs/expo/reference/types/sso.md",
       "primaryCategory": "sdk-api",
@@ -7855,6 +9512,17 @@
       "deprecated": false
     },
     {
+      "title": "Self-serve Directory Sync",
+      "url": "https://clerk.com/docs/guides/configure/auth-strategies/enterprise-connections/self-serve-directory-sync.md",
+      "primaryCategory": "users-organizations",
+      "tags": [
+        "authentication"
+      ],
+      "framework": null,
+      "kind": "guide",
+      "deprecated": false
+    },
+    {
       "title": "Self-serve SSO",
       "url": "https://clerk.com/docs/guides/configure/auth-strategies/enterprise-connections/self-serve-sso.md",
       "primaryCategory": "users-organizations",
@@ -7866,9 +9534,31 @@
       "deprecated": false
     },
     {
+      "title": "SSO bypass",
+      "url": "https://clerk.com/docs/guides/configure/auth-strategies/enterprise-connections/sso-bypass.md",
+      "primaryCategory": "users-organizations",
+      "tags": [
+        "authentication"
+      ],
+      "framework": null,
+      "kind": "guide",
+      "deprecated": false
+    },
+    {
+      "title": "Configure OAuth and SSO deep links for Electron",
+      "url": "https://clerk.com/docs/guides/configure/auth-strategies/oauth-deep-links.md",
+      "primaryCategory": "auth-sessions",
+      "tags": [
+        "authentication"
+      ],
+      "framework": null,
+      "kind": "guide",
+      "deprecated": false
+    },
+    {
       "title": "Manage OAuth clients with Client ID Metadata Documents",
       "url": "https://clerk.com/docs/guides/configure/auth-strategies/oauth/client-id-metadata-documents.md",
-      "primaryCategory": "concepts-components",
+      "primaryCategory": "integrations-databases",
       "tags": [
         "authentication"
       ],
@@ -7879,7 +9569,7 @@
     {
       "title": "Use OAuth Device Authorization Grant",
       "url": "https://clerk.com/docs/guides/configure/auth-strategies/oauth/device-authorization-grant.md",
-      "primaryCategory": "security",
+      "primaryCategory": "integrations-databases",
       "tags": [
         "authentication",
         "security"
@@ -7891,7 +9581,7 @@
     {
       "title": "How Clerk implements OAuth",
       "url": "https://clerk.com/docs/guides/configure/auth-strategies/oauth/how-clerk-implements-oauth.md",
-      "primaryCategory": "concepts-components",
+      "primaryCategory": "integrations-databases",
       "tags": [
         "authentication"
       ],
@@ -7902,7 +9592,7 @@
     {
       "title": "OAuth and OIDC overview",
       "url": "https://clerk.com/docs/guides/configure/auth-strategies/oauth/overview.md",
-      "primaryCategory": "concepts-components",
+      "primaryCategory": "integrations-databases",
       "tags": [
         "authentication"
       ],
@@ -7913,7 +9603,7 @@
     {
       "title": "Use OAuth for scoped access",
       "url": "https://clerk.com/docs/guides/configure/auth-strategies/oauth/scoped-access.md",
-      "primaryCategory": "concepts-components",
+      "primaryCategory": "integrations-databases",
       "tags": [
         "authentication"
       ],
@@ -7924,7 +9614,7 @@
     {
       "title": "Use OAuth for Single Sign-On (SSO)",
       "url": "https://clerk.com/docs/guides/configure/auth-strategies/oauth/single-sign-on.md",
-      "primaryCategory": "concepts-components",
+      "primaryCategory": "integrations-databases",
       "tags": [
         "authentication"
       ],
@@ -7935,7 +9625,7 @@
     {
       "title": "Verify OAuth tokens with Clerk",
       "url": "https://clerk.com/docs/guides/configure/auth-strategies/oauth/verify-oauth-tokens.md",
-      "primaryCategory": "auth-sessions",
+      "primaryCategory": "integrations-databases",
       "tags": [
         "authentication",
         "sessions"
@@ -7958,6 +9648,17 @@
     {
       "title": "Account linking for OAuth",
       "url": "https://clerk.com/docs/guides/configure/auth-strategies/social-connections/account-linking.md",
+      "primaryCategory": "auth-sessions",
+      "tags": [
+        "authentication"
+      ],
+      "framework": null,
+      "kind": "guide",
+      "deprecated": false
+    },
+    {
+      "title": "Add AgentID as a social connection",
+      "url": "https://clerk.com/docs/guides/configure/auth-strategies/social-connections/agentid.md",
       "primaryCategory": "auth-sessions",
       "tags": [
         "authentication"
@@ -8536,6 +10237,15 @@
     {
       "title": "Application Logs",
       "url": "https://clerk.com/docs/guides/dashboard/logs/application-logs.md",
+      "primaryCategory": "operations",
+      "tags": [],
+      "framework": null,
+      "kind": "guide",
+      "deprecated": false
+    },
+    {
+      "title": "Email Logs",
+      "url": "https://clerk.com/docs/guides/dashboard/logs/email-logs.md",
       "primaryCategory": "operations",
       "tags": [],
       "framework": null,
@@ -9186,6 +10896,17 @@
       "deprecated": false
     },
     {
+      "title": "Deploy an Electron app to production",
+      "url": "https://clerk.com/docs/guides/development/deployment/electron.md",
+      "primaryCategory": "operations",
+      "tags": [
+        "deployment"
+      ],
+      "framework": null,
+      "kind": "guide",
+      "deprecated": false
+    },
+    {
       "title": "Deploy an Expo app to production",
       "url": "https://clerk.com/docs/guides/development/deployment/expo.md",
       "primaryCategory": "operations",
@@ -9265,6 +10986,17 @@
       "url": "https://clerk.com/docs/guides/development/errors/overview.md",
       "primaryCategory": "operations",
       "tags": [],
+      "framework": null,
+      "kind": "troubleshooting",
+      "deprecated": false
+    },
+    {
+      "title": "Platform API errors",
+      "url": "https://clerk.com/docs/guides/development/errors/platform-api.md",
+      "primaryCategory": "operations",
+      "tags": [
+        "api"
+      ],
       "framework": null,
       "kind": "troubleshooting",
       "deprecated": false
@@ -10598,7 +12330,7 @@
     {
       "title": "Rotate your Clerk API keys",
       "url": "https://clerk.com/docs/guides/secure/rotate-api-keys.md",
-      "primaryCategory": "auth-sessions",
+      "primaryCategory": "security",
       "tags": [
         "api"
       ],
@@ -10718,7 +12450,7 @@
     {
       "title": "User metadata",
       "url": "https://clerk.com/docs/guides/users/extending.md",
-      "primaryCategory": "concepts-components",
+      "primaryCategory": "users-organizations",
       "tags": [],
       "framework": null,
       "kind": "guide",
@@ -10727,7 +12459,7 @@
     {
       "title": "User impersonation",
       "url": "https://clerk.com/docs/guides/users/impersonation.md",
-      "primaryCategory": "concepts-components",
+      "primaryCategory": "users-organizations",
       "tags": [],
       "framework": null,
       "kind": "guide",
@@ -10736,7 +12468,7 @@
     {
       "title": "Invite users to your application",
       "url": "https://clerk.com/docs/guides/users/inviting.md",
-      "primaryCategory": "concepts-components",
+      "primaryCategory": "users-organizations",
       "tags": [],
       "framework": null,
       "kind": "guide",
@@ -10745,7 +12477,7 @@
     {
       "title": "Users",
       "url": "https://clerk.com/docs/guides/users/managing.md",
-      "primaryCategory": "concepts-components",
+      "primaryCategory": "users-organizations",
       "tags": [],
       "framework": null,
       "kind": "guide",
@@ -11061,7 +12793,7 @@
     {
       "title": "Set up a custom OAuth consent page",
       "url": "https://clerk.com/docs/js-frontend/guides/configure/auth-strategies/oauth/custom-consent-page.md",
-      "primaryCategory": "concepts-components",
+      "primaryCategory": "integrations-databases",
       "tags": [
         "authentication"
       ],
@@ -12727,6 +14459,17 @@
       "deprecated": false
     },
     {
+      "title": "`SSOBypassAllowlistResource`",
+      "url": "https://clerk.com/docs/js-frontend/reference/types/sso-bypass-allowlist-resource.md",
+      "primaryCategory": "sdk-api",
+      "tags": [
+        "api"
+      ],
+      "framework": "JavaScript",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "SSO Types",
       "url": "https://clerk.com/docs/js-frontend/reference/types/sso.md",
       "primaryCategory": "sdk-api",
@@ -12845,7 +14588,7 @@
     {
       "title": "Set up a custom OAuth consent page",
       "url": "https://clerk.com/docs/nextjs/guides/configure/auth-strategies/oauth/custom-consent-page.md",
-      "primaryCategory": "concepts-components",
+      "primaryCategory": "integrations-databases",
       "tags": [
         "authentication"
       ],
@@ -13208,7 +14951,7 @@
     {
       "title": "Read user data",
       "url": "https://clerk.com/docs/nextjs/guides/users/reading.md",
-      "primaryCategory": "concepts-components",
+      "primaryCategory": "users-organizations",
       "tags": [],
       "framework": "Next.js",
       "kind": "guide",
@@ -15318,6 +17061,17 @@
       "deprecated": false
     },
     {
+      "title": "`SSOBypassAllowlistResource`",
+      "url": "https://clerk.com/docs/nextjs/reference/types/sso-bypass-allowlist-resource.md",
+      "primaryCategory": "sdk-api",
+      "tags": [
+        "api"
+      ],
+      "framework": "Next.js",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "SSO Types",
       "url": "https://clerk.com/docs/nextjs/reference/types/sso.md",
       "primaryCategory": "sdk-api",
@@ -15418,7 +17172,7 @@
     {
       "title": "Set up a custom OAuth consent page",
       "url": "https://clerk.com/docs/nuxt/guides/configure/auth-strategies/oauth/custom-consent-page.md",
-      "primaryCategory": "concepts-components",
+      "primaryCategory": "integrations-databases",
       "tags": [
         "authentication"
       ],
@@ -15732,7 +17486,7 @@
     {
       "title": "Read user data",
       "url": "https://clerk.com/docs/nuxt/guides/users/reading.md",
-      "primaryCategory": "concepts-components",
+      "primaryCategory": "users-organizations",
       "tags": [],
       "framework": "Nuxt",
       "kind": "guide",
@@ -17380,6 +19134,17 @@
       "deprecated": false
     },
     {
+      "title": "`SSOBypassAllowlistResource`",
+      "url": "https://clerk.com/docs/nuxt/reference/types/sso-bypass-allowlist-resource.md",
+      "primaryCategory": "sdk-api",
+      "tags": [
+        "api"
+      ],
+      "framework": "Nuxt",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "SSO Types",
       "url": "https://clerk.com/docs/nuxt/reference/types/sso.md",
       "primaryCategory": "sdk-api",
@@ -17491,7 +19256,7 @@
     {
       "title": "Set up a custom OAuth consent page",
       "url": "https://clerk.com/docs/react-router/guides/configure/auth-strategies/oauth/custom-consent-page.md",
-      "primaryCategory": "concepts-components",
+      "primaryCategory": "integrations-databases",
       "tags": [
         "authentication"
       ],
@@ -17814,7 +19579,7 @@
     {
       "title": "Read user data",
       "url": "https://clerk.com/docs/react-router/guides/users/reading.md",
-      "primaryCategory": "concepts-components",
+      "primaryCategory": "users-organizations",
       "tags": [],
       "framework": "React Router",
       "kind": "guide",
@@ -19694,6 +21459,17 @@
       "deprecated": false
     },
     {
+      "title": "`SSOBypassAllowlistResource`",
+      "url": "https://clerk.com/docs/react-router/reference/types/sso-bypass-allowlist-resource.md",
+      "primaryCategory": "sdk-api",
+      "tags": [
+        "api"
+      ],
+      "framework": "React Router",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "SSO Types",
       "url": "https://clerk.com/docs/react-router/reference/types/sso.md",
       "primaryCategory": "sdk-api",
@@ -19794,7 +21570,7 @@
     {
       "title": "Set up a custom OAuth consent page",
       "url": "https://clerk.com/docs/react/guides/configure/auth-strategies/oauth/custom-consent-page.md",
-      "primaryCategory": "concepts-components",
+      "primaryCategory": "integrations-databases",
       "tags": [
         "authentication"
       ],
@@ -20131,7 +21907,7 @@
     {
       "title": "Read user data",
       "url": "https://clerk.com/docs/react/guides/users/reading.md",
-      "primaryCategory": "concepts-components",
+      "primaryCategory": "users-organizations",
       "tags": [],
       "framework": "React",
       "kind": "guide",
@@ -22105,6 +23881,17 @@
       "deprecated": false
     },
     {
+      "title": "`SSOBypassAllowlistResource`",
+      "url": "https://clerk.com/docs/react/reference/types/sso-bypass-allowlist-resource.md",
+      "primaryCategory": "sdk-api",
+      "tags": [
+        "api"
+      ],
+      "framework": "React",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "SSO Types",
       "url": "https://clerk.com/docs/react/reference/types/sso.md",
       "primaryCategory": "sdk-api",
@@ -22668,6 +24455,18 @@
     {
       "title": "`createInvitation()`",
       "url": "https://clerk.com/docs/reference/backend/invitations/create-invitation.md",
+      "primaryCategory": "users-organizations",
+      "tags": [
+        "organizations",
+        "api"
+      ],
+      "framework": null,
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`deleteInvitation()`",
+      "url": "https://clerk.com/docs/reference/backend/invitations/delete-invitation.md",
       "primaryCategory": "users-organizations",
       "tags": [
         "organizations",
@@ -23829,6 +25628,17 @@
       "deprecated": false
     },
     {
+      "title": "The Backend `SamlConnectionIdpCertificate` object",
+      "url": "https://clerk.com/docs/reference/backend/types/backend-saml-connection-idp-certificate.md",
+      "primaryCategory": "sdk-api",
+      "tags": [
+        "api"
+      ],
+      "framework": null,
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "The Backend `SamlConnection` object",
       "url": "https://clerk.com/docs/reference/backend/types/backend-saml-connection.md",
       "primaryCategory": "sdk-api",
@@ -24781,7 +26591,7 @@
     {
       "title": "Set up a custom OAuth consent page",
       "url": "https://clerk.com/docs/tanstack-react-start/guides/configure/auth-strategies/oauth/custom-consent-page.md",
-      "primaryCategory": "concepts-components",
+      "primaryCategory": "integrations-databases",
       "tags": [
         "authentication"
       ],
@@ -25095,7 +26905,7 @@
     {
       "title": "Read user data",
       "url": "https://clerk.com/docs/tanstack-react-start/guides/users/reading.md",
-      "primaryCategory": "concepts-components",
+      "primaryCategory": "users-organizations",
       "tags": [],
       "framework": "TanStack React Start",
       "kind": "guide",
@@ -27002,6 +28812,17 @@
       "deprecated": false
     },
     {
+      "title": "`SSOBypassAllowlistResource`",
+      "url": "https://clerk.com/docs/tanstack-react-start/reference/types/sso-bypass-allowlist-resource.md",
+      "primaryCategory": "sdk-api",
+      "tags": [
+        "api"
+      ],
+      "framework": "TanStack React Start",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
       "title": "SSO Types",
       "url": "https://clerk.com/docs/tanstack-react-start/reference/types/sso.md",
       "primaryCategory": "sdk-api",
@@ -27069,6 +28890,15 @@
       "deprecated": false
     },
     {
+      "title": "Clerk templates and examples",
+      "url": "https://clerk.com/docs/templates.md",
+      "primaryCategory": "quickstarts",
+      "tags": [],
+      "framework": null,
+      "kind": "guide",
+      "deprecated": false
+    },
+    {
       "title": "Vue Quickstart",
       "url": "https://clerk.com/docs/vue/getting-started/quickstart.md",
       "primaryCategory": "quickstarts",
@@ -27102,7 +28932,7 @@
     {
       "title": "Set up a custom OAuth consent page",
       "url": "https://clerk.com/docs/vue/guides/configure/auth-strategies/oauth/custom-consent-page.md",
-      "primaryCategory": "concepts-components",
+      "primaryCategory": "integrations-databases",
       "tags": [
         "authentication"
       ],
@@ -29010,6 +30840,17 @@
       "primaryCategory": "auth-sessions",
       "tags": [
         "sessions",
+        "api"
+      ],
+      "framework": "Vue",
+      "kind": "reference",
+      "deprecated": false
+    },
+    {
+      "title": "`SSOBypassAllowlistResource`",
+      "url": "https://clerk.com/docs/vue/reference/types/sso-bypass-allowlist-resource.md",
+      "primaryCategory": "sdk-api",
+      "tags": [
         "api"
       ],
       "framework": "Vue",

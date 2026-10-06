@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "dependencies": {
+    "@clerk/electron": "0.0.51",
+    "electron-store": "8.2.0",
+    "react": "19.1.4",
+    "react-dom": "19.1.4"
+  },
+  "devDependencies": {
+    "electron": "38.2.0"
+  }
+}

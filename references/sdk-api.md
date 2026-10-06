@@ -13,7 +13,7 @@ Use this reference for exact packages, imports, helpers, methods, types, Backend
 - Treat default-branch source as discovery evidence, not proof that a symbol exists in a released package.
 - Use the complete source index when an exact method, type, object, or resource is not listed in this focused reference.
 
-## Official SDK Repositories
+## Official Clerk Repositories
 
 | Repository | Default branch | License |
 | --- | --- | --- |
@@ -40,6 +40,7 @@ Use this reference for exact packages, imports, helpers, methods, types, Backend
 | `@clerk/electron-passkeys` | [`packages/electron-passkeys`](https://github.com/clerk/javascript/tree/main/packages/electron-passkeys) |
 | `@clerk/eslint-plugin` | [`packages/eslint-plugin`](https://github.com/clerk/javascript/tree/main/packages/eslint-plugin) |
 | `@clerk/expo` | [`packages/expo`](https://github.com/clerk/javascript/tree/main/packages/expo) |
+| `@clerk/expo-biometrics` | [`packages/expo-biometrics`](https://github.com/clerk/javascript/tree/main/packages/expo-biometrics) |
 | `@clerk/expo-google-signin` | [`packages/expo-google-signin`](https://github.com/clerk/javascript/tree/main/packages/expo-google-signin) |
 | `@clerk/expo-passkeys` | [`packages/expo-passkeys`](https://github.com/clerk/javascript/tree/main/packages/expo-passkeys) |
 | `@clerk/express` | [`packages/express`](https://github.com/clerk/javascript/tree/main/packages/express) |
@@ -60,97 +61,74 @@ Use this reference for exact packages, imports, helpers, methods, types, Backend
 
 ## Selected Official Sources
 
-This focused list selects 60 of 312 current documents in this category. Search [source-index.json](source-index.json) when the exact method, object, framework page, or resource is not listed.
+This focused list selects 60 of 98 pages in this category. A page that exists under several framework roots counts once. Search [source-index.json](source-index.json) when the exact method, object, framework page, or resource is not listed.
 
-### Cross-framework
+### General Guides and References
 
 - [`AgentTask`](https://clerk.com/docs/reference/types/agent-task.md) (reference, api)
 - [`authenticateRequest()`](https://clerk.com/docs/reference/backend/authenticate-request.md) (reference, authentication, api)
 - [`banUser()`](https://clerk.com/docs/reference/backend/user/ban-user.md) (reference, api)
 - [`clerkClient`](https://clerk.com/docs/reference/backend/overview.md) (reference, api)
+- [`create()` (agent-tasks)](https://clerk.com/docs/reference/backend/agent-tasks/create.md) (reference, api)
+- [`create()` (waitlist-entries)](https://clerk.com/docs/reference/backend/waitlist-entries/create.md) (reference, api)
+- [`createAllowlistIdentifier()`](https://clerk.com/docs/reference/backend/allowlist/create-allowlist-identifier.md) (reference, api)
+- [`createBulk()`](https://clerk.com/docs/reference/backend/waitlist-entries/create-bulk.md) (reference, api)
+- [`createEmailAddress()`](https://clerk.com/docs/reference/backend/email-addresses/create-email-address.md) (reference, api)
+- [`createPhoneNumber()`](https://clerk.com/docs/reference/backend/phone-numbers/create-phone-number.md) (reference, api)
+- [`createSamlConnection()`](https://clerk.com/docs/reference/backend/saml-connections/create-saml-connection.md) (reference, api)
+- [`createUser()`](https://clerk.com/docs/reference/backend/user/create-user.md) (reference, api)
+- [`delete()` (waitlist-entries)](https://clerk.com/docs/reference/backend/waitlist-entries/delete.md) (reference, api)
+- [`deleteAllowlistIdentifier()`](https://clerk.com/docs/reference/backend/allowlist/delete-allowlist-identifier.md) (reference, api)
+- [`deleteEmailAddress()`](https://clerk.com/docs/reference/backend/email-addresses/delete-email-address.md) (reference, api)
+- [`deletePhoneNumber()`](https://clerk.com/docs/reference/backend/phone-numbers/delete-phone-number.md) (reference, api)
+- [`deleteSamlConnection()`](https://clerk.com/docs/reference/backend/saml-connections/delete-saml-connection.md) (reference, api)
+- [`Feature`](https://clerk.com/docs/reference/backend/types/feature.md) (reference, billing, api)
+- [`get()` (instance)](https://clerk.com/docs/reference/backend/instance/get.md) (reference, api)
+- [`getAllowlistIdentifierList()`](https://clerk.com/docs/reference/backend/allowlist/get-allowlist-identifier-list.md) (reference, api)
+- [`getClient()`](https://clerk.com/docs/reference/backend/client/get-client.md) (reference, api)
+- [`getClientList()`](https://clerk.com/docs/reference/backend/client/get-client-list.md) (reference, api)
+- [`getEmailAddress()`](https://clerk.com/docs/reference/backend/email-addresses/get-email-address.md) (reference, api)
+- [`getPhoneNumber()`](https://clerk.com/docs/reference/backend/phone-numbers/get-phone-number.md) (reference, api)
+- [`getSamlConnection()`](https://clerk.com/docs/reference/backend/saml-connections/get-saml-connection.md) (reference, api)
+- [`PaginatedResourceResponse`](https://clerk.com/docs/reference/backend/types/paginated-resource-response.md) (reference, api)
+- [`revoke()` (agent-tasks)](https://clerk.com/docs/reference/backend/agent-tasks/revoke.md) (reference, api)
+- [`update()` (instance)](https://clerk.com/docs/reference/backend/instance/update.md) (reference, api)
 - [`verifyClient()`](https://clerk.com/docs/reference/backend/client/verify-client.md) (reference, api)
 - [`verifyTOTP()`](https://clerk.com/docs/reference/backend/user/verify-totp.md) (reference, api)
 - [API Reference](https://clerk.com/docs/reference/api/overview.md) (reference, api)
+- [Auth object](https://clerk.com/docs/reference/backend/types/auth-object.md) (reference, authentication, api)
 - [Component Changelog](https://clerk.com/docs/reference/components/changelog.md) (reference, components, api)
 - [Component Versioning](https://clerk.com/docs/reference/components/versioning.md) (reference, components, api)
 - [SDK References](https://clerk.com/docs/reference/overview.md) (reference, api)
 
-### Astro
+### Shared Across Frameworks
 
-- [`BackupCodeResource`](https://clerk.com/docs/astro/reference/types/backup-code-resource.md) (reference, api)
-- [`ClerkPaginatedResponse`](https://clerk.com/docs/astro/reference/types/clerk-paginated-response.md) (reference, api)
-- [`CustomMenuItem`](https://clerk.com/docs/astro/reference/types/custom-menu-item.md) (reference, api)
-- [`CustomPage`](https://clerk.com/docs/astro/reference/types/custom-page.md) (reference, api)
-- [Clerk types](https://clerk.com/docs/astro/reference/types/overview.md) (reference, api)
+Each page below exists under every framework root named after it. A root is the first path segment after `https://clerk.com/docs/`, such as `nextjs` or `expressjs`. The URL of a page is `https://clerk.com/docs/` followed by its path, with `<framework>` replaced by one of its roots.
 
-### Chrome Extension
+In every reference of this skill, the common roots are `astro`, `chrome-extension`, `electron`, `expo`, `js-frontend`, `nextjs`, `nuxt`, `react-router`, `react`, `tanstack-react-start`, `vue`.
 
-- [`BackupCodeResource`](https://clerk.com/docs/chrome-extension/reference/types/backup-code-resource.md) (reference, api)
-- [`ClerkPaginatedResponse`](https://clerk.com/docs/chrome-extension/reference/types/clerk-paginated-response.md) (reference, api)
-- [`CustomMenuItem`](https://clerk.com/docs/chrome-extension/reference/types/custom-menu-item.md) (reference, api)
-- [`CustomPage`](https://clerk.com/docs/chrome-extension/reference/types/custom-page.md) (reference, api)
-- [Clerk types](https://clerk.com/docs/chrome-extension/reference/types/overview.md) (reference, api)
-
-### Expo
-
-- [`BackupCodeResource`](https://clerk.com/docs/expo/reference/types/backup-code-resource.md) (reference, api)
-- [`ClerkPaginatedResponse`](https://clerk.com/docs/expo/reference/types/clerk-paginated-response.md) (reference, api)
-- [`CustomMenuItem`](https://clerk.com/docs/expo/reference/types/custom-menu-item.md) (reference, api)
-- [`CustomPage`](https://clerk.com/docs/expo/reference/types/custom-page.md) (reference, api)
-- [Clerk types](https://clerk.com/docs/expo/reference/types/overview.md) (reference, api)
-
-### JavaScript
-
-- [`BackupCodeResource`](https://clerk.com/docs/js-frontend/reference/types/backup-code-resource.md) (reference, api)
-- [`ClerkPaginatedResponse`](https://clerk.com/docs/js-frontend/reference/types/clerk-paginated-response.md) (reference, api)
-- [`CustomMenuItem`](https://clerk.com/docs/js-frontend/reference/types/custom-menu-item.md) (reference, api)
-- [`CustomPage`](https://clerk.com/docs/js-frontend/reference/types/custom-page.md) (reference, api)
-- [Clerk types](https://clerk.com/docs/js-frontend/reference/types/overview.md) (reference, api)
-
-### Next.js
-
-- [`BackupCodeResource`](https://clerk.com/docs/nextjs/reference/types/backup-code-resource.md) (reference, api)
-- [`ClerkPaginatedResponse`](https://clerk.com/docs/nextjs/reference/types/clerk-paginated-response.md) (reference, api)
-- [`CustomMenuItem`](https://clerk.com/docs/nextjs/reference/types/custom-menu-item.md) (reference, api)
-- [`CustomPage`](https://clerk.com/docs/nextjs/reference/types/custom-page.md) (reference, api)
-- [Clerk types](https://clerk.com/docs/nextjs/reference/types/overview.md) (reference, api)
-
-### Nuxt
-
-- [`BackupCodeResource`](https://clerk.com/docs/nuxt/reference/types/backup-code-resource.md) (reference, api)
-- [`ClerkPaginatedResponse`](https://clerk.com/docs/nuxt/reference/types/clerk-paginated-response.md) (reference, api)
-- [`CustomMenuItem`](https://clerk.com/docs/nuxt/reference/types/custom-menu-item.md) (reference, api)
-- [`CustomPage`](https://clerk.com/docs/nuxt/reference/types/custom-page.md) (reference, api)
-- [Clerk types](https://clerk.com/docs/nuxt/reference/types/overview.md) (reference, api)
-
-### React
-
-- [`BackupCodeResource`](https://clerk.com/docs/react/reference/types/backup-code-resource.md) (reference, api)
-- [`ClerkPaginatedResponse`](https://clerk.com/docs/react/reference/types/clerk-paginated-response.md) (reference, api)
-- [`CustomMenuItem`](https://clerk.com/docs/react/reference/types/custom-menu-item.md) (reference, api)
-- [`CustomPage`](https://clerk.com/docs/react/reference/types/custom-page.md) (reference, api)
-- [Clerk types](https://clerk.com/docs/react/reference/types/overview.md) (reference, api)
-
-### React Router
-
-- [`BackupCodeResource`](https://clerk.com/docs/react-router/reference/types/backup-code-resource.md) (reference, api)
-- [`ClerkPaginatedResponse`](https://clerk.com/docs/react-router/reference/types/clerk-paginated-response.md) (reference, api)
-- [`CustomMenuItem`](https://clerk.com/docs/react-router/reference/types/custom-menu-item.md) (reference, api)
-- [`CustomPage`](https://clerk.com/docs/react-router/reference/types/custom-page.md) (reference, api)
-- [Clerk types](https://clerk.com/docs/react-router/reference/types/overview.md) (reference, api)
-
-### TanStack React Start
-
-- [`BackupCodeResource`](https://clerk.com/docs/tanstack-react-start/reference/types/backup-code-resource.md) (reference, api)
-- [`ClerkPaginatedResponse`](https://clerk.com/docs/tanstack-react-start/reference/types/clerk-paginated-response.md) (reference, api)
-- [`CustomMenuItem`](https://clerk.com/docs/tanstack-react-start/reference/types/custom-menu-item.md) (reference, api)
-- [`CustomPage`](https://clerk.com/docs/tanstack-react-start/reference/types/custom-page.md) (reference, api)
-- [Clerk types](https://clerk.com/docs/tanstack-react-start/reference/types/overview.md) (reference, api)
-
-### Vue
-
-- [`BackupCodeResource`](https://clerk.com/docs/vue/reference/types/backup-code-resource.md) (reference, api)
-- [`ClerkPaginatedResponse`](https://clerk.com/docs/vue/reference/types/clerk-paginated-response.md) (reference, api)
-- [`CustomMenuItem`](https://clerk.com/docs/vue/reference/types/custom-menu-item.md) (reference, api)
-- [`CustomPage`](https://clerk.com/docs/vue/reference/types/custom-page.md) (reference, api)
-- [Clerk types](https://clerk.com/docs/vue/reference/types/overview.md) (reference, api)
+- `BackupCodeResource`: `<framework>/reference/types/backup-code-resource.md` (reference). Roots: common
+- `ClerkPaginatedResponse`: `<framework>/reference/types/clerk-paginated-response.md` (reference). Roots: common
+- `CustomMenuItem`: `<framework>/reference/types/custom-menu-item.md` (reference). Roots: common
+- `CustomPage`: `<framework>/reference/types/custom-page.md` (reference). Roots: common
+- `DeletedObjectResource`: `<framework>/reference/types/deleted-object-resource.md` (reference). Roots: common
+- `EmailAddress`: `<framework>/reference/types/email-address.md` (reference). Roots: common
+- `EnterpriseAccount`: `<framework>/reference/types/enterprise-account.md` (reference). Roots: common
+- `EnterpriseAccountConnection`: `<framework>/reference/types/enterprise-account-connection.md` (reference). Roots: common
+- `ExternalAccount`: `<framework>/reference/types/external-account.md` (reference). Roots: common
+- `FeatureResource`: `<framework>/reference/types/feature-resource.md` (reference). Roots: common
+- `HandleOAuthCallbackParams`: `<framework>/reference/types/handle-o-auth-callback-params.md` (reference). Roots: common
+- `IdentificationLinkResource`: `<framework>/reference/types/identification-link-resource.md` (reference). Roots: common
+- `ImageResource`: `<framework>/reference/types/image-resource.md` (reference). Roots: common
+- `OAuthConsentInfo`: `<framework>/reference/types/oauth-consent-info.md` (reference). Roots: common
+- `OAuthConsentScope`: `<framework>/reference/types/oauth-consent-scope.md` (reference). Roots: common
+- `PhoneNumber`: `<framework>/reference/types/phone-number.md` (reference). Roots: common
+- `PublicUserData`: `<framework>/reference/types/public-user-data.md` (reference). Roots: common
+- `SetActiveParams`: `<framework>/reference/types/set-active-params.md` (reference). Roots: common
+- `SSOBypassAllowlistResource`: `<framework>/reference/types/sso-bypass-allowlist-resource.md` (reference). Roots: common
+- `TOTPResource`: `<framework>/reference/types/totp-resource.md` (reference). Roots: common
+- `VerificationResource`: `<framework>/reference/types/verification-resource.md` (reference). Roots: common
+- `Waitlist`: `<framework>/reference/types/waitlist.md` (reference). Roots: common
+- Clerk types: `<framework>/reference/types/overview.md` (reference). Roots: common
+- Metadata: `<framework>/reference/types/metadata.md` (reference). Roots: common
+- SSO Types: `<framework>/reference/types/sso.md` (reference). Roots: common
