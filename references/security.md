@@ -18,7 +18,7 @@ A framework root is the first path segment after `https://clerk.com/docs/`, such
 
 ### `guides/development`
 
-- Add bot protection to your custom sign-up flow: `<framework>/guides/development/custom-flows/authentication/bot-sign-up-protection.md`. Roots: `astro`, `chrome-extension`, `electron`, `expo`, `expressjs`, `fastify`, `go`, `js-frontend`, `nextjs`, `nuxt`, `react`, `react-router`, `ruby`, `tanstack-react-start`, `vue`
+- Handle sign-up challenges in your custom flow: `<framework>/guides/development/custom-flows/authentication/bot-sign-up-protection.md`. Roots: `astro`, `chrome-extension`, `electron`, `expo`, `expressjs`, `fastify`, `go`, `js-frontend`, `nextjs`, `nuxt`, `react`, `react-router`, `ruby`, `tanstack-react-start`, `vue`
 
 ### `guides/how-clerk-works`
 
@@ -28,8 +28,8 @@ A framework root is the first path segment after `https://clerk.com/docs/`, such
 ### `guides/secure`
 
 - [Securing your app](https://clerk.com/docs/guides/secure/overview.md)
-- [Authorization checks](https://clerk.com/docs/guides/secure/authorization-checks.md)
-- [Bot protection](https://clerk.com/docs/guides/secure/bot-protection.md)
+- Authorization checks: `<framework>/guides/secure/authorization-checks.md`. Roots: `android`, `astro`, `chrome-extension`, `electron`, `expo`, `expressjs`, `fastify`, `go`, `ios`, `js-frontend`, `nextjs`, `nuxt`, `react`, `react-router`, `ruby`, `tanstack-react-start`, `vue`
+- [Challenge suspicious sign-ups](https://clerk.com/docs/guides/secure/bot-protection.md)
 - [Device Trust](https://clerk.com/docs/guides/secure/device-trust.md)
 - [Legal compliance](https://clerk.com/docs/guides/secure/legal-compliance.md)
 - [Password protection and rules](https://clerk.com/docs/guides/secure/password-protection-and-rules.md)
@@ -40,6 +40,7 @@ A framework root is the first path segment after `https://clerk.com/docs/`, such
 - [User enumeration protection](https://clerk.com/docs/guides/secure/user-enumeration-protection.md)
 - [Brute force attacks and locking user accounts](https://clerk.com/docs/guides/secure/user-lockout.md)
 - Build a custom waitlist page: `<framework>/guides/secure/waitlist.md`. Roots: `electron`, `nextjs`, `nuxt`, `react`, `react-router`, `tanstack-react-start`
+- [Bot sign-up protection](https://clerk.com/docs/guides/secure/legacy-bot-protection.md)
 
 ### `guides/secure/best-practices`
 

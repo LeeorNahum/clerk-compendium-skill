@@ -23,6 +23,7 @@ A framework root is the first path segment after `https://clerk.com/docs/`, such
 - [Enterprise Single Sign-On (SSO)](https://clerk.com/docs/guides/configure/auth-strategies/enterprise-connections/overview.md)
 - [Account linking](https://clerk.com/docs/guides/configure/auth-strategies/enterprise-connections/account-linking.md)
 - [Enterprise SSO authentication flows](https://clerk.com/docs/guides/configure/auth-strategies/enterprise-connections/authentication-flows.md)
+- [Rotate IdP signing certificates](https://clerk.com/docs/guides/configure/auth-strategies/enterprise-connections/certificate-rotation.md)
 - [Custom Attribute Mapping](https://clerk.com/docs/guides/configure/auth-strategies/enterprise-connections/custom-attribute-mapping.md)
 - [Directory Sync](https://clerk.com/docs/guides/configure/auth-strategies/enterprise-connections/directory-sync.md)
 - [Just-in-Time (JIT) Provisioning during SAML SSO](https://clerk.com/docs/guides/configure/auth-strategies/enterprise-connections/jit-provisioning.md)

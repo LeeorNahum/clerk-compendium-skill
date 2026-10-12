@@ -198,7 +198,7 @@
       "key": "billing",
       "title": "Clerk Billing",
       "url": "https://clerk.com/docs/guides/billing/overview.md",
-      "sha256": "8dfecae6ec9bce1310a5572ab150b750b5ecccd2fd445b991cd6fafe6ee42579"
+      "sha256": "a239f5e2fa1307a9e932763a3782e9bc566630d59e92f7028eab15799b3d4830"
     },
     {
       "key": "environment-variables",
@@ -234,7 +234,7 @@
       "key": "testing",
       "title": "Testing",
       "url": "https://clerk.com/docs/guides/development/testing/overview.md",
-      "sha256": "15290cd94d8eb0986b59e7257c406dea819217af2d797e46f6668e7a4a9691fa"
+      "sha256": "3f381d2e46c1ea1b4bd95c86b68970f5bf589899e2782e2c15be41961f2dd375"
     },
     {
       "key": "webhooks",
