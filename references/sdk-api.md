@@ -41,6 +41,7 @@ Use this reference for exact packages, official repositories, and what one frame
 | `@clerk/expo` | [`packages/expo`](https://github.com/clerk/javascript/tree/main/packages/expo) |
 | `@clerk/expo-biometrics` | [`packages/expo-biometrics`](https://github.com/clerk/javascript/tree/main/packages/expo-biometrics) |
 | `@clerk/expo-google-signin` | [`packages/expo-google-signin`](https://github.com/clerk/javascript/tree/main/packages/expo-google-signin) |
+| `@clerk/expo-native-components` | [`packages/expo-native-components`](https://github.com/clerk/javascript/tree/main/packages/expo-native-components) |
 | `@clerk/expo-passkeys` | [`packages/expo-passkeys`](https://github.com/clerk/javascript/tree/main/packages/expo-passkeys) |
 | `@clerk/express` | [`packages/express`](https://github.com/clerk/javascript/tree/main/packages/express) |
 | `@clerk/fastify` | [`packages/fastify`](https://github.com/clerk/javascript/tree/main/packages/fastify) |

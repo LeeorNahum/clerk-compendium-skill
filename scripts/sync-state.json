@@ -113,6 +113,11 @@
       "repository": "clerk/javascript"
     },
     {
+      "name": "@clerk/expo-native-components",
+      "directory": "packages/expo-native-components",
+      "repository": "clerk/javascript"
+    },
+    {
       "name": "@clerk/expo-passkeys",
       "directory": "packages/expo-passkeys",
       "repository": "clerk/javascript"
@@ -222,7 +227,7 @@
       "key": "react-quickstart",
       "title": "React Quickstart",
       "url": "https://clerk.com/docs/react/getting-started/quickstart.md",
-      "sha256": "b395e7c60509d77dbf923124409d76bceef637d33c3be3a86fcc847194c0e363"
+      "sha256": "b2d2c45c62568aaeaf0704eb2bd1dd78acd10af69b9042b41df53e9d40ea127b"
     },
     {
       "key": "sessions",

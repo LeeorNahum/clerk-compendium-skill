@@ -25,6 +25,13 @@ A framework root is the first path segment after `https://clerk.com/docs/`, such
 - [Clerk Telemetry](https://clerk.com/docs/guides/how-clerk-works/security/clerk-telemetry.md)
 - [Vulnerability disclosure policy](https://clerk.com/docs/guides/how-clerk-works/security/vulnerability-disclosure-policy.md)
 
+### `guides/protect`
+
+- [Clerk Protect](https://clerk.com/docs/guides/protect/overview.md)
+- [Device Intelligence](https://clerk.com/docs/guides/protect/device-intelligence.md)
+- [Set up Protect](https://clerk.com/docs/guides/protect/setup.md)
+- [Require Device Intelligence checks](https://clerk.com/docs/guides/protect/system-protections/require-device-intelligence.md)
+
 ### `guides/secure`
 
 - [Securing your app](https://clerk.com/docs/guides/secure/overview.md)
