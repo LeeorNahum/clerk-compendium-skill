@@ -27,25 +27,36 @@ A framework root is the first path segment after `https://clerk.com/docs/`, such
 
 ### `guides/protect`
 
-- [Clerk Protect](https://clerk.com/docs/guides/protect/overview.md)
-- [Device Intelligence](https://clerk.com/docs/guides/protect/device-intelligence.md)
-- [Set up Protect](https://clerk.com/docs/guides/protect/setup.md)
-- [Require Device Intelligence checks](https://clerk.com/docs/guides/protect/system-protections/require-device-intelligence.md)
+- [Protect](https://clerk.com/docs/guides/protect/overview.md)
+- [Challenge suspicious sign-ups](https://clerk.com/docs/guides/protect/bot-protection.md)
+- [Device Trust](https://clerk.com/docs/guides/protect/device-trust.md)
+- [Get started with Protect](https://clerk.com/docs/guides/protect/getting-started.md)
+- [User enumeration protection](https://clerk.com/docs/guides/protect/user-enumeration-protection.md)
+- [Lock accounts after failed sign-ins](https://clerk.com/docs/guides/protect/user-lockout.md)
+
+### `guides/protect/protections`
+
+- [Protections](https://clerk.com/docs/guides/protect/protections/overview.md)
+- [Block disposable email addresses](https://clerk.com/docs/guides/protect/protections/block-disposable-email-addresses.md)
+- [Block email subaddresses](https://clerk.com/docs/guides/protect/protections/block-email-subaddresses.md)
+- [Block risky email domains](https://clerk.com/docs/guides/protect/protections/block-risky-email-domains.md)
+- [Block sign-ups by country](https://clerk.com/docs/guides/protect/protections/block-sign-ups-by-country.md)
+- [Block sign-ups from suspicious network types](https://clerk.com/docs/guides/protect/protections/block-suspicious-network-types.md)
+- [Challenge residential proxies](https://clerk.com/docs/guides/protect/protections/challenge-residential-proxies.md)
+- [Limit sign-ups per IP address](https://clerk.com/docs/guides/protect/protections/limit-sign-ups-per-ip-address.md)
+- [Require Device Intelligence checks](https://clerk.com/docs/guides/protect/protections/require-device-intelligence.md)
 
 ### `guides/secure`
 
 - [Securing your app](https://clerk.com/docs/guides/secure/overview.md)
 - Authorization checks: `<framework>/guides/secure/authorization-checks.md`. Roots: `android`, `astro`, `chrome-extension`, `electron`, `expo`, `expressjs`, `fastify`, `go`, `ios`, `js-frontend`, `nextjs`, `nuxt`, `react`, `react-router`, `ruby`, `tanstack-react-start`, `vue`
-- [Challenge suspicious sign-ups](https://clerk.com/docs/guides/secure/bot-protection.md)
-- [Device Trust](https://clerk.com/docs/guides/secure/device-trust.md)
 - [Legal compliance](https://clerk.com/docs/guides/secure/legal-compliance.md)
 - [Password protection and rules](https://clerk.com/docs/guides/secure/password-protection-and-rules.md)
 - Protect content from unauthenticated users: `<framework>/guides/secure/protect-content.md`. Roots: `nextjs`, `nuxt`
 - [Restricting access](https://clerk.com/docs/guides/secure/restricting-access.md)
 - [Add reverification for sensitive actions](https://clerk.com/docs/guides/secure/reverification.md)
 - [Rotate your Clerk API keys](https://clerk.com/docs/guides/secure/rotate-api-keys.md)
-- [User enumeration protection](https://clerk.com/docs/guides/secure/user-enumeration-protection.md)
-- [Brute force attacks and locking user accounts](https://clerk.com/docs/guides/secure/user-lockout.md)
+- [Restrict a Secret Key to specific IP addresses](https://clerk.com/docs/guides/secure/secret-key-ip-allowlist.md)
 - Build a custom waitlist page: `<framework>/guides/secure/waitlist.md`. Roots: `electron`, `nextjs`, `nuxt`, `react`, `react-router`, `tanstack-react-start`
 - [Bot sign-up protection](https://clerk.com/docs/guides/secure/legacy-bot-protection.md)
 

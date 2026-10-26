@@ -215,7 +215,7 @@
       "key": "nextjs-quickstart",
       "title": "Next.js Quickstart (App Router)",
       "url": "https://clerk.com/docs/nextjs/getting-started/quickstart.md",
-      "sha256": "11b1f1f981abaea1aabebd6e660c9cdbd6161177711df8f6daff9e8c8d4a79bd"
+      "sha256": "c1381e0da66b5e4a6a8ebe15430ed68a80c7a0b6d1247f77d4bc99ffd8498b8b"
     },
     {
       "key": "organizations",
@@ -227,7 +227,7 @@
       "key": "react-quickstart",
       "title": "React Quickstart",
       "url": "https://clerk.com/docs/react/getting-started/quickstart.md",
-      "sha256": "b2d2c45c62568aaeaf0704eb2bd1dd78acd10af69b9042b41df53e9d40ea127b"
+      "sha256": "513ac655fc711bad33cca5bac30cf38bf55e6e9794cc42a1aea79c1b4d8d2dd7"
     },
     {
       "key": "sessions",
@@ -239,7 +239,7 @@
       "key": "testing",
       "title": "Testing",
       "url": "https://clerk.com/docs/guides/development/testing/overview.md",
-      "sha256": "3f381d2e46c1ea1b4bd95c86b68970f5bf589899e2782e2c15be41961f2dd375"
+      "sha256": "0ab7daf4945d55309c7f00ffb52dc9c56f37cd6ddf0a213d27c24b6f193d0df4"
     },
     {
       "key": "webhooks",

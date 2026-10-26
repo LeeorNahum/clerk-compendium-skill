@@ -39,6 +39,7 @@ A framework root is the first path segment after `https://clerk.com/docs/`, such
 - [Custom channel auth](https://clerk.com/docs/guides/ai/eve/custom-channel-auth.md)
 - [Enrich instructions](https://clerk.com/docs/guides/ai/eve/enriching-instructions.md)
 - [Get started with Clerk and eve](https://clerk.com/docs/guides/ai/eve/getting-started.md)
+- Collect feedback from agents using your MCP server: `<framework>/guides/ai/mcp/agent-feedback.md`. Roots: `expressjs`, `nextjs`
 - Build an MCP server in your application with Clerk: `<framework>/guides/ai/mcp/build-mcp-server.md`. Roots: `expressjs`, `nextjs`
 - [Use Clerk's MCP server](https://clerk.com/docs/guides/ai/mcp/clerk-mcp-server.md)
 - [Connect MCP-compatible clients to your MCP server](https://clerk.com/docs/guides/ai/mcp/connect-mcp-client.md)

@@ -105,6 +105,7 @@ A framework root is the first path segment after `https://clerk.com/docs/`, such
 
 - [Upgrade to API version 2025-11-10](https://clerk.com/docs/guides/development/upgrading/upgrade-guides/2025-11-10.md)
 - [Upgrade to API version 2026-05-12](https://clerk.com/docs/guides/development/upgrading/upgrade-guides/2026-05-12.md)
+- [Upgrade to API version 2026-08-20](https://clerk.com/docs/guides/development/upgrading/upgrade-guides/2026-08-20.md)
 - [Migrate from Clerk Android SDK v0 to v1](https://clerk.com/docs/guides/development/upgrading/upgrade-guides/android-v1.md)
 - [Upgrading to Clerk Core 2](https://clerk.com/docs/guides/development/upgrading/upgrade-guides/core-2.md)
 - [Upgrading to Clerk Core 3](https://clerk.com/docs/guides/development/upgrading/upgrade-guides/core-3.md)
