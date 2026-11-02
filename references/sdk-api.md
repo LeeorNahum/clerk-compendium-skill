@@ -168,6 +168,7 @@ A framework root is the first path segment after `https://clerk.com/docs/`, such
 - [Clerk Nuxt SDK](https://clerk.com/docs/nuxt/reference/overview.md)
 - [clerkMiddleware() | Nuxt](https://clerk.com/docs/nuxt/reference/clerk-middleware.md)
 - [`@clerk/nuxt` module](https://clerk.com/docs/nuxt/reference/integration.md)
+- [`updateClerkOptions()`](https://clerk.com/docs/nuxt/reference/update-clerk-options.md)
 
 ### `react`
 

@@ -209,7 +209,7 @@
       "key": "environment-variables",
       "title": "Clerk environment variables",
       "url": "https://clerk.com/docs/guides/development/clerk-environment-variables.md",
-      "sha256": "16c6b8a9ef69460f18ccf6b777d6baff25961d6a07d10798d1e4806472e6c604"
+      "sha256": "54db7793360015885b9765f15596547ad157fdddc200e1c6d50c044201dea8ec"
     },
     {
       "key": "nextjs-quickstart",
@@ -227,7 +227,7 @@
       "key": "react-quickstart",
       "title": "React Quickstart",
       "url": "https://clerk.com/docs/react/getting-started/quickstart.md",
-      "sha256": "513ac655fc711bad33cca5bac30cf38bf55e6e9794cc42a1aea79c1b4d8d2dd7"
+      "sha256": "aa09b20b74d8b669356f66046a7b1b40baac40629ce077b3a9b710bc1564bda6"
     },
     {
       "key": "sessions",
@@ -239,7 +239,7 @@
       "key": "testing",
       "title": "Testing",
       "url": "https://clerk.com/docs/guides/development/testing/overview.md",
-      "sha256": "0ab7daf4945d55309c7f00ffb52dc9c56f37cd6ddf0a213d27c24b6f193d0df4"
+      "sha256": "11b09922efff67aec9d5bf6d04561a6a1074b944dc8a590736cecbac46031b03"
     },
     {
       "key": "webhooks",

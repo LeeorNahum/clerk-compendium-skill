@@ -31,7 +31,7 @@ A framework root is the first path segment after `https://clerk.com/docs/`, such
 - [Challenge suspicious sign-ups](https://clerk.com/docs/guides/protect/bot-protection.md)
 - [Device Trust](https://clerk.com/docs/guides/protect/device-trust.md)
 - [Get started with Protect](https://clerk.com/docs/guides/protect/getting-started.md)
-- [User enumeration protection](https://clerk.com/docs/guides/protect/user-enumeration-protection.md)
+- [Prevent user enumeration](https://clerk.com/docs/guides/protect/user-enumeration-protection.md)
 - [Lock accounts after failed sign-ins](https://clerk.com/docs/guides/protect/user-lockout.md)
 
 ### `guides/protect/protections`
@@ -43,6 +43,8 @@ A framework root is the first path segment after `https://clerk.com/docs/`, such
 - [Block sign-ups by country](https://clerk.com/docs/guides/protect/protections/block-sign-ups-by-country.md)
 - [Block sign-ups from suspicious network types](https://clerk.com/docs/guides/protect/protections/block-suspicious-network-types.md)
 - [Challenge residential proxies](https://clerk.com/docs/guides/protect/protections/challenge-residential-proxies.md)
+- [Limit sign-ups from shared infrastructure](https://clerk.com/docs/guides/protect/protections/limit-sign-ups-from-shared-infrastructure.md)
+- [Limit sign-ups per email domain](https://clerk.com/docs/guides/protect/protections/limit-sign-ups-per-email-domain.md)
 - [Limit sign-ups per IP address](https://clerk.com/docs/guides/protect/protections/limit-sign-ups-per-ip-address.md)
 - [Require Device Intelligence checks](https://clerk.com/docs/guides/protect/protections/require-device-intelligence.md)
 
