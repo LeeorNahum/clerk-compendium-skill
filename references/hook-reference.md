@@ -70,6 +70,7 @@ A framework root is the first path segment after `https://clerk.com/docs/`, such
 
 ### `reference/native-hooks`
 
+- [`useAppVersionSupport()`](https://clerk.com/docs/expo/reference/native-hooks/use-app-version-support.md)
 - [`useAuthViewState()`](https://clerk.com/docs/expo/reference/native-hooks/use-auth-view-state.md)
 - [`useBiometricCredentials()`](https://clerk.com/docs/expo/reference/native-hooks/use-biometric-credentials.md)
 - [`useHostedAuth()`](https://clerk.com/docs/expo/reference/native-hooks/use-hosted-auth.md)

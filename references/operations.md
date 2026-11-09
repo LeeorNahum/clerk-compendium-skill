@@ -78,6 +78,7 @@ A framework root is the first path segment after `https://clerk.com/docs/`, such
 - [Testing](https://clerk.com/docs/guides/development/testing/overview.md)
 - [Agent Tasks](https://clerk.com/docs/guides/development/testing/agent-tasks.md)
 - [Testing with Postman or Insomnia](https://clerk.com/docs/guides/development/testing/postman-or-insomnia.md)
+- [Test against a production instance](https://clerk.com/docs/guides/development/testing/test-against-production.md)
 - [Test emails and phones](https://clerk.com/docs/guides/development/testing/test-emails-and-phones.md)
 - [Testing with Cypress](https://clerk.com/docs/guides/development/testing/cypress/overview.md)
 - [Custom commands](https://clerk.com/docs/guides/development/testing/cypress/custom-commands.md)

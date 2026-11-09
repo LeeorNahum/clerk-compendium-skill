@@ -40,7 +40,7 @@ A framework root is the first path segment after `https://clerk.com/docs/`, such
 - [Enrich instructions](https://clerk.com/docs/guides/ai/eve/enriching-instructions.md)
 - [Get started with Clerk and eve](https://clerk.com/docs/guides/ai/eve/getting-started.md)
 - Collect feedback from agents using your MCP server: `<framework>/guides/ai/mcp/agent-feedback.md`. Roots: `expressjs`, `nextjs`
-- Build an MCP server in your application with Clerk: `<framework>/guides/ai/mcp/build-mcp-server.md`. Roots: `expressjs`, `nextjs`
+- Build and authenticate an MCP server with Clerk: `<framework>/guides/ai/mcp/build-mcp-server.md`. Roots: `expressjs`, `nextjs`
 - [Use Clerk's MCP server](https://clerk.com/docs/guides/ai/mcp/clerk-mcp-server.md)
 - [Connect MCP-compatible clients to your MCP server](https://clerk.com/docs/guides/ai/mcp/connect-mcp-client.md)
 
@@ -81,6 +81,7 @@ A framework root is the first path segment after `https://clerk.com/docs/`, such
 - [Astro hybrid rendering](https://clerk.com/docs/guides/development/hybrid-rendering.md)
 - [Use image optimization to improve app performance](https://clerk.com/docs/guides/development/image-optimization.md)
 - [Making authenticated requests](https://clerk.com/docs/guides/development/making-requests.md)
+- Require a minimum app version: `<framework>/guides/development/minimum-app-version.md`. Roots: `android`, `expo`, `ios`
 - [Enable offline support in your Expo app](https://clerk.com/docs/guides/development/offline-support.md)
 - [Override Clerk interfaces with custom types](https://clerk.com/docs/guides/development/override-clerk-types-interfaces.md)
 - [Next.js rendering modes and Clerk](https://clerk.com/docs/guides/development/rendering-modes.md)

@@ -16,6 +16,10 @@ This reference lists every Clerk documentation page of this topic outside the `r
 
 A framework root is the first path segment after `https://clerk.com/docs/`, such as `nextjs` or `expressjs`. An entry written as a path that starts with `<framework>` is one page that exists under each root named after it, and its URL is `https://clerk.com/docs/` followed by that path with `<framework>` replaced by one of those roots.
 
+### `guides/ai`
+
+- Request more scopes with step-up authorization: `<framework>/guides/ai/mcp/step-up-scopes.md`. Roots: `expressjs`, `nextjs`
+
 ### `guides/development`
 
 - Handle sign-up challenges in your custom flow: `<framework>/guides/development/custom-flows/authentication/bot-sign-up-protection.md`. Roots: `astro`, `chrome-extension`, `electron`, `expo`, `expressjs`, `fastify`, `go`, `js-frontend`, `nextjs`, `nuxt`, `react`, `react-router`, `ruby`, `tanstack-react-start`, `vue`

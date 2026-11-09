@@ -23,6 +23,7 @@ A framework root is the first path segment after `https://clerk.com/docs/`, such
 ### `guides/ai`
 
 - [API keys & M2M](https://clerk.com/docs/guides/ai/eve/api-keys-and-m2m.md)
+- Sign agents in to your app with a one-time link: `<framework>/guides/ai/mcp/browser-sessions.md`. Roots: `expressjs`, `nextjs`
 
 ### `guides/configure`
 
