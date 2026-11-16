@@ -34,6 +34,7 @@ A framework root is the first path segment after `https://clerk.com/docs/`, such
 ### `guides/ai`
 
 - [Using Clerk with AI](https://clerk.com/docs/guides/ai/overview.md)
+- [Personal Agent Protocol](https://clerk.com/docs/guides/ai/personal-agent-protocol.md)
 - [Clerk Skills](https://clerk.com/docs/guides/ai/skills.md)
 - [Authorize tool calls](https://clerk.com/docs/guides/ai/eve/authorize-tool-calls.md)
 - [Custom channel auth](https://clerk.com/docs/guides/ai/eve/custom-channel-auth.md)
@@ -42,7 +43,7 @@ A framework root is the first path segment after `https://clerk.com/docs/`, such
 - Collect feedback from agents using your MCP server: `<framework>/guides/ai/mcp/agent-feedback.md`. Roots: `expressjs`, `nextjs`
 - Build and authenticate an MCP server with Clerk: `<framework>/guides/ai/mcp/build-mcp-server.md`. Roots: `expressjs`, `nextjs`
 - [Use Clerk's MCP server](https://clerk.com/docs/guides/ai/mcp/clerk-mcp-server.md)
-- [Connect MCP-compatible clients to your MCP server](https://clerk.com/docs/guides/ai/mcp/connect-mcp-client.md)
+- Connect MCP-compatible clients to your MCP server: `<framework>/guides/ai/mcp/connect-mcp-client.md`. Roots: `expressjs`, `nextjs`
 
 ### `guides/customizing-clerk`
 
@@ -112,6 +113,5 @@ A framework root is the first path segment after `https://clerk.com/docs/`, such
 
 - [How Clerk works](https://clerk.com/docs/guides/how-clerk-works/overview.md)
 - [Cookies](https://clerk.com/docs/guides/how-clerk-works/cookies.md)
-- [Multi-tenant architecture](https://clerk.com/docs/guides/how-clerk-works/multi-tenant-architecture.md)
 - [Routing in Clerk](https://clerk.com/docs/guides/how-clerk-works/routing.md)
 - [Rate limits](https://clerk.com/docs/guides/how-clerk-works/system-limits.md)

@@ -18,6 +18,7 @@ A framework root is the first path segment after `https://clerk.com/docs/`, such
 
 ### `guides/ai`
 
+- [Restrict agent sessions](https://clerk.com/docs/guides/ai/restrict-agent-sessions.md)
 - Request more scopes with step-up authorization: `<framework>/guides/ai/mcp/step-up-scopes.md`. Roots: `expressjs`, `nextjs`
 
 ### `guides/development`
@@ -51,6 +52,7 @@ A framework root is the first path segment after `https://clerk.com/docs/`, such
 - [Limit sign-ups per email domain](https://clerk.com/docs/guides/protect/protections/limit-sign-ups-per-email-domain.md)
 - [Limit sign-ups per IP address](https://clerk.com/docs/guides/protect/protections/limit-sign-ups-per-ip-address.md)
 - [Require Device Intelligence checks](https://clerk.com/docs/guides/protect/protections/require-device-intelligence.md)
+- [Require a minimum ClerkJS version](https://clerk.com/docs/guides/protect/protections/require-minimum-clerkjs-version.md)
 
 ### `guides/secure`
 

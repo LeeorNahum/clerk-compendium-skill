@@ -76,6 +76,7 @@ A framework root is the first path segment after `https://clerk.com/docs/`, such
 - [Domain verification](https://clerk.com/docs/guides/organizations/domain-verification.md)
 - Get started with Organizations: `<framework>/guides/organizations/getting-started.md`. Roots: `astro`, `nextjs`, `nuxt`, `react`, `react-router`, `tanstack-react-start`
 - [Organization metadata](https://clerk.com/docs/guides/organizations/metadata.md)
+- [Multi-tenant architecture](https://clerk.com/docs/guides/organizations/multi-tenant-architecture.md)
 - [Use Organization slugs in URLs](https://clerk.com/docs/guides/organizations/org-slugs-in-urls.md)
 
 ### `guides/organizations/add-members`
